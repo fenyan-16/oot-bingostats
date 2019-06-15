@@ -1,0 +1,13 @@
+{% extends "frame/base.html" %}
+
+
+{% block content %}
+  {% if user.is_authenticated %}
+    <p>Profile Page</p>
+    You are logged in as {{ user }}.
+    <a href="{% url 'logout' %}">Click here to log out.</a>
+  {% else %}
+    You are not logged in.
+    <a href="{% url 'login' %}">Click here to log in.</a>
+  {% endif %}
+{% endblock %}
