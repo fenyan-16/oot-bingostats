@@ -7,4 +7,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     # ex: /events/5/
     path('<int:event_id>/', views.detail, name='detail'),
+    path('myevents/', views.EventsByUserListView.as_view(), name='my-events'),
 ]

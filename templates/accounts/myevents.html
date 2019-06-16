@@ -1,0 +1,24 @@
+{% extends "frame/base.html" %}
+
+
+{% block content %}
+  {% if user.is_authenticated %}
+    <h1>My Events</h1>
+    {% if event_list %}
+    <ul>
+
+      {% for event in event_list %}
+      <li>
+        <a href="#">{{event.name}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% else %}
+      <p>You have no events created.</p>
+    {% endif %}
+  {% else %}
+    You are not logged in.
+    <a href="{% url 'login' %}">Click here to log in.</a>
+  {% endif %}
+{% endblock %}
