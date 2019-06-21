@@ -1,5 +1,4 @@
 from django.urls import path
-
 from . import views
 
 urlpatterns = [
@@ -7,6 +6,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     # ex: /events/5/
     path('<int:event_id>/', views.detail, name='detail'),
+    path('new/', views.new, name='new'),
 
     # ex: /tournaments/5/
     path('<int:event_id>/<int:tournament_id>/', views.tournamentdetail, name='tournament-detail'),
