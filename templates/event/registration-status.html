@@ -2,12 +2,8 @@
 
 
 {% block content %}
-    <div>Tournament Details</div>
   {% if user.is_authenticated %}
-
-    <h1>{{event.name}}</h1>
-    <h1>{{tournament.name}}</h1>
-
+    finished registration
   {% else %}
     You are not logged in.
     <a href="{% url 'login' %}">Click here to log in.</a>

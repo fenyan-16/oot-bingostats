@@ -2,9 +2,11 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from .models import Event, Tournament
-from .forms import NewEventForm, NewTournamentForm
+from .forms import NewEventForm, NewTournamentForm, EventRegistrationForm
 from django.shortcuts import redirect
 from django.utils import timezone
 
@@ -12,11 +14,27 @@ from django.utils import timezone
 def index(request):
     return render(request, 'index.html')
 
+def signup(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
+            return redirect('home')
+    else:
+        form = UserCreationForm()
+    return render(request, 'registration/signup.html', {'form': form})
+
 def eventlist(request):
     return HttpResponse("Eventliste")
 
 def event_detail(request, event_id):
-    return render(request, 'event/event-details.html', {'id': event_id})
+    event = Event.objects.get(pk=event_id)
+    tournaments = Tournament.objects.filter(event=event_id)
+    return render(request, 'event/event-details.html', {'event': event, 'tournaments': tournaments})
 
 def event_new(request):
     if request.method == "POST":
@@ -31,8 +49,31 @@ def event_new(request):
         form = NewEventForm()
     return render(request, 'event/new.html', {'form': form})
 
+def event_register(request, event_id):
+    event = Event.objects.get(pk=event_id)
+    tournaments = Tournament.objects.filter(event=event_id)
+
+    if request.method == "POST":
+        form = EventRegistrationForm(request.POST)
+        if form.is_valid():
+            for tournament in tournaments:
+                post = form.save(commit=False)
+                post.tournament = tournament
+                post.participant = request.user
+                post.save()
+            return redirect('detail', event_id=post.pk)
+    else:
+        form = EventRegistrationForm()
+    return render(request, 'event/registration.html', {'event': event, 'tournaments': tournaments, 'form': form})
+
+def event_registration_status (request, event_id):
+    event = Event.objects.get(pk=event_id)
+    return render(request, 'event/registration-status.html', {'event': event})
+
 def tournamentdetail(request, event_id, tournament_id):
-    return render(request, 'tournament/details.html', {'id': event_id})
+    event = Event.objects.get(pk=event_id)
+    tournament = Tournament.objects.get(pk=tournament_id)
+    return render(request, 'tournament/details.html', {'event': event, 'tournament': tournament})
 
 
 def myevents(request):

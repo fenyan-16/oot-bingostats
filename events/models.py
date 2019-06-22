@@ -26,4 +26,4 @@ class Registration(models.Model):
     participant = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.name
+        return str(self.tournament) + str(self.participant)
