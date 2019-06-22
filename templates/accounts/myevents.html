@@ -17,6 +17,7 @@
     {% else %}
       <p>You have no events created.</p>
     {% endif %}
+    <a href="{% url 'event-new'%}">add Event</a>
   {% else %}
     You are not logged in.
     <a href="{% url 'login' %}">Click here to log in.</a>

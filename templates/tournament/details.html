@@ -2,9 +2,9 @@
 
 
 {% block content %}
-    <div>Event Details</div>
+    <div>Tournament Details</div>
   {% if user.is_authenticated %}
-    <h1>{{event.name}}</h1>
+    <h1>{{tournament.name}}</h1>
 
   {% else %}
     You are not logged in.

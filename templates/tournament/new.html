@@ -2,10 +2,13 @@
 
 
 {% block content %}
-    <div>Event Details</div>
+    <h2>New Tournament</h2>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
   {% if user.is_authenticated %}
-    <h1>{{event.name}}</h1>
-
+    eingelogged!
   {% else %}
     You are not logged in.
     <a href="{% url 'login' %}">Click here to log in.</a>
