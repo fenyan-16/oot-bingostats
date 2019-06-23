@@ -5,8 +5,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
-from .models import Event, Tournament
-from .forms import NewEventForm, NewTournamentForm, EventRegistrationForm
+from .models import Event, Tournament, Registration, Phase
+from .forms import NewEventForm, NewTournamentForm, NewPhaseForm, EventRegistrationForm
 from django.shortcuts import redirect
 from django.utils import timezone
 
@@ -73,8 +73,9 @@ def event_registration_status (request, event_id):
 def tournamentdetail(request, event_id, tournament_id):
     event = Event.objects.get(pk=event_id)
     tournament = Tournament.objects.get(pk=tournament_id)
-    return render(request, 'tournament/details.html', {'event': event, 'tournament': tournament})
-
+    phases = Phase.objects.filter(tournament=tournament)
+    registrations = Registration.objects.filter(tournament=tournament)
+    return render(request, 'tournament/details.html', {'event': event, 'tournament': tournament, 'phases': phases, 'registrations': registrations})
 
 def myevents(request):
     event_list = Event.objects.filter(owner=request.user.pk)
@@ -91,6 +92,18 @@ def tournament_new(request, event_id):
     else:
         form = NewTournamentForm()
     return render(request, 'tournament/new.html', {'form': form})
+
+def phase_new(request, event_id, tournament_id):
+    if request.method == "POST":
+        form = NewPhaseForm(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.tournament = Tournament.objects.get(pk=tournament_id)
+            post.save()
+            return redirect('tournament-detail', event_id=event_id, tournament_id=tournament_id)
+    else:
+        form = NewPhaseForm()
+    return render(request, 'phase/new.html', {'form': form})
 
 class EventsByUserListView(LoginRequiredMixin, ListView):
     model = Event

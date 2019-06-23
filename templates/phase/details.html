@@ -11,15 +11,6 @@
       Estimated Endtime: <br>
 
       <h3>Phases</h3>
-      <div>
-          {% for phase in phases %}
-              <div>
-                  <a href="#">{{phase}}</a>
-              </div>
-          {% endfor %}
-      </div>
-      <a href="{% url 'phase-new' event.id tournament.id %}">Add Phase</a>
-
       <h3>Participants</h3>
       <div>
           {% for registration in registrations %}
