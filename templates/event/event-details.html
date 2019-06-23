@@ -1,20 +1,46 @@
 {% extends "frame/base.html" %}
-
+{% load fontawesome %}
 
 {% block content %}
-    <div>Event Details</div>
-  {% if user.is_authenticated %}
-    <h1>{{event}}</h1>
-      {% for tournament in tournaments %}
-          <a href="{% url 'event-register' event.id %}">REGISTER</a><br>
-      <li>
-        <a href="{% url 'tournament-detail' event.id tournament.id %}">{{tournament.name}}</a>
-      </li>
-      {% endfor %}
+    {% if event %}
+    <div class="row">
+        <div class="col-1">
+            <img src="https://via.placeholder.com/60x60" class="card-img" alt="Event Image">
+        </div>
+        <div class="col-10">
+            <h2>{{event.name}}</h2>
+            {% if user == event.owner %}
+                <a href="{% url 'event-edit' event.id %}">{% fontawesome_icon 'user' color='red' %}</a><br>
+            {% endif %}
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="col-1">
+            <a href="{% url 'event-register' event.id %}">REGISTER</a>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col">
+                Home, Attendees, Events, Shop, Shedule....
+
+            </div>
+        </div>
+        <div class="row">
+            {% for tournament in tournaments %}
+                <div class="col-3">
+                    <a href="{% url 'tournament-detail' event.id tournament.id %}">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150x50" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <h2>{{tournament.name}}</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+  {% if user == event.owner %}
     <a href="{% url 'tournament-new' event_id=event.pk %}">Add Tournament</a><br>
-    <a href="{% url 'myevents' %}">back</a>
-  {% else %}
-    You are not logged in.
-    <a href="{% url 'login' %}">Click here to log in.</a>
   {% endif %}
+    {% endif %}
 {% endblock %}

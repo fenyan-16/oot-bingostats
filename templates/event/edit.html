@@ -1,0 +1,18 @@
+{% extends "frame/base.html" %}
+
+
+{% block content %}
+    <div>new</div>
+    <h2>New post</h2>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+  {% if user.is_authenticated %}
+    <h1>{{event.name}}</h1>
+
+  {% else %}
+    You are not logged in.
+    <a href="{% url 'login' %}">Click here to log in.</a>
+  {% endif %}
+{% endblock %}

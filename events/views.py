@@ -7,7 +7,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from .models import Event, Tournament, Registration, Phase
 from .forms import NewEventForm, NewTournamentForm, NewPhaseForm, EventRegistrationForm
-from django.shortcuts import redirect
+from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 
 
@@ -48,6 +48,19 @@ def event_new(request):
     else:
         form = NewEventForm()
     return render(request, 'event/new.html', {'form': form})
+
+def event_edit(request, event_id):
+    event = get_object_or_404(Event, pk=event_id)
+    if request.method == "POST":
+        form = NewEventForm(request.POST, instance=event)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.owner = request.user
+            post.save()
+            return redirect('detail', event_id=post.pk)
+    else:
+        form = NewEventForm(instance=event)
+    return render(request, 'event/edit.html', {'form': form})
 
 def event_register(request, event_id):
     event = Event.objects.get(pk=event_id)

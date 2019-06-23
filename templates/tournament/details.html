@@ -5,8 +5,8 @@
     <div>Tournament Details</div>
   {% if user.is_authenticated %}
 
-    <h1>{{event.name}}</h1>
-    <h1>{{tournament.name}}</h1>
+      <a href="{% url 'detail' event.id %}"><h1>{{event.name}}</h1></a>
+      <a href="{% url 'tournament-detail' event.id tournament.id %}"><h1>{{tournament.name}}</h1></a>
       Estimated Starttime: <br>
       Estimated Endtime: <br>
 
@@ -18,8 +18,9 @@
               </div>
           {% endfor %}
       </div>
-      <a href="{% url 'phase-new' event.id tournament.id %}">Add Phase</a>
-
+      {% if user == event.owner %}
+         <a href="{% url 'phase-new' event.id tournament.id %}">Add Phase</a>
+        {% endif %}
       <h3>Participants</h3>
       <div>
           {% for registration in registrations %}

@@ -7,8 +7,11 @@ from django.contrib.postgres.fields import ArrayField
 
 class Event(models.Model):
     name = models.CharField(max_length=200)
+    description_short = models.CharField(max_length=200, null=True)
     description = models.CharField(max_length=500, null=True)
-    pub_date = models.DateTimeField('date published')
+    start_date = models.DateTimeField('Start date', null=True)
+    end_date = models.DateTimeField('End date', null=True)
+    location = models.CharField(max_length=200, null=True)
     owner = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
 
     def __str__(self):
