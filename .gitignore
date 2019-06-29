@@ -1,1 +1,3 @@
-tourney/__pycache__/*
+tourney/__pycache__/
+.idea/*
+.idea

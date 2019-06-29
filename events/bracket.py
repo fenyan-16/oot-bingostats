@@ -51,7 +51,7 @@ class Bracket:
 			seeds = [team for game in games for team in game]
 		return seeds
 
-	def generate_bracket(self, mode='TopDown'):
+	def generate_bracket(self, mode='Distance'):
 		self.depth = np.ceil(np.log2(len(self.entrant_list)))
 		pl = self.entrant_list
 		_, pl = (list(s) for s in zip(*sorted(zip([p.seed for p in pl], pl))))
@@ -79,7 +79,7 @@ class Bracket:
 		else:
 			print('Mode not found, try again (valid choices: TopDown, Random).')
 		for s1, s2 in zip(seeds[::2], seeds[1::2]):
-			this_match = Match(match_counter, pl[s1-1], pl[s2-1])
+			this_match = Match(match_counter, 0, pl[s1-1], pl[s2-1])
 			if (pl[s1-1].playerID is None) or (pl[s2-1].playerID is None):
 				this_match.bye_flag = True
 				this_match.determine_winner()
@@ -93,7 +93,7 @@ class Bracket:
 		for level in np.arange(1, self.depth):
 			this_levels_matches = list()
 			for _ in np.arange(2**(self.depth-level-1)):
-				this_match = Match(match_counter)
+				this_match = Match(match_counter, int(level))
 				this_levels_matches.append(this_match)
 				self.match_list.append(this_match)
 				match_counter += 1
@@ -134,7 +134,7 @@ class Bracket:
 		for i, blvl in enumerate(self.bracket_levels):
 			print('Round {}:'.format(i))
 			for game in blvl:
-				print('Game {}: {} ({}) vs. {} ({})'.format(game.matchID, game.p1.playerID, game.p1.seed,
+				print('Game {} (Round {}: {} ({}) vs. {} ({})'.format(game.matchID, game.depth_level, game.p1.playerID, game.p1.seed,
 															game.p2.playerID, game.p2.seed))
 				if game.played:
 					print('Winner: {}'.format(game.winner.playerID))
@@ -147,8 +147,9 @@ class Bracket:
 
 
 class Match:
-	def __init__(self, matchID, p1=Entrant(), p2=Entrant()):
+	def __init__(self, matchID, depth_level, p1=Entrant(), p2=Entrant()):
 		self.matchID = matchID
+		self.depth_level = depth_level
 		self.p1 = p1
 		self.p2 = p2
 		# self.child_match = None
