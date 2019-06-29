@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from .bracket import Bracket, Entrant
 from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
@@ -23,6 +24,16 @@ class Tournament(models.Model):
     description = models.CharField(max_length=500, null=True)
     name = models.CharField(max_length=200)
     max_participants = models.DecimalField(max_digits=5, decimal_places=0, null=True)
+
+    entrant_list = {'Fenyan', 'Malouna', 'Mitsuhito', 'Celthar', 'Souldes', 'Florin', 'Neas', 'Narrow', 'Duanos', 'Aquilion'}
+    seeds = {5, 3, 2, 7, 1, 8, 9, 4, 6, 10}
+    bracket = Bracket()
+    for e, s in zip(entrant_list, seeds):
+        bracket.add_entrant(Entrant(e, s))
+    bracket.generate_bracket(mode="Distance")
+
+
+
 
     def __str__(self):
         return self.name
