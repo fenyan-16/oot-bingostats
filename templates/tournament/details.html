@@ -36,8 +36,7 @@
         <h4>Runde {{forloop.counter0}}</h4>
         {% with spacing_factor=3 %}
         {% for match in level %}
-        {% widthratio spacing_factor 1 match.depth_level  %}
-           <div style="height: 64px; margin: {% widthratio match.depth_level 1 32 %}px 0 {% widthratio match.depth_level 1 64 %}px; position: relative;">
+           <div class="bracket-item" style="height: {% widthratio match.depth_level 1 64 %}px; position: relative;">
                 <div>{{match.p1.playerID}}</div>
                 <div>{{match.p2.playerID}}</div>
             </div>
