@@ -16,6 +16,7 @@ urlpatterns = [
     path('<int:event_id>/<int:tournament_id>/', views.tournamentdetail, name='tournament-detail'),
     path('<int:event_id>/tournaments/', views.EventsByUserListView.as_view(), name='event-tournaments'),
     path('<int:event_id>/tournaments/new/', views.tournament_new, name='tournament-new'),
+    path('<int:event_id>/<int:tournament_id>/seeding', views.tournament_seeding, name='tournament-seeding'),
 
     # Phases
     path('<int:event_id>/<int:tournament_id>/phase/new/', views.phase_new, name='phase-new'),

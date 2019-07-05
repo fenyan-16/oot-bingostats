@@ -1,5 +1,5 @@
 .bracket-item {
-        display: flex;
+    display: flex;
     flex: 0 1 auto;
     justify-content: center;
     flex-direction: column;
