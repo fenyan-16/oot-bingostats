@@ -34,3 +34,5 @@ class ProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ('location',)
+
+class SubmitResultForm(forms.ModelForm):

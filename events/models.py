@@ -57,6 +57,8 @@ class Registration(models.Model):
     def __str__(self):
         return str(self.tournament) + str(self.participant)
 
+
+
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     location = models.CharField(max_length=30, blank=True)
