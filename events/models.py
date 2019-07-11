@@ -25,7 +25,6 @@ class Tournament(models.Model):
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     description = models.CharField(max_length=500, null=True)
     name = models.CharField(max_length=200)
-    max_participants = models.DecimalField(max_digits=5, decimal_places=0, null=True)
 
     entrant_list = {'Fenyan', 'Malouna', 'Mitsuhito', 'Celthar', 'Souldes', 'Florin', 'Neas', 'Narrow', 'Duanos', 'Aquilion'}
     seeds = {5, 3, 2, 7, 1, 8, 9, 4, 6, 10}

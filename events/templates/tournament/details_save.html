@@ -3,25 +3,13 @@
 
 {% block content %}
     <div>Tournament Details</div>
-    <a href="{% url 'detail' event.id %}"><h1>{{event.name}}</h1></a>
-    <a href="{% url 'tournament-detail' event.id tournament.id %}"><h1>{{tournament.name}}</h1></a>
+    <h1>{{tournament.name}}</h1>
     Estimated Starttime: <br>
     Estimated Endtime: <br>
 
-    <h3>Phases</h3>
-    <div>
-    {% for phase in phases %}
-        <div>
-            <a href="#">{{phase}}</a>
-        </div>
-    {% endfor %}
-    </div>
-    {% if user == event.owner %}
-        <a href="{% url 'phase-new' event.id tournament.id %}">Add Phase</a>
-    {% endif %}
     <h3>Participants</h3>
     {% if user == event.owner %}
-        <a href="{% url 'tournament-seeding' event.id tournament.id %}">Seed Participants</a>
+        <a href="{% url 'tournament-seeding' tournament.id %}">Seed Participants</a>
     {% endif %}
     <div>
         {% for registration in registrations %}

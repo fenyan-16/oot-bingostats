@@ -12,7 +12,7 @@ class NewTournamentForm(forms.ModelForm):
 
     class Meta:
          model = Tournament
-         fields = ('name', 'max_participants', )
+         fields = ('name',)
 
 class NewPhaseForm(forms.ModelForm):
     class Meta:
@@ -35,4 +35,3 @@ class ProfileForm(forms.ModelForm):
         model = Profile
         fields = ('location',)
 
-class SubmitResultForm(forms.ModelForm):
