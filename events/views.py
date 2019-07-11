@@ -5,8 +5,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
-from .models import Event, Tournament, Registration, Phase
-from .forms import NewEventForm, NewTournamentForm, NewPhaseForm, EventRegistrationForm, UserForm, ProfileForm
+from .models import Event, Phase
+from .forms import NewEventForm, NewPhaseForm, EventRegistrationForm, UserForm, ProfileForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
@@ -57,8 +57,7 @@ def eventlist(request):
 
 def event_detail(request, event_id):
     event = Event.objects.get(pk=event_id)
-    tournaments = Tournament.objects.filter(event=event_id)
-    return render(request, 'event/event-details.html', {'event': event, 'tournaments': tournaments})
+    return render(request, 'event/event-details.html', {'event': event})
 
 def event_new(request):
     if request.method == "POST":
@@ -86,22 +85,6 @@ def event_edit(request, event_id):
         form = NewEventForm(instance=event)
     return render(request, 'event/edit.html', {'form': form})
 
-def event_register(request, event_id):
-    event = Event.objects.get(pk=event_id)
-    tournaments = Tournament.objects.filter(event=event_id)
-
-    if request.method == "POST":
-        form = EventRegistrationForm(request.POST)
-        if form.is_valid():
-            for tournament in tournaments:
-                post = form.save(commit=False)
-                post.tournament = tournament
-                post.participant = request.user
-                post.save()
-            return redirect('detail', event_id=post.pk)
-    else:
-        form = EventRegistrationForm()
-    return render(request, 'event/registration.html', {'event': event, 'tournaments': tournaments, 'form': form})
 
 def event_registration_status (request, event_id):
     event = Event.objects.get(pk=event_id)
@@ -109,44 +92,24 @@ def event_registration_status (request, event_id):
 
 def tournamentdetail(request, event_id, tournament_id):
     event = Event.objects.get(pk=event_id)
-    tournament = Tournament.objects.get(pk=tournament_id)
-    phases = Phase.objects.filter(tournament=tournament)
-    registrations = Registration.objects.filter(tournament=tournament)
-    return render(request, 'tournament/details.html', {'event': event, 'tournament': tournament, 'phases': phases, 'registrations': registrations})
+    return render(request, 'tournament/details.html', {'event': event})
 
 def myevents(request):
     event_list = Event.objects.filter(owner=request.user.pk)
     return render(request, 'accounts/myevents.html', {'event_list': event_list})
 
-def tournament_new(request, event_id):
-    if request.method == "POST":
-        form = NewTournamentForm(request.POST)
-        if form.is_valid():
-            post = form.save(commit=False)
-            post.event = Event.objects.get(pk=event_id)
-            post.save()
-            return redirect('tournament-detail', event_id=event_id, tournament_id=post.pk)
-    else:
-        form = NewTournamentForm()
-    return render(request, 'tournament/new.html', {'form': form})
-
-
 def tournament_seeding(request, event_id, tournament_id):
     event = Event.objects.get(pk=event_id)
-    tournament = Tournament.objects.get(pk=tournament_id)
-    phases = Phase.objects.filter(tournament=tournament)
-    registrations = Registration.objects.filter(tournament=tournament)
     return render(request, 'tournament/seeding.html',
-                  {'event': event, 'tournament': tournament, 'phases': phases, 'registrations': registrations})
+                  {'event': event})
 
 def phase_new(request, event_id, tournament_id):
     if request.method == "POST":
         form = NewPhaseForm(request.POST)
         if form.is_valid():
             post = form.save(commit=False)
-            post.tournament = Tournament.objects.get(pk=tournament_id)
             post.save()
-            return redirect('tournament-detail', event_id=event_id, tournament_id=tournament_id)
+            return redirect('tournament-detail', event_id=event_id)
     else:
         form = NewPhaseForm()
     return render(request, 'phase/new.html', {'form': form})
@@ -158,11 +121,3 @@ class EventsByUserListView(LoginRequiredMixin, ListView):
 
     def get_queryset(self):
         return Event.objects.filter(owner=self.request.user).order_by('name')
-
-class TournamentsByEventListView(LoginRequiredMixin, ListView):
-    model = Tournament
-    template_name = 'accounts/tournamentlist.html'
-    paginate_by = 10
-
-    def get_queryset(self):
-        return Tournament.objects.filter(event=self.request.event).order_by('name')

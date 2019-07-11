@@ -14,14 +14,16 @@ from django.db import transaction
 from django.contrib import messages
 import datetime
 
-def tournamentdetail(request):
-    return render(request, 'tournament/details.html')
+def tournamentdetail(request, tournament_id):
+    tournament = Tournament.objects.get(pk=tournament_id)
+    return render(request, 'tournament/details.html', {'tournament': tournament})
 
 def tournament_new(request):
     if request.method == "POST":
         form = NewTournamentForm(request.POST)
         if form.is_valid():
             post = form.save(commit=False)
+            post.owner = request.user
             post.save()
             return redirect('tournament-detail', tournament_id=post.pk)
     else:
@@ -29,9 +31,9 @@ def tournament_new(request):
     return render(request, 'tournament/new.html', {'form': form})
 
 
-def tournament_seeding(request, tournament_id):
+def showbracket(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
-    return render(request, 'tournament/seeding.html',
+    return render(request, 'tournament/bracket.html',
                   {'tournament': tournament})
 
 

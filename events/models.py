@@ -20,43 +20,17 @@ class Event(models.Model):
     def __str__(self):
         return self.name
 
-
-class Tournament(models.Model):
-    event = models.ForeignKey(Event, on_delete=models.CASCADE)
-    description = models.CharField(max_length=500, null=True)
-    name = models.CharField(max_length=200)
-
-    entrant_list = {'Fenyan', 'Malouna', 'Mitsuhito', 'Celthar', 'Souldes', 'Florin', 'Neas', 'Narrow', 'Duanos', 'Aquilion'}
-    seeds = {5, 3, 2, 7, 1, 8, 9, 4, 6, 10}
-    bracket = Bracket()
-    for e, s in zip(entrant_list, seeds):
-        bracket.add_entrant(Entrant(e, s))
-    bracket.generate_bracket(mode="Distance")
-
-    def __str__(self):
-        return self.name
-
 class Phase(models.Model):
     MODE_CHOICES = [
         ('rr', 'Round Robin'),
         ('se', 'Single Elimination'),
         ('de', 'Double Elimination'),
     ]
-    tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
     mode = models.CharField(max_length=2, choices=MODE_CHOICES, default='rr')
 
     def __str__(self):
         return self.name
-
-class Registration(models.Model):
-    tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
-    participant = models.ForeignKey(User, on_delete=models.CASCADE)
-
-    def __str__(self):
-        return str(self.tournament) + str(self.participant)
-
-
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
