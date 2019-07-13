@@ -6,7 +6,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from .models import Event, Phase
-from .forms import NewEventForm, NewPhaseForm, EventRegistrationForm, UserForm, ProfileForm
+from .forms import NewEventForm, NewPhaseForm, UserForm, ProfileForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required

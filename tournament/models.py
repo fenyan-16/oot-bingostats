@@ -19,22 +19,23 @@ class Tournament(models.Model):
 
 class Registration(models.Model):
     participant = models.ForeignKey(User, on_delete=models.CASCADE)
+    tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
 
     def __str__(self):
         return str(self.tournament) + str(self.participant)
 
 class Bracket(models.Model):
+    tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
 
-	def __str__(self):
-		return self.pk
+    def __str__(self):
+        return self.pk
 
 
 class Match(models.Model):
 	player1 = models.ForeignKey(User, on_delete=models.CASCADE)
-	player1_result = models.DecimalField(decimal_places=2, max_digits=3)
-
-	name = models.CharField(max_length=200)
-	description_short = models.CharField(max_length=200, null=True)
+	player2 = models.ForeignKey(User, on_delete=models.CASCADE)
+	player1_result = models.DecimalField(decimal_places=2, max_digits=3, null=True)
+	player2_result = models.DecimalField(decimal_places=2, max_digits=3, null=True)
 
 	def __str__(self):
 		return self.pk

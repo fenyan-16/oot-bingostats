@@ -1,16 +1,6 @@
 {% extends "frame/base.html" %}
 
 {% block content %}
-    <div>Seed Participants</div>
-    {% if user == event.owner %}
-    {% endif %}
-    <div>
-        <div id="simpleList" class="list-group">
-        {% for registration in registrations %}
-            <div class="list-group-item"><a href="#">{{registration.participant}}</a></div>
-        {% endfor %}
-        </div>
-    </div>
 
     <h3>Bracket</h3>
     <div style="position: absolute">
@@ -25,7 +15,7 @@
                {% if user == event.owner %}
                <div>
                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-p1="{{match.p1.playerID}}" data-p2="{{match.p2.playerID}}">
-                       {% fontawesome_icon 'pencil' color='red' %}
+                       /* fontawesome_icon 'pencil' color='red' */
                     </button>
 
                </div>

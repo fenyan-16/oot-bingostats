@@ -1,0 +1,15 @@
+{% extends "frame/base.html" %}
+
+{% block content %}
+    <h3>Participants</h3>
+    {% if user == event.owner %}
+        <a href="{% url 'tournament-seeding' tournament.id %}">Seed Participants</a>
+    {% endif %}
+    <div>
+        {% for registration in registrations %}
+        <div>
+            <a href="#">{{registration.participant}}</a>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}

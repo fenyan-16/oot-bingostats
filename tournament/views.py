@@ -1,11 +1,12 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
+from django.core.exceptions import ObjectDoesNotExist
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
-from .models import Tournament
+from .models import Tournament, Registration, Bracket, Match
 from .forms import NewTournamentForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
@@ -33,8 +34,31 @@ def tournament_new(request):
 
 def showbracket(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
+    try:
+        bracket = Bracket.objects.get(tournament=tournament_id)
+    except ObjectDoesNotExist:
+        bracket = Bracket(tournament=Tournament.objects.get(pk=tournament_id))
+
     return render(request, 'tournament/bracket.html',
+                      {'tournament': tournament, 'bracket': bracket})
+
+    try:
+        matches = Match.object.filter(tournament=tournament_id)
+    except ObjectDoesNotExist:
+        return render(request, 'tournament/bracket.html',
                   {'tournament': tournament})
+
+def showseeding(request, tournament_id):
+    tournament = Tournament.objects.get(pk=tournament_id)
+    registrations = Registration.objects.filter(tournament=tournament_id)
+    return render(request, 'tournament/seeding.html',
+                  {'tournament': tournament, 'registrations': registrations})
+
+def showparticipants(request, tournament_id):
+    tournament = Tournament.objects.get(pk=tournament_id)
+    registrations = Registration.objects.filter(tournament=tournament_id)
+    return render(request, 'tournament/participants.html',
+                  {'tournament': tournament, 'registrations': registrations})
 
 
 class TournamentsByEventListView(LoginRequiredMixin, ListView):
