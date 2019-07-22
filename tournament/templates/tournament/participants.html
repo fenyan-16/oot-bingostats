@@ -2,8 +2,8 @@
 
 {% block content %}
     <h3>Participants</h3>
-    {% if user == event.owner %}
         <a href="{% url 'tournament-seeding' tournament.id %}">Seed Participants</a>
+    {% if user == event.owner %}
     {% endif %}
     <div>
         {% for registration in registrations %}

@@ -2,6 +2,7 @@
 
 {% block content %}
     <div>Participants</div>
+    <a href="{% url 'tournament-participants' tournament.id %}">Participants</a>
     {% if user == event.owner %}
     {% endif %}
     <div>

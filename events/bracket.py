@@ -13,6 +13,7 @@ def main():
 	br.propagate_bracket()
 
 	br.report_bracket()
+
 	# while True:
 	# 	a = input('Report match in the format: MatchID,x,y')
 	# 	a = a.split(',')

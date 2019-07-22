@@ -34,19 +34,12 @@ def tournament_new(request):
 
 def showbracket(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
-    try:
-        bracket = Bracket.objects.get(tournament=tournament_id)
-    except ObjectDoesNotExist:
-        bracket = Bracket(tournament=Tournament.objects.get(pk=tournament_id))
+    bracket = Bracket.objects.get(tournament=tournament)
+    bracket.generate_bracket()
 
     return render(request, 'tournament/bracket.html',
-                      {'tournament': tournament, 'bracket': bracket})
+                      {'tournament': tournament})
 
-    try:
-        matches = Match.object.filter(tournament=tournament_id)
-    except ObjectDoesNotExist:
-        return render(request, 'tournament/bracket.html',
-                  {'tournament': tournament})
 
 def showseeding(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
