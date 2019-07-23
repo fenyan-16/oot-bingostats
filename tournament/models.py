@@ -34,12 +34,14 @@ class Bracket(models.Model):
     tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
 
     def generate_bracket(self, mode='Distance'):
+        print("hello")
+        match_list = list()
         depth = 2
 
-        registrations = Registration.objects.filter(pk=self.tournament.pk)
-        _, registrations = (list(s) for s in zip(*sorted(zip([p.seed for p in registrations], registrations))))
+        registrations = Registration.objects.filter(tournament=self.tournament)
+        # _, registrations = (list(s) for s in zip(*sorted(zip([p.seed for p in registrations], registrations))))
 
-        seeds, entrants = (list(s) for s in zip(*sorted(zip([p.seed for p in registrations], [p.participant for p in registrations]))))
+        # seeds, entrants = (list(s) for s in zip(*sorted(zip([p.seed for p in registrations], [p.participant for p in registrations]))))
 
 
         round = 0
@@ -60,15 +62,19 @@ class Bracket(models.Model):
             seeds.extend(np.arange(np.max(seeds) + 1, round_width))
             random.shuffle(seeds)
 
+        for registration in registrations:
+            print(registration)
+
+        print(self.distance_seeds(len(seeds)))
         for s1, s2 in zip(seeds[::2], seeds[1::2]):
 
             try:
-                player1 = registrations[s1 - 1]
+                player1 = registrations[s1 - 1].participant
             except IndexError:
                 player1 = None
 
             try:
-                player2 = registrations[s2 - 1]
+                player2 = registrations[s2 - 1].participant
             except IndexError:
                 player2 = None
 
@@ -81,9 +87,12 @@ class Bracket(models.Model):
             else:
                 new_match = Match(depth_level=0, player1=player1, player2=player2, bye_flag=False, planned=True)
             new_match.save()
+            match_list.append(new_match)
+
 
             match_counter += 1
 
+        print("match list: " + str(match_list))
         # for level in np.arange(1, self.depth):
         #     this_levels_matches = list()
         #     for _ in np.arange(2 ** (self.depth - level - 1)):
@@ -92,6 +101,7 @@ class Bracket(models.Model):
         #         self.match_list.append(this_match)
         #         match_counter += 1
         #     self.bracket_levels.append(this_levels_matches)
+        return (match_list)
 
     def distance_seeds(self, list_length):
         seeds = [1]
@@ -115,4 +125,4 @@ class Match(models.Model):
     played = models.BooleanField(null=True)
 
     def __str__(self):
-        return self.pk
+        return str(self.player1) + str(self.player2)

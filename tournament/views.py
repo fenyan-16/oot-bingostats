@@ -35,10 +35,10 @@ def tournament_new(request):
 def showbracket(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
     bracket = Bracket.objects.get(tournament=tournament)
-    bracket.generate_bracket()
+    matches = bracket.generate_bracket()
 
     return render(request, 'tournament/bracket.html',
-                      {'tournament': tournament})
+                      {'tournament': tournament, 'matches': matches})
 
 
 def showseeding(request, tournament_id):
