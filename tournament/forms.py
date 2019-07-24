@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Tournament, Registration
+from .models import Tournament, Registration, Match
 
 
 
@@ -15,3 +15,9 @@ class EventRegistrationForm(forms.ModelForm):
     class Meta:
          model = Registration
          fields = ()
+
+class MatchResultForm(forms.ModelForm):
+
+    class Meta:
+         model = Match
+         fields = ('player1_result', 'player2_result', )

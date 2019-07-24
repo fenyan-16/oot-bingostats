@@ -51,13 +51,19 @@
       var button = $(event.relatedTarget) // Button that triggered the modal
       var recipient1 = button.data('p1')
       var recipient2 = button.data('p2')
+      var matchID = button.data('matchid')
       // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
       var modal = $(this)
       modal.find('#player1').text(recipient1)
       modal.find('#player2').text(recipient2)
+      modal.find('#matchID').val(matchID)
 
-      $('.resultbutton').click(function (){
-      console.log('hi');
+      $('#player1').click(function (){
+        console.log('winner player one');
+      });
+
+      $('#player2').click(function (){
+        console.log('winner player two');
       });
 })
     </script>

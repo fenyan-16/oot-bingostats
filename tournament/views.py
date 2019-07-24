@@ -7,7 +7,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from .models import Tournament, Registration, Bracket, Match
-from .forms import NewTournamentForm
+from .forms import NewTournamentForm, MatchResultForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
@@ -37,8 +37,20 @@ def showbracket(request, tournament_id):
     bracket = Bracket.objects.get(tournament=tournament)
     matches = bracket.generate_bracket()
 
+    if request.method == "POST":
+        matchID = request.POST.get("matchID", "")
+        player1_result = 5
+        player2_result = 2
+        print(matchID)
+        match = Match.objects.get(pk=matchID)
+        match.player1_result = player1_result
+        match.player2_result = player2_result
+        match.save()
+    else:
+        form = MatchResultForm()
+
     return render(request, 'tournament/bracket.html',
-                      {'tournament': tournament, 'matches': matches})
+                      {'tournament': tournament, 'matches': matches,})
 
 
 def showseeding(request, tournament_id):
