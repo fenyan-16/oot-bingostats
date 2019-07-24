@@ -3,5 +3,27 @@
 {% block content %}
 
     <h3>Bracket</h3>
+    {% for match in matches %}
+        <div style="width: 300px; position: absolute; left: {% widthratio forloop.counter0 1 300 %}px">
+          {% widthratio spacing_factor 1 2 as spacing_factor %}
+        <h4>Runde {{ match.depth_level|add:"2" }}</h4>
+        {% for match in level %}
+           <div class="bracket-item" style="height: {{ spacing_factor }}px; position: relative;">
+               {% if user == event.owner %}
+               <div>
+                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-p1="{{match.p1.playerID}}" data-p2="{{match.p2.playerID}}">
+                       /* fontawesome_icon 'pencil' color='red' */
+                    </button>
+
+               </div>
+                {% endif %}
+               <div>
+                <div>{{match.player1}}</div>
+                <div>{{match.player2}}</div>
+               </div>
+            </div>
+        {% endfor %}
+        </div>
+      {% endfor %}
 
 {% endblock %}
