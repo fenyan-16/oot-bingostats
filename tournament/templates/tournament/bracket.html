@@ -19,8 +19,16 @@
 
                </div>
                <div>
-                <div>{{match.player1}}</div>
-                <div>{{match.player2}}</div>
+                   {% if match.winner == 1 %}
+                        <div><b>{{match.player1}}</b></div>
+                        <div>{{match.player2}}</div>
+                   {% elif match.winner == 2 %}
+                        <div>{{match.player1}}</div>
+                        <div><b>{{match.player2}}</b></div>
+                   {% else %}
+                        <div>{{match.player1}}</div>
+                        <div>{{match.player2}}</div>
+                   {% endif %}
                </div>
             </div>
         {% endfor %}
@@ -42,10 +50,15 @@
               </div>
               <div class="modal-body">
                   <input id="matchID" type="hidden" name="matchID" value="">
-
-                  <button type="submit" class="btn btn-primary resultbutton" id="player1" data-winner="player1"></button>
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-secondary active">
+                        <input type="radio" name="winner" id="player1" value="1" autocomplete="off" checked data-winner="player1">Player1
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="winner" id="player2" value="2" autocomplete="off" data-winner="player2">Player2
+                      </label>
+                    </div>
                     <label>Time</label><input type="text" class="form-control">
-                  <button type="submit" class="btn btn-primary resultbutton" id="player2" data-winner="player2"></button>
                 <label>Time</label><input type="text" class="form-control">
               </div>
               <div class="modal-footer">
