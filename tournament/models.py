@@ -33,8 +33,10 @@ class Registration(models.Model):
 class Bracket(models.Model):
     tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
 
-    def generate_bracket(self, mode='Distance'):
+    def initiate_bracket(self, mode='Distance'):
         print("hello")
+        self.delete_matches()
+        seeds = [5, 3, 2, 7, 1, 8, 9, 4, 6, 10]
         bracket_level_matches = list()
         depth = 3
 
@@ -80,6 +82,7 @@ class Bracket(models.Model):
             except IndexError:
                 player2 = None
 
+            this_depth_level = 0;
             if (player1 is None) or (player2 is None):
                 if (player2 is None):
                     new_match = Match1vs1(depth_level=0, player1=player1, player2=player2, bye_flag=True,
@@ -95,13 +98,14 @@ class Bracket(models.Model):
         bracket_level_matches.append(this_levels_matches)
         print("match list: " + str(bracket_level_matches))
 
-        # fill matches for depth_level > 1
+        # fill matches for depth_level > 0
 
         for level in np.arange(1, depth):
             this_levels_matches = list()
             for _ in np.arange(2 ** (depth - level - 1)):
                 this_match = Match1vs1(depth_level=depth, player1=None, player2=None, bye_flag=False,
                                       planned=False, player1_result=None, player2_result=None, played=False)
+
                 this_match.save()
                 this_levels_matches.append(this_match)
             bracket_level_matches.append(this_levels_matches)
@@ -116,6 +120,25 @@ class Bracket(models.Model):
             seeds = [team for game in games for team in game]
         return seeds
 
+    def generate_bracket(self, match_list):
+        depth = 2
+        bracket_level_matches = list()
+
+        for level in np.arange(0, depth):
+            this_levels_matches = list()
+            for match in match_list:
+                if match.depth_level == level:
+                    this_levels_matches.append(match)
+            bracket_level_matches.append(this_levels_matches)
+            print("full match list: " + str(this_levels_matches))
+        return (bracket_level_matches)
+
+    def delete_matches(self):
+        match_list = Match1vs1.objects.filter(bracket=self.pk)
+        for match in match_list:
+            match.delete()
+
+
     def __str__(self):
         return str(self.pk)
 
@@ -129,6 +152,14 @@ class Match1vs1(models.Model):
     bye_flag = models.BooleanField(null=True)
     planned = models.BooleanField(null=True)
     played = models.BooleanField(null=True)
+    winner = models.IntegerField(null=True)
+    bracket = models.ForeignKey(Bracket, on_delete=models.CASCADE)
+
+    def set_winner(self, winner):
+        self.winner = winner
+        self.played = True
+        self.planned = False
+        self.save()
 
     def __str__(self):
         return str(self.player1) + str(self.player2)

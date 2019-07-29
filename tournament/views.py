@@ -33,21 +33,21 @@ def tournament_new(request):
 
 
 def showbracket(request, tournament_id):
+
     tournament = Tournament.objects.get(pk=tournament_id)
     bracket = Bracket.objects.get(tournament=tournament)
-    matches = bracket.generate_bracket()
 
     if request.method == "POST":
         matchID = request.POST.get("matchID", "")
-        player1_result = 5
-        player2_result = 2
-        print(matchID)
+        winner = request.POST.get("winner", "")
+        print("matchID" + matchID)
+        print("winner" + winner)
         match = Match1vs1.objects.get(pk=matchID)
-        match.player1_result = player1_result
-        match.player2_result = player2_result
-        match.save()
+        match.set_winner(winner)
+        match_list = Match1vs1.objects.filter(bracket=bracket).order_by('pk')
+        matches = bracket.generate_bracket(match_list)
     else:
-        form = MatchResultForm()
+        matches = bracket.initiate_bracket()
 
     return render(request, 'tournament/bracket.html',
                       {'tournament': tournament, 'matches': matches,})
