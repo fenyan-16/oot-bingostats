@@ -85,12 +85,15 @@ class Bracket(models.Model):
             this_depth_level = 0;
             if (player1 is None) or (player2 is None):
                 if (player2 is None):
-                    new_match = Match1vs1(depth_level=0, player1=player1, player2=player2, bye_flag=True,
-                                      planned=True, player1_result=None, player2_result=None, played=True)
+                    new_match = Match1vs1(bracket=self, depth_level=this_depth_level, player1=player1, player2=player2,
+                                      bye_flag=True,
+                                      planned=True, player1_result=None, player2_result=None, played=True, winner=1)
                 else:
-                    new_match = Match1vs1(depth_level=0, player1=player1, player2=player2, bye_flag=True, planned=True)
+                    new_match = Match1vs1(bracket=self, depth_level=this_depth_level, player1=player1, player2=player2,
+                                      bye_flag=True, planned=True, winner=2)
             else:
-                new_match = Match1vs1(depth_level=0, player1=player1, player2=player2, bye_flag=False, planned=True)
+                new_match = Match1vs1(bracket=self, depth_level=this_depth_level, player1=player1, player2=player2,
+                                  bye_flag=False, planned=True, winner=0)
             new_match.save()
             this_levels_matches.append(new_match)
 
@@ -103,8 +106,8 @@ class Bracket(models.Model):
         for level in np.arange(1, depth):
             this_levels_matches = list()
             for _ in np.arange(2 ** (depth - level - 1)):
-                this_match = Match1vs1(depth_level=depth, player1=None, player2=None, bye_flag=False,
-                                      planned=False, player1_result=None, player2_result=None, played=False)
+                this_match = Match1vs1(bracket=self, depth_level=level, player1=None, player2=None, bye_flag=False,
+                                   planned=False, player1_result=None, player2_result=None, played=False, winner=0)
 
                 this_match.save()
                 this_levels_matches.append(this_match)
