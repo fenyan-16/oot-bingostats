@@ -82,12 +82,12 @@ class Bracket(models.Model):
 
             if (player1 is None) or (player2 is None):
                 if (player2 is None):
-                    new_match = Match(depth_level=0, player1=player1, player2=player2, bye_flag=True,
+                    new_match = Match1vs1(depth_level=0, player1=player1, player2=player2, bye_flag=True,
                                       planned=True, player1_result=None, player2_result=None, played=True)
                 else:
-                    new_match = Match(depth_level=0, player1=player1, player2=player2, bye_flag=True, planned=True)
+                    new_match = Match1vs1(depth_level=0, player1=player1, player2=player2, bye_flag=True, planned=True)
             else:
-                new_match = Match(depth_level=0, player1=player1, player2=player2, bye_flag=False, planned=True)
+                new_match = Match1vs1(depth_level=0, player1=player1, player2=player2, bye_flag=False, planned=True)
             new_match.save()
             this_levels_matches.append(new_match)
 
@@ -100,7 +100,7 @@ class Bracket(models.Model):
         for level in np.arange(1, depth):
             this_levels_matches = list()
             for _ in np.arange(2 ** (depth - level - 1)):
-                this_match = Match(depth_level=depth, player1=None, player2=None, bye_flag=False,
+                this_match = Match1vs1(depth_level=depth, player1=None, player2=None, bye_flag=False,
                                       planned=False, player1_result=None, player2_result=None, played=False)
                 this_match.save()
                 this_levels_matches.append(this_match)
@@ -120,7 +120,7 @@ class Bracket(models.Model):
         return str(self.pk)
 
 
-class Match(models.Model):
+class Match1vs1(models.Model):
     player1 = models.ForeignKey(User, related_name='player_one', on_delete=models.CASCADE, null=True)
     player2 = models.ForeignKey(User, related_name='player_two', on_delete=models.CASCADE, null=True)
     player1_result = models.DecimalField(decimal_places=2, max_digits=3, null=True)

@@ -6,7 +6,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
-from .models import Tournament, Registration, Bracket, Match
+from .models import Tournament, Registration, Bracket, Match1vs1
 from .forms import NewTournamentForm, MatchResultForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
@@ -42,7 +42,7 @@ def showbracket(request, tournament_id):
         player1_result = 5
         player2_result = 2
         print(matchID)
-        match = Match.objects.get(pk=matchID)
+        match = Match1vs1.objects.get(pk=matchID)
         match.player1_result = player1_result
         match.player2_result = player2_result
         match.save()

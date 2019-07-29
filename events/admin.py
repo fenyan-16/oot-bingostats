@@ -8,5 +8,5 @@ admin.site.register(apps.get_model('tournament', 'Tournament'))
 admin.site.register(Phase)
 admin.site.register(apps.get_model('tournament', 'Registration'))
 
-admin.site.register(apps.get_model('tournament', 'Match'))
+admin.site.register(apps.get_model('tournament', 'Match1vs1'))
 admin.site.register(apps.get_model('tournament', 'Bracket'))
