@@ -7,7 +7,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from .models import Tournament, Registration, Bracket, Match1vs1
-from .forms import NewTournamentForm, MatchResultForm
+from .forms import NewTournamentForm, NewBracketForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
@@ -64,6 +64,20 @@ def showparticipants(request, tournament_id):
     registrations = Registration.objects.filter(tournament=tournament_id)
     return render(request, 'tournament/participants.html',
                   {'tournament': tournament, 'registrations': registrations})
+
+
+def bracket_new(request, tournament_id):
+    if request.method == "POST":
+        form = NewBracketForm(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.mode = request.mode
+            post.tournament = Tournament.objects.get(pk=tournament_id)
+            post.save()
+            return redirect('bracket', tournament_id=post.pk)
+    else:
+        form = NewBracketForm()
+    return render(request, 'bracket/new.html', {'form': form})
 
 
 class TournamentsByEventListView(LoginRequiredMixin, ListView):

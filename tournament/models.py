@@ -12,6 +12,7 @@ class Tournament(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     description = models.CharField(max_length=500, null=True)
     name = models.CharField(max_length=200)
+    max_participants = models.IntegerField(null=True)
 
     entrant_list = {'Fenyan', 'Malouna', 'Mitsuhito', 'Celthar', 'Souldes', 'Florin', 'Neas', 'Narrow', 'Duanos',
                     'Aquilion'}
@@ -32,6 +33,12 @@ class Registration(models.Model):
 
 class Bracket(models.Model):
     tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
+    MODE_CHOICES = [
+        ('rr', 'Round Robin'),
+        ('se', 'Single Elimination'),
+        ('de', 'Double Elimination'),
+    ]
+    mode = models.CharField(max_length=2, choices=MODE_CHOICES, default='se')
 
     def initiate_bracket(self, mode='Distance'):
         print("hello")
@@ -124,7 +131,7 @@ class Bracket(models.Model):
         return seeds
 
     def generate_bracket(self, match_list):
-        depth = 2
+        depth = 3
         bracket_level_matches = list()
 
         for level in np.arange(0, depth):

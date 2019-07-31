@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Tournament, Registration, Match1vs1
+from .models import Tournament, Registration, Match1vs1, Bracket
 
 
 
@@ -8,7 +8,13 @@ class NewTournamentForm(forms.ModelForm):
 
     class Meta:
          model = Tournament
-         fields = ('name', )
+         fields = ('name', 'description', 'max_participants',)
+
+class NewBracketForm(forms.ModelForm):
+
+    class Meta:
+         model = Bracket
+         fields = ('mode',)
 
 class EventRegistrationForm(forms.ModelForm):
 
