@@ -17,6 +17,14 @@ import datetime
 
 def tournamentdetail(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
+
+    if request.method == "POST":
+        if Registration.objects.filter(tournament=tournament, participant=request.user):
+            messages.warning(request, "You already registered for " + tournament.name)
+        else:
+            registration = Registration(tournament=tournament, participant=request.user, seed=0)
+            registration.save()
+            messages.info(request, "You successfully registered for " + tournament.name)
     return render(request, 'tournament/details.html', {'tournament': tournament})
 
 def tournament_new(request):

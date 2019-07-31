@@ -1,9 +1,23 @@
 {% load fontawesome %}
 
 {% block content %}
+{% if messages %}
+    {% for message in messages %}
+    <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+    {% endfor %}
+{% endif %}
+
     <div>Tournament Details</div>
     <h1>{{tournament.name}}</h1>
+    <form method="POST" class="post-form">{% csrf_token %}
+        <div>
+            <button type="submit" class="save btn btn-default btn-primary">Register</button>
+        </div>
+    </form>
 
     <a href="{% url 'tournament-participants' tournament.id %}">Participants</a>
-    <a href="{% url 'tournament-seeding' tournament.id %}">Seed Participants</a>
+    {% if user == event.owner %}
+        <a href="{% url 'tournament-seeding' tournament.id %}">Seed Participants</a>
+        <a href="{% url 'bracket-new' tournament.id %}">Create Bracket(s)</a>
+    {% endif %}
 {% endblock %}
