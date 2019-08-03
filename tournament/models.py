@@ -143,6 +143,25 @@ class Bracket(models.Model):
             print("full match list: " + str(this_levels_matches))
         return (bracket_level_matches)
 
+    def set_winner_and_propagate(self, winner, match_id):
+        match = Match1vs1.objects.get(pk=match_id)
+        match.set_winner(winner)
+
+        match_list = Match1vs1.objects.filter(bracket=self.pk).order_by('pk')
+        match_id_in_bracket = 0
+        for count, this_match in match_list:
+            if this_match == match:
+                match_id_in_bracket = count
+
+        # 3 durch depth austauschen
+        propagation_match_id = (match_id_in_bracket + 2 ** 3) / 2 - 1
+        propagation_match = match_list[propagation_match_id]
+
+        if np.mod(propagation_match_id, 1) > 0:
+            propagation_match.player1 = winner
+        else:
+            propagation_match.player2 = winner
+
     def delete_matches(self):
         match_list = Match1vs1.objects.filter(bracket=self.pk)
         for match in match_list:

@@ -46,12 +46,12 @@ def showbracket(request, tournament_id):
     bracket = Bracket.objects.get(tournament=tournament)
 
     if request.method == "POST":
-        matchID = request.POST.get("matchID", "")
+        match_id = request.POST.get("matchID", "")
         winner = request.POST.get("winner", "")
-        print("matchID" + matchID)
+        print("matchID" + match_id)
         print("winner" + winner)
-        match = Match1vs1.objects.get(pk=matchID)
-        match.set_winner(winner)
+        bracket.set_winner_and_propagate(winner, match_id)
+
         match_list = Match1vs1.objects.filter(bracket=bracket).order_by('pk')
         matches = bracket.generate_bracket(match_list)
     else:
