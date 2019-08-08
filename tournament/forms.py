@@ -1,14 +1,39 @@
 from django import forms
+from django.forms import ModelForm, DateField, ChoiceField
+from django.forms.widgets import DateTimeBaseInput
+from django.forms.formsets import BaseFormSet
+from .models import Tournament, Registration, Match1vs1, Bracket, TournamentsInLeague
 
-from .models import Tournament, Registration, Match1vs1, Bracket
 
+class DateTimeInput(DateTimeBaseInput):
+    format_key = 'DATETIME_INPUT_FORMATS'
+    input_type = 'datetime-local'
 
+class DateInput(forms.DateInput):
+    input_type = 'date'
 
-class NewTournamentForm(forms.ModelForm):
+class NewTournamentForm(forms.Form):
 
-    class Meta:
-         model = Tournament
-         fields = ('name', 'description', 'max_participants',)
+    FORMAT_CHOICES = [
+        ('1', '1vs1'),
+        ('2', '2vs2'),
+        ('3', '3vs3'),
+        ('4', '4vs4'),
+        ('5', '5vs5'),
+    ]
+
+    CHOICES = [('1', 'Player create Teams'),
+               ('2', 'Teams by seeding'),
+               ('3', 'Teams by admin')]
+
+    name = forms.CharField()
+    description = forms.CharField()
+    max_participants = forms.IntegerField()
+    start_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
+    registration_end_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
+    format = forms.ChoiceField(choices=FORMAT_CHOICES)
+    team_creation_mode = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect)
+
 
 class NewBracketForm(forms.ModelForm):
 
@@ -22,8 +47,7 @@ class EventRegistrationForm(forms.ModelForm):
          model = Registration
          fields = ()
 
-class MatchResultForm(forms.ModelForm):
-
+class LeagueForm(forms.ModelForm):
     class Meta:
-         model = Match1vs1
-         fields = ('player1_result', 'player2_result', )
+        model = TournamentsInLeague
+        fields = ('league',)

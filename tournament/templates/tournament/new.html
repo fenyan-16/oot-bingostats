@@ -1,11 +1,26 @@
 {% extends "frame/base.html" %}
 
-
 {% block content %}
-    <h2>New Tournament</h2>
-    <form method="POST" class="post-form">{% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">Save</button>
+{% if messages %}
+    {% for message in messages %}
+        <p>{{ message }}</p>
+    {% endfor %}
+{% endif %}
+
+    <h2>New Tournamentp</h2>
+    <form method="POST" class="post-form" action="{{action}}" enctype="multipart/form-data">{% csrf_token %}
+        {{ tournament_form.as_p }}
+        <input type="hidden" name="extra" value="{{extra}}">
+        {% for forms in leagueForms %}
+            <p>{{ forms.as_p }}</p>
+        {% endfor %}
+        <input type="submit" name="action" value="+">
+        <button type="submit" name="action" value="create" class="save btn btn-default">Save</button>
+        {% if not edit%}
+            <input type="submit" name="action" value="Create">
+        {% else %}
+            <input type="submit" name="action" value="Edit">
+        {% endif %}
     </form>
   {% if user.is_authenticated %}
     eingelogged!
@@ -13,4 +28,5 @@
     You are not logged in.
     <a href="{% url 'login' %}">Click here to log in.</a>
   {% endif %}
+
 {% endblock %}

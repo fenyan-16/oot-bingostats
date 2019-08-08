@@ -13,10 +13,23 @@ class Tournament(models.Model):
     description = models.CharField(max_length=500, null=True)
     name = models.CharField(max_length=200)
     max_participants = models.IntegerField(null=True)
+    start_date = models.DateTimeField(null=True)
+    registration_end_date = models.DateTimeField(null=True)
+
+    format = models.IntegerField(null=True, default='1')
+
+    team_creation_mode = models.IntegerField(null=True, default='1')
 
     entrant_list = {'Fenyan', 'Malouna', 'Mitsuhito', 'Celthar', 'Souldes', 'Florin', 'Neas', 'Narrow', 'Duanos',
                     'Aquilion'}
     seeds = {5, 3, 2, 7, 1, 8, 9, 4, 6, 10}
+
+    def find_registration(self, user):
+        registrations = RegistrationTeam.objects.filter(tournament=self)
+        for registration in registrations:
+            if registration.team.player1 == user or registration.team.player2 == user or registration.team.player3 == user or registration.team.player4 == user or registration.team.player5 == user or registration.team.player6 == user:
+                return registration
+        return False
 
     def __str__(self):
         return self.name
@@ -147,26 +160,43 @@ class Bracket(models.Model):
         match = Match1vs1.objects.get(pk=match_id)
         match.set_winner(winner)
 
-        match_list = Match1vs1.objects.filter(bracket=self.pk).order_by('pk')
-        match_id_in_bracket = 0
-        for count, this_match in match_list:
-            if this_match == match:
-                match_id_in_bracket = count
+        match_qs = Match1vs1.objects.filter(bracket=self.pk).order_by('pk')
+        match_list = list(match_qs)
+        match_id_in_bracket = match_list.index(match)
 
         # 3 durch depth austauschen
-        propagation_match_id = (match_id_in_bracket + 2 ** 3) / 2 - 1
-        propagation_match = match_list[propagation_match_id]
-
+        propagation_match_id = (match_id_in_bracket + 2 ** 3 + 1) / 2 - 1
         if np.mod(propagation_match_id, 1) > 0:
-            propagation_match.player1 = winner
+            winner_position = 1
         else:
-            propagation_match.player2 = winner
+            winner_position = 2
+        print("match" + str(propagation_match_id))
+        print("slot" + str(winner_position))
+
+        propagation_match_id = int(np.ceil(propagation_match_id))
+        propagation_match = match_list[propagation_match_id]
+        print(propagation_match)
+
+        if match.winner == 1:
+            match_winner = match.player1
+        elif match.winner == 2:
+            match_winner = match.player2
+        else:
+            print('Invalid')
+
+        if winner_position == 1:
+            propagation_match.player1 = match_winner
+        elif winner_position == 2:
+            propagation_match.player2 = match_winner
+        else:
+            print('Invalid')
+
+        propagation_match.save()
 
     def delete_matches(self):
         match_list = Match1vs1.objects.filter(bracket=self.pk)
         for match in match_list:
             match.delete()
-
 
     def __str__(self):
         return str(self.pk)
@@ -192,3 +222,72 @@ class Match1vs1(models.Model):
 
     def __str__(self):
         return str(self.player1) + str(self.player2)
+
+
+class MatchTeam(models.Model):
+    team1 = models.ForeignKey(User, related_name='team_one', on_delete=models.CASCADE, null=True)
+    team2 = models.ForeignKey(User, related_name='team_two', on_delete=models.CASCADE, null=True)
+    team1_result = models.DecimalField(decimal_places=2, max_digits=3, null=True)
+    team2_result = models.DecimalField(decimal_places=2, max_digits=3, null=True)
+    depth_level = models.IntegerField(null=True)
+    bye_flag = models.BooleanField(null=True)
+    planned = models.BooleanField(null=True)
+    played = models.BooleanField(null=True)
+    winner = models.IntegerField(null=True)
+    bracket = models.ForeignKey(Bracket, on_delete=models.CASCADE)
+
+    def set_winner(self, winner):
+        self.winner = winner
+        self.played = True
+        self.planned = False
+        self.save()
+
+    def __str__(self):
+        return str(self.player1) + str(self.player2)
+
+
+class Team(models.Model):
+    player1 = models.ForeignKey(User, related_name='team_player_one', on_delete=models.CASCADE, null=True)
+    player2 = models.ForeignKey(User, related_name='team_player_two', on_delete=models.CASCADE, null=True)
+    player3 = models.ForeignKey(User, related_name='team_player_three', on_delete=models.CASCADE, null=True)
+    player4 = models.ForeignKey(User, related_name='team_player_four', on_delete=models.CASCADE, null=True)
+    player5 = models.ForeignKey(User, related_name='team_player_five', on_delete=models.CASCADE, null=True)
+    player6 = models.ForeignKey(User, related_name='team_player_six', on_delete=models.CASCADE, null=True)
+    name = models.CharField(max_length=200, null=True)
+    member_count = models.IntegerField(null=True)
+
+    def __str__(self):
+        return str(self.name)
+
+
+class RegistrationTeam(models.Model):
+    team = models.ForeignKey(Team, on_delete=models.CASCADE)
+    tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
+    seed = models.IntegerFielddepth_level = models.IntegerField(null=True)
+
+    def __str__(self):
+        return str(self.tournament) + str(self.team)
+
+
+class Result(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
+    place = models.IntegerField(null=True)
+    score = models.TimeField(null=True)
+
+    def __str__(self):
+        return str(self.user) + str(self.tournament)
+
+class League(models.Model):
+    name = models.CharField(max_length=200)
+
+    def __str__(self):
+        return str(self.name)
+
+
+class TournamentsInLeague(models.Model):
+    league = models.ForeignKey(League, on_delete=models.CASCADE)
+    tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return str(self.league) + str(self.tournament)
