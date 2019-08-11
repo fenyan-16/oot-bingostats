@@ -10,6 +10,7 @@ urlpatterns = [
     path('new/', views.event_new, name='event-new'),
     path('<int:event_id>/edit/', views.event_edit, name='event-edit'),
 
+
     # ex: /tournaments/
     # path('<int:event_id>/<int:tournament_id>/', views.tournamentdetail, name='tournament-detail'),
     # path('<int:event_id>/tournaments/', views.EventsByUserListView.as_view(), name='event-tournaments'),

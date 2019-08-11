@@ -2,7 +2,8 @@ from django import forms
 from django.forms import ModelForm, DateField, ChoiceField
 from django.forms.widgets import DateTimeBaseInput
 from django.forms.formsets import BaseFormSet
-from .models import Tournament, Registration, Match1vs1, Bracket, TournamentsInLeague
+from .models import Tournament, Registration, Match1vs1, Bracket, Standing
+from leagues.models import TournamentsInLeague
 
 
 class DateTimeInput(DateTimeBaseInput):
@@ -31,8 +32,8 @@ class NewTournamentForm(forms.Form):
     max_participants = forms.IntegerField()
     start_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
     registration_end_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
-    format = forms.ChoiceField(choices=FORMAT_CHOICES)
-    team_creation_mode = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect)
+    # team_format = forms.ChoiceField(choices=FORMAT_CHOICES)
+    # team_creation_mode = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect)
 
 
 class NewBracketForm(forms.ModelForm):
@@ -51,3 +52,10 @@ class LeagueForm(forms.ModelForm):
     class Meta:
         model = TournamentsInLeague
         fields = ('league',)
+
+
+class ReportStandingsForm(forms.ModelForm):
+    class Meta:
+        model = Standing
+        fields = ('user', 'result',)
+

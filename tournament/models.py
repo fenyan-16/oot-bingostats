@@ -16,7 +16,10 @@ class Tournament(models.Model):
     start_date = models.DateTimeField(null=True)
     registration_end_date = models.DateTimeField(null=True)
 
-    format = models.IntegerField(null=True, default='1')
+    format = models.IntegerField(null=True)
+
+    team_format = models.IntegerField(null=True, default='1')
+
 
     team_creation_mode = models.IntegerField(null=True, default='1')
 
@@ -278,16 +281,12 @@ class Result(models.Model):
     def __str__(self):
         return str(self.user) + str(self.tournament)
 
-class League(models.Model):
-    name = models.CharField(max_length=200)
 
-    def __str__(self):
-        return str(self.name)
-
-
-class TournamentsInLeague(models.Model):
-    league = models.ForeignKey(League, on_delete=models.CASCADE)
+class Standing(models.Model):
     tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    placement = models.IntegerField(null=True)
+    result = models.CharField(max_length=64, null=True)
 
     def __str__(self):
-        return str(self.league) + str(self.tournament)
+        return str(self.tournament) + str(self.placement) + str(self.user)

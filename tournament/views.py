@@ -7,19 +7,31 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from django.forms import formset_factory, modelformset_factory
-from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, League
-from .forms import NewTournamentForm, NewBracketForm, TournamentsInLeague, LeagueForm
+from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Standing
+from leagues.models import League
+from django.contrib.auth.models import User
+from .forms import NewTournamentForm, NewBracketForm, LeagueForm, ReportStandingsForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
 from django.db import transaction
 from django.contrib import messages
 from django.http import HttpResponseRedirect
-from .services import create_tournament, add_tournament_in_league
+from .services import create_tournament, add_tournament_in_league, create_standing
 from django.template import RequestContext
 import datetime
 
-def tournamentdetail(request, tournament_id):
+
+def tournament_list(request, format):
+    if format == 'race':
+        tournaments = Tournament.objects.filter(format='1')
+    else:
+        tournaments = Tournament.objects.filter(format='0')
+
+    return render(request, 'tournament/list.html', {'tournaments': tournaments, 'format': format})
+
+
+def tournament_detail(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
     actual_participants = RegistrationTeam.objects.filter(tournament=tournament).count()
     registrations = RegistrationTeam.objects.filter(tournament=tournament)
@@ -47,7 +59,7 @@ def tournamentdetail(request, tournament_id):
     return render(request, 'tournament/details.html', {'tournament': tournament, 'registrations': registrations, 'user_registration': user_registration})
 
 
-def tournament_new(request):
+def tournament_new(request, format):
     tournament_instance = Tournament()
 
     if request.method == "POST":
@@ -63,20 +75,41 @@ def tournament_new(request):
             tournament_form = NewTournamentForm(request.POST)
 
             if tournament_form.is_valid():
-                tournament_instance = create_tournament(request.user, tournament_form.cleaned_data['name'], tournament_form.cleaned_data['description'],
-                                                     tournament_form.cleaned_data['max_participants'], tournament_form.cleaned_data['start_date'],
-                                                     tournament_form.cleaned_data['registration_end_date'], tournament_form.cleaned_data['format'],
-                                                     tournament_form.cleaned_data['team_creation_mode'])
+                if format == 0:
+                    tournament_instance = create_tournament(request.user, tournament_form.cleaned_data['name'], tournament_form.cleaned_data['description'],
+                                                            tournament_form.cleaned_data['max_participants'], tournament_form.cleaned_data['start_date'],
+                                                            tournament_form.cleaned_data['registration_end_date'], 0,
+                                                            1, 1)
+                else:
+                    tournament_instance = create_tournament(request.user, tournament_form.cleaned_data['name'], tournament_form.cleaned_data['description'],
+                                                            tournament_form.cleaned_data['max_participants'], tournament_form.cleaned_data['start_date'],
+                                                            tournament_form.cleaned_data['registration_end_date'], 1,
+                                                            1, 1)
                 for i in range(int(request.POST['extra'])):
                     league_field = 'form-' + str(i) + '-league'
                     print(league_field)
-                    add_tournament_in_league(tournament_instance, League.objects.get(pk=request.POST[league_field]))
+                    if request.POST[league_field]:
+                        add_tournament_in_league(tournament_instance, League.objects.get(pk=request.POST[league_field]))
             return redirect('tournament-detail', tournament_id=tournament_instance.pk)
     else:
         tournament_form = NewTournamentForm()
         leagueFormSet = formset_factory(LeagueForm, extra=1)
         return render(request, 'tournament/new.html', {'tournament_form': tournament_form, 'leagueForms': leagueFormSet, 'extra': 1})
     return render(request, 'tournament/new.html', {'tournament_form': tournament_form, 'leagueForms': leagueFormSet, 'extra': extra})
+
+
+def tournament_report(request, tournament_id):
+    tournament = Tournament.objects.get(pk=tournament_id)
+
+    report_form = ReportStandingsForm()
+
+    if request.method == "POST":
+        user = User.objects.get(pk=request.POST['user'])
+        new_standing = create_standing(tournament, user, request.POST['result'])
+        messages.warning(request, "You successfully added " + request.POST['user'])
+
+    standings = Standing.objects.filter(tournament=tournament)
+    return render(request, 'tournament/report.html',{'tournament': tournament, 'standings': standings, 'report_form': report_form})
 
 
 def showbracket(request, tournament_id):
@@ -125,41 +158,3 @@ def bracket_new(request, tournament_id):
     else:
         form = NewBracketForm()
     return render(request, 'bracket/new.html', {'form': form})
-
-
-def league(request):
-    form = TournamentsInLeague(request.POST)
-    return render(request, 'bracket/new.html', {'form': form})
-
-
-def some_view(request):
-    if request.method == 'POST':
-        if request.POST['action'] == "+":
-            extra = int(2) + 1
-            form = NewTournamentForm(initial=request.POST)
-            formset = formset_factory(FormsetForm, extra=extra)
-        else:
-            extra = int(float(request.POST['extra']))
-            form = NewTournamentForm(request.POST)
-            formset = formset_factory(FormsetForm, extra=extra)(request.POST)
-
-            if form.is_valid() and formset.is_valid():
-                if request.POST['action'] == "Create":
-                    for form_c in formset:
-                        if not form_c.cleaned_data['delete']:
-                            # create data
-                            data=list()
-                elif request.POST['action'] == "Edit":
-                    for form_c in formset:
-                        if form_c.cleaned_data['delete']:
-                            # delete data
-                            data=list()
-                        else:
-                            # create data
-                            data=list()
-                return HttpResponseRedirect('tournament-new')
-    form = NewTournamentForm()
-    extra = 1
-    formset = formset_factory(FormsetForm, extra=extra)
-
-    return render(request, 'tournament/new2.html', {'form': form, 'add_league_form': formset})

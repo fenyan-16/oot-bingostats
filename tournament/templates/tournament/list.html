@@ -1,0 +1,19 @@
+{% extends "frame/base.html" %}
+
+{% block content %}
+{% if messages %}
+    {% for message in messages %}
+    <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+    {% endfor %}
+{% endif %}
+    <h1>All {{ format }}s</h1>
+    <div>
+         <a href="{% url 'tournament-new' format=format %}" class="save btn btn-default btn-primary">Add {{ format }}</a>
+    </div>
+    {% for tournament in tournaments %}
+        <p><a href="{% url 'tournament-detail' tournament.id %}">{{ tournament.name }}</a></p>
+    {% endfor %}
+    </div>
+
+
+{% endblock %}
