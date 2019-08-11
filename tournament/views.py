@@ -118,7 +118,7 @@ def tournament_report(request, tournament_id):
                 standings = get_standings_and_leaguepoints(edited_tournament)
                 return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
 
-    return render(request, 'tournament/report.html', {'tournament': tournament})
+    return render(request, 'tournament/report.html', {'tournament': tournament, 'report_form': report_form})
 
 
 def showbracket(request, tournament_id):

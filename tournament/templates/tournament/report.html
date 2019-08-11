@@ -35,19 +35,20 @@
         {% endfor %}
         </tbody>
     </table>
-{% endif %}
 
-{% if user == tournament.owner %}
-    <form method="POST" class="post-form">
-        {% csrf_token %}
-        {{ report_form.as_p }}
-        <button type="submit" class="save btn btn-default btn-primary" name="action" value="save">Save</button>
-    </form>
+    {% if user == tournament.owner %}
+        <form method="POST" class="post-form">
+            {% csrf_token %}
+            {{ report_form.as_p }}
+            <button type="submit" class="save btn btn-default btn-primary" name="action" value="save">Save</button>
+        </form>
 
-{% else %}
-    <div>
-        You need to be tournament owner to report results.
-    </div>
+    {% else %}
+        <div>
+            You need to be tournament owner to report results.
+        </div>
+    {% endif %}
+
 {% endif %}
 <!-- Modal -->
 {% include 'modals/register_team.html' %}
