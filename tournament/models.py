@@ -23,6 +23,9 @@ class Tournament(models.Model):
 
     team_creation_mode = models.IntegerField(null=True, default='1')
 
+    # 1 = in creation, 2 = started, 0 = finished
+    status = models.IntegerField(null=True, default='1')
+
     entrant_list = {'Fenyan', 'Malouna', 'Mitsuhito', 'Celthar', 'Souldes', 'Florin', 'Neas', 'Narrow', 'Duanos',
                     'Aquilion'}
     seeds = {5, 3, 2, 7, 1, 8, 9, 4, 6, 10}
@@ -286,7 +289,7 @@ class Standing(models.Model):
     tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     placement = models.IntegerField(null=True)
-    result = models.CharField(max_length=64, null=True)
+    result = models.DurationField(max_length=64, null=True)
 
     def __str__(self):
         return str(self.tournament) + str(self.placement) + str(self.user)

@@ -17,3 +17,4 @@ admin.site.register(apps.get_model('tournament', 'Result'))
 
 admin.site.register(apps.get_model('leagues', 'League'))
 admin.site.register(apps.get_model('leagues', 'TournamentsInLeague'))
+admin.site.register(apps.get_model('leagues', 'Ratingpoints'))

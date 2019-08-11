@@ -8,6 +8,9 @@
 {% endif %}
     <h1>All Leagues</h1>
     <div>
+         <a href="{% url 'league-new' %}" class="save btn btn-default btn-primary">Add League</a>
+    </div>
+    <div>
     {% for league in leagues %}
         <p><a href="{% url 'league-detail' league.id %}">{{ league.name }}</a></p>
     {% endfor %}

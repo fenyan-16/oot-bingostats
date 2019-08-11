@@ -17,7 +17,7 @@ from django.contrib.auth.decorators import login_required
 from django.db import transaction
 from django.contrib import messages
 from django.http import HttpResponseRedirect
-from .services import create_tournament, add_tournament_in_league, create_standing
+from .services import create_tournament, add_tournament_in_league, create_standing, finish_tournament, get_standings_and_leaguepoints
 from django.template import RequestContext
 import datetime
 
@@ -100,16 +100,25 @@ def tournament_new(request, format):
 
 def tournament_report(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
-
     report_form = ReportStandingsForm()
 
-    if request.method == "POST":
-        user = User.objects.get(pk=request.POST['user'])
-        new_standing = create_standing(tournament, user, request.POST['result'])
-        messages.warning(request, "You successfully added " + request.POST['user'])
+    if tournament.status == 0:
+        return render(request, 'tournament/report.html', {'tournament': tournament})
+    else:
+        if request.method == "POST":
+            if request.POST['action'] == "save":
+                user = User.objects.get(pk=request.POST['user'])
+                standing = create_standing(tournament, user, request.POST['result'])
+                standings = Standing.objects.filter(tournament=tournament)
+                messages.warning(request, "You successfully added " + request.POST['user'])
+                return render(request, 'tournament/report.html',
+                              {'tournament': tournament, 'standings': standings, 'report_form': report_form})
+            elif request.POST['action'] == "finish":
+                edited_tournament = finish_tournament(tournament)
+                standings = get_standings_and_leaguepoints(edited_tournament)
+                return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
 
-    standings = Standing.objects.filter(tournament=tournament)
-    return render(request, 'tournament/report.html',{'tournament': tournament, 'standings': standings, 'report_form': report_form})
+    return render(request, 'tournament/report.html', {'tournament': tournament})
 
 
 def showbracket(request, tournament_id):

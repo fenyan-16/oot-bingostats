@@ -40,6 +40,31 @@
         {% endif %}
     {% endif %}
 
+    {% if tournament.status == 0 %}
+        <h3>Standings</h3>
+        <p>Tournament has finished</p>
+
+        <table class="table table-dark">
+            <thead>
+            <tr>
+              <th scope="col" colspan="4">{{tournament.first}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <h1></h1>
+            {% for standing in standings %}
+                <div>
+                    <tr>
+                        <td><a href="#">{{ standing.0 }}</a></td>
+                        <td><a href="#">{{ standing.1 }}</a></td>
+                        <td>{{standing.2}}</td>
+                        <td>{{standing.3}}</td>
+                    </tr>
+                </div>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
 
 
     {% if tournament.max_participants == None %}

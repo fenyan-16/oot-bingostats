@@ -7,7 +7,9 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Result, User, Standing
-from leagues.models import TournamentsInLeague, League
+from leagues.models import TournamentsInLeague, League, Ratingpoints
+from leagues.services import create_ranting_points
+from datetime import timedelta
 from .forms import NewTournamentForm, NewBracketForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
@@ -39,14 +41,14 @@ def create_tournament(
 def create_standing(
     tournament: Tournament,
     user: User,
-    result: str
+    result: timedelta
 ) -> Standing:
     standing = Standing(tournament=tournament, user=user, result=result)
 
     standing.save()
 
     # add_tournament_in_league(tournament=tournament, league=league)
-    return (standing)
+    return(standing)
 
 def add_tournament_in_league(
     tournament: Tournament,
@@ -55,3 +57,39 @@ def add_tournament_in_league(
     tournamentInLeague = TournamentsInLeague(tournament=tournament, league=league)
 
     tournamentInLeague.save()
+
+
+def finish_tournament(tournament: Tournament):
+    tournament.status = 0
+    standings = Standing.objects.filter(tournament=tournament).order_by('result')
+    leagues_for_tournament = TournamentsInLeague.objects.filter(tournament=tournament)
+
+    rankingpoints = [100, 85, 70, 60, 50, 42, 35, 30, 25, 20, 15, 12, 10, 8, 7, 6, 6, 5, 5, 5]
+
+    for count, standing in enumerate(standings):
+        standing.placement = count+1
+        standing.save()
+        for league in leagues_for_tournament:
+            create_ranting_points(league=league.league, tournament=tournament, user=standing.user, points=rankingpoints[count])
+
+    return(tournament)
+
+
+def get_standings_and_leaguepoints(tournament: Tournament):
+    standings_and_leaguepoints = list()
+
+    standings = Standing.objects.filter(tournament=tournament).order_by('result')
+    leagues_for_tournament = TournamentsInLeague.objects.filter(tournament=tournament)
+
+    for standing in standings:
+        row = list()
+        row.append(standing.placement)
+        row.append(standing.user)
+        row.append(standing.result)
+        for league in leagues_for_tournament:
+            ratingpoints = Ratingpoints.objects.get(league=league.league, tournament=tournament,
+                                                       user=standing.user)
+            row.append(ratingpoints.points)
+        standings_and_leaguepoints.append(row)
+
+    return(standings_and_leaguepoints)

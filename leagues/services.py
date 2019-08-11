@@ -6,7 +6,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
-from .models import TournamentsInLeague, User, League
+from .models import TournamentsInLeague, User, League, Ratingpoints
 from tournament.models import Tournament, Standing
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
@@ -21,18 +21,28 @@ def create_league(
     start_date: datetime,
     registration_end_date: datetime,
 ) -> League:
-    league = League(name=name, description=description, start_date=start_date, registration_end_date=registration_end_date,)
-
+    league = League(name=name, description=description, start_date=start_date, registration_end_date=registration_end_date)
     league.save()
+
     return (league)
+
+def create_ranting_points(
+    league: League,
+    tournament: Tournament,
+    user: User,
+    points: int
+) -> Ratingpoints:
+    rating = Ratingpoints(league=league, tournament=tournament, user=user, points=points)
+    rating.save()
+
 
 def add_tournament_in_league(
     tournament: Tournament,
     league: League,
 ) -> TournamentsInLeague:
     tournamentInLeague = TournamentsInLeague(tournament=tournament, league=league)
-
     tournamentInLeague.save()
+
 
 def get_tournaments_in_league(league_id: int):
     standings_list = list()

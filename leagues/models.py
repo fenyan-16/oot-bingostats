@@ -15,6 +15,8 @@ class League(models.Model):
     start_date = models.DateTimeField(null=True)
     registration_end_date = models.DateTimeField(null=True)
 
+
+
     def __str__(self):
         return str(self.name)
 
