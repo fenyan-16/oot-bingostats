@@ -108,9 +108,12 @@ def tournament_report(request, tournament_id):
         if request.method == "POST":
             if request.POST['action'] == "save":
                 user = User.objects.get(pk=request.POST['user'])
-                standing = create_standing(tournament, user, request.POST['result'])
+                standing_succeed = create_standing(tournament, user, request.POST['result'])
                 standings = Standing.objects.filter(tournament=tournament)
-                messages.warning(request, "You successfully added " + request.POST['user'])
+                if standing_succeed:
+                    messages.warning(request, "You successfully added " + request.POST['user'])
+                else:
+                    messages.warning(request, "You already added " + request.POST['user'])
                 return render(request, 'tournament/report.html',
                               {'tournament': tournament, 'standings': standings, 'report_form': report_form})
             elif request.POST['action'] == "finish":
