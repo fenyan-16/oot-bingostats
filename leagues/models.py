@@ -13,9 +13,7 @@ class League(models.Model):
     description = models.CharField(max_length=500, null=True)
     name = models.CharField(max_length=200)
     start_date = models.DateTimeField(null=True)
-    registration_end_date = models.DateTimeField(null=True)
-
-
+    end_date = models.DateTimeField(null=True)
 
     def __str__(self):
         return str(self.name)
