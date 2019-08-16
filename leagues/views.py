@@ -29,12 +29,11 @@ def league_new(request):
     if request.method == "POST":
         form = NewLeagueForm(request.POST)
         if form.is_valid():
-            post = form.save(commit=False)
             league = create_league(request.user, form.cleaned_data['name'], form.cleaned_data['description'],
                                     form.cleaned_data['start_date'], form.cleaned_data['registration_end_date'])
 
 
-            return redirect('league-details', league_id=league.pk)
+            return redirect('league-detail', league_id=league.pk)
     else:
         form = NewLeagueForm()
     return render(request, 'league/new.html', {'form': form})

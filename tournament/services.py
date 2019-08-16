@@ -43,12 +43,14 @@ def create_standing(
     user: User,
     result: timedelta
 ) -> Standing:
-    standing = Standing(tournament=tournament, user=user, result=result)
+    try:
+        standing = Standing.objects.get(tournament=tournament, user=user)
+        return False
+    except:
+        standing = Standing(tournament=tournament, user=user, result=result)
+        standing.save()
+        return True
 
-    standing.save()
-
-    # add_tournament_in_league(tournament=tournament, league=league)
-    return(standing)
 
 def add_tournament_in_league(
     tournament: Tournament,

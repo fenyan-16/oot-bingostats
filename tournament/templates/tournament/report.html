@@ -11,32 +11,34 @@
 {% if tournament.status == 0 %}
     <p>This tournament already finished. Contact an admin to edit results.</p>
 {% else %}
-    <form method="POST" class="post-form">
-        {% csrf_token %}
-        <button type="submit" class="save btn btn-default btn-primary" name="action" value="finish">Finish Tournament</button>
-    </form>
-    <p>{{tournament.description}}</p>
+    {% if standings %}
+        <form method="POST" class="post-form">
+            {% csrf_token %}
+            <button type="submit" class="save btn btn-default btn-primary" name="action" value="finish">Finish Tournament</button>
+        </form>
+        <p>{{tournament.description}}</p>
 
-    <table class="table table-dark">
-        <thead>
-        <tr>
-          <th scope="col" colspan="4">{{tournament.first}}</th>
-        </tr>
-        </thead>
-        <tbody>
-        <h1></h1>
-        {% for standing in standings %}
-            <div>
-                <tr>
-                    <td><a href="#">{{standing}}</a></td>
-                    <td>{{standing}}</td>
-                </tr>
-            </div>
-        {% endfor %}
-        </tbody>
-    </table>
-
+        <table class="table table-dark">
+            <thead>
+            <tr>
+              <th scope="col" colspan="4">{{tournament.first}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <h1></h1>
+            {% for standing in standings %}
+                <div>
+                    <tr>
+                        <td><a href="#">{{standing.user}}</a></td>
+                        <td>{{standing.result}}</td>
+                    </tr>
+                </div>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
     {% if user == tournament.owner %}
+        <p>Add results:</p>
         <form method="POST" class="post-form">
             {% csrf_token %}
             {{ report_form.as_p }}
@@ -48,7 +50,6 @@
             You need to be tournament owner to report results.
         </div>
     {% endif %}
-
 {% endif %}
 <!-- Modal -->
 {% include 'modals/register_team.html' %}

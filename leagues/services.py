@@ -16,12 +16,13 @@ from django.contrib import messages
 import datetime
 
 def create_league(
+    owner: User,
     name: str,
     description: str,
     start_date: datetime,
-    registration_end_date: datetime,
+    end_date: datetime,
 ) -> League:
-    league = League(name=name, description=description, start_date=start_date, registration_end_date=registration_end_date)
+    league = League(owner=owner, name=name, description=description, start_date=start_date, end_date=end_date)
     league.save()
 
     return (league)
