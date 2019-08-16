@@ -5,6 +5,8 @@ urlpatterns = [
     # ex: /events/
 
     # ex: /tournaments/
+
+    path('', views.index, name='index'),
     path('<format>', views.tournament_list, name='tournament-list'),
     path('new/<format>', views.tournament_new, name='tournament-new'),
     path('<int:tournament_id>/', views.tournament_detail, name='tournament-detail'),

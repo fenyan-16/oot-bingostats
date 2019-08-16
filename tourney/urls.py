@@ -4,7 +4,8 @@ from django.views.generic import TemplateView
 # from events import views
 
 urlpatterns = [
-    # path('', views.index, name='index'),
+
+    path('', include('tournament.urls')),
     path('events/', include('events.urls')),
     path('admin/', admin.site.urls),
     path('tournaments/', include('tournament.urls')),
