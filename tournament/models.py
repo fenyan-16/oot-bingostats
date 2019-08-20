@@ -274,7 +274,7 @@ class RegistrationTeam(models.Model):
     def __str__(self):
         return str(self.tournament) + str(self.team)
 
-
+# Löschen
 class Result(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     tournament = models.ForeignKey(Tournament, on_delete=models.CASCADE)

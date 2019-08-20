@@ -1,7 +1,6 @@
 from django.contrib import admin
 from django.apps import apps
-from .models import Event, Phase, Profile
-admin.site.register(Profile)
+from .models import Event, Phase
 
 admin.site.register(Event)
 admin.site.register(apps.get_model('tournament', 'Tournament'))

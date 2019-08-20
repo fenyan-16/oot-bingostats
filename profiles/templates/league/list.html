@@ -1,0 +1,20 @@
+{% extends "frame/base.html" %}
+
+{% block content %}
+{% if messages %}
+    {% for message in messages %}
+    <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+    {% endfor %}
+{% endif %}
+    <h1>All Leagues</h1>
+    <div>
+         <a href="{% url 'league-new' %}" class="save btn btn-default btn-primary">Add League</a>
+    </div>
+    <div>
+    {% for league in leagues %}
+        <p><a href="{% url 'league-detail' league.id %}">{{ league.name }}</a></p>
+    {% endfor %}
+    </div>
+
+
+{% endblock %}

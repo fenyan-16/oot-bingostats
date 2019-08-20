@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Event, Phase, User, Profile
+from .models import Event, Phase, User
 
 class NewEventForm(forms.ModelForm):
 
@@ -18,9 +18,4 @@ class UserForm(forms.ModelForm):
     class Meta:
         model = User
         fields = ('username',)
-
-class ProfileForm(forms.ModelForm):
-    class Meta:
-        model = Profile
-        fields = ('location',)
 
