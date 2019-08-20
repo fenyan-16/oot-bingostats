@@ -1,0 +1,5 @@
+django
+django-heroku
+numpy
+postgres
+gunicorn

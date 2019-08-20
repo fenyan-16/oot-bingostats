@@ -1,0 +1,11 @@
+.bracket-item {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding: 2% 0;
+    width: 48%;
+    transition: padding 0.2s linear;
+}

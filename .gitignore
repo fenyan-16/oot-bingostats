@@ -1,3 +1,7 @@
-tourney/__pycache__/
+tourney/__pycache__/*
+tournament/__pycache__/*
+leagues/__pycache__/*
+profiles/__pycache__/*
+events/__pycache__/*
 .idea/*
 .idea
