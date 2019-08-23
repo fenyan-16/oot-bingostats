@@ -8,7 +8,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from django.forms import formset_factory, modelformset_factory
-from .forms import EditProfileForm, CreateUserForm
+from .forms import EditProfileForm, CreateUserForm, LoginForm
 from .models import Userprofile
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
@@ -21,20 +21,52 @@ import datetime
 from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes, force_text
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
+from django.template.loader import render_to_string
+from .services import AccountActivationTokenGenerator
+from django.contrib.sites.shortcuts import get_current_site
 
 def signup(request):
     if request.method == 'POST':
         form = CreateUserForm(request.POST)
         if form.is_valid():
-            form.save()
-            username = form.cleaned_data.get('username')
-            raw_password = form.cleaned_data.get('password1')
-            user = authenticate(username=username, password=raw_password)
-            login(request, user)
-            return redirect('profile')
+            user = form.save(commit=False)
+            user.is_active = False
+            user.save()
+            account_activation_token = AccountActivationTokenGenerator()
+            current_site = get_current_site(request)
+            subject = 'Activate Your MySite Account'
+            message = render_to_string('email/account_activation_email.html', {
+                'user': user,
+                'domain': current_site.domain,
+                'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+                'token': account_activation_token.make_token(user),
+            })
+            user.email_user(subject, message)
+            return render(request, 'registration/account_activation.html')
     else:
         form = CreateUserForm()
     return render(request, 'registration/signup.html', {'form': form})
+
+
+def activate(request, uidb64, token):
+    try:
+        uid = force_text(urlsafe_base64_decode(uidb64))
+        user = User.objects.get(pk=uid)
+    except (TypeError, ValueError, OverflowError, User.DoesNotExist):
+        user = None
+
+    if user is not None and account_activation_token.check_token(user, token):
+        user.is_active = True
+        user.profile.email_confirmed = True
+        user.save()
+        login(request, user)
+        return redirect('home')
+    else:
+        return render(request, 'account_activation_invalid.html')
+
+
+def account_activation_sent(request):
+    return render(request, 'signup')
 
 def profile_edit(request, user_id):
     profile = Userprofile.objects.get(pk=user_id)
@@ -88,3 +120,30 @@ def activate_account(request, uidb64, token):
         messages.add_message(request, messages.INFO, 'Link Expired. Contact admin to activate your account.')
 
     return redirect('djangobin:login')
+
+
+def login(request):
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            profile = Userprofile.objects.get_or_create(owner=request.user, email_confirmed=True)
+            username = request.POST['username']
+            password = request.POST['password']
+            user = authenticate(username=username, password=password)
+
+            if user:
+                # Is the account active? It could have been disabled.
+                if user.is_active:
+                    login(request, user)
+                    return HttpResponseRedirect('/')
+                else:
+                    return HttpResponse("xxx.")
+            else:
+                # Bad login details were provided. So we can't log the user in.
+                print("Invalid login details: {0}, {1}".format(username, password))
+                return HttpResponse("Invalid login details supplied.")
+        else:
+            return HttpResponse("Logged in.")
+    else:
+        form = LoginForm()
+        return render(request, 'registration/login.html', {'form': form})

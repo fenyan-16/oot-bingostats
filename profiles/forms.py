@@ -41,28 +41,15 @@ class CreateUserForm(UserCreationForm):
             raise ValidationError("Email is taken.")
         return self.cleaned_data['email']
 
-    def save(self, request):
+class LoginForm(UserCreationForm):
+    username = forms.CharField()
+    username.widget = forms.TextInput(
+        attrs={'type': 'text', 'class': 'form-control', 'aria-describedby': 'userHelp', 'placeholder': 'Enter username'})
 
-        user = super(CreateUserForm, self).save(commit=False)
-        user.is_active = False
-        user.save()
+    password = forms.CharField()
+    password.widget = forms.TextInput(
+        attrs={'type': 'password', 'class': 'form-control', 'placeholder': 'Password'})
 
-        context = {
-            # 'from_email': settings.DEFAULT_FROM_EMAIL,
-            'request': request,
-            'protocol': request.scheme,
-            'username': self.cleaned_data.get('username'),
-            'domain': request.META['HTTP_HOST'],
-            'uid': urlsafe_base64_encode(force_bytes(user.pk)),
-            'token': default_token_generator.make_token(user),
-        }
-
-        subject = render_to_string('djangobin/email/activation_subject.txt', context)
-        email = render_to_string('djangobin/email/activation_email.txt', context)
-
-        send_mail(subject, email, settings.DEFAULT_FROM_EMAIL, [user.email])
-
-        return user
 
 class EditProfileForm(forms.Form):
     name = forms.CharField()

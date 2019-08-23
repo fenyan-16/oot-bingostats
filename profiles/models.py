@@ -9,6 +9,7 @@ from django.contrib.postgres.fields import ArrayField
 # Create your models here.
 class Userprofile(models.Model):
     owner = models.OneToOneField(User, on_delete=models.CASCADE, related_name='profile')
+    email_confirmed = models.BooleanField(default=False)
 
     def __str__(self):
-        return str(self.name)
+        return str(self.owner)
