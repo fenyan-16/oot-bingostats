@@ -55,6 +55,7 @@ def activate(request, uidb64, token):
     except (TypeError, ValueError, OverflowError, User.DoesNotExist):
         user = None
 
+    account_activation_token = AccountActivationTokenGenerator()
     if user is not None and account_activation_token.check_token(user, token):
         user.is_active = True
         user.profile.email_confirmed = True
@@ -122,11 +123,10 @@ def activate_account(request, uidb64, token):
     return redirect('djangobin:login')
 
 
-def login(request):
+def login_user(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
         if form.is_valid():
-            profile = Userprofile.objects.get_or_create(owner=request.user, email_confirmed=True)
             username = request.POST['username']
             password = request.POST['password']
             user = authenticate(username=username, password=password)

@@ -41,7 +41,7 @@ class CreateUserForm(UserCreationForm):
             raise ValidationError("Email is taken.")
         return self.cleaned_data['email']
 
-class LoginForm(UserCreationForm):
+class LoginForm(forms.Form):
     username = forms.CharField()
     username.widget = forms.TextInput(
         attrs={'type': 'text', 'class': 'form-control', 'aria-describedby': 'userHelp', 'placeholder': 'Enter username'})

@@ -2,39 +2,28 @@
 
 {% block content %}
 
-    {% if form.errors %}
-      <p>Your username and password didn't match. Please try again.</p>
-    {% endif %}
+    <h2>Login</h2>
+{{ form.non_field_errors }}
+  <form method="POST">
+    {% csrf_token %}
 
-    {% if next %}
-      {% if user.is_authenticated %}
-        <p>You already logged in.</p>
-      {% else %}
-        <form method="post" action="{% url 'login' %}">
-            {% csrf_token %}
-            <table>
+    {% for field in form %}
+      <div class="form-group">
+        <p>{{ field.label_tag }}</p>
+        {{ field }}
+        {% for error in field.errors %}
+          <p>{{ error }}</p>
+        {% endfor %}
+    </div>
+      {% endfor %}
+    <button type="submit" class="save btn btn-default btn-primary">Login</button>
+  </form>
 
-            <tr>
-              <td>{{ form.username.label_tag }}</td>
-              <td>{{ form.username }}</td>
-            </tr>
 
-            <tr>
-              <td>{{ form.password.label_tag }}</td>
-              <td>{{ form.password }}</td>
-            </tr>
-            </table>
-
-            <input type="submit" value="login" class="save btn btn-default btn-primary"/>
-            <input type="hidden" name="next" value="{{ next }}" />
-        </form>
-
-        {# Assumes you setup the password_reset view in your URLconf #}
         <p><a href="{% url 'password_reset' %}">Lost password?</a></p>
 
         <p><a href="{% url 'signup' %}">Register</a></p>
-      {% endif %}
-    {% endif %}
+
 
 
 
