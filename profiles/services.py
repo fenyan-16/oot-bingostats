@@ -63,9 +63,11 @@ def get_my_latest_results(user_id: int):
     for result in results:
         result_list.append(result)
 
-        leagueinformation = Ratingpoints.objects.get(user=user, tournament=result.tournament)
-        print(leagueinformation)
-        if leagueinformation.exist():
+        try:
+            leagueinformation = Ratingpoints.objects.get(user=user, tournament=result.tournament)
+            print("leagueinformation" + str(leagueinformation))
             leaugeinfo_list.append(leagueinformation)
+        except ObjectDoesNotExist:
+            leaugeinfo_list.append(None)
 
     return(result_list, leaugeinfo_list)

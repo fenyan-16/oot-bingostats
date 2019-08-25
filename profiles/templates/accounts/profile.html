@@ -1,6 +1,5 @@
 {% extends "frame/base.html" %}
 
-
 {% block content %}
   {% if user.is_authenticated %}
     <h1>{{ profile }}</h1>
@@ -17,12 +16,16 @@
             </tr>
             </thead>
             <tbody>
-            {% for i, result in enumerate(latest_results) %}
+            {% for result, leagueinfo in zipped_results_and_league %}
                 <tr>
-                        <th scope="row">{{result.tournament}}</th>
-                        <td>{{result.placement}}</td>
-                        <td>{{result.result}}</td>
-                        <td>{{leagueinfo_list[i].league}} + (Punkte)</td>
+                        <th scope="row">{{ result.tournament }}</th>
+                        <td>{{ result.placement }}</td>
+                        <td>{{ result.result }}</td>
+                        {% if leagueinfo.league %}
+                            <td>{{ leagueinfo.league }} + (Punkte)</td>
+                        {% else %}
+                            <td></td>
+                        {% endif %}
                     </tr>
             {% endfor %}
             </tbody>

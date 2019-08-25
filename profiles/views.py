@@ -107,7 +107,9 @@ def profile_detail(request, user_id):
 
     result_list, leagueinfo_list = get_my_latest_results(user_id)
 
-    return render(request, 'accounts/profile.html', {'profile': profile, 'latest_results': result_list, 'leagueinfo_list': leagueinfo_list})
+    zipped_results_and_league = zip(result_list, leagueinfo_list)
+
+    return render(request, 'accounts/profile.html', {'profile': profile, 'zipped_results_and_league': zipped_results_and_league})
 
 
 def activate_account(request, uidb64, token):
