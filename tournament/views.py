@@ -34,7 +34,7 @@ def tournament_list(request, format):
     return render(request, 'tournament/list.html', {'tournaments': tournaments, 'format': format})
 
 
-def tournament_detail(request, tournament_id):
+def tournament_detail_old(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
     actual_participants = RegistrationTeam.objects.filter(tournament=tournament).count()
     registrations = RegistrationTeam.objects.filter(tournament=tournament)
@@ -100,12 +100,14 @@ def tournament_new(request, format):
     return render(request, 'tournament/new.html', {'tournament_form': tournament_form, 'leagueForms': leagueFormSet, 'extra': extra})
 
 
-def tournament_report(request, tournament_id):
+def tournament_detail(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
     report_form = ReportStandingsForm()
 
     if tournament.status == 0:
-        return render(request, 'tournament/report.html', {'tournament': tournament})
+        edited_tournament = finish_tournament(tournament)
+        standings = get_standings_and_leaguepoints(edited_tournament)
+        return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
     else:
         if request.method == "POST":
             if request.POST['action'] == "save":
@@ -113,15 +115,19 @@ def tournament_report(request, tournament_id):
                 standing_succeed = create_standing(tournament, user, request.POST['result'])
                 standings = Standing.objects.filter(tournament=tournament)
                 if standing_succeed:
-                    messages.warning(request, "You successfully added " + request.POST['user'])
+                    messages.warning(request, "You successfully added " + str(user))
                 else:
-                    messages.warning(request, "You already added " + request.POST['user'])
+                    messages.warning(request, "You already added " + str(user))
                 return render(request, 'tournament/report.html',
                               {'tournament': tournament, 'standings': standings, 'report_form': report_form})
             elif request.POST['action'] == "finish":
                 edited_tournament = finish_tournament(tournament)
                 standings = get_standings_and_leaguepoints(edited_tournament)
                 return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
+        else:
+            standings = Standing.objects.filter(tournament=tournament)
+            return render(request, 'tournament/report.html',
+                          {'tournament': tournament, 'standings': standings, 'report_form': report_form})
 
     return render(request, 'tournament/report.html', {'tournament': tournament, 'report_form': report_form})
 
