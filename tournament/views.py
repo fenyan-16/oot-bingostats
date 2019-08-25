@@ -7,7 +7,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
 from django.forms import formset_factory, modelformset_factory
-from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Standing
+from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Standing, Game
 from leagues.models import League
 from django.contrib.auth.models import User
 from .forms import NewTournamentForm, NewBracketForm, LeagueForm, ReportStandingsForm
@@ -76,18 +76,17 @@ def tournament_new(request, format):
             extra = int(float(request.POST['extra']))
             leagueFormSet = formset_factory(LeagueForm, extra=extra)(request.POST)
             tournament_form = NewTournamentForm(request.POST)
+            game = Game.objects.get(pk=2)
 
             if tournament_form.is_valid():
                 if format == 0:
                     tournament_instance = create_tournament(request.user, tournament_form.cleaned_data['name'], tournament_form.cleaned_data['description'],
-                                                            tournament_form.cleaned_data['max_participants'], tournament_form.cleaned_data['start_date'],
-                                                            tournament_form.cleaned_data['registration_end_date'], 0,
-                                                            1, 1)
+                                                            64, tournament_form.cleaned_data['date'],
+                                                            0, 1, 1, game)
                 else:
                     tournament_instance = create_tournament(request.user, tournament_form.cleaned_data['name'], tournament_form.cleaned_data['description'],
-                                                            tournament_form.cleaned_data['max_participants'], tournament_form.cleaned_data['start_date'],
-                                                            tournament_form.cleaned_data['registration_end_date'], 1,
-                                                            1, 1)
+                                                            64, tournament_form.cleaned_data['date'],
+                                                            1, 1, 1, game)
                 for i in range(int(request.POST['extra'])):
                     league_field = 'form-' + str(i) + '-league'
                     print(league_field)

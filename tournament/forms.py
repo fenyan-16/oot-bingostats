@@ -29,9 +29,7 @@ class NewTournamentForm(forms.Form):
 
     name = forms.CharField()
     description = forms.CharField()
-    max_participants = forms.IntegerField()
-    start_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
-    registration_end_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
+    date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
     # team_format = forms.ChoiceField(choices=FORMAT_CHOICES)
     # team_creation_mode = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect)
 

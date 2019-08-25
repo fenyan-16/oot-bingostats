@@ -8,15 +8,26 @@ from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
 
+
+class Game(models.Model):
+    name = models.CharField(max_length=200)
+    version = models.CharField(max_length=200)
+
+    def __str__(self):
+        return str(self.name) + str(self.version)
+
+
 class Tournament(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     description = models.CharField(max_length=500, null=True)
     name = models.CharField(max_length=200)
-    max_participants = models.IntegerField(null=True)
-    start_date = models.DateTimeField(null=True)
-    registration_end_date = models.DateTimeField(null=True)
+    max_participants = models.IntegerField(null=True, default='64')
+    date = models.DateTimeField(null=True)
 
-    format = models.IntegerField(null=True)
+    game = models.ForeignKey(Game, on_delete=models.SET_DEFAULT, null=True, default='1')
+
+    # 1vs1
+    format = models.IntegerField(null=True, default='1')
 
     team_format = models.IntegerField(null=True, default='1')
 

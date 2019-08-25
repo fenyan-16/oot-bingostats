@@ -6,7 +6,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic import DetailView, ListView
-from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Result, User, Standing
+from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Result, User, Standing, Game
 from leagues.models import TournamentsInLeague, League, Ratingpoints
 from leagues.services import create_ranting_points
 from datetime import timedelta
@@ -23,15 +23,15 @@ def create_tournament(
     name: str,
     description: str,
     max_participants: int,
-    start_date: datetime,
-    registration_end_date: datetime,
+    date: datetime,
     format: int,
     team_format: int,
-    team_creation_mode: int
+    team_creation_mode: int,
+    game: Game
 ) -> Tournament:
     tournament = Tournament(owner=owner, name=name, description=description, max_participants=max_participants,
-                            start_date=start_date, registration_end_date=registration_end_date,
-                            format=format, team_format=team_format, team_creation_mode=team_creation_mode)
+                            date=date, format=format, team_format=team_format, team_creation_mode=team_creation_mode,
+                            game=game)
 
     tournament.save()
 

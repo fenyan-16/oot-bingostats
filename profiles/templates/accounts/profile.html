@@ -1,37 +1,36 @@
 {% extends "frame/base.html" %}
 
 {% block content %}
-  {% if user.is_authenticated %}
     <h1>{{ profile }}</h1>
 
-  <div>
-    <h2>Latest Results</h2>
+    <div>
+        <h4>Latest Results</h4>
         <table class="table table-dark">
-          <thead>
+            <thead>
             <tr>
-              <th scope="col">Race</th>
-              <th scope="col">Placement</th>
-              <th scope="col">Result</th>
-              <th scope="col">League</th>
+                <th scope="col">Race</th>
+                <th scope="col">Placement</th>
+                <th scope="col">Result</th>
+                <th scope="col">League</th>
             </tr>
             </thead>
             <tbody>
-            {% for result, leagueinfo in zipped_results_and_league %}
-                <tr>
+                {% for result, leagueinfo in zipped_results_and_league %}
+                    <tr>
                         <th scope="row">{{ result.tournament }}</th>
                         <td>{{ result.placement }}</td>
                         <td>{{ result.result }}</td>
                         {% if leagueinfo.league %}
-                            <td>{{ leagueinfo.league }} + {{ leagueinfo.points }}</td>
+                            <td>{{ leagueinfo.league }} (+{{ leagueinfo.points }})</td>
                         {% else %}
                             <td></td>
                         {% endif %}
                     </tr>
-            {% endfor %}
+                {% endfor %}
             </tbody>
-            </table>
+        </table>
     </div>
-    <a href="{% url 'myevents' %}">My Events</a>
+  {% if user.is_authenticated %}
   {% else %}
     You are not logged in.
     <a href="{% url 'login' %}">Click here to log in.</a>

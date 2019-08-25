@@ -13,8 +13,6 @@
     {% endif %}
     <p>{{tournament.description}}</p>
 
-    <p>Tournament Mode: {{tournament.format}}vs{{tournament.format}}</p>
-
     {% if user_registration %}
         You registered for this tournament!
         {% if tournament.format > 1 %}
@@ -66,12 +64,6 @@
         </table>
     {% endif %}
 
-
-    {% if tournament.max_participants == None %}
-        <p>Participants: {{registrations.count}} (no limit)</p>
-    {% else %}
-        <p>Participants: {{registrations.count}}/{{tournament.max_participants}}</p>
-    {% endif %}
     <div>
         {% for registration in registrations %}
         <div>
