@@ -22,7 +22,7 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes, force_text
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.template.loader import render_to_string
-from .services import AccountActivationTokenGenerator
+from .services import AccountActivationTokenGenerator, get_my_latest_results
 from django.contrib.sites.shortcuts import get_current_site
 
 def signup(request):
@@ -102,9 +102,12 @@ def update_profile(request):
     })
 
 def profile_detail(request, user_id):
-    profile = Userprofile.objects.get(pk=user_id)
+    user = User.objects.get(pk=user_id)
+    profile = Userprofile.objects.get(owner=user)
 
-    return render(request, 'profile/details.html', {'profile': profile})
+    result_list, leagueinfo_list = get_my_latest_results(user_id)
+
+    return render(request, 'accounts/profile.html', {'profile': profile, 'latest_results': result_list, 'leagueinfo_list': leagueinfo_list})
 
 
 def activate_account(request, uidb64, token):

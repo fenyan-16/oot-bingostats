@@ -3,7 +3,31 @@
 
 {% block content %}
   {% if user.is_authenticated %}
-    <p>Profile Page</p>
+    <h1>{{ profile }}</h1>
+
+  <div>
+    <h2>Latest Results</h2>
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Race</th>
+              <th scope="col">Placement</th>
+              <th scope="col">Result</th>
+              <th scope="col">League</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for i, result in enumerate(latest_results) %}
+                <tr>
+                        <th scope="row">{{result.tournament}}</th>
+                        <td>{{result.placement}}</td>
+                        <td>{{result.result}}</td>
+                        <td>{{leagueinfo_list[i].league}} + (Punkte)</td>
+                    </tr>
+            {% endfor %}
+            </tbody>
+            </table>
+    </div>
     <a href="{% url 'myevents' %}">My Events</a>
   {% else %}
     You are not logged in.

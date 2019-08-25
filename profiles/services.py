@@ -49,3 +49,23 @@ class AccountActivationTokenGenerator(PasswordResetTokenGenerator):
             six.text_type(user.pk) + six.text_type(timestamp) +
             six.text_type(user.profile.email_confirmed)
         )
+
+
+
+def get_my_latest_results(user_id: int):
+    result_list = list()
+    leaugeinfo_list = list()
+
+    user = User.objects.get(pk=user_id)
+    results = Standing.objects.filter(user=user)
+    leagueinformation = Ratingpoints.objects.filter(user=user)
+
+    for result in results:
+        result_list.append(result)
+
+        leagueinformation = Ratingpoints.objects.get(user=user, tournament=result.tournament)
+        print(leagueinformation)
+        if leagueinformation.exist():
+            leaugeinfo_list.append(leagueinformation)
+
+    return(result_list, leaugeinfo_list)

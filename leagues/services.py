@@ -51,7 +51,7 @@ def get_tournaments_in_league(league_id: int):
     # all Tournaments that belong this league
     tournamentsInLeague = TournamentsInLeague.objects.filter(league=league)
     for tournament in tournamentsInLeague:
-        standings = Standing.objects.filter(tournament=tournament.tournament)
+        standings = Standing.objects.filter(tournament=tournament.tournament).order_by('placement')
         standings_list.append(standings)
         print(standings)
     return(standings_list)
