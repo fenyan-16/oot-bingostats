@@ -8,35 +8,7 @@
 {% endif %}
 
     <h1>{{tournament.name}}</h1>
-    {% if user == tournament.owner %}
-        <a href="{% url 'tournament-report' tournament.id %}">Report</a>
-    {% endif %}
     <p>{{tournament.description}}</p>
-
-    {% if user_registration %}
-        You registered for this tournament!
-        {% if tournament.format > 1 %}
-        <p>Your team: {{user_registration.team.name}}</p>
-        <a href="{% url 'tournament-seeding' tournament.id %}">Edit Team</a>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#deleteTeam">
-                   Delete Team
-                </button>
-        {% endif %}
-    {% else %}
-        {% if tournament.format > 1 %}
-            <form method="POST" class="post-form">{% csrf_token %}
-            <div>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registerTeam">Register Team</button>
-            </div>
-            </form>
-        {% else %}
-            <form method="POST" class="post-form">{% csrf_token %}
-                <div>
-                    <button type="submit" class="save btn btn-default btn-primary">Register</button>
-                </div>
-            </form>
-        {% endif %}
-    {% endif %}
 
     {% if tournament.status == 0 %}
         <h3>Standings</h3>
@@ -45,10 +17,12 @@
         <table class="table table-dark">
             <thead>
             <tr>
-              <th scope="col" colspan="4">{{tournament.first}}</th>
+                <th scope="col">Placement</th>
+                <th scope="col">Participant</th>
+                <th scope="col">Result</th>
+                <th scope="col">Leaguepoints</th>
             </tr>
             </thead>
-            <tbody>
             <h1></h1>
             {% for standing in standings %}
                 <div>
@@ -62,15 +36,50 @@
             {% endfor %}
             </tbody>
         </table>
+    {% else %}
+        {% if standings %}
+        <form method="POST" class="post-form">
+            {% csrf_token %}
+            <button type="submit" class="save btn btn-default btn-primary" name="action" value="finish">Finish Tournament</button>
+        </form>
+        <p>{{tournament.description}}</p>
+
+        <table class="table table-dark">
+            <thead>
+            <tr>
+                <th scope="col">Participant</th>
+                <th scope="col">Time</th>
+            </tr>
+            </thead>
+            <tbody>
+            <h1></h1>
+            {% for standing in standings %}
+                <div>
+                    <tr>
+                        <td><a href="#">{{standing.user}}</a></td>
+                        <td>{{standing.result}}</td>
+                    </tr>
+                </div>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        {% endif %}
     {% endif %}
 
-    <div>
-        {% for registration in registrations %}
+    {% if user == tournament.owner %}
+        <p>Add results:</p>
+        <form method="POST" class="post-form">
+            {% csrf_token %}
+            {{ report_form.as_p }}
+            <button type="submit" class="save btn btn-default btn-primary" name="action" value="save">Save</button>
+        </form>
+
+    {% else %}
         <div>
-            <a href="#">{{registration.team}}</a>
+            You need to be tournament owner to report results.
         </div>
-        {% endfor %}
-    </div>
+    {% endif %}
 
 <!-- Modal -->
 {% include 'modals/register_team.html' %}

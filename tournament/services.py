@@ -63,6 +63,7 @@ def add_tournament_in_league(
 
 def finish_tournament(tournament: Tournament):
     tournament.status = 0
+    tournament.save()
     standings = Standing.objects.filter(tournament=tournament).order_by('result')
     leagues_for_tournament = TournamentsInLeague.objects.filter(tournament=tournament)
 
@@ -89,8 +90,7 @@ def get_standings_and_leaguepoints(tournament: Tournament):
         row.append(standing.user)
         row.append(standing.result)
         for league in leagues_for_tournament:
-            ratingpoints = Ratingpoints.objects.get(league=league.league, tournament=tournament,
-                                                       user=standing.user)
+            ratingpoints = Ratingpoints.objects.get(league=league.league, tournament=tournament, user=standing.user)
             row.append(ratingpoints.points)
         standings_and_leaguepoints.append(row)
 

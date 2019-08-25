@@ -105,9 +105,8 @@ def tournament_detail(request, tournament_id):
     report_form = ReportStandingsForm()
 
     if tournament.status == 0:
-        edited_tournament = finish_tournament(tournament)
-        standings = get_standings_and_leaguepoints(edited_tournament)
-        return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
+        standings = get_standings_and_leaguepoints(tournament)
+        return render(request, 'tournament/details.html', {'tournament': tournament, 'standings': standings})
     else:
         if request.method == "POST":
             if request.POST['action'] == "save":
@@ -121,9 +120,10 @@ def tournament_detail(request, tournament_id):
                 return render(request, 'tournament/report.html',
                               {'tournament': tournament, 'standings': standings, 'report_form': report_form})
             elif request.POST['action'] == "finish":
-                edited_tournament = finish_tournament(tournament)
-                standings = get_standings_and_leaguepoints(edited_tournament)
-                return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
+                if tournament != '0':
+                    edited_tournament = finish_tournament(tournament)
+                    standings = get_standings_and_leaguepoints(edited_tournament)
+                    return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
         else:
             standings = Standing.objects.filter(tournament=tournament)
             return render(request, 'tournament/report.html',
