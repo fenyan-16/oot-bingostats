@@ -41,6 +41,8 @@ def league_new(request):
 
 def league_detail(request, league_id):
     league = League.objects.get(pk=league_id)
-    tournament_standings = get_tournaments_in_league(league_id)
+    tournament_standings, leaguepoints_per_tournament = get_tournaments_in_league(league_id)
 
-    return render(request, 'league/details.html', {'league': league, 'tournament_standings': tournament_standings})
+    zipped_results_and_league = zip(tournament_standings, leaguepoints_per_tournament)
+
+    return render(request, 'league/details.html', {'league': league, 'zipped_results_and_league': zipped_results_and_league})

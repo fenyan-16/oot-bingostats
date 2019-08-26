@@ -47,11 +47,20 @@ def add_tournament_in_league(
 
 def get_tournaments_in_league(league_id: int):
     standings_list = list()
+    leaguepoints_per_tournament = list()
     league = League.objects.get(pk=league_id)
     # all Tournaments that belong this league
     tournamentsInLeague = TournamentsInLeague.objects.filter(league=league)
     for tournament in tournamentsInLeague:
         standings = Standing.objects.filter(tournament=tournament.tournament).order_by('placement')
         standings_list.append(standings)
-        print(standings)
-    return(standings_list)
+
+        leaguepoints_list = list()
+        for standing in standings:
+            try:
+                leagueinformation = Ratingpoints.objects.get(user=standing.user, tournament=standing.tournament)
+                leaguepoints_list.append(leagueinformation.points)
+            except ObjectDoesNotExist:
+                leaguepoints_list.append(None)
+        leaguepoints_per_tournament.append(leaguepoints_list)
+    return(standings_list, leaguepoints_per_tournament)

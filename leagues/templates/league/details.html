@@ -1,4 +1,5 @@
 {% extends "frame/base.html" %}
+{% load filter %}
 
 {% block content %}
 {% if messages %}
@@ -11,25 +12,32 @@
     <p>{{league.description}}</p>
 
     <div>
-        {% for tournament in tournament_standings %}
+        {% for tournament, tournament_per_league in zipped_results_and_league %}
+        <h4>{{tournament.first.tournament}}</h4>
         <table class="table table-dark">
             <thead>
             <tr>
-              <th scope="col" colspan="4">{{tournament.first.tournament}}</th>
+                <th scope="col">Placement</th>
+                <th scope="col">Participant</th>
+                <th scope="col">Result</th>
+                <th scope="col">Rating</th>
             </tr>
             </thead>
             <tbody>
             <h1></h1>
-            {% for standing in tournament %}
+
+            {% for standing, leaguepoints in tournament|zip:tournament_per_league %}
                 <div>
                     <tr>
                         <th scope="row">{{standing.placement}}</th>
                         <td>{{standing.user}}</td>
-                        <td>eins</td>
-                        <td>zwei</td>
+                        <td>{{standing.result}}</td>
+                        <td>{{leaguepoints}}</td>
                     </tr>
                 </div>
             {% endfor %}
+
+
             </tbody>
             </table>
         {% endfor %}
