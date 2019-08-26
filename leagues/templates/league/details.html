@@ -12,8 +12,8 @@
     <p>{{league.description}}</p>
 
     <div>
-        {% for tournament, tournament_per_league in zipped_results_and_league %}
-        <h4>{{tournament.first.tournament}}</h4>
+        {% for tournaments_standing, tournaments_league in zipped_results_and_league %}
+        <h4><a href="{% url 'tournament-detail' tournament_id=tournaments_standing.first.tournament.pk %}">{{tournaments_standing.first.tournament}}</a></h4>
         <table class="table table-dark">
             <thead>
             <tr>
@@ -26,11 +26,11 @@
             <tbody>
             <h1></h1>
 
-            {% for standing, leaguepoints in tournament|zip:tournament_per_league %}
+            {% for standing, leaguepoints in tournaments_standing|zip:tournaments_league %}
                 <div>
                     <tr>
                         <th scope="row">{{standing.placement}}</th>
-                        <td>{{standing.user}}</td>
+                        <td><a href="{% url 'profile-datail' user_id=standing.user.pk %}">{{standing.user}}</a></td>
                         <td>{{standing.result}}</td>
                         <td>{{leaguepoints}}</td>
                     </tr>
