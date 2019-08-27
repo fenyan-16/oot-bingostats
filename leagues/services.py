@@ -85,7 +85,7 @@ def get_rating_table(league_id: int):
                 this_user = rating.user
                 user_points = rating.points
     except ObjectDoesNotExist:
-        print("not Rating points availablr")
+        print("not Rating points available")
 
-    users_zip_ratingpoints = zip(users_list, ratings_list)
+    users_zip_ratingpoints = list(reversed(sorted(zip(users_list, ratings_list), key=lambda x: x[1])))
     return(users_zip_ratingpoints)
