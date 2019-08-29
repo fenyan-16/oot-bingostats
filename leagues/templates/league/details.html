@@ -56,11 +56,11 @@
             </tr>
             </thead>
             <tbody>
-                {% for rating, user in ratings_and_users %}
+                {% for  rating, user in ratings_and_users %}
 
                 <div>
                     <tr>
-                        <th scope="row">{{ forloop.count }}</th>
+                        <th scope="row">{{ forloop.counter }}</th>
                         <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }}</a></td>
                         <td>{{ rating }}</td>
                     </tr>
