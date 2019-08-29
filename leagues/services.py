@@ -50,7 +50,8 @@ def get_tournaments_in_league(league_id: int):
     leaguepoints_per_tournament = list()
     league = League.objects.get(pk=league_id)
     # all Tournaments that belong this league
-    tournaments_per_league = TournamentsInLeague.objects.filter(league=league)
+    # ToDo: Order by Tournament.date
+    tournaments_per_league = TournamentsInLeague.objects.filter(league=league).order_by('tournament')
     for tournament in tournaments_per_league:
         standings = Standing.objects.filter(tournament=tournament.tournament).order_by('placement')
         standings_per_tournament.append(standings)
