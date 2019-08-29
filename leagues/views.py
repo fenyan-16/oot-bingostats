@@ -15,7 +15,7 @@ from django.contrib.auth.decorators import login_required
 from django.db import transaction
 from django.contrib import messages
 from django.http import HttpResponseRedirect
-from .services import create_league, add_tournament_in_league, get_tournaments_in_league
+from .services import create_league, add_tournament_in_league, get_tournaments_in_league, get_rating_table
 from django.template import RequestContext
 import datetime
 
@@ -41,8 +41,9 @@ def league_new(request):
 
 def league_detail(request, league_id):
     league = League.objects.get(pk=league_id)
+    ratings_and_users = get_rating_table(league_id)
     standings_per_tournament, leaguepoints_per_tournament = get_tournaments_in_league(league_id)
 
     zipped_results_and_league = zip(standings_per_tournament, leaguepoints_per_tournament)
 
-    return render(request, 'league/details.html', {'league': league, 'zipped_results_and_league': zipped_results_and_league})
+    return render(request, 'league/details.html', {'league': league, 'zipped_results_and_league': zipped_results_and_league, 'ratings_and_users': ratings_and_users})
