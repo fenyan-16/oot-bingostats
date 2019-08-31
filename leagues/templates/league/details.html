@@ -12,6 +12,33 @@
     <p>{{league.description}}</p>
 
     <div>
+        <h4>Stagings</a></h4>
+        <table class="table table-dark">
+            <thead>
+            <tr>
+                <th scope="col">Placement</th>
+                <th scope="col">Participant</th>
+                <th scope="col">Rating</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for  rating, user in ratings_and_users %}
+
+                <div>
+                    <tr>
+                        <th scope="row">{{ forloop.counter }}</th>
+                        <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }}</a></td>
+                        <td>{{ rating }}</td>
+                    </tr>
+                </div>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Tournaments in this league</a></h2>
     {% for tournaments_standing, tournaments_league in zipped_results_and_league %}
         {% if tournaments_standing.first.tournament.status == 0 %}
             <h4><a href="{% url 'tournament-detail' tournament_id=tournaments_standing.first.tournament.pk %}">{{tournaments_standing.first.tournament}}</a></h4>
@@ -45,31 +72,7 @@
     {% endfor %}
     </div>
 
-    <div>
-        <h4>Stagings</a></h4>
-        <table class="table table-dark">
-            <thead>
-            <tr>
-                <th scope="col">Placement</th>
-                <th scope="col">Participant</th>
-                <th scope="col">Rating</th>
-            </tr>
-            </thead>
-            <tbody>
-                {% for rating, user in ratings_and_users %}
 
-                <div>
-                    <tr>
-                        <th scope="row">{{ forloop.count }}</th>
-                        <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }}</a></td>
-                        <td>{{ rating }}</td>
-                    </tr>
-                </div>
-                {% endfor %}
-
-            </tbody>
-        </table>
-    </div>
 
 <!-- Modal -->
 {% include 'modals/register_team.html' %}
