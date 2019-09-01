@@ -36,8 +36,9 @@ def create_userprofile(
     return (league)
 
 
-def update_profile(profile: int, twitchname: str):
+def update_profile(profile: int, twitchname: str, country: str):
     profile.twitch_username = twitchname
+    profile.country = country
     profile.save()
 
     return profile

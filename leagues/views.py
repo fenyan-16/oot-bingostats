@@ -9,6 +9,7 @@ from django.views.generic import DetailView, ListView
 from django.forms import formset_factory, modelformset_factory
 from .models import League, TournamentsInLeague, LeagueAdmins
 from .forms import NewLeagueForm
+from profiles.models import Userprofile
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required

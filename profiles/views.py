@@ -77,10 +77,11 @@ def profile_edit(request, user_id):
     if request.method == "POST":
         form = EditProfileForm(request.POST)
         if form.is_valid():
-            this_profile = update_profile(profile, form.cleaned_data['twitchname'])
+            this_profile = update_profile(profile, form.cleaned_data['twitch_username'], form.cleaned_data['country'])
             return render(request, 'accounts/profile.html', {'profile': profile})
     else:
         form = EditProfileForm()
+        form.set_userdata(profile)
 
     return render(request, 'accounts/edit.html', {'form': form, 'profile': profile})
 

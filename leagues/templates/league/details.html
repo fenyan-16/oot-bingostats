@@ -11,7 +11,7 @@
     <h1>{{league.name}}</h1>
     <p>{{league.description}}</p>
     {% if user == league.owner %}
-        <button type="button" name="action" value="admin" class="save btn btn-default btn-primary" data-toggle="modal" data-target="#editAdmins">Edit admins</button>
+        <!-- <button type="button" name="action" value="admin" class="save btn btn-default btn-primary" data-toggle="modal" data-target="#editAdmins">Edit admins</button> -->
     {% endif %}
 
     <div>
@@ -30,11 +30,12 @@
                 <div>
                     <tr>
                         <th scope="row">{{ forloop.counter }}</th>
-                        <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }}</a></td>
+                        <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }} <i class="{{ user.userdata.country.flag_css }}"></i></a></td>
                         <td>{{ rating }}</td>
                     </tr>
                 </div>
                 {% endfor %}
+
 
             </tbody>
         </table>

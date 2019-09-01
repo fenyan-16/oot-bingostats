@@ -1,8 +1,8 @@
 {% extends "frame/base.html" %}
 
 {% block content %}
-    <h1>{{ profile }}</h1>
-
+    <h1>{{ profile }} <i class="flag2x {{ profile.country.flag_css }}"></i></h1>
+    <a href="{% url 'profile-edit' user_id=user.pk %}">edit</a>
     <div>
         <h4>Latest Results</h4>
         <table class="table table-dark">
