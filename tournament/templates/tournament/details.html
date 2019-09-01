@@ -27,8 +27,8 @@
             {% for standing in standings %}
                 <div>
                     <tr>
-                        <td><a href="#">{{ standing.0 }}</a></td>
-                        <td><a href="#">{{ standing.1 }}</a></td>
+                        <td>{{ standing.0 }}</td>
+                        <td><a href="{% url 'profile-datail' user_id=standing.1.pk %}">{{ standing.1 }}</a></td>
                         <td>{{standing.2}}</td>
                         <td>{{standing.3}}</td>
                     </tr>
@@ -65,7 +65,6 @@
         </table>
 
         {% endif %}
-    {% endif %}
 
     {% if user == tournament.owner %}
         <p>Add results:</p>
@@ -80,6 +79,8 @@
             You need to be tournament owner to report results.
         </div>
     {% endif %}
+    {% endif %}
+
 
 <!-- Modal -->
 {% include 'modals/register_team.html' %}

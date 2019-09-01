@@ -10,6 +10,9 @@
 
     <h1>{{league.name}}</h1>
     <p>{{league.description}}</p>
+    {% if user == league.owner %}
+        <button type="button" name="action" value="admin" class="save btn btn-default btn-primary" data-toggle="modal" data-target="#editAdmins">Edit admins</button>
+    {% endif %}
 
     <div>
         <h4>Standings</a></h4>
@@ -44,7 +47,14 @@
     {% for tournaments_standing, tournaments_league in zipped_results_and_league %}
         {% if tournaments_standing.first.tournament.status == 0 %}
             <h4><a href="{% url 'tournament-detail' tournament_id=tournaments_standing.first.tournament.pk %}">{{tournaments_standing.first.tournament}}</a></h4>
-            <table class="table table-dark">
+        {% if user == league.owner %}
+            <form method="POST">
+                {% csrf_token %}
+                <input type="hidden" name="tournament_pk" value="{{ tournaments_standing.first.tournament.pk }}">
+                <button type="submit" name="action" value="del" class="save btn btn-default btn-primary">DEL</button>
+            </form>
+        {% endif %}
+        <table class="table table-dark">
                 <thead>
                 <tr>
                     <th scope="col">Placement</th>
@@ -77,8 +87,7 @@
 
 
 <!-- Modal -->
-{% include 'modals/register_team.html' %}
-{% include 'modals/delete_team.html' %}
+{% include 'modals/edit_admins.html' %}
 
 
 {% endblock %}

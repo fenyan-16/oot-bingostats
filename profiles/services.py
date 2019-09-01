@@ -36,12 +36,11 @@ def create_userprofile(
     return (league)
 
 
-@receiver(post_save, sender=User, dispatch_uid='save_new_user_profile')
-def update_user_profile(sender, instance, created, **kwargs):
-    user = instance
-    if created:
-        profile = Userprofile.objects.create(owner=user)
-        profile.save()
+def update_profile(profile: int, twitchname: str):
+    profile.twitch_username = twitchname
+    profile.save()
+
+    return profile
 
 
 class AccountActivationTokenGenerator(PasswordResetTokenGenerator):
