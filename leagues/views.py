@@ -42,16 +42,20 @@ def league_new(request):
 
 def league_detail(request, league_id):
     league = League.objects.get(pk=league_id)
+    tournaments = TournamentsInLeague.objects.filter(league=league)
+    num_of_tournaments_in_league = tournaments.count()
 
     if request.method == "POST":
         delete_tournament_from_league(league, request.POST.get("tournament_pk"))
 
     ratings_and_users = get_rating_table(league_id)
     standings_per_tournament, leaguepoints_per_tournament = get_tournaments_in_league(league_id)
-
     zipped_results_and_league = zip(standings_per_tournament, leaguepoints_per_tournament)
 
     admins = LeagueAdmins.objects.filter(league=league)
-    print(admins)
 
-    return render(request, 'league/details.html', {'league': league, 'zipped_results_and_league': zipped_results_and_league, 'ratings_and_users': ratings_and_users, 'admins': admins})
+    return render(request, 'league/details.html', {'league': league, 'zipped_results_and_league': zipped_results_and_league,
+                                                   'ratings_and_users': ratings_and_users, 'num_of_tournaments': num_of_tournaments_in_league, 'admins': admins})
+
+
+
