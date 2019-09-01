@@ -70,6 +70,7 @@ def get_tournaments_in_league(league_id: int):
 def get_rating_table(league_id: int):
     ratings_list = list()
     users_list = list()
+    participation_list = list()
     league = League.objects.get(pk=league_id)
 
     try:
@@ -77,20 +78,25 @@ def get_rating_table(league_id: int):
 
         this_user = ratings.first().user
         user_points = 0
+        participation_counter = 0
         for rating in ratings:
             if this_user == rating.user:
                 user_points += rating.points
+                participation_counter += 1
             else:
                 users_list.append(this_user)
                 ratings_list.append(user_points)
+                participation_list.append(participation_counter)
                 this_user = rating.user
                 user_points = rating.points
+                participation_counter = 1
         users_list.append(this_user)
         ratings_list.append(user_points)
+        participation_list.append(participation_counter)
     except ObjectDoesNotExist:
         print("not Rating points available")
 
     # indexes = list(range(len(users_list))).sort(key=ratings_list.__getitem__)
     # users_zip_ratingpoints = zip(list(map(users_list.__getitem__, indexes)), list(map(ratings_list.__getitem__, indexes)))
-    users_zip_ratingpoints = list(reversed(sorted(zip(ratings_list, users_list), key=lambda x: x[0])))
+    users_zip_ratingpoints = list(reversed(sorted(zip(ratings_list, users_list, participation_list), key=lambda x: x[0])))
     return(users_zip_ratingpoints)

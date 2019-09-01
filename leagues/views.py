@@ -41,9 +41,11 @@ def league_new(request):
 
 def league_detail(request, league_id):
     league = League.objects.get(pk=league_id)
+    tournaments = TournamentsInLeague.objects.filter(league=league)
+    num_of_tournaments_in_league = tournaments.count()
     ratings_and_users = get_rating_table(league_id)
     standings_per_tournament, leaguepoints_per_tournament = get_tournaments_in_league(league_id)
-
     zipped_results_and_league = zip(standings_per_tournament, leaguepoints_per_tournament)
 
-    return render(request, 'league/details.html', {'league': league, 'zipped_results_and_league': zipped_results_and_league, 'ratings_and_users': ratings_and_users})
+    return render(request, 'league/details.html', {'league': league, 'zipped_results_and_league': zipped_results_and_league,
+                                                   'ratings_and_users': ratings_and_users, 'num_of_tournaments': num_of_tournaments_in_league})
