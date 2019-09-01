@@ -3,6 +3,7 @@ from django.forms import ModelForm, DateField, ChoiceField
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
+from .models import Userprofile
 from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes
 from django.utils.http import urlsafe_base64_encode
@@ -52,9 +53,10 @@ class LoginForm(forms.Form):
 
 
 class EditProfileForm(forms.Form):
-    name = forms.CharField()
-    description = forms.CharField()
-    start_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
-    registration_end_date = DateField(widget=forms.widgets.DateInput(attrs={'type': 'date'}))
+    twitchname = forms.CharField()
+
+    class Meta:
+        model = Userprofile
+        fields = ("twitchname")
 
 

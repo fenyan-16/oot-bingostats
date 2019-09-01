@@ -22,7 +22,7 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes, force_text
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.template.loader import render_to_string
-from .services import AccountActivationTokenGenerator, get_my_latest_results
+from .services import AccountActivationTokenGenerator, get_my_latest_results, update_profile
 from django.contrib.sites.shortcuts import get_current_site
 
 def signup(request):
@@ -69,22 +69,25 @@ def activate(request, uidb64, token):
 def account_activation_sent(request):
     return render(request, 'signup')
 
+
 def profile_edit(request, user_id):
-    profile = Userprofile.objects.get(pk=user_id)
+    user = User.objects.get(pk=user_id)
+    profile = Userprofile.objects.get(owner=user)
 
     if request.method == "POST":
         form = EditProfileForm(request.POST)
         if form.is_valid():
-
-            return render(request, 'profile/details.html', {'profile': profile})
+            this_profile = update_profile(profile, form.cleaned_data['twitchname'])
+            return render(request, 'accounts/profile.html', {'profile': profile})
     else:
         form = EditProfileForm()
-    return render(request, 'profile/new.html', {'form': form})
+
+    return render(request, 'accounts/edit.html', {'form': form, 'profile': profile})
 
 
 @login_required
 @transaction.atomic
-def update_profile(request):
+def update_profileasdasda(request):
     if request.method == 'POST':
         profile_form = EditProfileForm(request.POST, instance=request.user.profile)
         if profile_form.is_valid() and profile_form.is_valid():

@@ -1,6 +1,21 @@
-<form method="POST">
-  {% csrf_token %}
-  {{ user_form.as_p }}
-  {{ profile_form.as_p }}
-  <button type="submit">Savve changes</button>
-</form>
+{% extends "frame/base.html" %}
+
+{% block content %}
+  <h2>Edit profile</h2>
+{{ form.non_field_errors }}
+  <form method="POST">
+    {% csrf_token %}
+
+    {% for field in form %}
+      <div class="form-group">
+        <p>{{ field.label_tag }}</p>
+        {{ field }}
+        {{ profile.twitch_username }}
+        {% for error in field.errors %}
+          <p>{{ error }}</p>
+        {% endfor %}
+    </div>
+      {% endfor %}
+    <button type="submit" class="save btn btn-default btn-primary">Save</button>
+  </form>
+{% endblock %}
