@@ -94,3 +94,8 @@ def get_rating_table(league_id: int):
     # users_zip_ratingpoints = zip(list(map(users_list.__getitem__, indexes)), list(map(ratings_list.__getitem__, indexes)))
     users_zip_ratingpoints = list(reversed(sorted(zip(ratings_list, users_list), key=lambda x: x[0])))
     return(users_zip_ratingpoints)
+
+def delete_tournament_from_league(league: League, tournament_id: int):
+    tournament = Tournament.objects.get(pk=tournament_id)
+    TournamentsInLeague.objects.get(league=league, tournament=tournament).exists().delete()
+    Ratingpoints.objects.filter(league=league, tournament=tournament).exists().delete()
