@@ -3,6 +3,12 @@
 {% block content %}
     <h1>{{ profile }} <i class="flag2x {{ profile.country.flag_css }}"></i></h1>
     <a href="{% url 'profile-edit' user_id=user.pk %}">edit</a>
+    {% if profile.twitch_username %}
+        <a href="{{ profile.twitch_username }}">Twitch</a>
+    {% endif %}
+    {% if profile.twitter_username %}
+        <a href="{{ profile.twitter_username }}">Twitter</a>
+    {% endif %}
     <div>
         <h4>Latest Results</h4>
         <table class="table table-dark">
