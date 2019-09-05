@@ -2,8 +2,15 @@
 
 {% block content %}
     <h1>{{ profile }} <i class="flag2x {{ profile.country.flag_css }}"></i></h1>
+
     {% if user == profile.owner %}
         <a href="{% url 'profile-edit' user_id=user.pk %}">edit</a>
+    {% endif %}
+    {% if profile.twitch_username %}
+        <a href="{{ profile.twitch_username }}">Twitch</a>
+    {% endif %}
+    {% if profile.twitter_username %}
+        <a href="{{ profile.twitter_username }}">Twitter</a>
     {% endif %}
     <div>
         <h4>Latest Results</h4>

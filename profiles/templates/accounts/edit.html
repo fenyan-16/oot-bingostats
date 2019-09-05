@@ -1,10 +1,10 @@
 {% extends "frame/base.html" %}
 
 {% block content %}
-  <h2>Edit profile</h2>
-{{ form.non_field_errors }}
-  <form method="POST">
-    {% csrf_token %}
+    <h2>Edit profile</h2>
+        {{ form.non_field_errors }}
+        <form method="POST">
+        {% csrf_token %}
 
     {% for field in form %}
       <div class="form-group">
@@ -19,4 +19,5 @@
       {% endfor %}
     <button type="submit" class="save btn btn-default btn-primary">Save</button>
   </form>
+
 {% endblock %}

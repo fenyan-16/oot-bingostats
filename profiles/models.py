@@ -12,6 +12,7 @@ class Userprofile(models.Model):
     owner = models.OneToOneField(User, on_delete=models.CASCADE, related_name='userdata')
     email_confirmed = models.BooleanField(default=False)
     twitch_username = models.CharField(max_length=100, null=True, blank=True)
+    twitter_username = models.CharField(max_length=100, null=True, blank=True)
     country = CountryField(blank=True, blank_label='(select country)')
 
     def __str__(self):

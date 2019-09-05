@@ -56,13 +56,18 @@ class LoginForm(forms.Form):
 class EditProfileForm(forms.Form):
 
     twitch_username = forms.CharField()
+    twitter_username = forms.CharField()
     country = CountryField().formfield()
 
     class Meta:
         model = Userprofile
-        fields = ("twitch_username", "country")
+        fields = ("twitch_username", "twitter_username", "country")
 
 
     def set_userdata(self, userdata):
-        self.fields['twitch_username'].initial = userdata.twitch_username
-        self.fields['country'].initial = userdata.country
+        if userdata.twitch_username:
+            self.fields['twitch_username'].initial = userdata.twitch_username
+        if userdata.twitter_username:
+            self.fields['twitter_username'].initial = userdata.twitter_username
+        if userdata.country:
+            self.fields['country'].initial = userdata.country
