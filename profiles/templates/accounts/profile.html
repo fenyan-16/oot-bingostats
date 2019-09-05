@@ -2,7 +2,9 @@
 
 {% block content %}
     <h1>{{ profile }} <i class="flag2x {{ profile.country.flag_css }}"></i></h1>
-    <a href="{% url 'profile-edit' user_id=user.pk %}">edit</a>
+    {% if user == profile.owner %}
+        <a href="{% url 'profile-edit' user_id=user.pk %}">edit</a>
+    {% endif %}
     <div>
         <h4>Latest Results</h4>
         <table class="table table-dark">

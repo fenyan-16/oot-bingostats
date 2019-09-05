@@ -28,7 +28,7 @@ class CreateUserForm(UserCreationForm):
 
     password2 = forms.CharField()
     password2.widget = forms.TextInput(
-        attrs={'type': 'password', 'class': 'form-control', 'placeholder': 'Password confirmation'})
+        attrs={'type': 'password', 'label_tag': 'Password repeat', 'class': 'form-control', 'placeholder': 'Password confirmation'})
 
     class Meta:
         model = User

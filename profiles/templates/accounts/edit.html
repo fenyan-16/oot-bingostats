@@ -8,11 +8,13 @@
 
     {% for field in form %}
       <div class="form-group">
-        <p>{{ field.label_tag }}</p>
+        {{ field.label_tag }}
         {{ field }}
-        {% for error in field.errors %}
-          <p>{{ error }}</p>
-        {% endfor %}
+        <div class="valid-feedback">
+          {% for error in field.errors %}
+            {{ error }}
+          {% endfor %}
+        </div>
     </div>
       {% endfor %}
     <button type="submit" class="save btn btn-default btn-primary">Save</button>
