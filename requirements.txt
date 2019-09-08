@@ -1,6 +1,7 @@
 django
 django-heroku
 django_countries
+fontawesome
 numpy
 postgres
 gunicorn

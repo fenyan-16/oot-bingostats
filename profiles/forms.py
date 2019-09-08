@@ -23,10 +23,12 @@ class CreateUserForm(UserCreationForm):
         attrs={'type': 'email', 'class': 'form-control', 'aria-describedby': 'emailHelp', 'placeholder': 'Enter email'})
 
     password1 = forms.CharField()
+    password1.label = "Password"
     password1.widget = forms.TextInput(
         attrs={'type': 'password', 'class': 'form-control', 'placeholder': 'Password'})
 
     password2 = forms.CharField()
+    password2.label = "Repeat password"
     password2.widget = forms.TextInput(
         attrs={'type': 'password', 'label_tag': 'Password repeat', 'class': 'form-control', 'placeholder': 'Password confirmation'})
 

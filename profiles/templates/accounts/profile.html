@@ -1,17 +1,22 @@
 {% extends "frame/base.html" %}
 
 {% block content %}
-    <h1>{{ profile }} <i class="flag2x {{ profile.country.flag_css }}"></i></h1>
-
-    {% if user == profile.owner %}
-        <a href="{% url 'profile-edit' user_id=user.pk %}">edit</a>
-    {% endif %}
-    {% if profile.twitch_username %}
-        <a href="{{ profile.twitch_username }}">Twitch</a>
-    {% endif %}
-    {% if profile.twitter_username %}
-        <a href="{{ profile.twitter_username }}">Twitter</a>
-    {% endif %}
+    <div class="row">
+        <div class="col-10" style="margin-bottom: 32px;">
+            <h1>{{ profile }} <i class="flag2x {{ profile.country.flag_css }}"></i></h1>
+            {% if profile.twitch_username %}
+                <a href="https://twitch.tv/{{ profile.twitch_username }}"><i class="fab fa-twitch"></i> Twitch</a>
+            {% endif %}
+            {% if profile.twitter_username %}
+                <a href="https://twitter.com/{{ profile.twitter_username }}"><i class="fab fa-twitter"></i> Twitter</a>
+            {% endif %}
+        </div>
+        {% if user == profile.owner %}
+        <div class="col-2" style="text-align: right; padding-top: 10px;">
+            <a href="{% url 'profile-edit' user_id=user.pk %}"><i class="fas fa-pen fa-2x"></i></a>
+        </div>
+        {% endif %}
+    </div>
     <div>
         <h4>Latest Results</h4>
         <table class="table table-dark">

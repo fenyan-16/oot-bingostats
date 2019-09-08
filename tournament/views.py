@@ -27,9 +27,9 @@ def index(request):
 
 def tournament_list(request, format):
     if format == 'race':
-        tournaments = Tournament.objects.filter(format='1')
+        tournaments = Tournament.objects.filter(format='1').order_by('-date')
     else:
-        tournaments = Tournament.objects.filter(format='0')
+        tournaments = Tournament.objects.filter(format='0').order_by('-date')
 
     return render(request, 'tournament/list.html', {'tournaments': tournaments, 'format': format})
 

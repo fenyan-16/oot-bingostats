@@ -6,12 +6,26 @@
     <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
     {% endfor %}
 {% endif %}
-    <h1>All {{ format }}s</h1>
-    <div>
-         <a href="{% url 'tournament-new' format=format %}" class="save btn btn-default btn-primary">Add {{ format }}</a>
+    <div class="row"style="margin-bottom: 32px;">
+        <div class="col-md-10">
+            <h1>All {{ format }}s</h1>
+        </div>
+        <div class="col-md-2" style="text-align: right; padding-top: 10px;">
+             <a href="{% url 'tournament-new' format=format %}" class="save btn btn-default btn-primary">Add {{ format }}</a>
+        </div>
     </div>
+
     {% for tournament in tournaments %}
-        <p><a href="{% url 'tournament-detail' tournament.id %}">{{ tournament.name }}</a></p>
+        <div class="card mb-3 text-white bg-dark">
+            <div class="row no-gutters">
+            <div>
+              <div class="card-body">
+                <a href="{% url 'tournament-detail' tournament.id %}"><h5 class="card-title">{{ tournament.name }} - {{ tournament.date|date:"M d, Y" }}</h5></a>
+                <p class="card-text">{{ tournament.description }}</p>
+              </div>
+            </div>
+            </div>
+        </div>
     {% endfor %}
     </div>
 

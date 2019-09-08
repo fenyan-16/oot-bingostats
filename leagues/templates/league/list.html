@@ -6,13 +6,30 @@
     <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
     {% endfor %}
 {% endif %}
-    <h1>All Leagues</h1>
-    <div>
-         <a href="{% url 'league-new' %}" class="save btn btn-default btn-primary">Add League</a>
+    <div class="row"style="margin-bottom: 32px;">
+        <div class="col-md-10">
+            <h1>All Leagues</h1>
+        </div>
+        <div class="col-md-2" style="text-align: right; padding-top: 10px;">
+             <a href="{% url 'league-new' %}" class="save btn btn-default btn-primary">Add League</a>
+        </div>
     </div>
+
+
     <div>
+
+
     {% for league in leagues %}
-        <p><a href="{% url 'league-detail' league.id %}">{{ league.name }}</a></p>
+        <div class="card mb-3 text-white bg-dark">
+            <div class="row no-gutters">
+            <div>
+              <div class="card-body">
+                <a href="{% url 'league-detail' league.id %}"><h5 class="card-title">{{ league.name }}</h5></a>
+                <p class="card-text">{{ league.description }}</p>
+              </div>
+            </div>
+            </div>
+        </div>
     {% endfor %}
     </div>
 
