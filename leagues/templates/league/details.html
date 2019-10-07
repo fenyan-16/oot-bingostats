@@ -23,10 +23,11 @@
                 <th scope="col">Participant</th>
                 <th scope="col">Rating</th>
                 <th scope="col">Participation</th>
+                <th scope="col">Average Time</th>
             </tr>
             </thead>
             <tbody>
-                {% for  rating, user, participation in ratings_and_users %}
+                {% for  rating, user, participation, avgtime in ratings_and_users %}
 
                 <div>
                     <tr>
@@ -34,6 +35,7 @@
                         <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }} <i class="{{ user.userdata.country.flag_css }}"></i></a></td>
                         <td>{{ rating }}</td>
                         <td>{{ participation }}/{{ num_of_tournaments }}</td>
+                        <td>{{ avgtime }}</td>
                     </tr>
                 </div>
                 {% endfor %}
