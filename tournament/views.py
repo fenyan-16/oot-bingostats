@@ -9,7 +9,6 @@ from django.views.generic import DetailView, ListView
 from django.forms import formset_factory, modelformset_factory
 from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Standing, Game
 from leagues.models import League
-from parse.services import Render
 from django.contrib.auth.models import User
 from .forms import NewTournamentForm, NewBracketForm, LeagueForm, ReportStandingsForm
 from django.shortcuts import redirect, get_object_or_404
