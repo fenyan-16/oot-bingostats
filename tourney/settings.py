@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'leagues',
     'events',
     'profiles',
+    'parse',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -51,6 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'numpy',
     'django_countries',
+    'pandas',
+    'lxml',
 ]
 
 MIDDLEWARE = [

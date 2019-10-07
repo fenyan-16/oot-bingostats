@@ -9,6 +9,7 @@ from django.views.generic import DetailView, ListView
 from django.forms import formset_factory, modelformset_factory
 from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Standing, Game
 from leagues.models import League
+from parse.services import Render
 from django.contrib.auth.models import User
 from .forms import NewTournamentForm, NewBracketForm, LeagueForm, ReportStandingsForm
 from django.shortcuts import redirect, get_object_or_404
@@ -178,3 +179,22 @@ def bracket_new(request, tournament_id):
     else:
         form = NewBracketForm()
     return render(request, 'bracket/new.html', {'form': form})
+
+
+def tournament_test(request):
+    url = 'http://www.speedrunslive.com/races/result/#!/260116'
+    # This does the magic.Loads everything
+    r = Render(url)
+    # result is a QString.
+    result = r.frame.toHtml()
+
+    if request.method == "POST":
+        form = NewBracketForm(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.save()
+            return redirect('bracket', tournament_id=post.pk)
+    else:
+        form = NewBracketForm()
+
+    return render(request, 'tournament/new.html', {'form': form})
