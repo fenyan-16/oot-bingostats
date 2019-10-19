@@ -54,7 +54,7 @@ def get_tournaments_in_league(league_id: int):
 	league = League.objects.get(pk=league_id)
 	# all Tournaments that belong this league
 	# ToDo: Order by Tournament.date
-	tournaments_per_league = TournamentsInLeague.objects.filter(league=league).order_by('tournament')
+	tournaments_per_league = TournamentsInLeague.objects.filter(league=league).order_by('-tournament')
 	for tournament in tournaments_per_league:
 		standings = Standing.objects.filter(tournament=tournament.tournament).order_by('placement')
 		standings_per_tournament.append(standings)
@@ -127,7 +127,7 @@ def get_rating_table(league_id: int):
 		ratings_list.append(user_points)
 		participation_list.append(participation_counter)
 	except ObjectDoesNotExist:
-		print("not Rating points available")
+		print("no Rating points available")
 
 	avg_list = get_average_times(league_id, users_list)
 
