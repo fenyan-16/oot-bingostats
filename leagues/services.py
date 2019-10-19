@@ -107,14 +107,16 @@ def get_rating_table(league_id: int):
 	league = League.objects.get(pk=league_id)
 
 	try:
-		ratings = Ratingpoints.objects.filter(league=league).order_by("user")
+		ratings = Ratingpoints.objects.filter(league=league).order_by("user", "-points")
 
 		this_user = ratings.first().user
 		user_points = 0
 		participation_counter = 0
 		for rating in ratings:
 			if this_user == rating.user:
-				user_points += rating.points
+				# just count the best 8 tournaments
+				if participation_counter < 8:
+					user_points += rating.points
 				participation_counter += 1
 			else:
 				users_list.append(this_user)
