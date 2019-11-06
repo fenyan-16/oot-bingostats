@@ -52,6 +52,10 @@ def create_standing(
         return True
 
 
+def delete_standing(tournament: Tournament, user: User):
+    Standing.objects.filter(tournament=tournament, user=user).delete()
+
+
 def add_tournament_in_league(
     tournament: Tournament,
     league: League,
@@ -95,3 +99,9 @@ def get_standings_and_leaguepoints(tournament: Tournament):
         standings_and_leaguepoints.append(row)
 
     return(standings_and_leaguepoints)
+
+
+def reopen_tournament(tournament: Tournament):
+    tournament.status = 1
+    tournament.save()
+    Ratingpoints.objects.filter(tournament=tournament).delete()

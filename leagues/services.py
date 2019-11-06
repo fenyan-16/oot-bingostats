@@ -142,5 +142,5 @@ def get_rating_table(league_id: int):
 
 def delete_tournament_from_league(league: League, tournament_id: int):
 	tournament = Tournament.objects.get(pk=tournament_id)
-	TournamentsInLeague.objects.get(league=league, tournament=tournament).exists().delete()
-	Ratingpoints.objects.filter(league=league, tournament=tournament).exists().delete()
+	TournamentsInLeague.objects.get(league=league, tournament=tournament).delete()
+	Ratingpoints.objects.filter(league=league, tournament=tournament).delete()

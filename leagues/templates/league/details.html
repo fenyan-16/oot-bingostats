@@ -15,76 +15,82 @@
     {% endif %}
 
     <div>
-        <h4>Standings</a></h4>
-        <table class="table table-dark">
-            <thead>
-            <tr>
-                <th scope="col">Placement</th>
-                <th scope="col">Participant</th>
-                <th scope="col">Rating</th>
-                <th scope="col">Participation</th>
-                <th scope="col">Average Time</th>
-            </tr>
-            </thead>
-            <tbody>
-                {% for  rating, user, participation, avgtime in ratings_and_users %}
-
-                <div>
-                    <tr>
-                        <th scope="row">{{ forloop.counter }}</th>
-                        <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }} <i class="{{ user.userdata.country.flag_css }}"></i></a></td>
-                        <td>{{ rating }}</td>
-                        <td>{{ participation }}/{{ num_of_tournaments }}</td>
-                        <td>{{ avgtime }}</td>
-                    </tr>
-                </div>
-                {% endfor %}
-
-
-            </tbody>
-        </table>
-    </div>
-
-    <div>
-        <h2>Tournaments in this league</a></h2>
-    {% for tournaments_standing, tournaments_league in zipped_results_and_league %}
-        {% if tournaments_standing.first.tournament.status == 0 %}
-            <h4><a href="{% url 'tournament-detail' tournament_id=tournaments_standing.first.tournament.pk %}">{{tournaments_standing.first.tournament}}</a></h4>
-        {% if user == league.owner %}
-            <form method="POST">
-                {% csrf_token %}
-                <input type="hidden" name="tournament_pk" value="{{ tournaments_standing.first.tournament.pk }}">
-                <!--<button type="submit" name="action" value="del" class="save btn btn-default btn-primary">DEL</button>-->
-            </form>
-        {% endif %}
-        <table class="table table-dark">
+        {% if num_of_tournaments != 0 %}
+            <h4>Standings</a></h4>
+            <table class="table table-dark">
                 <thead>
                 <tr>
                     <th scope="col">Placement</th>
                     <th scope="col">Participant</th>
-                    <th scope="col">Result</th>
                     <th scope="col">Rating</th>
+                    <th scope="col">Participation</th>
+                    <th scope="col">Average Time</th>
                 </tr>
                 </thead>
                 <tbody>
-                <h1></h1>
+                    {% for  rating, user, participation, avgtime in ratings_and_users %}
 
-                {% for standing, leaguepoints in tournaments_standing|zip:tournaments_league %}
                     <div>
                         <tr>
-                            <th scope="row">{{standing.placement}}</th>
-                            <td><a href="{% url 'profile-datail' user_id=standing.user.pk %}">{{standing.user}}</a></td>
-                            <td>{{standing.result}}</td>
-                            <td>{{leaguepoints}}</td>
+                            <th scope="row">{{ forloop.counter }}</th>
+                            <td><a href="{% url 'profile-datail' user_id=user.pk %}">{{ user }} <i class="{{ user.userdata.country.flag_css }}"></i></a></td>
+                            <td>{{ rating }}</td>
+                            <td>{{ participation }}/{{ num_of_tournaments }}</td>
+                            <td>{{ avgtime }}</td>
                         </tr>
                     </div>
-                {% endfor %}
+                    {% endfor %}
 
 
                 </tbody>
             </table>
         {% endif %}
-    {% endfor %}
+    </div>
+
+    <div>
+        <h2>Tournaments in this league</a></h2>
+        {% if num_of_tournaments != 0 %}
+            {% for tournaments_standing, tournaments_league in zipped_results_and_league %}
+                {% if tournaments_standing.first.tournament.status == 0 %}
+                    <h4><a href="{% url 'tournament-detail' tournament_id=tournaments_standing.first.tournament.pk %}">{{tournaments_standing.first.tournament}}</a></h4>
+                {% if user == league.owner %}
+                    <form method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" name="tournament_pk" value="{{ tournaments_standing.first.tournament.pk }}">
+                        <!--<button type="submit" name="action" value="del" class="save btn btn-default btn-primary">DEL</button>-->
+                    </form>
+                {% endif %}
+                <table class="table table-dark">
+                        <thead>
+                        <tr>
+                            <th scope="col">Placement</th>
+                            <th scope="col">Participant</th>
+                            <th scope="col">Result</th>
+                            <th scope="col">Rating</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <h1></h1>
+
+                        {% for standing, leaguepoints in tournaments_standing|zip:tournaments_league %}
+                            <div>
+                                <tr>
+                                    <th scope="row">{{standing.placement}}</th>
+                                    <td><a href="{% url 'profile-datail' user_id=standing.user.pk %}">{{standing.user}}</a></td>
+                                    <td>{{standing.result}}</td>
+                                    <td>{{leaguepoints}}</td>
+                                </tr>
+                            </div>
+                        {% endfor %}
+
+
+                        </tbody>
+                    </table>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            <p>No tournaments played</p>
+        {% endif %}
     </div>
 
 

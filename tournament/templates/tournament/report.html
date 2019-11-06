@@ -32,6 +32,11 @@
                     <tr>
                         <td><a href="#">{{standing.user}}</a></td>
                         <td>{{standing.result}}</td>
+                        <form method="POST" class="post-form">
+                            {% csrf_token %}
+                            <button type="submit" class="save btn btn-default btn-primary" name="action" value="delete_{{standing.user.pk}}
+"><i class="fas fa-pen fa-2x"></i></button>
+                        </form>
                     </tr>
                 </div>
             {% endfor %}

@@ -17,7 +17,7 @@ from django.contrib.auth.decorators import login_required
 from django.db import transaction
 from django.contrib import messages
 from django.http import HttpResponseRedirect
-from .services import create_tournament, add_tournament_in_league, create_standing, finish_tournament, get_standings_and_leaguepoints
+from .services import create_tournament, add_tournament_in_league, create_standing, finish_tournament, get_standings_and_leaguepoints, reopen_tournament, delete_standing
 from django.template import RequestContext
 import datetime
 
@@ -102,28 +102,51 @@ def tournament_new(request, format):
 
 def tournament_detail(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
+
+    standings = get_standings_and_leaguepoints(tournament)
+    return render(request, 'tournament/details.html',
+                  {'tournament': tournament, 'standings': standings})
+
+
+
+def tournament_report(request, tournament_id):
+    tournament = Tournament.objects.get(pk=tournament_id)
     report_form = ReportStandingsForm()
 
+    #user = tournament.owner
     if tournament.status == 0:
-        standings = get_standings_and_leaguepoints(tournament)
-        return render(request, 'tournament/details.html', {'tournament': tournament, 'standings': standings})
+        reopen_tournament(tournament)
+        return redirect('tournament-report', tournament_id=tournament_id)
     else:
         if request.method == "POST":
             if request.POST['action'] == "save":
                 user = User.objects.get(pk=request.POST['user'])
                 standing_succeed = create_standing(tournament, user, request.POST['result'])
                 standings = Standing.objects.filter(tournament=tournament)
+                print(standings)
                 if standing_succeed:
                     messages.warning(request, "You successfully added " + str(user))
                 else:
                     messages.warning(request, "You already added " + str(user))
                 return render(request, 'tournament/report.html',
                               {'tournament': tournament, 'standings': standings, 'report_form': report_form})
+
+            elif request.POST['action'][:6] == "delete":
+                standings = Standing.objects.filter(tournament=tournament)
+                userid = int(request.POST['action'][7:])
+                print(userid)
+                user = User.objects.get(pk=userid)
+                standing_succeed = delete_standing(tournament, user)
+                if standing_succeed:
+                    messages.warning(request, "You deleted " + str(user))
+                return render(request, 'tournament/report.html',
+                              {'tournament': tournament, 'standings': standings, 'report_form': report_form})
             elif request.POST['action'] == "finish":
                 if tournament != '0':
                     edited_tournament = finish_tournament(tournament)
                     standings = get_standings_and_leaguepoints(edited_tournament)
-                    return render(request, 'tournament/details.html', {'tournament': edited_tournament, 'standings': standings})
+                    return render(request, 'tournament/details.html',
+                                  {'tournament': edited_tournament, 'standings': standings})
         else:
             standings = Standing.objects.filter(tournament=tournament)
             return render(request, 'tournament/report.html',

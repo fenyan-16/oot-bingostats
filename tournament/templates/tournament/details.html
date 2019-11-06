@@ -14,6 +14,12 @@
         <h3>Standings</h3>
         <p>Tournament has finished</p>
 
+        {% if user == tournament.owner %}
+            <div class="col-2" style="text-align: right; padding-top: 10px;">
+                <a href="{% url 'tournament-report' tournament_id=tournament.pk %}"><i class="fas fa-pen fa-2x"></i></a>
+            </div>
+        {% endif %}
+
         <table class="table table-dark">
             <thead>
             <tr>
@@ -37,12 +43,19 @@
             </tbody>
         </table>
     {% else %}
+        {% if user == tournament.owner %}
+            <div class="col-2" style="text-align: right; padding-top: 10px;">
+                <a href="{% url 'tournament-report' tournament_id=tournament.pk %}"><i class="fas fa-pen fa-2x"></i></a>
+            </div>
+        {% endif %}
         {% if standings %}
         <form method="POST" class="post-form">
             {% csrf_token %}
             <button type="submit" class="save btn btn-default btn-primary" name="action" value="finish">Finish Tournament</button>
         </form>
         <p>{{tournament.description}}</p>
+
+
 
         <table class="table table-dark">
             <thead>

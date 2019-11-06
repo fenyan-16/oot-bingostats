@@ -48,9 +48,13 @@ def league_detail(request, league_id):
     if request.method == "POST":
         delete_tournament_from_league(league, request.POST.get("tournament_pk"))
 
-    ratings_and_users = get_rating_table(league_id)
-    standings_per_tournament, leaguepoints_per_tournament = get_tournaments_in_league(league_id)
-    zipped_results_and_league = zip(standings_per_tournament, leaguepoints_per_tournament)
+    if (tournaments):
+        ratings_and_users = get_rating_table(league_id)
+        standings_per_tournament, leaguepoints_per_tournament = get_tournaments_in_league(league_id)
+        zipped_results_and_league = zip(standings_per_tournament, leaguepoints_per_tournament)
+    else:
+        ratings_and_users = None
+        zipped_results_and_league = None
 
     # avg_results = get_average_times(league_id, ratings_and_users)
 
