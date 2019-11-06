@@ -109,26 +109,29 @@ def get_rating_table(league_id: int):
 	try:
 		ratings = Ratingpoints.objects.filter(league=league).order_by("user", "-points")
 
-		this_user = ratings.first().user
-		user_points = 0
-		participation_counter = 0
-		for rating in ratings:
-			if this_user == rating.user:
-				# just count the best 8 tournaments
-				if participation_counter < 8:
-					user_points += rating.points
-				participation_counter += 1
-			else:
-				users_list.append(this_user)
-				ratings_list.append(user_points)
-				participation_list.append(participation_counter)
-				this_user = rating.user
-				user_points = rating.points
-				participation_counter = 1
-		users_list.append(this_user)
-		ratings_list.append(user_points)
-		participation_list.append(participation_counter)
-	except ObjectDoesNotExist:
+		if ratings.count() != 0:
+			this_user = ratings.first().user
+			user_points = 0
+			participation_counter = 0
+			for rating in ratings:
+				if this_user == rating.user:
+					# just count the best 8 tournaments
+					if participation_counter < 8:
+						user_points += rating.points
+					participation_counter += 1
+				else:
+					users_list.append(this_user)
+					ratings_list.append(user_points)
+					participation_list.append(participation_counter)
+					this_user = rating.user
+					user_points = rating.points
+					participation_counter = 1
+			users_list.append(this_user)
+			ratings_list.append(user_points)
+			participation_list.append(participation_counter)
+		else:
+			return (None)
+	except KeyError:
 		print("no Rating points available")
 
 	avg_list = get_average_times(league_id, users_list)

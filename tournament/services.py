@@ -88,17 +88,21 @@ def get_standings_and_leaguepoints(tournament: Tournament):
     standings = Standing.objects.filter(tournament=tournament).order_by('result')
     leagues_for_tournament = TournamentsInLeague.objects.filter(tournament=tournament)
 
-    for standing in standings:
-        row = list()
-        row.append(standing.placement)
-        row.append(standing.user)
-        row.append(standing.result)
-        for league in leagues_for_tournament:
-            ratingpoints = Ratingpoints.objects.get(league=league.league, tournament=tournament, user=standing.user)
-            row.append(ratingpoints.points)
-        standings_and_leaguepoints.append(row)
+    if (tournament.status == 0):
+        for standing in standings:
+            row = list()
+            row.append(standing.placement)
+            row.append(standing.user)
+            row.append(standing.result)
+            for league in leagues_for_tournament:
+                ratingpoints = Ratingpoints.objects.get(league=league.league, tournament=tournament, user=standing.user)
+                row.append(ratingpoints.points)
+            standings_and_leaguepoints.append(row)
 
-    return(standings_and_leaguepoints)
+
+    else:
+        standings_and_leaguepoints = None
+    return (standings_and_leaguepoints)
 
 
 def reopen_tournament(tournament: Tournament):

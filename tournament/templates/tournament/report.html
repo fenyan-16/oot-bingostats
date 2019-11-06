@@ -8,21 +8,22 @@
 {% endif %}
 
     <h1>{{tournament.name}}</h1>
-{% if tournament.status == 0 %}
-    <p>This tournament already finished. Contact an admin to edit results.</p>
-{% else %}
+    <p>{{tournament.description}}</p>
+    {% if tournament.status != 0 %}
+        <p>This tournament is in progress.</p>
+    {% endif %}
     {% if standings %}
         <form method="POST" class="post-form">
             {% csrf_token %}
             <button type="submit" class="save btn btn-default btn-primary" name="action" value="finish">Finish Tournament</button>
         </form>
-        <p>{{tournament.description}}</p>
 
         <table class="table table-dark">
             <thead>
             <tr>
                 <th scope="col">Participant</th>
                 <th scope="col">Time</th>
+                <th scope="col">Options</th>
             </tr>
             </thead>
             <tbody>
@@ -34,8 +35,7 @@
                         <td>{{standing.result}}</td>
                         <form method="POST" class="post-form">
                             {% csrf_token %}
-                            <button type="submit" class="save btn btn-default btn-primary" name="action" value="delete_{{standing.user.pk}}
-"><i class="fas fa-pen fa-2x"></i></button>
+                        <td><button type="submit" class="save btn btn-default btn-primary" name="action" value="delete_{{standing.user.pk}}"><i class="fas fa-trash-alt"></i></button></td>
                         </form>
                     </tr>
                 </div>
@@ -56,7 +56,6 @@
             You need to be tournament owner to report results.
         </div>
     {% endif %}
-{% endif %}
 <!-- Modal -->
 {% include 'modals/register_team.html' %}
 {% include 'modals/delete_team.html' %}
