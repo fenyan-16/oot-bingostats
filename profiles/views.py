@@ -88,11 +88,10 @@ def profile_edit(request, user_id):
 
 @login_required
 @transaction.atomic
-def update_profileasdasda(request):
+def update_profile(request):
     if request.method == 'POST':
         profile_form = EditProfileForm(request.POST, instance=request.user.profile)
         if profile_form.is_valid() and profile_form.is_valid():
-            profile_form.save()
             profile_form.save()
             messages.success(request, ('Your profile was successfully updated!'))
             return redirect('profile')

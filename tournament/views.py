@@ -10,7 +10,7 @@ from django.forms import formset_factory, modelformset_factory
 from .models import Tournament, Registration, Bracket, Match1vs1, Team, RegistrationTeam, Standing, Game
 from leagues.models import League
 from django.contrib.auth.models import User
-from .forms import NewTournamentForm, NewBracketForm, LeagueForm, ReportStandingsForm
+from .forms import NewTournamentForm, NewBracketForm, LeagueForm, ReportStandingsForm, EditTournamentForm
 from django.shortcuts import redirect, get_object_or_404
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
@@ -112,6 +112,8 @@ def tournament_detail(request, tournament_id):
 def tournament_report(request, tournament_id):
     tournament = Tournament.objects.get(pk=tournament_id)
     report_form = ReportStandingsForm()
+    form = EditTournamentForm()
+    form.set_data(tournament)
 
     #user = tournament.owner
     if tournament.status == 0:
@@ -129,7 +131,7 @@ def tournament_report(request, tournament_id):
                 else:
                     messages.warning(request, "You already added " + str(user))
                 return render(request, 'tournament/report.html',
-                              {'tournament': tournament, 'standings': standings, 'report_form': report_form})
+                              {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
 
             elif request.POST['action'][:6] == "delete":
                 standings = Standing.objects.filter(tournament=tournament)
@@ -140,7 +142,23 @@ def tournament_report(request, tournament_id):
                 if standing_succeed:
                     messages.warning(request, "You deleted " + str(user))
                 return render(request, 'tournament/report.html',
-                              {'tournament': tournament, 'standings': standings, 'report_form': report_form})
+                              {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
+
+            elif request.POST['action'] == "update":
+                form = EditTournamentForm(request.POST)
+                if form.is_valid():
+                    print("test")
+                    post = form.save(commit=False)
+                    tournament.name = form.cleaned_data['name']
+                    tournament.description = form.cleaned_data['description']
+                    tournament.save()
+                    messages.warning(request, "Updated tournament details.")
+                    standings = Standing.objects.filter(tournament=tournament)
+                    return render(request, 'tournament/report.html',
+                              {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
+                else:
+                    messages.error(request, ('Please correct the error below.'))
+
             elif request.POST['action'] == "finish":
                 if tournament != '0':
                     edited_tournament = finish_tournament(tournament)
@@ -150,9 +168,9 @@ def tournament_report(request, tournament_id):
         else:
             standings = Standing.objects.filter(tournament=tournament)
             return render(request, 'tournament/report.html',
-                          {'tournament': tournament, 'standings': standings, 'report_form': report_form})
+                          {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
 
-    return render(request, 'tournament/report.html', {'tournament': tournament, 'report_form': report_form})
+    return render(request, 'tournament/report.html', {'tournament': tournament, 'report_form': report_form, 'form': form})
 
 
 def showbracket(request, tournament_id):
