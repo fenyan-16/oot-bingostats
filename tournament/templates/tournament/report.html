@@ -48,7 +48,9 @@
             <tr>
                 <th scope="col">Participant</th>
                 <th scope="col">Time</th>
-                <th scope="col">Options</th>
+                {% if tournament.status != 0 %}
+                    <th scope="col">Options</th>
+                {% endif %}
             </tr>
             </thead>
             <tbody>
@@ -60,7 +62,11 @@
                         <td>{{standing.result}}</td>
                         <form method="POST" class="post-form">
                             {% csrf_token %}
-                        <td><button type="submit" class="save btn btn-default btn-primary" name="action" value="delete_{{standing.user.pk}}"><i class="fas fa-trash-alt"></i></button></td>
+                        {% if tournament.status != 0 %}
+                            <td>
+                                <button type="submit" class="save btn btn-default btn-primary" name="action" value="delete_{{standing.user.pk}}"><i class="fas fa-trash-alt"></i></button>
+                            </td>
+                        {% endif %}
                         </form>
                     </tr>
                 </div>
