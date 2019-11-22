@@ -116,59 +116,61 @@ def tournament_report(request, tournament_id):
     form.set_data(tournament)
 
     #user = tournament.owner
-    if tournament.status == 0:
-        reopen_tournament(tournament)
-        return redirect('tournament-report', tournament_id=tournament_id)
-    else:
-        if request.method == "POST":
-            if request.POST['action'] == "save":
-                user = User.objects.get(pk=request.POST['user'])
-                standing_succeed = create_standing(tournament, user, request.POST['result'])
+    if request.method == "POST":
+        if request.POST['action'] == "save":
+            user = User.objects.get(pk=request.POST['user'])
+            standing_succeed = create_standing(tournament, user, request.POST['result'])
+            standings = Standing.objects.filter(tournament=tournament)
+            print(standings)
+            if standing_succeed:
+                messages.warning(request, "You successfully added " + str(user))
+            else:
+                messages.warning(request, "You already added " + str(user))
+            return render(request, 'tournament/report.html',
+                          {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
+
+        elif request.POST['action'][:6] == "delete":
+            standings = Standing.objects.filter(tournament=tournament)
+            userid = int(request.POST['action'][7:])
+            print(userid)
+            user = User.objects.get(pk=userid)
+            standing_succeed = delete_standing(tournament, user)
+            if standing_succeed:
+                messages.warning(request, "You deleted " + str(user))
+            return render(request, 'tournament/report.html',
+                          {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
+
+        elif request.POST['action'] == "update":
+            form = EditTournamentForm(request.POST)
+            if form.is_valid():
+                print("test")
+                post = form.save(commit=False)
+                tournament.name = form.cleaned_data['name']
+                tournament.description = form.cleaned_data['description']
+                tournament.save()
+                messages.warning(request, "Updated tournament details.")
                 standings = Standing.objects.filter(tournament=tournament)
-                print(standings)
-                if standing_succeed:
-                    messages.warning(request, "You successfully added " + str(user))
-                else:
-                    messages.warning(request, "You already added " + str(user))
                 return render(request, 'tournament/report.html',
-                              {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
+                          {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
+            else:
+                messages.error(request, ('Please correct the error below.'))
 
-            elif request.POST['action'][:6] == "delete":
-                standings = Standing.objects.filter(tournament=tournament)
-                userid = int(request.POST['action'][7:])
-                print(userid)
-                user = User.objects.get(pk=userid)
-                standing_succeed = delete_standing(tournament, user)
-                if standing_succeed:
-                    messages.warning(request, "You deleted " + str(user))
-                return render(request, 'tournament/report.html',
-                              {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
-
-            elif request.POST['action'] == "update":
-                form = EditTournamentForm(request.POST)
-                if form.is_valid():
-                    print("test")
-                    post = form.save(commit=False)
-                    tournament.name = form.cleaned_data['name']
-                    tournament.description = form.cleaned_data['description']
-                    tournament.save()
-                    messages.warning(request, "Updated tournament details.")
-                    standings = Standing.objects.filter(tournament=tournament)
-                    return render(request, 'tournament/report.html',
-                              {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
-                else:
-                    messages.error(request, ('Please correct the error below.'))
-
-            elif request.POST['action'] == "finish":
-                if tournament != '0':
-                    edited_tournament = finish_tournament(tournament)
-                    standings = get_standings_and_leaguepoints(edited_tournament)
-                    return render(request, 'tournament/details.html',
-                                  {'tournament': edited_tournament, 'standings': standings})
-        else:
+        elif request.POST['action'] == "open":
+            reopen_tournament(tournament)
             standings = Standing.objects.filter(tournament=tournament)
             return render(request, 'tournament/report.html',
                           {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
+
+        elif request.POST['action'] == "finish":
+            if tournament != '0':
+                edited_tournament = finish_tournament(tournament)
+                standings = get_standings_and_leaguepoints(edited_tournament)
+                return render(request, 'tournament/details.html',
+                              {'tournament': edited_tournament, 'standings': standings})
+    else:
+        standings = Standing.objects.filter(tournament=tournament)
+        return render(request, 'tournament/report.html',
+                      {'tournament': tournament, 'standings': standings, 'report_form': report_form, 'form': form})
 
     return render(request, 'tournament/report.html', {'tournament': tournament, 'report_form': report_form, 'form': form})
 
