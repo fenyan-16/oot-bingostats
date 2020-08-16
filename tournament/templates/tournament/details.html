@@ -7,12 +7,20 @@
     {% endfor %}
 {% endif %}
 
-    <h1>{{tournament.name}}</h1>
+    <h1>{{tournament.name}}
+        {% if user == tournament.owner %}
+                <a href="{% url 'tournament-report' tournament_id=tournament.pk %}"><i class="fas fa-pen"></i></a>
+        {% endif %}
+    </h1>
     <p>{{tournament.description}}</p>
+    {% if tournament.status != 0 %}
+        <p>This tournament is in progress.</p>
+    {% endif %}
 
-    {% if tournament.status == 0 %}
+    {% if standings %}
         <h3>Standings</h3>
-        <p>Tournament has finished</p>
+
+
 
         <table class="table table-dark">
             <thead>
@@ -44,6 +52,8 @@
         </form>
         <p>{{tournament.description}}</p>
 
+
+
         <table class="table table-dark">
             <thead>
             <tr>
@@ -65,20 +75,6 @@
         </table>
 
         {% endif %}
-
-    {% if user == tournament.owner %}
-        <p>Add results:</p>
-        <form method="POST" class="post-form">
-            {% csrf_token %}
-            {{ report_form.as_p }}
-            <button type="submit" class="save btn btn-default btn-primary" name="action" value="save">Save</button>
-        </form>
-
-    {% else %}
-        <div>
-            You need to be tournament owner to report results.
-        </div>
-    {% endif %}
     {% endif %}
 
 

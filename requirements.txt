@@ -5,3 +5,5 @@ fontawesome
 numpy
 postgres
 gunicorn
+pandas
+lxml

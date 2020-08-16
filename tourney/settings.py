@@ -52,7 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'numpy',
     'django_countries',
-	'pandas',
+    'pandas',
+    'lxml',
 ]
 
 MIDDLEWARE = [

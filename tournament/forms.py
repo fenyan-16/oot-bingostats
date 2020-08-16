@@ -57,3 +57,17 @@ class ReportStandingsForm(forms.ModelForm):
         model = Standing
         fields = ('user', 'result',)
 
+
+class EditTournamentForm(forms.ModelForm):
+    name = forms.CharField(required=False)
+    description = forms.CharField(required=False)
+
+    class Meta:
+         model = Tournament
+         fields = ('name', 'description',)
+
+    def set_data(self, tournament):
+        if tournament.name:
+            self.fields['name'].initial = tournament.name
+        if tournament.description:
+            self.fields['description'].initial = tournament.description
