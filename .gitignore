@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 **/__pycache__/*
+=======
+**/__pycache__
+>>>>>>> 305aeac480d2e510a90e09390e4e75bbb1f68289
 .idea/*
 .idea
