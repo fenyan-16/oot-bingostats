@@ -1,11 +1,3 @@
-tourney/__pycache__/*
-tournament/__pycache__/*
-leagues/__pycache__/*
-profiles/__pycache__/*
-events/__pycache__/*
-tournament/migrations/__pycache__/*
-profiles/templatetags/__pycache__/*
-leagues/migrations/__pycache__/*
-events/migrations/__pycache__/*
+**/__pycache__/*
 .idea/*
 .idea

@@ -5,6 +5,9 @@
         <meta charset="utf-8">
         <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% block datatablecss %}
+
+        {% endblock %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- Optional theme -->
         <link rel="stylesheet" href="{% static 'css/layout.css' %}">
@@ -17,7 +20,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"></script>
 
-        <title>Tourney</title>
+        <title>Speedrun League, Race and Stat Tracking</title>
+
     </head>
     <body>
         <div id="navigation">
@@ -30,10 +34,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="{% url 'league-list'%}">Leagues</a>
+                            <a class="nav-link" href="{% url 'league-list'%}">[Leagues]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'tournament-list' format='race' %}">Races</a>
+                            <a class="nav-link" href="{% url 'tournament-list' format='race' %}">[Races]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'players' %}">[Bingo 2020 - Player Statistics]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'goals' %}">[Bingo 2020 - Goal Statistics]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'combinations' %}">[Bingo 2020 - Goal Combinations]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'frequency' %}">[Goal Frequency Analysis]</a>
                         </li>
                     </ul>
 
@@ -96,5 +112,9 @@
               });
         })
     </script>
+{% block datatablejs %}
+
+        {% endblock %}
+
     </body>
 </html>

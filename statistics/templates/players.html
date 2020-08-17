@@ -1,0 +1,42 @@
+{% extends "goals.html" %}
+
+{% block content %}
+
+<h1>OoT Bingo Tournament 2020 - Player Statistics</h1>
+
+
+<br>
+
+<div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>
+ <div id="content">
+   <table id="myTable" class="table table-dark" data-order='[[1, "desc"], [3, "asc"]]' data-page-length='250' order-column='1'>
+
+    <thead>
+     <tr>
+      <th>Player</th>
+      <th>Wins</th>
+      <th>Losses</th>
+      <th>Average</th>
+      <th>Median</th>
+      <th>Forfeits</th>
+      <th>Blanks</th>
+     </tr>
+    </thead>
+    <tbody>
+    {% for player in players %}
+     <tr>
+      <td>{{ player.0 }}</td>
+      <td>{{ player.1 }}</td>
+      <td>{{ player.2 }}</td>
+      <td>{{ player.3 }}</td>
+      <td>{{ player.4 }}</td>
+      <td>{{ player.5 }}</td>
+      <td>{{ player.6 }}</td>
+     </tr>
+    {% endfor %}
+    </tbody>
+
+   </table>
+ </div>
+{% endblock %}
+
