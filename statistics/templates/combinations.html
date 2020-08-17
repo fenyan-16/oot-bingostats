@@ -1,47 +1,38 @@
-{% extends "frame/base.html" %}
-{% load static %}
-{% block datatablecss %}
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.css"/>
-{% endblock %}
+{% extends "goals.html" %}
 
 {% block content %}
 
-<h1>OoT Bingo Tournament 2020 - Goal Statistics</h1>
+<h1>OoT Bingo Tournament 2020 - Goal Combinations</h1>
 <h2>Total races: {{ racecount }}</h2>
 <br>
-<a href='players'>Go to Player Statistics</a>
 
 <div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>
  <div id="content">
-   <table id="myTable" class="table table-dark" data-order='[[1, "desc"], [3, "desc"]]' data-page-length='250' order-column='1'>
+   <table id="myTable" class="table table-dark" data-order='[[3, "desc"], [4, "desc"]]' data-page-length='250' order-column='1'>
 
     <thead>
      <tr>
-      <th>Goal</th>
-      <th>Picked</th>
-      <th>On Boards</th>
-      <th>Wins</th>
-      <th>Pick Rate</th>
-      <th>Win Rate</th>
+      <th>Goal 1</th>
+      <th>Goal 2</th>
+      <th>Goal 3</th>
+      <th>Picks</th>
+      <th>Boards</th>
      </tr>
     </thead>
     <tbody>
-    {% for goal in goals %}
+    {% for combi in combinations %}
      <tr>
-      <td>{{ goal.0 }}</td>
-      <td>{{ goal.2 }}</td>
-      <td>{{ goal.1 }}</td>
-      <td>{{ goal.3 }}</td>
-      <td>{{ goal.4 }}%</td>
-      <td>{{ goal.5 }}%</td>
+      <td>{{ combi.2 }}</td>
+      <td>{{ combi.3 }}</td>
+      <td>{{ combi.4 }}</td>
+      <td>{{ combi.1 }}</td>
+      <td>{{ combi.0 }}</td>
      </tr>
     {% endfor %}
     </tbody>
-
    </table>
-
-     <img src="{% static 'goal_freq.png' %}" width="2000px">
  </div>
+
 {% endblock %}
 
 {% block datatablejs %}

@@ -15,16 +15,24 @@ from django.db import transaction
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
-from .services import return_goallist, return_playerstats
+from .services import return_goallist, return_playerstats, return_goal_combinations, return_race_count
 
 
 def goals(request):
 	goal_df_repr = return_goallist()
+	total_races = return_race_count()
 
-	return render(request, 'goals.html', {'goals': goal_df_repr})
+	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races})
 
 
 def players(request):
 	player_df_repr = return_playerstats()
 
 	return render(request, 'players.html', {'players': player_df_repr})
+
+
+def combinations(request):
+	goal_combi_repr = return_goal_combinations()
+	total_races = return_race_count()
+
+	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': total_races})

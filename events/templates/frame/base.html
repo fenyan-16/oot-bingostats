@@ -34,10 +34,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="{% url 'league-list'%}">Leagues</a>
+                            <a class="nav-link" href="{% url 'league-list'%}">[Leagues]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'tournament-list' format='race' %}">Races</a>
+                            <a class="nav-link" href="{% url 'tournament-list' format='race' %}">[Races]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'players' %}">[Player Statistics]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'goals' %}">[Goal Statistics]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'combinations' %}">[Goal Combinations]</a>
                         </li>
                     </ul>
 
