@@ -36,3 +36,7 @@ def combinations(request):
 	total_races = return_race_count()
 
 	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': total_races})
+
+
+def frequency(request):
+	return render(request, 'frequency.html')
