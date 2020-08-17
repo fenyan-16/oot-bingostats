@@ -1,5 +1,6 @@
 from pandas import read_csv, Series
 import os
+import numpy as np
 
 
 def return_goallist():
