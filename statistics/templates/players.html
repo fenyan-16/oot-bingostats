@@ -20,6 +20,8 @@
       <th>Losses</th>
       <th>Average</th>
       <th>Median</th>
+      <th>Mean Synergy</th>
+      <th>Mean of Esimate Difference*</th>
       <th>Forfeits</th>
       <th>Blanks</th>
       <th>Saria's</th>
@@ -35,6 +37,8 @@
       <td>{{ player.2 }}</td>
       <td>{{ player.3 }}</td>
       <td>{{ player.4 }}</td>
+      <td>{{ player.9 }}</td>
+      <td>{{ player.10 }}</td>
       <td>{{ player.5 }}</td>
       <td>{{ player.6 }}</td>
       <td>{{ player.7 }}</td>
@@ -44,6 +48,10 @@
     </tbody>
 
    </table>
+    <br>
+    <div align='left'>* Estimate Difference: "Estimated row time" (base time minus synergy) minus "Base row time" (1:13:45)</div>
+    <br>
+    <br>
  </div>
 {% endblock %}
 {% block datatablejs %}
