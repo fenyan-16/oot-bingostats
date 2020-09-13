@@ -4,8 +4,41 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.css"/>
 {% endblock %}
 
-{% block content %}
 
+
+{% block secondnav %}
+ <div id="navigation">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-secondary">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'players' %}">[Swiss Rounds - Player Statistics]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'goals' %}">[Swiss Rounds - Goal Statistics]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'players_top16' %}">[Top 16 - Player Statistics]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'goals_top16' %}">[Top 16 - Goal Statistics]</a>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'combinations' %}">[Goal Combinations]</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+</div>
+{% endblock %}
+
+{% block content %}
 <h1>OoT Bingo Tournament 2020 - Goal Statistics</h1>
 <h2>Total races: {{ racecount }}</h2>
 <h2><a href="https://xwmtp.github.io/bingo2020/#/">Official Tournament Website</a></h2>

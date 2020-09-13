@@ -19,14 +19,27 @@ from .services import return_goallist, return_playerstats, return_goal_combinati
 
 
 def goals(request):
-	goal_df_repr = return_goallist()
-	total_races = return_race_count()
+	goal_df_repr = return_goallist('swiss')
+	total_races = return_race_count('swiss')
+
+	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races})
+
+
+def goals_t16(request):
+	goal_df_repr = return_goallist('top16')
+	total_races = return_race_count('top16')
 
 	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races})
 
 
 def players(request):
-	player_df_repr = return_playerstats()
+	player_df_repr = return_playerstats('swiss')
+
+	return render(request, 'players.html', {'players': player_df_repr})
+
+
+def players_t16(request):
+	player_df_repr = return_playerstats('top16')
 
 	return render(request, 'players.html', {'players': player_df_repr})
 

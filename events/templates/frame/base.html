@@ -40,13 +40,7 @@
                             <a class="nav-link" href="{% url 'tournament-list' format='race' %}">[Races]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players' %}">[Bingo 2020 - Player Statistics]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'goals' %}">[Bingo 2020 - Goal Statistics]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'combinations' %}">[Bingo 2020 - Goal Combinations]</a>
+                            <a class="nav-link" href="{% url 'players' %}">[Bingo 2020 - Statistics]</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'frequency' %}">[Goal Frequency Analysis]</a>
@@ -82,6 +76,8 @@
                             {% endfor %}
                         </div>
                     {% endif %}
+                        {% block secondnav %}
+                        {% endblock %}
                         {% block content %}
                         {% endblock %}
                 </div>
