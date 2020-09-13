@@ -44,8 +44,14 @@ def players_t16(request):
 	return render(request, 'players.html', {'players': player_df_repr})
 
 
+def players_t16_rebalance(request):
+	player_df_repr = return_playerstats('top16', 'rebalance')
+
+	return render(request, 'players.html', {'players': player_df_repr})
+
+
 def players_rebalance(request):
-	player_df_repr = return_playerstats('rebalance')
+	player_df_repr = return_playerstats('swiss', 'rebalance')
 
 	return render(request, 'players.html', {'players': player_df_repr})
 

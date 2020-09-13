@@ -13,14 +13,18 @@ def return_goallist(mode='swiss'):
 	return list(goals_df.itertuples(index=False, name=None))
 
 
-def return_playerstats(mode='swiss'):
+def return_playerstats(mode='swiss', balance='regular'):
 	pwd = os.getcwd()
 	if mode == 'swiss':
-		player_df = read_csv(os.path.join(pwd, 'statistics/players.csv'))
+		if balance=='regular':
+			player_df = read_csv(os.path.join(pwd, 'statistics/players.csv'))
+		elif balance=='rebalance':
+			player_df = read_csv(os.path.join(pwd, 'statistics/players_rebalanced.csv'))
 	elif mode == 'top16':
-		player_df = read_csv(os.path.join(pwd, 'statistics/players_top16.csv'))
-	elif mode == 'rebalance':
-		player_df = read_csv(os.path.join(pwd, 'statistics/players_rebalanced.csv'))
+		if balance == 'regular':
+			player_df = read_csv(os.path.join(pwd, 'statistics/players_top16.csv'))
+		elif balance == 'rebalance':
+			player_df = read_csv(os.path.join(pwd, 'statistics/players_top16_rebalance.csv'))
 	return list(player_df.itertuples(index=False, name=None))
 
 
