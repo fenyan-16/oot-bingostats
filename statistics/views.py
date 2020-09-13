@@ -44,6 +44,12 @@ def players_t16(request):
 	return render(request, 'players.html', {'players': player_df_repr})
 
 
+def players_rebalance(request):
+	player_df_repr = return_playerstats('rebalance')
+
+	return render(request, 'players.html', {'players': player_df_repr})
+
+
 def combinations(request):
 	goal_combi_repr = return_goal_combinations()
 	total_races = return_race_count()

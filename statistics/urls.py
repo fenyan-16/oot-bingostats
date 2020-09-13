@@ -10,6 +10,7 @@ urlpatterns = [
 	path('goals_top16', views.goals_t16, name='goals_top16'),
     path('players', views.players, name='players'),
 	path('players_top16', views.players_t16, name='players_top16'),
+	path('players_rebalance', views.players_rebalance, name='players_rebalance'),
     path('combinations', views.combinations, name='combinations'),
 	path('frequency', views.frequency, name='frequency'),
 

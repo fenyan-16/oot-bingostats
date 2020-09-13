@@ -19,6 +19,8 @@ def return_playerstats(mode='swiss'):
 		player_df = read_csv(os.path.join(pwd, 'statistics/players.csv'))
 	elif mode == 'top16':
 		player_df = read_csv(os.path.join(pwd, 'statistics/players_top16.csv'))
+	elif mode == 'rebalance':
+		player_df = read_csv(os.path.join(pwd, 'statistics/players_rebalanced.csv'))
 	return list(player_df.itertuples(index=False, name=None))
 
 
