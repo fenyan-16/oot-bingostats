@@ -18,49 +18,24 @@ from django.template import RequestContext
 from .services import return_goallist, return_playerstats, return_goal_combinations, return_race_count
 
 
-def goals(request):
-	goal_df_repr = return_goallist('swiss')
-	total_races = return_race_count('swiss')
+def goals(request, year, phase):
+	goal_df_repr = return_goallist(phase, year=year)
+	total_races = return_race_count(phase, year=year)
 
-	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races})
-
-
-def goals_t16(request):
-	goal_df_repr = return_goallist('top16')
-	total_races = return_race_count('top16')
-
-	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races})
+	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races, 'year': year})
 
 
-def players(request):
-	player_df_repr = return_playerstats('swiss')
+def players(request, year, phase):
+	player_df_repr = return_playerstats(phase, year=year)
 
-	return render(request, 'players.html', {'players': player_df_repr})
-
-
-def players_t16(request):
-	player_df_repr = return_playerstats('top16')
-
-	return render(request, 'players.html', {'players': player_df_repr})
+	return render(request, 'players.html', {'players': player_df_repr, 'year': year})
 
 
-def players_t16_rebalance(request):
-	player_df_repr = return_playerstats('top16', 'rebalance')
+def combinations(request, year):
+	goal_combi_repr = return_goal_combinations(year=year)
+	total_races = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
 
-	return render(request, 'players.html', {'players': player_df_repr})
-
-
-def players_rebalance(request):
-	player_df_repr = return_playerstats('swiss', 'rebalance')
-
-	return render(request, 'players.html', {'players': player_df_repr})
-
-
-def combinations(request):
-	goal_combi_repr = return_goal_combinations()
-	total_races = return_race_count()
-
-	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': total_races})
+	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': total_races, 'year': year})
 
 
 def frequency(request):

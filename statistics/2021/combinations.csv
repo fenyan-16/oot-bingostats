@@ -1,0 +1,923 @@
+,goal combination,count,pick count
+0,"['30 Different Skulltulas', 'Two Fairy Spells']",7,1
+1,"['30 Different Skulltulas', 'Defeat Volvagia']",6,1
+2,"['1 Skulltula from each Adult Dungeon', 'Defeat Volvagia']",6,1
+3,"['7 Maps', 'Beat the Spirit Temple']",5,1
+4,"['Beat the Spirit Temple', 'Two Fairy Spells']",5,2
+5,"['Beat the Spirit Temple', 'Obtain all 8 Small Keys in Fire Temple']",4,1
+6,"['1 Skulltula from each Adult Dungeon', 'Two Fairy Spells']",4,1
+7,"['All 3 Elemental Arrows', 'Green Gauntlets']",4,1
+8,"['30 Different Skulltulas', 'Giants Knife']",4,1
+9,"['30 Different Skulltulas', '8 Hearts (no duping)']",4,1
+10,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Meg (purple Poe)']",4,1
+11,"['All 3 Elemental Arrows', 'All 4 Market area Skulltulas']",4,1
+12,"['All 3 Elemental Arrows', 'Map & Compass in Dodongos Cavern']",4,1
+13,"['3 Swords & 3 Shields', 'Two Fairy Spells']",3,1
+14,"['Beat the Spirit Temple', 'Fire Temple Boss Key']",3,1
+15,"['1 Skulltula from each Adult Dungeon', 'Beat Dodongos Cavern']",3,2
+16,"['Quiver (40)', 'Two Fairy Spells']",3,1
+17,"['10 Songs', 'Map & Compass in Ice Cavern']",3,1
+18,"['30 Different Skulltulas', '8 Songs']",3,1
+19,"['30 Different Skulltulas', 'Bolero of Fire']",3,2
+20,"['2 Skulltulas in Lon Lon Ranch', 'All 3 Elemental Arrows']",3,1
+21,"['Beat the Spirit Temple', 'Silver Scale']",3,2
+22,"['Defeat both Flare Dancers', 'Two Fairy Spells']",3,1
+23,"['Bolero of Fire', 'Defeat Twinrova']",3,1
+24,"['Clear 8 Silver Rupee Rooms', 'Map & Compass in Dodongos Cavern']",3,1
+25,"['1 Skulltula from each Adult Dungeon', 'Quiver (40)']",3,1
+26,"['4 Unused Keys in Gerudo Training Grounds', '9 Hearts (no duping)']",3,1
+27,"['4 Unused Keys in Forest Temple', 'All 3 Elemental Arrows']",3,1
+28,"['7 Maps', 'Obtain all 8 Small Keys in Fire Temple']",3,1
+29,"['1 Skulltula from each Adult Dungeon', 'Dins Fire']",3,2
+30,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds']",3,1
+31,"['10 Songs', 'Defeat Volvagia']",3,1
+32,"['1 Skulltula from each Adult Dungeon', 'Defeat Meg (purple Poe)']",3,2
+33,"['1 Skulltula from each Adult Dungeon', 'Defeat Barinade']",3,1
+34,"['7 Maps', 'Beat the Spirit Temple', 'Obtain all 8 Small Keys in Fire Temple']",3,1
+35,"['Defeat Meg (purple Poe)', 'Obtain all 8 Small Keys in Fire Temple']",3,1
+36,"['Gerudos Card', 'Two Fairy Spells']",3,1
+37,"['All 3 Elemental Arrows', 'Map & Compass in Shadow Temple']",3,1
+38,"['Dins Fire', 'Quiver (40)']",3,1
+39,"['Both Rusty Switches in Spirit Temple', 'Dins Fire']",3,1
+40,"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple']",3,2
+41,"['Defeat Big Octo', 'Giants Knife']",2,1
+42,"['Giants Knife', 'Map & Compass in Shadow Temple']",2,1
+43,"['9 Songs', 'Open All 6 Gold Rupee Chests']",2,1
+44,"['Clear 8 Silver Rupee Rooms', 'Two Fairy Spells']",2,1
+45,"['9 Songs', 'Two Fairy Spells']",2,2
+46,"['Clear 8 Silver Rupee Rooms', 'Giants Knife']",2,1
+47,"['8 Songs', '9 Hearts (no duping)']",2,1
+48,"['Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers']",2,1
+49,"['9 Songs', 'Beat the Spirit Temple']",2,2
+50,"['30 Different Skulltulas', 'Defeat Big Octo']",2,1
+51,"['1 Skulltula from each Adult Dungeon', 'Beat Dodongos Cavern', 'Bottled Fairy', 'Defeat Meg (purple Poe)']",2,1
+52,"['20 Different Skulltulas', '5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Open All 6 Gold Rupee Chests']",2,1
+53,"['All 5 Skulltulas in Forest Temple', 'Dins Fire']",2,1
+54,"['8 Songs', 'Map & Compass in Ice Cavern']",2,1
+55,"['Goron Tunic', 'Open All 6 Gold Rupee Chests']",2,1
+56,"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks']",2,1
+57,"['Defeat Big Octo', 'Mirror Shield']",2,1
+58,"['3 Swords, Tunics, Boots, and Shields', 'Obtain all 8 Small Keys in Fire Temple']",2,1
+59,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Gerudos Card']",2,1
+60,"['Beat the Spirit Temple', 'Defeat King Dodongo', 'Two Fairy Spells']",2,2
+61,"['1 Skulltula from each Adult Dungeon', 'Bullet Bag (50)', 'Defeat Volvagia']",2,1
+62,"['20 Different Skulltulas', 'Open All 6 Gold Rupee Chests']",2,1
+63,"['20 Different Skulltulas', '5 Hearts']",2,1
+64,"['All 5 Skulltulas in Spirit Temple', 'Open All 6 Gold Rupee Chests']",2,1
+65,"['3 Shields & 3 Tunics', 'All 3 Elemental Arrows']",2,1
+66,"['Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",2,1
+67,"['5 Hearts', 'Open All 6 Gold Rupee Chests']",2,1
+68,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Two Fairy Spells']",2,1
+69,"['20 Different Skulltulas', '5 Hearts', 'Open All 6 Gold Rupee Chests']",2,1
+70,"['1 Skulltula from each Adult Dungeon', 'Quiver (40)', 'Two Fairy Spells']",2,1
+71,"['30 Different Skulltulas', '8 Songs', 'Bolero of Fire', 'Defeat Volvagia']",2,1
+72,"['20 Different Skulltulas', '5 Hearts', 'All 5 Skulltulas in Spirit Temple']",2,1
+73,"['20 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple', 'Open All 6 Gold Rupee Chests']",2,1
+74,"['5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Open All 6 Gold Rupee Chests']",2,1
+75,"['All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia']",2,1
+76,"['6 Compasses', 'Bolero of Fire']",2,1
+77,"['8 Songs', 'Defeat Volvagia']",2,1
+78,"['10 Songs', 'Sarias Song']",2,1
+79,"['10 Songs', 'Bolero of Fire']",2,1
+80,"['Bolero of Fire', 'Defeat Volvagia']",2,1
+81,"['8 Songs', 'Bolero of Fire']",2,1
+82,"['30 Different Skulltulas', '6 Compasses']",2,1
+83,"['1 Skulltula from each Adult Dungeon', 'Water Medallion']",2,1
+84,"['7 Maps', 'Open the Final Door of Forest Trial']",2,1
+85,"['2 Skulltulas in Lon Lon Ranch', 'All 4 Market area Skulltulas']",2,1
+86,"['10 Songs', '5 Hearts']",2,1
+87,"['5 Hearts', 'Sarias Song']",2,1
+88,"['1 Skulltula from each Adult Dungeon', 'All 3 Kokiri Forest area Skulltulas']",2,1
+89,"['1 Skulltula from each Adult Dungeon', '5 Hearts']",2,1
+90,"['2 Skulltulas in Lon Lon Ranch', 'All 3 Elemental Arrows', 'All 4 Market area Skulltulas']",2,1
+91,"['Silver Scale', 'Two Fairy Spells']",2,2
+92,"['10 Songs', '5 Hearts', 'Sarias Song']",2,1
+93,"['Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers', 'Two Fairy Spells']",2,1
+94,"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Fire Temple']",2,1
+95,"['5 Hearts', 'All 5 Skulltulas in Spirit Temple']",2,2
+96,"['8 Songs', 'Bolero of Fire', 'Defeat Volvagia']",2,1
+97,"['2 Skulltulas in Lon Lon Ranch', 'Fire Medallion']",2,1
+98,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Meg (purple Poe)', 'Obtain all 8 Small Keys in Fire Temple']",2,1
+99,"['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Forest Temple']",2,1
+100,"['30 Different Skulltulas', 'Bolero of Fire', 'Defeat Volvagia']",2,1
+101,"['30 Different Skulltulas', '6 Compasses', 'Bolero of Fire']",2,1
+102,"['30 Different Skulltulas', '8 Songs', 'Defeat Volvagia']",2,1
+103,"['30 Different Skulltulas', '8 Songs', 'Bolero of Fire']",2,1
+104,"['30 Different Skulltulas', 'Defeat Big Octo', 'Giants Knife']",2,1
+105,"['9 Songs', 'Beat the Spirit Temple', 'Two Fairy Spells']",2,2
+106,"['8 Songs', 'Two Fairy Spells']",2,1
+107,"['Map & Compass in Spirit Temple', 'Minuet of Forest', 'Sarias Song']",2,1
+108,"['1 Skulltula from each Adult Dungeon', 'Beat Dodongos Cavern', 'Bottled Fairy']",2,1
+109,"['Map & Compass in Bottom of the Well', 'Open the Final Door of Shadow Trial']",2,2
+110,"['5 Zora area HPs', 'All 3 Elemental Arrows', 'All 4 Market area Skulltulas']",2,1
+111,"['Map & Compass in Spirit Temple', 'Minuet of Forest']",2,1
+112,"['Map & Compass in Spirit Temple', 'Sarias Song']",2,3
+113,"['Open the Final Door of Water Trial', 'Sarias Song']",2,1
+114,"['30 Different Skulltulas', '8 Hearts (no duping)', 'Bolero of Fire']",2,1
+115,"['Beat the Spirit Temple', 'Defeat King Dodongo']",2,2
+116,"['Defeat King Dodongo', 'Two Fairy Spells']",2,2
+117,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card']",2,2
+118,"['Dins Fire', 'Gerudos Card']",2,1
+119,"['7 Maps', 'All 5 Skulltulas in Fire Temple', 'Giants Knife']",2,1
+120,"['4 Unused Keys in Forest Temple', 'Dins Fire', 'Quiver (40)']",2,1
+121,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat Volvagia']",2,1
+122,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans']",2,1
+123,"['Beat Dodongos Cavern', 'Defeat Meg (purple Poe)']",2,2
+124,"['Bottled Fairy', 'Defeat Meg (purple Poe)']",2,1
+125,"['1 Skulltula from each Adult Dungeon', 'Fairy Slingshot']",2,1
+126,"['1 Skulltula from each Adult Dungeon', 'Bottled Fairy']",2,1
+127,"['1 Skulltula from each Adult Dungeon', '3 Tunics']",2,1
+128,"['1 Skulltula from each Adult Dungeon', 'All 8 Zoras Domain area Skulltulas']",2,1
+129,"['3 Tunics', 'All 8 Zoras Domain area Skulltulas']",2,1
+130,"['Beat Dodongos Cavern', 'Bottled Fairy']",2,1
+131,"['4 Unused Keys in Forest Temple', 'Dins Fire']",2,1
+132,"['All 5 Skulltulas in Spirit Temple', 'Sarias Song']",2,1
+133,"['4 Unused Keys in Forest Temple', 'Quiver (40)']",2,1
+134,"['4 Unused Keys in Forest Temple', 'Both Rusty Switches in Spirit Temple']",2,1
+135,"['All 3 Elemental Arrows', 'Bullet Bag (40)']",2,1
+136,"['Minuet of Forest', 'Sarias Song']",2,1
+137,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Defeat Volvagia']",2,1
+138,"['All 3 Elemental Arrows', 'Open the Final Door of Spirit Trial']",2,1
+139,"['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests']",2,1
+140,"['5 Zora area HPs', 'All 4 Market area Skulltulas']",2,1
+141,"['5 Zora area HPs', 'All 3 Elemental Arrows']",2,2
+142,"['Beat Dodongos Cavern', 'Bottled Fairy', 'Defeat Meg (purple Poe)']",2,1
+143,"['1 Skulltula from each Adult Dungeon', 'Beat Dodongos Cavern', 'Defeat Meg (purple Poe)']",2,2
+144,"['1 Skulltula from each Adult Dungeon', 'Bottled Fairy', 'Defeat Meg (purple Poe)']",2,1
+145,"['30 Different Skulltulas', 'Requiem of Spirit']",2,1
+146,"['3 Tunics & 3 Boots', 'Beat the Fire Temple']",2,1
+147,"['7 Maps', 'Giants Knife']",2,1
+148,"['All 5 Skulltulas in Fire Temple', 'Giants Knife']",2,1
+149,"['7 Maps', 'All 5 Skulltulas in Fire Temple']",2,1
+150,"['Giants Knife', 'Map & Compass in Jabu-Jabu']",2,1
+151,"['10 Songs', '7 Maps']",2,2
+152,"['1 Skulltula from each Adult Dungeon', 'Bullet Bag (50)']",2,1
+153,"['8 Hearts (no duping)', 'Bolero of Fire']",2,1
+154,"['Bolero of Fire', 'Open the Final Door of Forest Trial']",2,1
+155,"['Eponas Song', 'Open All 6 Gold Rupee Chests']",2,2
+156,"['Bolero of Fire', 'Map & Compass in Fire Temple']",2,1
+157,"['Bolero of Fire', 'Defeat Twinrova', 'Two Fairy Spells']",2,1
+158,"['Dins Fire', 'Map & Compass in Fire Temple']",2,1
+159,"['500 Rupees', 'Map & Compass in Fire Temple']",2,1
+160,"['Defeat Twinrova', 'Two Fairy Spells']",2,1
+161,"['Bolero of Fire', 'Two Fairy Spells']",2,1
+162,"['500 Rupees', 'Two Fairy Spells']",2,2
+163,"['20 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple']",2,1
+164,"['Bullet Bag (50)', 'Defeat Volvagia']",2,1
+165,"['Defeat 4 Different Iron Knuckles', 'Eponas Song']",1,1
+166,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles']",1,1
+167,"['Defeat 4 Different Iron Knuckles', 'Open All 6 Gold Rupee Chests']",1,1
+168,"['Defeat 4 Different Iron Knuckles', 'Goron Tunic']",1,1
+169,"['7 Different Unused Keys in Gerudo Training Grounds', 'Eponas Song']",1,1
+170,"['7 Different Unused Keys in Gerudo Training Grounds', 'Goron Tunic']",1,1
+171,"['Eponas Song', 'Goron Tunic']",1,1
+172,"['7 Different Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests']",1,1
+173,"['7 Different Unused Keys in Gerudo Training Grounds', 'Eponas Song', 'Goron Tunic']",1,1
+174,"['Defeat 4 Different Iron Knuckles', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+175,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles', 'Eponas Song']",1,1
+176,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles', 'Goron Tunic']",1,1
+177,"['Defeat 4 Different Iron Knuckles', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+178,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles', 'Open All 6 Gold Rupee Chests']",1,1
+179,"['Defeat 4 Different Iron Knuckles', 'Eponas Song', 'Goron Tunic']",1,1
+180,"['Eponas Song', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+181,"['7 Different Unused Keys in Gerudo Training Grounds', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+182,"['7 Different Unused Keys in Gerudo Training Grounds', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+183,"['Dins Fire', 'Gerudos Card', 'Water Medallion']",1,1
+184,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Water Medallion']",1,1
+185,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Water Medallion']",1,1
+186,"['Gerudos Card', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+187,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Open 3 Gold Rupee Chests']",1,1
+188,"['Dins Fire', 'Gerudos Card', 'Open 3 Gold Rupee Chests']",1,1
+189,"['Dins Fire', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+190,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Open 3 Gold Rupee Chests']",1,1
+191,"['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+192,"['Dins Fire', 'Open 3 Gold Rupee Chests']",1,1
+193,"['Gerudos Card', 'Open 3 Gold Rupee Chests']",1,1
+194,"['Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+195,"['Dins Fire', 'Water Medallion']",1,1
+196,"['Gerudos Card', 'Water Medallion']",1,1
+197,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles', 'Eponas Song', 'Goron Tunic']",1,1
+198,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+199,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+200,"['Defeat 4 Different Iron Knuckles', 'Eponas Song', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+201,"['7 Different Unused Keys in Gerudo Training Grounds', 'Eponas Song', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+202,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Gerudos Card', 'Open 3 Gold Rupee Chests']",1,1
+203,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Gerudos Card', 'Water Medallion']",1,1
+204,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+205,"['Dins Fire', 'Gerudos Card', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+206,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+207,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs', 'All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+208,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs', 'Beat Dodongos Cavern', 'Bottled Fairy', 'Defeat Meg (purple Poe)']",1,1
+209,"['15 Different Skulltulas', '8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+210,"['15 Different Skulltulas', 'Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+211,"['15 Different Skulltulas', '8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key']",1,1
+212,"['15 Different Skulltulas', '8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",1,1
+213,"['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+214,"['15 Different Skulltulas', '8 Hearts (no duping)', 'Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+215,"['8 Hearts (no duping)', 'Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+216,"['15 Different Skulltulas', '8 Hearts (no duping)', 'Map & Compass in Spirit Temple']",1,1
+217,"['15 Different Skulltulas', '8 Hearts (no duping)', 'Ganons Castle Boss Key']",1,1
+218,"['15 Different Skulltulas', 'Ganons Castle Boss Key']",1,1
+219,"['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key']",1,1
+220,"['15 Different Skulltulas', '8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms']",1,1
+221,"['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",1,1
+222,"['Clear 8 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",1,1
+223,"['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms']",1,1
+224,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Gerudos Card', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
+225,"['8 Hearts (no duping)', 'Map & Compass in Spirit Temple']",1,1
+226,"['8 Hearts (no duping)', 'Ganons Castle Boss Key']",1,1
+227,"['15 Different Skulltulas', '8 Hearts (no duping)']",1,1
+228,"['15 Different Skulltulas', 'Clear 8 Silver Rupee Rooms']",1,1
+229,"['Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+230,"['15 Different Skulltulas', 'Map & Compass in Spirit Temple']",1,1
+231,"['Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key']",1,1
+232,"['15 Different Skulltulas', 'Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+233,"['Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",1,1
+234,"['15 Different Skulltulas', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",1,1
+235,"['15 Different Skulltulas', 'Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key']",1,1
+236,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat 4 Different Iron Knuckles', 'Eponas Song', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+237,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+238,"['9 Songs', 'Beat the Spirit Temple', 'Defeat King Dodongo', 'Silver Scale', 'Two Fairy Spells']",1,2
+239,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple']",1,1
+240,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'Map & Compass in Shadow Temple']",1,1
+241,"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple']",1,1
+242,"['All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple']",1,1
+243,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+244,"['All 3 Elemental Arrows', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+245,"['All 3 Skulltulas in Ice Cavern', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+246,"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+247,"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+248,"['All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+249,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple']",1,1
+250,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+251,"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+252,"['All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+253,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+254,"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern']",1,1
+255,"['All 3 Skulltulas in Ice Cavern', 'Map & Compass in Shadow Temple']",1,1
+256,"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple']",1,1
+257,"['All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple']",1,1
+258,"['All 3 Elemental Arrows', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+259,"['All 3 Skulltulas in Ice Cavern', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+260,"['All 5 Skulltulas in Fire Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+261,"['Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
+262,"['5 Zora area HPs', 'All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+263,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs', 'All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas']",1,1
+264,"['2 Skulltulas in Lon Lon Ranch', 'All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+265,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+266,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs', 'Defeat Meg (purple Poe)']",1,1
+267,"['5 Zora area HPs', 'Bottled Fairy', 'Defeat Meg (purple Poe)']",1,1
+268,"['5 Zora area HPs', 'Beat Dodongos Cavern', 'Bottled Fairy']",1,1
+269,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs', 'Bottled Fairy']",1,1
+270,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs', 'Beat Dodongos Cavern']",1,1
+271,"['5 Zora area HPs', 'Beat Dodongos Cavern', 'Defeat Meg (purple Poe)']",1,1
+272,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs', 'All 4 Market area Skulltulas']",1,1
+273,"['5 Zora area HPs', 'Beat Dodongos Cavern']",1,1
+274,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs']",1,1
+275,"['5 Zora area HPs', 'Defeat Meg (purple Poe)']",1,1
+276,"['5 Zora area HPs', 'Bottled Fairy']",1,1
+277,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs']",1,1
+278,"['2 Skulltulas in Lon Lon Ranch', 'All 3 Kokiri Forest area Skulltulas']",1,1
+279,"['All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+280,"['5 Zora area HPs', 'All 3 Kokiri Forest area Skulltulas']",1,1
+281,"['All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas']",1,1
+282,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial', 'Sarias Song']",1,1
+283,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs', 'All 3 Elemental Arrows']",1,1
+284,"['2 Skulltulas in Lon Lon Ranch', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+285,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs', 'All 3 Kokiri Forest area Skulltulas']",1,1
+286,"['5 Zora area HPs', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+287,"['5 Zora area HPs', 'All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas']",1,1
+288,"['All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
+289,"['2 Skulltulas in Lon Lon Ranch', 'All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas']",1,1
+290,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs', 'Bottled Fairy', 'Defeat Meg (purple Poe)']",1,1
+291,"['2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs', 'All 3 Elemental Arrows', 'All 4 Market area Skulltulas']",1,1
+292,"['5 Zora area HPs', 'Beat Dodongos Cavern', 'Bottled Fairy', 'Defeat Meg (purple Poe)']",1,1
+293,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs', 'Beat Dodongos Cavern', 'Defeat Meg (purple Poe)']",1,1
+294,"['1 Skulltula from each Adult Dungeon', '5 Zora area HPs', 'Beat Dodongos Cavern', 'Bottled Fairy']",1,1
+295,"['4 Compasses', 'All 3 Elemental Arrows', 'Both Gerudo Valley HPs', 'Desert Colossus HP', 'Green Gauntlets']",1,1
+296,"['1 Unused Small Key in each Adult Dungeon', 'Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial']",1,1
+297,"['1 Unused Small Key in each Adult Dungeon', 'Defeat all Lizalfos in Dodongos Cavern', 'Sarias Song']",1,1
+298,"['Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial', 'Sarias Song']",1,1
+299,"['1 Unused Small Key in each Adult Dungeon', 'Open the Final Door of Water Trial', 'Sarias Song']",1,1
+300,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern']",1,1
+301,"['Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial']",1,1
+302,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple', 'Open the Final Door of Water Trial']",1,1
+303,"['Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern', 'Sarias Song']",1,1
+304,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple', 'Sarias Song']",1,1
+305,"['Beat the Shadow Temple', 'Open the Final Door of Water Trial', 'Sarias Song']",1,1
+306,"['1 Unused Small Key in each Adult Dungeon', 'Open the Final Door of Water Trial']",1,1
+307,"['1 Unused Small Key in each Adult Dungeon', 'Sarias Song']",1,1
+308,"['Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern']",1,1
+309,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple']",1,1
+310,"['Beat the Shadow Temple', 'Open the Final Door of Water Trial']",1,1
+311,"['Beat the Shadow Temple', 'Sarias Song']",1,1
+312,"['Both Gerudo Valley HPs', 'Green Gauntlets']",1,1
+313,"['All 3 Elemental Arrows', 'Both Gerudo Valley HPs']",1,1
+314,"['Both Gerudo Valley HPs', 'Desert Colossus HP']",1,1
+315,"['4 Compasses', 'Both Gerudo Valley HPs']",1,1
+316,"['4 Compasses', 'Desert Colossus HP']",1,1
+317,"['All 3 Elemental Arrows', 'Desert Colossus HP']",1,1
+318,"['Desert Colossus HP', 'Green Gauntlets']",1,1
+319,"['4 Compasses', 'All 3 Elemental Arrows']",1,1
+320,"['4 Compasses', 'Green Gauntlets']",1,1
+321,"['Defeat all Lizalfos in Dodongos Cavern', 'Sarias Song']",1,1
+322,"['Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial']",1,1
+323,"['1 Unused Small Key in each Adult Dungeon', 'Defeat all Lizalfos in Dodongos Cavern']",1,1
+324,"['All 3 Elemental Arrows', 'Desert Colossus HP', 'Green Gauntlets']",1,1
+325,"['All 3 Elemental Arrows', 'Both Gerudo Valley HPs', 'Green Gauntlets']",1,1
+326,"['All 3 Elemental Arrows', 'Both Gerudo Valley HPs', 'Desert Colossus HP']",1,1
+327,"['Both Gerudo Valley HPs', 'Desert Colossus HP', 'Green Gauntlets']",1,1
+328,"['4 Compasses', 'All 3 Elemental Arrows', 'Both Gerudo Valley HPs']",1,1
+329,"['4 Compasses', 'Both Gerudo Valley HPs', 'Green Gauntlets']",1,1
+330,"['4 Compasses', 'Both Gerudo Valley HPs', 'Desert Colossus HP']",1,1
+331,"['4 Compasses', 'All 3 Elemental Arrows', 'Green Gauntlets']",1,1
+332,"['4 Compasses', 'All 3 Elemental Arrows', 'Desert Colossus HP']",1,1
+333,"['4 Compasses', 'Desert Colossus HP', 'Green Gauntlets']",1,1
+334,"['All 3 Elemental Arrows', 'Both Gerudo Valley HPs', 'Desert Colossus HP', 'Green Gauntlets']",1,1
+335,"['4 Compasses', 'All 3 Elemental Arrows', 'Both Gerudo Valley HPs', 'Green Gauntlets']",1,1
+336,"['4 Compasses', 'All 3 Elemental Arrows', 'Both Gerudo Valley HPs', 'Desert Colossus HP']",1,1
+337,"['4 Compasses', 'Both Gerudo Valley HPs', 'Desert Colossus HP', 'Green Gauntlets']",1,1
+338,"['4 Compasses', 'All 3 Elemental Arrows', 'Desert Colossus HP', 'Green Gauntlets']",1,1
+339,"['1 Unused Small Key in each Adult Dungeon', 'Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial', 'Sarias Song']",1,1
+340,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial']",1,1
+341,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern', 'Sarias Song']",1,1
+342,"['Beat the Shadow Temple', 'Defeat all Lizalfos in Dodongos Cavern', 'Open the Final Door of Water Trial', 'Sarias Song']",1,1
+343,"['1 Unused Small Key in each Adult Dungeon', 'Beat the Shadow Temple', 'Open the Final Door of Water Trial', 'Sarias Song']",1,1
+344,"['10 Songs', '7 Maps', 'Bolero of Fire', 'Open the Final Door of Forest Trial']",1,1
+345,"['8 Hearts (no duping)', '8 Songs', 'Bolero of Fire', 'Defeat Volvagia']",1,1
+346,"['30 Different Skulltulas', '8 Hearts (no duping)', '8 Songs', 'Defeat Volvagia']",1,1
+347,"['30 Different Skulltulas', '8 Hearts (no duping)', 'Bolero of Fire', 'Defeat Volvagia']",1,1
+348,"['10 Songs', '7 Maps', 'Bolero of Fire']",1,1
+349,"['10 Songs', '7 Maps', 'Defeat Morpha']",1,1
+350,"['7 Maps', 'Bolero of Fire', 'Defeat Morpha']",1,1
+351,"['7 Maps', 'Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+352,"['10 Songs', 'Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+353,"['Bolero of Fire', 'Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+354,"['10 Songs', 'Bolero of Fire', 'Defeat Morpha']",1,1
+355,"['10 Songs', '7 Maps', 'Open the Final Door of Forest Trial']",1,1
+356,"['7 Maps', 'Bolero of Fire', 'Open the Final Door of Forest Trial']",1,1
+357,"['10 Songs', 'Bolero of Fire', 'Open the Final Door of Forest Trial']",1,1
+358,"['8 Hearts (no duping)', '8 Songs', 'Bolero of Fire']",1,1
+359,"['30 Different Skulltulas', '8 Hearts (no duping)', '8 Songs']",1,1
+360,"['10 Songs', '7 Maps', 'Bolero of Fire', 'Defeat Morpha']",1,1
+361,"['30 Different Skulltulas', '8 Hearts (no duping)', '8 Songs', 'Bolero of Fire']",1,1
+362,"['10 Songs', 'Bolero of Fire', 'Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+363,"['10 Songs', '7 Maps', 'Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+364,"['7 Maps', 'Bolero of Fire', 'Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+365,"['30 Different Skulltulas', '8 Hearts (no duping)', '8 Songs', 'Bolero of Fire', 'Defeat Volvagia']",1,1
+366,"['8 Songs', 'Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",1,1
+367,"['8 Hearts (no duping)', 'Bolero of Fire', 'Defeat Volvagia']",1,1
+368,"['30 Different Skulltulas', '8 Hearts (no duping)', 'Defeat Volvagia']",1,1
+369,"['8 Hearts (no duping)', '8 Songs', 'Defeat Volvagia']",1,1
+370,"['10 Songs', 'Open the Final Door of Forest Trial']",1,1
+371,"['8 Hearts (no duping)', '8 Songs']",1,1
+372,"['10 Songs', 'Defeat Morpha']",1,1
+373,"['8 Hearts (no duping)', 'Defeat Volvagia']",1,1
+374,"['Bolero of Fire', 'Defeat Morpha']",1,1
+375,"['7 Maps', 'Defeat Morpha']",1,1
+376,"['Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+377,"['7 Maps', 'Bolero of Fire']",1,1
+378,"['1 Skulltula from each Adult Dungeon', '5 Hearts', 'All 5 Skulltulas in Forest Temple', 'Dins Fire', 'Map & Compass in Fire Temple']",1,1
+379,"['5 Hearts', 'All 5 Skulltulas in Forest Temple']",1,1
+380,"['5 Hearts', 'Map & Compass in Fire Temple']",1,1
+381,"['All 5 Skulltulas in Forest Temple', 'Map & Compass in Fire Temple']",1,1
+382,"['5 Hearts', 'Dins Fire']",1,1
+383,"['10 Songs', '7 Maps', 'Bolero of Fire', 'Defeat Morpha', 'Open the Final Door of Forest Trial']",1,1
+384,"['1 Skulltula from each Adult Dungeon', '5 Hearts', 'All 5 Skulltulas in Forest Temple', 'Dins Fire']",1,1
+385,"['1 Skulltula from each Adult Dungeon', '5 Hearts', 'All 5 Skulltulas in Forest Temple']",1,1
+386,"['5 Hearts', 'All 5 Skulltulas in Forest Temple', 'Dins Fire']",1,1
+387,"['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Forest Temple', 'Dins Fire']",1,1
+388,"['1 Skulltula from each Adult Dungeon', '5 Hearts', 'Map & Compass in Fire Temple']",1,1
+389,"['5 Hearts', 'Dins Fire', 'Map & Compass in Fire Temple']",1,1
+390,"['All 5 Skulltulas in Forest Temple', 'Dins Fire', 'Map & Compass in Fire Temple']",1,1
+391,"['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Forest Temple', 'Map & Compass in Fire Temple']",1,1
+392,"['5 Hearts', 'All 5 Skulltulas in Forest Temple', 'Map & Compass in Fire Temple']",1,1
+393,"['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Map & Compass in Fire Temple']",1,1
+394,"['1 Skulltula from each Adult Dungeon', '5 Hearts', 'Dins Fire']",1,1
+395,"['1 Skulltula from each Adult Dungeon', '5 Hearts', 'Dins Fire', 'Map & Compass in Fire Temple']",1,1
+396,"['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Forest Temple', 'Dins Fire', 'Map & Compass in Fire Temple']",1,1
+397,"['5 Hearts', 'All 5 Skulltulas in Forest Temple', 'Dins Fire', 'Map & Compass in Fire Temple']",1,1
+398,"['1 Skulltula from each Adult Dungeon', '5 Hearts', 'All 5 Skulltulas in Forest Temple', 'Map & Compass in Fire Temple']",1,1
+399,"['10 Songs', '5 Hearts', '500 Rupees', 'All 5 Skulltulas in Spirit Temple', 'Sarias Song']",1,1
+400,"['500 Rupees', 'Bolero of Fire', 'Two Fairy Spells']",1,1
+401,"['500 Rupees', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+402,"['Bolero of Fire', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+403,"['Bolero of Fire', 'Defeat Twinrova', 'Map & Compass in Fire Temple']",1,1
+404,"['Defeat Twinrova', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+405,"['500 Rupees', 'Defeat Twinrova', 'Two Fairy Spells']",1,1
+406,"['500 Rupees', 'Bolero of Fire', 'Defeat Twinrova']",1,1
+407,"['500 Rupees', 'Defeat Twinrova', 'Map & Compass in Fire Temple']",1,1
+408,"['6 Compasses', 'Nayrus Love', 'Requiem of Spirit']",1,1
+409,"['Bolero of Fire', 'Nayrus Love', 'Requiem of Spirit']",1,1
+410,"['30 Different Skulltulas', 'Nayrus Love', 'Requiem of Spirit']",1,1
+411,"['30 Different Skulltulas', '6 Compasses', 'Nayrus Love']",1,1
+412,"['6 Compasses', 'Bolero of Fire', 'Nayrus Love']",1,1
+413,"['30 Different Skulltulas', 'Bolero of Fire', 'Requiem of Spirit']",1,1
+414,"['6 Compasses', 'Bolero of Fire', 'Requiem of Spirit']",1,1
+415,"['30 Different Skulltulas', '6 Compasses', 'Requiem of Spirit']",1,1
+416,"['30 Different Skulltulas', 'Bolero of Fire', 'Nayrus Love']",1,1
+417,"['500 Rupees', 'Bolero of Fire', 'Map & Compass in Fire Temple']",1,1
+418,"['500 Rupees', 'Bolero of Fire']",1,1
+419,"['Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+420,"['Bolero of Fire', 'Requiem of Spirit']",1,1
+421,"['6 Compasses', 'Requiem of Spirit']",1,1
+422,"['Bolero of Fire', 'Nayrus Love']",1,1
+423,"['30 Different Skulltulas', 'Nayrus Love']",1,1
+424,"['6 Compasses', 'Nayrus Love']",1,1
+425,"['Nayrus Love', 'Requiem of Spirit']",1,1
+426,"['Defeat Twinrova', 'Map & Compass in Fire Temple']",1,1
+427,"['500 Rupees', 'Defeat Twinrova']",1,1
+428,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple', 'Minuet of Forest', 'Sarias Song']",1,1
+429,"['Defeat Big Octo', 'Map & Compass in Spirit Temple', 'Minuet of Forest']",1,1
+430,"['Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple', 'Minuet of Forest']",1,1
+431,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple', 'Sarias Song']",1,1
+432,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple', 'Minuet of Forest']",1,1
+433,"['Free all 9 Gorons in Fire Temple', 'Minuet of Forest', 'Sarias Song']",1,1
+434,"['Defeat Big Octo', 'Minuet of Forest', 'Sarias Song']",1,1
+435,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple']",1,1
+436,"['Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,1
+437,"['Defeat Big Octo', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,1
+438,"['5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Sarias Song']",1,1
+439,"['5 Hearts', '500 Rupees', 'Sarias Song']",1,1
+440,"['5 Hearts', '500 Rupees', 'All 5 Skulltulas in Spirit Temple']",1,1
+441,"['500 Rupees', 'All 5 Skulltulas in Spirit Temple', 'Sarias Song']",1,1
+442,"['10 Songs', '500 Rupees']",1,1
+443,"['10 Songs', 'All 5 Skulltulas in Spirit Temple']",1,1
+444,"['10 Songs', '5 Hearts', '500 Rupees']",1,1
+445,"['10 Songs', '500 Rupees', 'Sarias Song']",1,1
+446,"['10 Songs', '500 Rupees', 'All 5 Skulltulas in Spirit Temple']",1,1
+447,"['10 Songs', 'All 5 Skulltulas in Spirit Temple', 'Sarias Song']",1,1
+448,"['10 Songs', '5 Hearts', 'All 5 Skulltulas in Spirit Temple']",1,1
+449,"['500 Rupees', 'Sarias Song']",1,1
+450,"['500 Rupees', 'All 5 Skulltulas in Spirit Temple']",1,1
+451,"['5 Hearts', '500 Rupees']",1,1
+452,"['Defeat Big Octo', 'Minuet of Forest']",1,1
+453,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple']",1,1
+454,"['Free all 9 Gorons in Fire Temple', 'Sarias Song']",1,1
+455,"['Defeat Big Octo', 'Sarias Song']",1,1
+456,"['Free all 9 Gorons in Fire Temple', 'Minuet of Forest']",1,1
+457,"['Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple']",1,1
+458,"['Defeat Big Octo', 'Map & Compass in Spirit Temple']",1,1
+459,"['10 Songs', '5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Sarias Song']",1,1
+460,"['10 Songs', '500 Rupees', 'All 5 Skulltulas in Spirit Temple', 'Sarias Song']",1,1
+461,"['10 Songs', '5 Hearts', '500 Rupees', 'Sarias Song']",1,1
+462,"['10 Songs', '5 Hearts', '500 Rupees', 'All 5 Skulltulas in Spirit Temple']",1,1
+463,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple', 'Minuet of Forest', 'Sarias Song']",1,1
+464,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,1
+465,"['Defeat Big Octo', 'Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple', 'Minuet of Forest']",1,1
+466,"['Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple', 'Minuet of Forest', 'Sarias Song']",1,1
+467,"['Defeat Big Octo', 'Map & Compass in Spirit Temple', 'Minuet of Forest', 'Sarias Song']",1,1
+468,"['5 Hearts', '500 Rupees', 'All 5 Skulltulas in Spirit Temple', 'Sarias Song']",1,1
+469,"['2 Skulltulas in Lon Lon Ranch', 'Two Fairy Spells']",1,1
+470,"['2 Skulltulas in Lon Lon Ranch', '500 Rupees']",1,1
+471,"['8 Songs', 'Defeat both Flare Dancers']",1,1
+472,"['3 Swords & 3 Shields', 'Fire Medallion']",1,1
+473,"['30 Different Skulltulas', '6 Compasses', 'Bolero of Fire', 'Nayrus Love', 'Requiem of Spirit']",1,1
+474,"['Fire Medallion', 'Two Fairy Spells']",1,1
+475,"['8 Songs', 'Clear 8 Silver Rupee Rooms']",1,1
+476,"['3 Swords & 3 Shields', '500 Rupees']",1,1
+477,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields']",1,1
+478,"['500 Rupees', 'Fire Medallion']",1,1
+479,"['Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern']",1,1
+480,"['8 Songs', 'Map & Compass in Dodongos Cavern']",1,1
+481,"['3 Swords & 3 Shields', '500 Rupees', 'Fire Medallion']",1,1
+482,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields', 'Fire Medallion']",1,1
+483,"['3 Swords & 3 Shields', 'Fire Medallion', 'Two Fairy Spells']",1,1
+484,"['2 Skulltulas in Lon Lon Ranch', '500 Rupees', 'Fire Medallion']",1,1
+485,"['500 Rupees', 'Fire Medallion', 'Two Fairy Spells']",1,1
+486,"['2 Skulltulas in Lon Lon Ranch', 'Fire Medallion', 'Two Fairy Spells']",1,1
+487,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields', '500 Rupees']",1,1
+488,"['8 Songs', 'Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers']",1,1
+489,"['8 Songs', 'Clear 8 Silver Rupee Rooms', 'Two Fairy Spells']",1,1
+490,"['3 Swords & 3 Shields', '500 Rupees', 'Two Fairy Spells']",1,1
+491,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields', 'Two Fairy Spells']",1,1
+492,"['8 Songs', 'Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern']",1,1
+493,"['Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",1,1
+494,"['8 Songs', 'Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",1,1
+495,"['Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern']",1,1
+496,"['8 Songs', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Dodongos Cavern']",1,1
+497,"['Clear 8 Silver Rupee Rooms', 'Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",1,1
+498,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields', '500 Rupees', 'Fire Medallion', 'Two Fairy Spells']",1,1
+499,"['8 Songs', 'Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",1,1
+500,"['8 Songs', 'Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern']",1,1
+501,"['8 Songs', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",1,1
+502,"['Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers', 'Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",1,1
+503,"['8 Songs', 'Defeat both Flare Dancers', 'Two Fairy Spells']",1,1
+504,"['2 Skulltulas in Lon Lon Ranch', '500 Rupees', 'Two Fairy Spells']",1,1
+505,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields', '500 Rupees', 'Fire Medallion']",1,1
+506,"['3 Swords & 3 Shields', '500 Rupees', 'Fire Medallion', 'Two Fairy Spells']",1,1
+507,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields', 'Fire Medallion', 'Two Fairy Spells']",1,1
+508,"['2 Skulltulas in Lon Lon Ranch', '500 Rupees', 'Fire Medallion', 'Two Fairy Spells']",1,1
+509,"['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields', '500 Rupees', 'Two Fairy Spells']",1,1
+510,"['8 Songs', 'Clear 8 Silver Rupee Rooms', 'Defeat both Flare Dancers', 'Two Fairy Spells']",1,1
+511,"['30 Different Skulltulas', '6 Compasses', 'Bolero of Fire', 'Requiem of Spirit']",1,1
+512,"['30 Different Skulltulas', '6 Compasses', 'Bolero of Fire', 'Nayrus Love']",1,1
+513,"['30 Different Skulltulas', 'Bolero of Fire', 'Nayrus Love', 'Requiem of Spirit']",1,1
+514,"['6 Compasses', 'Bolero of Fire', 'Nayrus Love', 'Requiem of Spirit']",1,1
+515,"['30 Different Skulltulas', '6 Compasses', 'Nayrus Love', 'Requiem of Spirit']",1,1
+516,"['500 Rupees', 'Bolero of Fire', 'Defeat Twinrova', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+517,"['500 Rupees', 'Bolero of Fire', 'Defeat Twinrova', 'Map & Compass in Fire Temple']",1,1
+518,"['500 Rupees', 'Bolero of Fire', 'Defeat Twinrova', 'Two Fairy Spells']",1,1
+519,"['500 Rupees', 'Defeat Twinrova', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+520,"['Bolero of Fire', 'Defeat Twinrova', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+521,"['500 Rupees', 'Bolero of Fire', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
+522,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+523,"['10 Songs', '7 Maps', 'All 5 Skulltulas in Fire Temple', 'Giants Knife', 'Map & Compass in Jabu-Jabu']",1,1
+524,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+525,"['10 Songs', '7 Maps', 'Giants Knife', 'Map & Compass in Jabu-Jabu']",1,1
+526,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Open the Final Door of Spirit Trial']",1,1
+527,"['7 Maps', 'All 5 Skulltulas in Fire Temple', 'Giants Knife', 'Map & Compass in Jabu-Jabu']",1,1
+528,"['10 Songs', '7 Maps', 'All 5 Skulltulas in Fire Temple', 'Giants Knife']",1,1
+529,"['10 Songs', 'All 5 Skulltulas in Fire Temple', 'Giants Knife', 'Map & Compass in Jabu-Jabu']",1,1
+530,"['10 Songs', '7 Maps', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Jabu-Jabu']",1,1
+531,"['10 Songs', 'Giants Knife']",1,1
+532,"['All 5 Skulltulas in Fire Temple', 'Open the Final Door of Spirit Trial']",1,1
+533,"['All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple']",1,1
+534,"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Jabu-Jabu']",1,1
+535,"['10 Songs', 'All 5 Skulltulas in Fire Temple']",1,1
+536,"['10 Songs', 'Map & Compass in Jabu-Jabu']",1,1
+537,"['7 Maps', 'Map & Compass in Jabu-Jabu']",1,1
+538,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas']",1,1
+539,"['All 4 Lost Woods area Skulltulas', 'Open the Final Door of Spirit Trial']",1,1
+540,"['All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP']",1,1
+541,"['All 4 Lost Woods area Skulltulas', 'Lon Lon Ranch HP']",1,1
+542,"['Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+543,"['All 3 Elemental Arrows', 'Lon Lon Ranch HP']",1,1
+544,"['All 3 Elemental Arrows', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+545,"['All 4 Lost Woods area Skulltulas', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+546,"['All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP']",1,1
+547,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas', 'Lon Lon Ranch HP']",1,1
+548,"['All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+549,"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP']",1,1
+550,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas', 'Open the Final Door of Spirit Trial']",1,1
+551,"['10 Songs', 'Giants Knife', 'Map & Compass in Jabu-Jabu']",1,1
+552,"['10 Songs', '7 Maps', 'Giants Knife']",1,1
+553,"['10 Songs', '7 Maps', 'Map & Compass in Jabu-Jabu']",1,1
+554,"['7 Maps', 'Giants Knife', 'Map & Compass in Jabu-Jabu']",1,1
+555,"['7 Maps', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Jabu-Jabu']",1,1
+556,"['All 5 Skulltulas in Fire Temple', 'Giants Knife', 'Map & Compass in Jabu-Jabu']",1,1
+557,"['10 Songs', 'All 5 Skulltulas in Fire Temple', 'Giants Knife']",1,1
+558,"['10 Songs', '7 Maps', 'All 5 Skulltulas in Fire Temple']",1,1
+559,"['10 Songs', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Jabu-Jabu']",1,1
+560,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple']",1,1
+561,"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple', 'Open the Final Door of Spirit Trial']",1,1
+562,"['All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Open the Final Door of Spirit Trial']",1,1
+563,"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+564,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+565,"['All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
+566,"['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP']",1,1
+567,"['20 Different Skulltulas', '5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+568,"['8 Songs', '9 Hearts (no duping)', 'Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+569,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+570,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+571,"['Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+572,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks']",1,1
+573,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+574,"['4 Unused Keys in Gerudo Training Grounds', 'Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+575,"['4 Unused Keys in Gerudo Training Grounds', '9 Hearts (no duping)', 'Map & Compass in Ice Cavern']",1,1
+576,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs', 'Map & Compass in Ice Cavern']",1,1
+577,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs', '9 Hearts (no duping)']",1,1
+578,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs', 'Open the Final Door of Spirit Trial']",1,1
+579,"['Defeat Bongo-Bongo', 'Exactly 30 Deku Sticks']",1,1
+580,"['Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks']",1,1
+581,"['9 Hearts (no duping)', 'Map & Compass in Ice Cavern']",1,1
+582,"['Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+583,"['Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+584,"['4 Unused Keys in Gerudo Training Grounds', 'Open the Final Door of Spirit Trial']",1,1
+585,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs']",1,1
+586,"['4 Unused Keys in Gerudo Training Grounds', 'Map & Compass in Ice Cavern']",1,1
+587,"['9 Hearts (no duping)', 'Open the Final Door of Spirit Trial']",1,1
+588,"['Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)']",1,1
+589,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo']",1,1
+590,"['Defeat Bongo-Bongo', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+591,"['8 Songs', 'Open the Final Door of Spirit Trial']",1,1
+592,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs', '9 Hearts (no duping)', 'Open the Final Door of Spirit Trial']",1,1
+593,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs', 'Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+594,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs', '9 Hearts (no duping)', 'Map & Compass in Ice Cavern']",1,1
+595,"['4 Unused Keys in Gerudo Training Grounds', '9 Hearts (no duping)', 'Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+596,"['8 Songs', 'Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+597,"['8 Songs', '9 Hearts (no duping)', 'Map & Compass in Ice Cavern']",1,1
+598,"['9 Hearts (no duping)', 'Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+599,"['Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+600,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+601,"['4 Unused Keys in Gerudo Training Grounds', '9 Hearts (no duping)', 'Open the Final Door of Spirit Trial']",1,1
+602,"['Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+603,"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+604,"['Defeat Bongo-Bongo', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+605,"['Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks']",1,1
+606,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo', 'Exactly 30 Deku Sticks']",1,1
+607,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks']",1,1
+608,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)']",1,1
+609,"['8 Songs', '9 Hearts (no duping)', 'Open the Final Door of Spirit Trial']",1,1
+610,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics', 'All 3 Elemental Arrows', 'Bullet Bag (40)']",1,1
+611,"['20 Different Skulltulas', '5 Hearts', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+612,"['5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+613,"['20 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+614,"['20 Different Skulltulas', '5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Eponas Song']",1,1
+615,"['3 Skulltulas in Water Temple', 'All 3 Elemental Arrows']",1,1
+616,"['3 Skulltulas in Water Temple', 'Bullet Bag (40)']",1,1
+617,"['3 Lake Hylia Skulltulas', '3 Skulltulas in Water Temple']",1,1
+618,"['3 Shields & 3 Tunics', '3 Skulltulas in Water Temple']",1,1
+619,"['3 Shields & 3 Tunics', 'All 3 Elemental Arrows', 'Bullet Bag (40)']",1,1
+620,"['3 Lake Hylia Skulltulas', 'All 3 Elemental Arrows', 'Bullet Bag (40)']",1,1
+621,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics', 'Bullet Bag (40)']",1,1
+622,"['All 5 Skulltulas in Spirit Temple', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+623,"['5 Hearts', 'All 5 Skulltulas in Spirit Temple', 'Eponas Song']",1,1
+624,"['20 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple', 'Eponas Song']",1,1
+625,"['5 Hearts', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+626,"['20 Different Skulltulas', '5 Hearts', 'Eponas Song']",1,1
+627,"['20 Different Skulltulas', 'Eponas Song', 'Open All 6 Gold Rupee Chests']",1,1
+628,"['3 Skulltulas in Water Temple', 'All 3 Elemental Arrows', 'Bullet Bag (40)']",1,1
+629,"['3 Lake Hylia Skulltulas', '3 Skulltulas in Water Temple', 'Bullet Bag (40)']",1,1
+630,"['3 Shields & 3 Tunics', '3 Skulltulas in Water Temple', 'Bullet Bag (40)']",1,1
+631,"['3 Shields & 3 Tunics', '3 Skulltulas in Water Temple', 'All 3 Elemental Arrows']",1,1
+632,"['3 Lake Hylia Skulltulas', '3 Skulltulas in Water Temple', 'All 3 Elemental Arrows']",1,1
+633,"['3 Lake Hylia Skulltulas', 'All 3 Elemental Arrows']",1,1
+634,"['3 Shields & 3 Tunics', 'Bullet Bag (40)']",1,1
+635,"['All 5 Skulltulas in Spirit Temple', 'Eponas Song']",1,1
+636,"['3 Lake Hylia Skulltulas', 'Bullet Bag (40)']",1,1
+637,"['5 Hearts', 'Eponas Song']",1,1
+638,"['20 Different Skulltulas', 'Eponas Song']",1,1
+639,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics']",1,1
+640,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics', '3 Skulltulas in Water Temple']",1,1
+641,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics', 'All 3 Elemental Arrows']",1,1
+642,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics', '3 Skulltulas in Water Temple', 'All 3 Elemental Arrows']",1,1
+643,"['3 Shields & 3 Tunics', '3 Skulltulas in Water Temple', 'All 3 Elemental Arrows', 'Bullet Bag (40)']",1,1
+644,"['3 Lake Hylia Skulltulas', '3 Skulltulas in Water Temple', 'All 3 Elemental Arrows', 'Bullet Bag (40)']",1,1
+645,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics', '3 Skulltulas in Water Temple', 'Bullet Bag (40)']",1,1
+646,"['3 Lake Hylia Skulltulas', '3 Shields & 3 Tunics', '3 Skulltulas in Water Temple', 'All 3 Elemental Arrows', 'Bullet Bag (40)']",1,1
+647,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans', 'Beat Dodongos Cavern', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+648,"['5 Zora area HPs', 'All 3 Elemental Arrows', 'Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+649,"['All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple', 'Dins Fire', 'Quiver (40)']",1,1
+650,"['All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple']",1,1
+651,"['1 Skulltula from each Adult Dungeon', '3 Songs', '3 Tunics', 'All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+652,"['4 Unused Keys in Forest Temple', 'Map & Compass in Dodongos Cavern']",1,1
+653,"['4 Unused Keys in Forest Temple', '5 Zora area HPs']",1,1
+654,"['4 Unused Keys in Forest Temple', 'Beat the Fire Temple']",1,1
+655,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas']",1,1
+656,"['Both Rusty Switches in Spirit Temple', 'Quiver (40)']",1,1
+657,"['All 8 Zoras Domain area Skulltulas', 'Quiver (40)']",1,1
+658,"['All 3 Elemental Arrows', 'Beat the Fire Temple']",1,1
+659,"['Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+660,"['5 Zora area HPs', 'Map & Compass in Dodongos Cavern']",1,1
+661,"['5 Zora area HPs', 'Beat the Fire Temple']",1,1
+662,"['All 8 Zoras Domain area Skulltulas', 'Dins Fire']",1,1
+663,"['All 8 Zoras Domain area Skulltulas', 'Dins Fire', 'Quiver (40)']",1,1
+664,"['Both Rusty Switches in Spirit Temple', 'Dins Fire', 'Quiver (40)']",1,1
+665,"['5 Zora area HPs', 'Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+666,"['All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple', 'Dins Fire']",1,1
+667,"['5 Zora area HPs', 'All 3 Elemental Arrows', 'Beat the Fire Temple']",1,1
+668,"['5 Zora area HPs', 'All 3 Elemental Arrows', 'Map & Compass in Dodongos Cavern']",1,1
+669,"['All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple', 'Quiver (40)']",1,1
+670,"['All 3 Elemental Arrows', 'Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+671,"['4 Unused Keys in Forest Temple', '5 Zora area HPs', 'All 3 Elemental Arrows']",1,1
+672,"['4 Unused Keys in Forest Temple', '5 Zora area HPs', 'Map & Compass in Dodongos Cavern']",1,1
+673,"['4 Unused Keys in Forest Temple', 'All 3 Elemental Arrows', 'Beat the Fire Temple']",1,1
+674,"['4 Unused Keys in Forest Temple', 'Both Rusty Switches in Spirit Temple', 'Quiver (40)']",1,1
+675,"['4 Unused Keys in Forest Temple', 'Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+676,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas', 'Quiver (40)']",1,1
+677,"['4 Unused Keys in Forest Temple', 'All 3 Elemental Arrows', 'Map & Compass in Dodongos Cavern']",1,1
+678,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas', 'Dins Fire']",1,1
+679,"['4 Unused Keys in Forest Temple', 'Both Rusty Switches in Spirit Temple', 'Dins Fire']",1,1
+680,"['4 Unused Keys in Forest Temple', '5 Zora area HPs', 'Beat the Fire Temple']",1,1
+681,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple']",1,1
+682,"['4 Unused Keys in Forest Temple', '5 Zora area HPs', 'Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+683,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple', 'Dins Fire']",1,1
+684,"['4 Unused Keys in Forest Temple', 'Both Rusty Switches in Spirit Temple', 'Dins Fire', 'Quiver (40)']",1,1
+685,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas', 'Dins Fire', 'Quiver (40)']",1,1
+686,"['4 Unused Keys in Forest Temple', '5 Zora area HPs', 'All 3 Elemental Arrows', 'Beat the Fire Temple']",1,1
+687,"['4 Unused Keys in Forest Temple', '5 Zora area HPs', 'All 3 Elemental Arrows', 'Map & Compass in Dodongos Cavern']",1,1
+688,"['4 Unused Keys in Forest Temple', 'All 3 Elemental Arrows', 'Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+689,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple', 'Quiver (40)']",1,1
+690,"['1 Skulltula from each Adult Dungeon', '3 Tunics', 'All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+691,"['1 Skulltula from each Adult Dungeon', '3 Songs', 'All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+692,"['3 Songs', '3 Tunics', 'All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+693,"['1 Skulltula from each Adult Dungeon', '3 Songs', '3 Tunics', 'All 8 Zoras Domain area Skulltulas']",1,1
+694,"['1 Skulltula from each Adult Dungeon', '3 Songs', '3 Tunics', 'Free all 9 Gorons in Fire Temple']",1,1
+695,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans', 'Beat Dodongos Cavern', 'Defeat Barinade']",1,1
+696,"['5 Magic Beans', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+697,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans', 'Defeat Meg (purple Poe)']",1,1
+698,"['5 Magic Beans', 'Beat Dodongos Cavern', 'Defeat Meg (purple Poe)']",1,1
+699,"['Beat Dodongos Cavern', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+700,"['1 Skulltula from each Adult Dungeon', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+701,"['Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+702,"['5 Magic Beans', 'Defeat Barinade']",1,1
+703,"['5 Magic Beans', 'Defeat Meg (purple Poe)']",1,1
+704,"['5 Magic Beans', 'Beat Dodongos Cavern']",1,1
+705,"['1 Skulltula from each Adult Dungeon', '3 Songs']",1,1
+706,"['3 Songs', '3 Tunics']",1,1
+707,"['3 Songs', 'All 8 Zoras Domain area Skulltulas']",1,1
+708,"['1 Skulltula from each Adult Dungeon', 'Free all 9 Gorons in Fire Temple']",1,1
+709,"['3 Tunics', 'Free all 9 Gorons in Fire Temple']",1,1
+710,"['3 Songs', 'Free all 9 Gorons in Fire Temple']",1,1
+711,"['All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+712,"['Beat Dodongos Cavern', 'Defeat Barinade']",1,1
+713,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans', 'Beat Dodongos Cavern']",1,1
+714,"['5 Magic Beans', 'Beat Dodongos Cavern', 'Defeat Barinade']",1,1
+715,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans', 'Defeat Barinade']",1,1
+716,"['1 Skulltula from each Adult Dungeon', 'All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+717,"['3 Tunics', 'All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+718,"['3 Songs', 'All 8 Zoras Domain area Skulltulas', 'Free all 9 Gorons in Fire Temple']",1,1
+719,"['1 Skulltula from each Adult Dungeon', 'Beat Dodongos Cavern', 'Defeat Barinade']",1,1
+720,"['1 Skulltula from each Adult Dungeon', '3 Songs', '3 Tunics']",1,1
+721,"['3 Songs', '3 Tunics', 'Free all 9 Gorons in Fire Temple']",1,1
+722,"['1 Skulltula from each Adult Dungeon', '3 Tunics', 'Free all 9 Gorons in Fire Temple']",1,1
+723,"['1 Skulltula from each Adult Dungeon', '3 Songs', 'Free all 9 Gorons in Fire Temple']",1,1
+724,"['1 Skulltula from each Adult Dungeon', '3 Tunics', 'All 8 Zoras Domain area Skulltulas']",1,1
+725,"['1 Skulltula from each Adult Dungeon', '3 Songs', 'All 8 Zoras Domain area Skulltulas']",1,1
+726,"['3 Songs', '3 Tunics', 'All 8 Zoras Domain area Skulltulas']",1,1
+727,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans', 'Beat Dodongos Cavern', 'Defeat Meg (purple Poe)']",1,1
+728,"['1 Skulltula from each Adult Dungeon', '5 Magic Beans', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+729,"['5 Magic Beans', 'Beat Dodongos Cavern', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+730,"['1 Skulltula from each Adult Dungeon', 'Beat Dodongos Cavern', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
+731,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial']",1,2
+732,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,2
+733,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+734,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial']",1,2
+735,"['Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+736,"['1 Skulltula from each Child Dungeon', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+737,"['Map & Compass in Bottom of the Well', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+738,"['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,2
+739,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Sarias Song']",1,2
+740,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,2
+741,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Open the Final Door of Shadow Trial']",1,2
+742,"['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial']",1,2
+743,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple']",1,2
+744,"['1 Skulltula from each Child Dungeon', 'Sarias Song']",1,2
+745,"['Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+746,"['Map & Compass in Bottom of the Well', 'Sarias Song']",1,2
+747,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple']",1,2
+748,"['Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial']",1,2
+749,"['1 Skulltula from each Child Dungeon', 'Open the Final Door of Shadow Trial']",1,2
+750,"['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple']",1,2
+751,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well']",1,2
+752,"['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+753,"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
+754,"['4 Unused Keys in Forest Temple', '5 Zora area HPs', 'All 3 Elemental Arrows', 'Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",1,1
+755,"['4 Unused Keys in Forest Temple', 'All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple', 'Dins Fire', 'Quiver (40)']",1,1
+756,"['30 Different Skulltulas', 'Defeat Big Octo', 'Giants Knife', 'Mirror Shield', 'Two Fairy Spells']",1,1
+757,"['10 Songs', 'Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+758,"['10 Songs', '6 Maps', 'Defeat Volvagia']",1,1
+759,"['10 Songs', '6 Maps', 'Map & Compass in Ice Cavern']",1,1
+760,"['6 Maps', 'Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+761,"['10 Songs', 'All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia']",1,1
+762,"['10 Songs', 'All 3 Kokiri Forest area Skulltulas', 'Map & Compass in Ice Cavern']",1,1
+763,"['All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+764,"['10 Songs', '6 Maps', 'All 3 Kokiri Forest area Skulltulas']",1,1
+765,"['6 Maps', 'All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia']",1,1
+766,"['6 Maps', 'All 3 Kokiri Forest area Skulltulas', 'Map & Compass in Ice Cavern']",1,1
+767,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple']",1,1
+768,"['1 Skulltula from each Adult Dungeon', 'All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple', 'Fairy Slingshot']",1,1
+769,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots', 'Beat the Fire Temple', 'Fairy Slingshot']",1,1
+770,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas', 'Fairy Slingshot']",1,1
+771,"['3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple', 'Fairy Slingshot']",1,1
+772,"['Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+773,"['10 Songs', '6 Maps']",1,1
+774,"['6 Maps', 'Defeat Volvagia']",1,1
+775,"['6 Maps', 'Map & Compass in Ice Cavern']",1,1
+776,"['10 Songs', 'All 3 Kokiri Forest area Skulltulas']",1,1
+777,"['All 3 Kokiri Forest area Skulltulas', 'Map & Compass in Ice Cavern']",1,1
+778,"['6 Maps', 'All 3 Kokiri Forest area Skulltulas']",1,1
+779,"['3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas']",1,1
+780,"['All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple']",1,1
+781,"['3 Tunics & 3 Boots', 'Fairy Slingshot']",1,1
+782,"['9 Songs', 'Clear 8 Silver Rupee Rooms', 'Giants Knife', 'Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+783,"['1 Skulltula from each Adult Dungeon', 'Beat the Fire Temple']",1,1
+784,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots']",1,1
+785,"['Beat the Fire Temple', 'Fairy Slingshot']",1,1
+786,"['All 3 Kokiri Forest area Skulltulas', 'Fairy Slingshot']",1,1
+787,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas']",1,1
+788,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots', 'Beat the Fire Temple']",1,1
+789,"['1 Skulltula from each Adult Dungeon', 'All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple']",1,1
+790,"['3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple']",1,1
+791,"['1 Skulltula from each Adult Dungeon', 'All 3 Kokiri Forest area Skulltulas', 'Fairy Slingshot']",1,1
+792,"['1 Skulltula from each Adult Dungeon', 'Beat the Fire Temple', 'Fairy Slingshot']",1,1
+793,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots', 'Fairy Slingshot']",1,1
+794,"['All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple', 'Fairy Slingshot']",1,1
+795,"['3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas', 'Fairy Slingshot']",1,1
+796,"['3 Tunics & 3 Boots', 'Beat the Fire Temple', 'Fairy Slingshot']",1,1
+797,"['30 Different Skulltulas', 'Giants Knife', 'Mirror Shield', 'Two Fairy Spells']",1,1
+798,"['30 Different Skulltulas', 'Defeat Big Octo', 'Giants Knife', 'Mirror Shield']",1,1
+799,"['30 Different Skulltulas', 'Defeat Big Octo', 'Mirror Shield', 'Two Fairy Spells']",1,1
+800,"['Defeat Big Octo', 'Giants Knife', 'Mirror Shield', 'Two Fairy Spells']",1,1
+801,"['30 Different Skulltulas', 'Defeat Big Octo', 'Giants Knife', 'Two Fairy Spells']",1,1
+802,"['30 Different Skulltulas', 'Giants Knife', 'Two Fairy Spells']",1,1
+803,"['30 Different Skulltulas', 'Defeat Big Octo', 'Two Fairy Spells']",1,1
+804,"['Giants Knife', 'Mirror Shield', 'Two Fairy Spells']",1,1
+805,"['30 Different Skulltulas', 'Defeat Big Octo', 'Mirror Shield']",1,1
+806,"['30 Different Skulltulas', 'Giants Knife', 'Mirror Shield']",1,1
+807,"['30 Different Skulltulas', 'Mirror Shield', 'Two Fairy Spells']",1,1
+808,"['Defeat Big Octo', 'Giants Knife', 'Mirror Shield']",1,1
+809,"['Defeat Big Octo', 'Mirror Shield', 'Two Fairy Spells']",1,1
+810,"['Defeat Big Octo', 'Giants Knife', 'Two Fairy Spells']",1,1
+811,"['9 Songs', 'Clear 8 Silver Rupee Rooms', 'Giants Knife']",1,1
+812,"['9 Songs', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Shadow Temple']",1,1
+813,"['9 Songs', 'Clear 8 Silver Rupee Rooms', 'Open All 6 Gold Rupee Chests']",1,1
+814,"['Clear 8 Silver Rupee Rooms', 'Giants Knife', 'Map & Compass in Shadow Temple']",1,1
+815,"['Clear 8 Silver Rupee Rooms', 'Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+816,"['Clear 8 Silver Rupee Rooms', 'Giants Knife', 'Open All 6 Gold Rupee Chests']",1,1
+817,"['Giants Knife', 'Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+818,"['9 Songs', 'Giants Knife', 'Open All 6 Gold Rupee Chests']",1,1
+819,"['9 Songs', 'Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+820,"['9 Songs', 'Giants Knife', 'Map & Compass in Shadow Temple']",1,1
+821,"['30 Different Skulltulas', 'Mirror Shield']",1,1
+822,"['Mirror Shield', 'Two Fairy Spells']",1,1
+823,"['Giants Knife', 'Mirror Shield']",1,1
+824,"['Defeat Big Octo', 'Two Fairy Spells']",1,1
+825,"['9 Songs', 'Clear 8 Silver Rupee Rooms']",1,1
+826,"['Giants Knife', 'Two Fairy Spells']",1,1
+827,"['Clear 8 Silver Rupee Rooms', 'Map & Compass in Shadow Temple']",1,1
+828,"['Clear 8 Silver Rupee Rooms', 'Open All 6 Gold Rupee Chests']",1,1
+829,"['9 Songs', 'Map & Compass in Shadow Temple']",1,1
+830,"['9 Songs', 'Giants Knife']",1,1
+831,"['Giants Knife', 'Open All 6 Gold Rupee Chests']",1,1
+832,"['Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+833,"['9 Songs', 'Giants Knife', 'Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+834,"['Clear 8 Silver Rupee Rooms', 'Giants Knife', 'Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+835,"['9 Songs', 'Clear 8 Silver Rupee Rooms', 'Giants Knife', 'Open All 6 Gold Rupee Chests']",1,1
+836,"['9 Songs', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,1
+837,"['9 Songs', 'Clear 8 Silver Rupee Rooms', 'Giants Knife', 'Map & Compass in Shadow Temple']",1,1
+838,"['9 Songs', 'Defeat King Dodongo', 'Two Fairy Spells']",1,2
+839,"['9 Songs', 'Beat the Spirit Temple', 'Defeat King Dodongo']",1,2
+840,"['Beat the Spirit Temple', 'Silver Scale', 'Two Fairy Spells']",1,2
+841,"['Defeat King Dodongo', 'Silver Scale', 'Two Fairy Spells']",1,2
+842,"['Beat the Spirit Temple', 'Defeat King Dodongo', 'Silver Scale']",1,2
+843,"['9 Songs', 'Silver Scale', 'Two Fairy Spells']",1,2
+844,"['9 Songs', 'Beat the Spirit Temple', 'Silver Scale']",1,2
+845,"['9 Songs', 'Defeat King Dodongo', 'Silver Scale']",1,2
+846,"['Beat the Spirit Temple', 'Defeat King Dodongo', 'Silver Scale', 'Two Fairy Spells']",1,2
+847,"['9 Songs', 'Beat the Spirit Temple', 'Silver Scale', 'Two Fairy Spells']",1,2
+848,"['9 Songs', 'Defeat King Dodongo', 'Silver Scale', 'Two Fairy Spells']",1,2
+849,"['9 Songs', 'Beat the Spirit Temple', 'Defeat King Dodongo', 'Silver Scale']",1,2
+850,"['9 Songs', 'Defeat King Dodongo']",1,2
+851,"['9 Songs', 'Silver Scale']",1,2
+852,"['Defeat King Dodongo', 'Silver Scale']",1,2
+853,"['10 Songs', '6 Maps', 'All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+854,"['9 Songs', 'Beat the Spirit Temple', 'Defeat King Dodongo', 'Two Fairy Spells']",1,2
+855,"['10 Songs', '6 Maps', 'Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+856,"['10 Songs', 'All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+857,"['10 Songs', '6 Maps', 'All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia']",1,1
+858,"['10 Songs', '6 Maps', 'All 3 Kokiri Forest area Skulltulas', 'Map & Compass in Ice Cavern']",1,1
+859,"['6 Maps', 'All 3 Kokiri Forest area Skulltulas', 'Defeat Volvagia', 'Map & Compass in Ice Cavern']",1,1
+860,"['1 Skulltula from each Adult Dungeon', '3 Tunics & 3 Boots', 'All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple', 'Fairy Slingshot']",1,1
+861,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Plant 5 Magic Beans', 'Quiver (40)']",1,1
+862,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Plant 5 Magic Beans', 'Two Fairy Spells']",1,1
+863,"['Gerudos Card', 'Plant 5 Magic Beans', 'Quiver (40)', 'Two Fairy Spells']",1,1
+864,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Quiver (40)', 'Two Fairy Spells']",1,1
+865,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)', 'Defeat Volvagia']",1,1
+866,"['1 Skulltula from each Adult Dungeon', 'Plant 5 Magic Beans', 'Quiver (40)', 'Two Fairy Spells']",1,1
+867,"['7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)', 'Defeat Volvagia', 'Keaton Mask']",1,1
+868,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)', 'Keaton Mask']",1,1
+869,"['1 Skulltula from each Adult Dungeon', 'Plant 5 Magic Beans', 'Quiver (40)']",1,1
+870,"['1 Skulltula from each Adult Dungeon', 'Bullet Bag (50)', 'Defeat Volvagia', 'Keaton Mask']",1,1
+871,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Defeat Volvagia', 'Keaton Mask']",1,1
+872,"['Plant 5 Magic Beans', 'Quiver (40)']",1,1
+873,"['1 Skulltula from each Adult Dungeon', 'Plant 5 Magic Beans']",1,1
+874,"['7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)']",1,1
+875,"['Plant 5 Magic Beans', 'Two Fairy Spells']",1,1
+876,"['Bullet Bag (50)', 'Keaton Mask']",1,1
+877,"['7 Different Unused Keys in Gerudo Training Grounds', 'Keaton Mask']",1,1
+878,"['Gerudos Card', 'Plant 5 Magic Beans']",1,1
+879,"['Gerudos Card', 'Quiver (40)']",1,1
+880,"['Defeat Volvagia', 'Keaton Mask']",1,1
+881,"['1 Skulltula from each Adult Dungeon', 'Keaton Mask']",1,1
+882,"['1 Skulltula from each Adult Dungeon', 'Defeat Volvagia', 'Keaton Mask']",1,1
+883,"['7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)', 'Keaton Mask']",1,1
+884,"['Bullet Bag (50)', 'Defeat Volvagia', 'Keaton Mask']",1,1
+885,"['1 Skulltula from each Adult Dungeon', 'Bullet Bag (50)', 'Keaton Mask']",1,1
+886,"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat Volvagia', 'Keaton Mask']",1,1
+887,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Keaton Mask']",1,1
+888,"['7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)', 'Defeat Volvagia']",1,1
+889,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)']",1,1
+890,"['1 Skulltula from each Adult Dungeon', 'Plant 5 Magic Beans', 'Two Fairy Spells']",1,1
+891,"['Plant 5 Magic Beans', 'Quiver (40)', 'Two Fairy Spells']",1,1
+892,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Quiver (40)']",1,1
+893,"['Gerudos Card', 'Plant 5 Magic Beans', 'Quiver (40)']",1,1
+894,"['Gerudos Card', 'Quiver (40)', 'Two Fairy Spells']",1,1
+895,"['Gerudos Card', 'Plant 5 Magic Beans', 'Two Fairy Spells']",1,1
+896,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Plant 5 Magic Beans']",1,1
+897,"['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Bullet Bag (50)', 'Defeat Volvagia', 'Keaton Mask']",1,1
+898,"['4 Unused Keys in Gerudo Training Grounds', '8 Songs', '9 Hearts (no duping)', 'Map & Compass in Ice Cavern', 'Open the Final Door of Spirit Trial']",1,1
+899,"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo', 'Defeat Meg (purple Poe)', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+900,"['1 Skulltula from each Adult Dungeon', 'Gerudos Card', 'Plant 5 Magic Beans', 'Quiver (40)', 'Two Fairy Spells']",1,1
+901,"['Beat the Spirit Temple', 'Defeat Queen Gohma', 'Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+902,"['7 Maps', 'Beat the Spirit Temple', 'Defeat Queen Gohma', 'Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+903,"['7 Maps', 'Beat the Spirit Temple', 'Defeat Queen Gohma', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+904,"['7 Maps', 'Beat the Spirit Temple', 'Defeat Queen Gohma', 'Fire Temple Boss Key']",1,1
+905,"['7 Maps', 'Beat the Spirit Temple', 'Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+906,"['7 Maps', 'Defeat Queen Gohma', 'Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+907,"['7 Maps', 'Defeat Queen Gohma', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+908,"['7 Maps', 'Defeat Queen Gohma', 'Fire Temple Boss Key']",1,1
+909,"['7 Maps', 'Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+910,"['7 Maps', 'Beat the Spirit Temple', 'Fire Temple Boss Key']",1,1
+911,"['7 Maps', 'Beat the Spirit Temple', 'Defeat Queen Gohma']",1,1
+912,"['Defeat Queen Gohma', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+913,"['Defeat Queen Gohma', 'Fire Temple Boss Key']",1,1
+914,"['Beat the Spirit Temple', 'Defeat Queen Gohma']",1,1
+915,"['7 Maps', 'Fire Temple Boss Key']",1,1
+916,"['Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+917,"['7 Maps', 'Defeat Queen Gohma']",1,1
+918,"['Defeat Queen Gohma', 'Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+919,"['Beat the Spirit Temple', 'Fire Temple Boss Key', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+920,"['Beat the Spirit Temple', 'Defeat Queen Gohma', 'Obtain all 8 Small Keys in Fire Temple']",1,1
+921,"['Beat the Spirit Temple', 'Defeat Queen Gohma', 'Fire Temple Boss Key']",1,1

@@ -6,13 +6,9 @@ urlpatterns = [
 
     # ex: /tournaments/
 
-    path('goals/', views.goals, name='goals'),
-	path('goals_top16/', views.goals_t16, name='goals_top16'),
-    path('players/swiss/v10', views.players, name='players'),
-	path('players/top16/v10', views.players_t16, name='players_top16'),
-	path('players/swiss/rebalance/', views.players_rebalance, name='players_rebalance'),
-	path('players/top16/rebalance/', views.players_t16_rebalance, name='players_top16_rebalance'),
-    path('combinations/', views.combinations, name='combinations'),
+    path('<int:year>/goals/<str:phase>', views.goals, name='goals'),
+    path('<int:year>/players/<str:phase>', views.players, name='players'),
+    path('<int:year>/combinations/', views.combinations, name='combinations'),
 	path('frequency/', views.frequency, name='frequency'),
 
 

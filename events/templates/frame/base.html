@@ -40,7 +40,10 @@
                             <a class="nav-link" href="{% url 'tournament-list' format='race' %}">[Races]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players' %}">[Bingo 2020 - Statistics]</a>
+                            <a class="nav-link" href="{% url 'players' 2021 'swiss' %}">[Bingo 2021 - Statistics]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'players' 2020 'swiss' %}">[OLD - Statistics 2020]</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'frequency' %}">[Goal Frequency Analysis]</a>

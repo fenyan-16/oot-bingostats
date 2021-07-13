@@ -18,7 +18,7 @@ from django.db import transaction
 from django.contrib import messages
 import datetime
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
-from django.utils import six
+# from django.utils import six
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 from profiles.models import Userprofile
