@@ -35,7 +35,7 @@ def return_goal_combinations(year='2021'):
 	split_fun2 = lambda r: [s for s in r.split('\",')]
 	split_combinations = combi_df['goal combination'].apply(split_fun).apply(Series)
 	combi_df = combi_df.merge(split_combinations, left_index=True, right_index=True).drop(
-		['Unnamed: 0', 'goal combination'], axis=1)
+		['goal combination'], axis=1)
 
 	return list(combi_df.itertuples(index=False, name=None))
 
