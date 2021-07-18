@@ -56,6 +56,6 @@ def goals_era(request):
 
 def combinations_era(request):
 	goal_combi_repr = return_goal_combinations(year='v10.1')
-	total_races = return_race_count(year='v10.1', mode='swiss')+return_race_count(year='v10.1', mode='swiss')
+	total_races = return_race_count(year='v10.1', mode='swiss')
 
 	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': total_races})
