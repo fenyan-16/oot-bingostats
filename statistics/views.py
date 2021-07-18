@@ -40,3 +40,22 @@ def combinations(request, year):
 
 def frequency(request):
 	return render(request, 'frequency.html')
+
+
+def players_era(request):
+	player_df_repr = return_playerstats('swiss', year='v10.1')
+	return render(request, 'players_era.html', {'players': player_df_repr})
+
+
+def goals_era(request):
+	goal_df_repr = return_goallist('swiss', year='v10.1')
+	total_races = return_race_count('swiss', year='v10.1')
+
+	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races})
+
+
+def combinations_era(request):
+	goal_combi_repr = return_goal_combinations(year='v10.1')
+	total_races = return_race_count(year='v10.1', mode='swiss')+return_race_count(year='v10.1', mode='swiss')
+
+	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': total_races})

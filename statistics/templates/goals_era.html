@@ -17,19 +17,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'players' year 'swiss' %}">[Swiss Rounds - Player Statistics]</a>
+                        <a class="nav-link" href="{% url 'players_era' %}">[Player Statistics]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'goals' year 'swiss' %}">[Swiss Rounds - Goal Statistics]</a>
+                        <a class="nav-link" href="{% url 'goals_era' %}">[Goal Statistics]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'players' year 'top16' %}">[Top 16 - Player Statistics]</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'goals' year 'top16' %}">[Top 16 - Goal Statistics]</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'combinations' year %}">[Goal Combinations]</a>
+                        <a class="nav-link" href="{% url 'combinations_era' %}">[Goal Combinations]</a>
                     </li>
                 </ul>
             </div>
@@ -55,11 +49,10 @@
       <th>Goal</th>
       <th>On Boards</th>
       <th>Picked</th>
-      <th>Wins</th>
       <th>Sub 1:15</th>
       <th>Median Time</th>
       <th>Pick Rate</th>
-      <th>Win Rate</th>
+<!--      <th>Win Rate</th>-->
       <th>Sub 1:15 Rate</th>
      </tr>
     </thead>
@@ -69,12 +62,10 @@
       <td>{{ goal.0 }}</td>
       <td>{{ goal.1 }}</td>
       <td>{{ goal.2 }}</td>
-      <td>{{ goal.3 }}</td>
-      <td>{{ goal.7 }}</td>
-      <td>{{ goal.6 }}</td>
-      <td>{{ goal.4|stringformat:'i' }}%</td>
-      <td>{{ goal.5|stringformat:'i' }}%</td>
-      <td>{{ goal.8|stringformat:'i' }}%</td>
+      <td>{{ goal.5 }}</td>
+      <td>{{ goal.4 }}</td>
+      <td>{{ goal.3|stringformat:'i' }}%</td>
+      <td>{{ goal.6|stringformat:'i' }}%</td>
      </tr>
     {% endfor %}
     </tbody>
