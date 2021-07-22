@@ -48,3 +48,14 @@ def return_race_count(mode='swiss', year='2021'):
 		goals_df = read_csv(os.path.join(pwd, 'statistics/'+str(year)+'/goals_top16.csv'))
 	total_races = int(goals_df['count'].sum() / 25)
 	return total_races
+
+
+def return_timestamp(mode, year):
+	pwd = os.getcwd()
+	if len(mode) > 0:
+		timestamp_path = os.path.join(pwd, 'statistics/'+str(year)+'/timestamp_'+mode+'.txt')
+	else:
+		timestamp_path = os.path.join(pwd, 'statistics/' + str(year) + '/timestamp.txt')
+	with open(timestamp_path) as f:
+		txt = f.read()
+	return txt
