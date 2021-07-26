@@ -1764,17 +1764,14 @@ goal combination,count,pick count
 "['3 Boots', 'Silver Scale']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', '5 Compasses']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', '5 Hearts']",1,0
-"['3 Boss Keys', '30 Different Skulltulas', '5 Magic Beans']",1,0
-"['3 Boss Keys', '30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', 'All 4 Gerudo Valley area Skulltulas']",1,0
-"['3 Boss Keys', '30 Different Skulltulas', 'Beat the Fire Temple']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', 'Fire Temple Boss Key']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', 'Nayrus Love']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', 'Open 3 Gold Rupee Chests']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', 'Quiver (50)']",1,0
 "['3 Boss Keys', '30 Different Skulltulas', 'Two Fairy Spells']",1,0
-"['3 Boss Keys', '30 Different Skulltulas']",4,0
+"['3 Boss Keys', '30 Different Skulltulas']",3,0
 "['3 Boss Keys', '4 Songs', 'All 5 Lake Hylia Skulltulas']",1,0
 "['3 Boss Keys', '4 Songs', 'All 8 Zoras Domain area Skulltulas']",1,0
 "['3 Boss Keys', '4 Songs', 'Map & Compass in Spirit Temple']",1,0
@@ -1785,18 +1782,10 @@ goal combination,count,pick count
 "['3 Boss Keys', '5 Hearts', 'All 4 Gerudo Valley area Skulltulas']",1,0
 "['3 Boss Keys', '5 Hearts', 'Two Fairy Spells']",1,0
 "['3 Boss Keys', '5 Hearts']",1,0
-"['3 Boss Keys', '5 Magic Beans', '6 Different Unused Keys in Gerudo Training Grounds']",1,0
-"['3 Boss Keys', '5 Magic Beans', 'Beat the Fire Temple']",1,0
-"['3 Boss Keys', '5 Magic Beans']",1,0
-"['3 Boss Keys', '6 Different Unused Keys in Gerudo Training Grounds', 'Beat the Fire Temple']",1,0
-"['3 Boss Keys', '6 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['3 Boss Keys', '7 Compasses', '8 Hearts (no duping)']",1,0
 "['3 Boss Keys', '7 Compasses', 'Both Gerudos Fortress area Skulltulas']",1,0
-"['3 Boss Keys', '7 Compasses', 'Defeat Amy (Green Poe)']",1,0
-"['3 Boss Keys', '7 Compasses', 'Goron Bracelet']",1,0
-"['3 Boss Keys', '7 Compasses', 'Goron Tunic']",1,0
 "['3 Boss Keys', '7 Compasses', 'Open 3 Gold Rupee Chests']",1,0
-"['3 Boss Keys', '7 Compasses']",2,0
+"['3 Boss Keys', '7 Compasses']",1,0
 "['3 Boss Keys', '8 Different Unused Keys in Gerudo Training Grounds', 'Nayrus Love']",1,0
 "['3 Boss Keys', '8 Different Unused Keys in Gerudo Training Grounds', 'Open 3 Gold Rupee Chests']",1,0
 "['3 Boss Keys', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
@@ -1814,17 +1803,10 @@ goal combination,count,pick count
 "['3 Boss Keys', 'All 5 Skulltulas in Spirit Temple']",1,0
 "['3 Boss Keys', 'All 8 Zoras Domain area Skulltulas', 'Map & Compass in Spirit Temple']",1,0
 "['3 Boss Keys', 'All 8 Zoras Domain area Skulltulas']",1,0
-"['3 Boss Keys', 'Beat the Fire Temple']",1,0
 "['3 Boss Keys', 'Both Gerudos Fortress area Skulltulas', 'Open 3 Gold Rupee Chests']",1,0
 "['3 Boss Keys', 'Both Gerudos Fortress area Skulltulas']",1,0
-"['3 Boss Keys', 'Defeat Amy (Green Poe)', 'Goron Bracelet']",1,0
-"['3 Boss Keys', 'Defeat Amy (Green Poe)', 'Goron Tunic']",1,0
-"['3 Boss Keys', 'Defeat Amy (Green Poe)']",1,0
 "['3 Boss Keys', 'Fire Temple Boss Key', 'Quiver (50)']",1,0
 "['3 Boss Keys', 'Fire Temple Boss Key']",1,0
-"['3 Boss Keys', 'Goron Bracelet', 'Goron Tunic']",1,0
-"['3 Boss Keys', 'Goron Bracelet']",1,0
-"['3 Boss Keys', 'Goron Tunic']",1,0
 "['3 Boss Keys', 'Green Gauntlets', 'Light Arrows']",1,0
 "['3 Boss Keys', 'Green Gauntlets', 'Map & Compass in Dodongos Cavern']",1,0
 "['3 Boss Keys', 'Green Gauntlets']",1,0
@@ -1937,33 +1919,25 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', '30 Deku Nuts']",1,0
 "['3 Shields & 3 Boots', '30 Different Skulltulas', '7 Different Bottled Contents']",1,0
 "['3 Shields & 3 Boots', '30 Different Skulltulas', '7 Magic Beans']",1,0
-"['3 Shields & 3 Boots', '30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
-"['3 Shields & 3 Boots', '30 Different Skulltulas', 'Cow in House']",1,0
-"['3 Shields & 3 Boots', '30 Different Skulltulas', 'Exactly 30 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', '30 Different Skulltulas', 'Open 2 Boss Key Doors']",1,0
 "['3 Shields & 3 Boots', '30 Different Skulltulas', 'Open the Final Door of Forest Trial']",1,0
-"['3 Shields & 3 Boots', '30 Different Skulltulas']",3,0
+"['3 Shields & 3 Boots', '30 Different Skulltulas']",2,0
 "['3 Shields & 3 Boots', '4 Songs', 'All 8 Zoras Domain area Skulltulas']",1,0
 "['3 Shields & 3 Boots', '4 Songs', 'Longshot']",1,0
 "['3 Shields & 3 Boots', '4 Songs', 'Open 3 Boss Key Doors']",1,0
 "['3 Shields & 3 Boots', '4 Songs']",1,0
-"['3 Shields & 3 Boots', '6 Songs', 'All 3 Skulltulas in Bottom of the Well']",1,0
 "['3 Shields & 3 Boots', '6 Songs', 'Both HPs in Lost Woods']",1,0
-"['3 Shields & 3 Boots', '6 Songs', 'Defeat Amy (Green Poe)']",1,0
-"['3 Shields & 3 Boots', '6 Songs', 'Green Gauntlets']",1,0
 "['3 Shields & 3 Boots', '6 Songs', 'Map & Compass in Deku Tree']",1,0
 "['3 Shields & 3 Boots', '6 Songs', 'Obtain all 8 Small Keys in Fire Temple']",1,0
-"['3 Shields & 3 Boots', '6 Songs']",2,0
+"['3 Shields & 3 Boots', '6 Songs']",1,0
 "['3 Shields & 3 Boots', '7 Different Bottled Contents', 'Open the Final Door of Forest Trial']",1,0
 "['3 Shields & 3 Boots', '7 Different Bottled Contents']",1,0
 "['3 Shields & 3 Boots', '7 Magic Beans', 'Open 2 Boss Key Doors']",1,0
 "['3 Shields & 3 Boots', '7 Magic Beans']",1,0
 "['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'All 4 Lon Lon Ranch area Skulltulas']",1,0
 "['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Shadow Temple']",1,0
-"['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'Cow in House']",1,0
-"['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'Exactly 30 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'Silver Scale']",1,0
-"['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds']",2,0
+"['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['3 Shields & 3 Boots', '9 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well']",1,0
 "['3 Shields & 3 Boots', '9 Hearts (no duping)', 'All 4 Child Skulltulas in Zoras Domain Area']",1,0
 "['3 Shields & 3 Boots', '9 Hearts (no duping)', 'Fairy Bow']",1,0
@@ -1978,13 +1952,11 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Open 5 Gold Rupee Chests']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows']",3,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'All 4 Child Skulltulas in Zoras Domain Area']",1,0
-"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Defeat Amy (Green Poe)']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Fairy Bow']",1,0
-"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Green Gauntlets']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Megaton Hammer']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Fire Trial']",1,0
-"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well']",3,0
+"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well']",2,0
 "['3 Shields & 3 Boots', 'All 4 Child Skulltulas in Zoras Domain Area', 'Fairy Bow']",1,0
 "['3 Shields & 3 Boots', 'All 4 Child Skulltulas in Zoras Domain Area', 'Fire Medallion']",1,0
 "['3 Shields & 3 Boots', 'All 4 Child Skulltulas in Zoras Domain Area', 'Ganons Castle Boss Key']",1,0
@@ -2053,10 +2025,7 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', 'Bronze Gauntlets', 'Free all 9 Gorons in Fire Temple']",1,0
 "['3 Shields & 3 Boots', 'Bronze Gauntlets', 'Ice Cavern HP']",1,0
 "['3 Shields & 3 Boots', 'Bronze Gauntlets']",1,0
-"['3 Shields & 3 Boots', 'Cow in House', 'Exactly 30 Deku Sticks']",1,0
-"['3 Shields & 3 Boots', 'Cow in House']",1,0
-"['3 Shields & 3 Boots', 'Defeat Amy (Green Poe)', 'Green Gauntlets']",1,0
-"['3 Shields & 3 Boots', 'Defeat Amy (Green Poe)']",2,0
+"['3 Shields & 3 Boots', 'Defeat Amy (Green Poe)']",1,0
 "['3 Shields & 3 Boots', 'Defeat Big Octo', 'Defeat Meg (purple Poe)']",1,0
 "['3 Shields & 3 Boots', 'Defeat Big Octo', 'Quiver (40)']",1,0
 "['3 Shields & 3 Boots', 'Defeat Big Octo']",1,0
@@ -2074,7 +2043,6 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', 'Eponas Song']",1,0
 "['3 Shields & 3 Boots', 'Exactly 20 Deku Sticks', 'Frogs HP']",1,0
 "['3 Shields & 3 Boots', 'Exactly 20 Deku Sticks']",1,0
-"['3 Shields & 3 Boots', 'Exactly 30 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', 'Fairy Bow']",1,0
 "['3 Shields & 3 Boots', 'Fairy Slingshot', 'Light Arrows']",1,0
 "['3 Shields & 3 Boots', 'Fairy Slingshot']",1,0
@@ -2097,7 +2065,6 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', 'Goron Bracelet']",1,0
 "['3 Shields & 3 Boots', 'Goron Tunic', 'Light Arrows']",1,0
 "['3 Shields & 3 Boots', 'Goron Tunic']",1,0
-"['3 Shields & 3 Boots', 'Green Gauntlets']",1,0
 "['3 Shields & 3 Boots', 'Ice Cavern HP']",1,0
 "['3 Shields & 3 Boots', 'Light Arrows']",3,0
 "['3 Shields & 3 Boots', 'Longshot', 'Map & Compass in Dodongos Cavern']",1,0
@@ -2923,15 +2890,12 @@ goal combination,count,pick count
 "['3 Swords & 3 Tunics', 'Shadow Temple Boss Key']",1,0
 "['3 Swords & 3 Tunics', 'Silver Scale']",1,0
 "['3 Swords & 3 Tunics', 'Win Bombchu Bowling Prize']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', '6 Songs']",1,1
 "['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', 'All 4 Child Skulltulas in Zoras Domain Area']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', 'All 5 Skulltulas in Forest Temple']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', 'Beat the Fire Temple']",1,1
 "['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', 'Forest Temple Boss Key']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', 'Open 3 Boss Key Doors']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts', 'Sarias Song']",1,1
-"['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts']",3,1
+"['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts']",2,0
 "['3 Swords, Tunics, Boots, and Shields', '4 Skulltulas in Shadow Temple', 'All 4 Lon Lon Ranch area Skulltulas']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '4 Skulltulas in Shadow Temple', 'Bullet Bag (40)']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '4 Skulltulas in Shadow Temple', 'Bullet Bag (50)']",1,0
@@ -2947,16 +2911,13 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', '5 Hearts', 'Map & Compass in Fire Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Hearts', 'Quiver (50)']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Hearts']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', '8 Hearts (no duping)']",1,1
 "['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'All 4 Gerudo Valley area Skulltulas']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'Beat the Fire Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'Beat the Shadow Temple']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'Cow in House']",1,1
-"['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'Defeat Amy (Green Poe)']",1,1
 "['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'Fairy Bow']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'Light Arrows']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans', 'Open the Final Door of Water Trial']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans']",3,1
+"['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans']",2,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Forest Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '5 Unused Keys in Gerudo Training Grounds', 'Silver Scale']",1,0
@@ -2979,9 +2940,6 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', '6 Hearts', 'Both HPs in Death Mountain Crater']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '6 Hearts', 'Map & Compass in Fire Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '6 Hearts']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '6 Songs', 'Beat the Fire Temple']",1,1
-"['3 Swords, Tunics, Boots, and Shields', '6 Songs', 'Sarias Song']",1,1
-"['3 Swords, Tunics, Boots, and Shields', '6 Songs']",1,1
 "['3 Swords, Tunics, Boots, and Shields', '7 Different Bottled Contents', '8 Hearts (no duping)']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '7 Different Bottled Contents', 'Plant 5 Magic Beans']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '7 Different Bottled Contents', 'Silver Gauntlets']",1,0
@@ -3010,8 +2968,6 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'All 4 Adult Skulltulas in Zoras Domain Area']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'All 5 Skulltulas in Fire Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'All 5 Skulltulas in Forest Temple']",2,0
-"['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Cow in House']",1,1
-"['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Defeat Amy (Green Poe)']",1,1
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Exactly 20 Deku Sticks']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Ganons Castle Boss Key']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Obtain all 8 Small Keys in Fire Temple']",1,0
@@ -3019,7 +2975,7 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Silver Gauntlets']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Silver Scale']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)', 'Stone of Agony']",1,0
-"['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)']",6,1
+"['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)']",5,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Songs', 'All 5 Skulltulas in Forest Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Songs', 'Bullet Bag (50)']",1,0
 "['3 Swords, Tunics, Boots, and Shields', '8 Songs', 'Goron Bracelet']",1,0
@@ -3138,8 +3094,7 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple', 'Exactly 30 Deku Sticks']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple', 'Keaton Mask']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple', 'Light Arrows']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple', 'Sarias Song']",1,1
-"['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple']",3,1
+"['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Beat the Forest Temple', 'Bomb Bag (30)']",1,2
 "['3 Swords, Tunics, Boots, and Shields', 'Beat the Forest Temple', 'Fire Medallion']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Beat the Forest Temple', 'Fire Temple Boss Key']",1,0
@@ -3216,12 +3171,10 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', 'Bullet Bag (50)', 'Two Fairy Spells']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Bullet Bag (50)', 'Water Temple Boss Key']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Bullet Bag (50)']",4,0
-"['3 Swords, Tunics, Boots, and Shields', 'Cow in House', 'Defeat Amy (Green Poe)']",1,1
-"['3 Swords, Tunics, Boots, and Shields', 'Cow in House']",1,1
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat Amy (Green Poe)', 'Dins Fire']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat Amy (Green Poe)', 'Map & Compass in Dodongos Cavern']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat Amy (Green Poe)', 'Quiver (40)']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Defeat Amy (Green Poe)']",3,1
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat Amy (Green Poe)']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat Big Octo', 'Defeat a Skull Kid']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat Big Octo', 'Green Gauntlets']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat Big Octo']",1,0
@@ -3287,13 +3240,10 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', 'Exactly 20 Deku Sticks']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Fire Arrows']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Get Bombchu chest in Spirit Temple']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Goron Bracelet']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Green Gauntlets']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Keaton Mask']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Map & Compass in Forest Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",1,1
-"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks', 'Water Medallion']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks']",4,1
+"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks']",3,1
 "['3 Swords, Tunics, Boots, and Shields', 'Fairy Bow', 'Open the Final Door of Water Trial']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Fairy Bow']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Fairy Slingshot', 'Open 3 Boss Key Doors']",1,0
@@ -3338,9 +3288,7 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', 'Giants Wallet', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Giants Wallet']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Goron Bracelet', 'Map & Compass in Dodongos Cavern']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Goron Bracelet', 'Map & Compass in Forest Temple']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Goron Bracelet', 'Water Medallion']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Goron Bracelet']",4,0
+"['3 Swords, Tunics, Boots, and Shields', 'Goron Bracelet']",3,0
 "['3 Swords, Tunics, Boots, and Shields', 'Green Gauntlets']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Ice Cavern HP', 'Light Arrows']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Ice Cavern HP']",1,0
@@ -3357,9 +3305,8 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Fire Temple']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple', 'Quiver (40)']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple', 'Two Fairy Spells']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple', 'Water Medallion']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple', 'Win Bombchu Bowling Prize']",1,0
-"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple']",2,0
+"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Ice Cavern']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Megaton Hammer', 'Open 3 Boss Key Doors']",1,2
 "['3 Swords, Tunics, Boots, and Shields', 'Megaton Hammer']",2,2
@@ -3399,14 +3346,13 @@ goal combination,count,pick count
 "['3 Swords, Tunics, Boots, and Shields', 'Quiver (40)']",5,0
 "['3 Swords, Tunics, Boots, and Shields', 'Quiver (50)', 'Silver Scale']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Quiver (50)']",4,0
-"['3 Swords, Tunics, Boots, and Shields', 'Sarias Song']",3,1
+"['3 Swords, Tunics, Boots, and Shields', 'Sarias Song']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Silver Gauntlets']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Silver Scale']",4,0
 "['3 Swords, Tunics, Boots, and Shields', 'Spirit Temple Boss Key']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Stone of Agony']",2,0
 "['3 Swords, Tunics, Boots, and Shields', 'Two Fairy Spells', 'Win Bombchu Bowling Prize']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Two Fairy Spells']",2,0
-"['3 Swords, Tunics, Boots, and Shields', 'Water Medallion']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Water Temple Boss Key']",1,0
 "['3 Swords, Tunics, Boots, and Shields', 'Win Bombchu Bowling Prize']",2,0
 "['3 Tunics & 3 Boots', '5 Hearts', 'Green Gauntlets']",1,0
@@ -3733,12 +3679,9 @@ goal combination,count,pick count
 "['3 Unused Keys in Gerudo Training Grounds', 'Open the Final Door of Water Trial']",1,0
 "['3 Unused Keys in Gerudo Training Grounds', 'Two Fairy Spells']",1,0
 "['30 Deku Nuts', '30 Different Skulltulas', '7 Maps']",1,0
-"['30 Deku Nuts', '30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles']",1,0
-"['30 Deku Nuts', '30 Different Skulltulas', 'Defeat Amy (Green Poe)']",1,0
 "['30 Deku Nuts', '30 Different Skulltulas', 'Farores Wind']",1,0
-"['30 Deku Nuts', '30 Different Skulltulas', 'Water Medallion']",1,0
 "['30 Deku Nuts', '30 Different Skulltulas', 'Water Temple Boss Key']",1,0
-"['30 Deku Nuts', '30 Different Skulltulas']",2,0
+"['30 Deku Nuts', '30 Different Skulltulas']",1,0
 "['30 Deku Nuts', '5 Maps', 'Goron Bracelet']",1,0
 "['30 Deku Nuts', '5 Maps', 'Light Arrows']",1,0
 "['30 Deku Nuts', '5 Maps']",1,0
@@ -3748,16 +3691,10 @@ goal combination,count,pick count
 "['30 Deku Nuts', '6 Maps', 'Beat the Spirit Temple']",1,0
 "['30 Deku Nuts', '6 Maps', 'Open the Final Door of Shadow Trial']",1,0
 "['30 Deku Nuts', '6 Maps']",1,0
-"['30 Deku Nuts', '6 Songs', 'Beat the Fire Temple']",1,1
-"['30 Deku Nuts', '6 Songs', 'Sarias Song']",1,1
-"['30 Deku Nuts', '6 Songs']",1,1
-"['30 Deku Nuts', '7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
-"['30 Deku Nuts', '7 Compasses', '8 Hearts (no duping)']",1,0
 "['30 Deku Nuts', '7 Compasses', 'All 8 Death Mountain area Skulltulas']",1,0
-"['30 Deku Nuts', '7 Compasses', 'Beat the Shadow Temple']",1,0
 "['30 Deku Nuts', '7 Compasses', 'Goron Bracelet']",1,0
 "['30 Deku Nuts', '7 Compasses', 'Mirror Shield']",1,0
-"['30 Deku Nuts', '7 Compasses']",2,0
+"['30 Deku Nuts', '7 Compasses']",1,0
 "['30 Deku Nuts', '7 Maps', '7 Songs']",1,0
 "['30 Deku Nuts', '7 Maps', 'Defeat Nabooru-Knuckle']",1,0
 "['30 Deku Nuts', '7 Maps', 'Farores Wind']",1,0
@@ -3767,13 +3704,9 @@ goal combination,count,pick count
 "['30 Deku Nuts', '7 Songs', 'Defeat Nabooru-Knuckle']",1,0
 "['30 Deku Nuts', '7 Songs', 'Green Gauntlets']",1,0
 "['30 Deku Nuts', '7 Songs']",1,0
-"['30 Deku Nuts', '8 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",1,0
-"['30 Deku Nuts', '8 Different Unused Keys in Gerudo Training Grounds', 'Beat the Shadow Temple']",1,0
 "['30 Deku Nuts', '8 Different Unused Keys in Gerudo Training Grounds', 'Fill all 4 Bottle Slots']",1,0
 "['30 Deku Nuts', '8 Different Unused Keys in Gerudo Training Grounds', 'Free all 9 Gorons in Fire Temple']",1,0
-"['30 Deku Nuts', '8 Different Unused Keys in Gerudo Training Grounds']",2,0
-"['30 Deku Nuts', '8 Hearts (no duping)', 'Beat the Shadow Temple']",1,0
-"['30 Deku Nuts', '8 Hearts (no duping)']",1,0
+"['30 Deku Nuts', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['30 Deku Nuts', 'All 4 Child Skulltulas in Zoras Domain Area', 'Forest Temple Boss Key']",1,0
 "['30 Deku Nuts', 'All 4 Child Skulltulas in Zoras Domain Area', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['30 Deku Nuts', 'All 4 Child Skulltulas in Zoras Domain Area']",1,0
@@ -3803,9 +3736,7 @@ goal combination,count,pick count
 "['30 Deku Nuts', 'Beat the Fire Temple', 'Beat the Spirit Temple']",1,0
 "['30 Deku Nuts', 'Beat the Fire Temple', 'Map & Compass in Water Temple']",1,0
 "['30 Deku Nuts', 'Beat the Fire Temple', 'Nayrus Love']",1,0
-"['30 Deku Nuts', 'Beat the Fire Temple', 'Sarias Song']",1,1
-"['30 Deku Nuts', 'Beat the Fire Temple']",2,1
-"['30 Deku Nuts', 'Beat the Shadow Temple']",1,0
+"['30 Deku Nuts', 'Beat the Fire Temple']",1,0
 "['30 Deku Nuts', 'Beat the Spirit Temple', 'Map & Compass in Water Temple']",1,0
 "['30 Deku Nuts', 'Beat the Spirit Temple', 'Nayrus Love']",1,0
 "['30 Deku Nuts', 'Beat the Spirit Temple', 'Open the Final Door of Shadow Trial']",1,0
@@ -3818,11 +3749,7 @@ goal combination,count,pick count
 "['30 Deku Nuts', 'Clear 10 Silver Rupee Rooms', 'Golden Gauntlets']",1,1
 "['30 Deku Nuts', 'Clear 10 Silver Rupee Rooms', 'Plant bean in Death Mountain Crater']",1,0
 "['30 Deku Nuts', 'Clear 10 Silver Rupee Rooms']",2,1
-"['30 Deku Nuts', 'Defeat 4 Different Iron Knuckles', 'Defeat Amy (Green Poe)']",1,0
-"['30 Deku Nuts', 'Defeat 4 Different Iron Knuckles', 'Water Medallion']",1,0
-"['30 Deku Nuts', 'Defeat 4 Different Iron Knuckles']",1,0
-"['30 Deku Nuts', 'Defeat Amy (Green Poe)', 'Water Medallion']",1,0
-"['30 Deku Nuts', 'Defeat Amy (Green Poe)']",2,0
+"['30 Deku Nuts', 'Defeat Amy (Green Poe)']",1,0
 "['30 Deku Nuts', 'Defeat Nabooru-Knuckle', 'Green Gauntlets']",1,0
 "['30 Deku Nuts', 'Defeat Nabooru-Knuckle']",1,0
 "['30 Deku Nuts', 'Defeat Queen Gohma', 'Goron Bracelet']",1,0
@@ -3857,8 +3784,6 @@ goal combination,count,pick count
 "['30 Deku Nuts', 'Open the Final Door of Shadow Trial']",1,0
 "['30 Deku Nuts', 'Open the Final Door of Water Trial']",1,0
 "['30 Deku Nuts', 'Plant bean in Death Mountain Crater']",1,0
-"['30 Deku Nuts', 'Sarias Song']",1,1
-"['30 Deku Nuts', 'Water Medallion']",1,0
 "['30 Deku Nuts', 'Water Temple Boss Key']",1,0
 "['30 Different Skulltulas', '4 Compasses', '5 Magic Beans']",1,0
 "['30 Different Skulltulas', '4 Compasses', '6 Different Unused Keys in Gerudo Training Grounds']",1,0
@@ -3906,17 +3831,16 @@ goal combination,count,pick count
 "['30 Different Skulltulas', '5 Hearts', 'Open the Final Door of Spirit Trial']",1,0
 "['30 Different Skulltulas', '5 Hearts', 'Two Fairy Spells']",1,0
 "['30 Different Skulltulas', '5 Hearts']",3,0
-"['30 Different Skulltulas', '5 Magic Beans', '6 Different Unused Keys in Gerudo Training Grounds']",2,0
+"['30 Different Skulltulas', '5 Magic Beans', '6 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['30 Different Skulltulas', '5 Magic Beans', '7 Maps']",2,0
 "['30 Different Skulltulas', '5 Magic Beans', 'All 4 Skulltulas in Deku Tree']",1,0
-"['30 Different Skulltulas', '5 Magic Beans', 'Beat the Fire Temple']",1,0
 "['30 Different Skulltulas', '5 Magic Beans', 'Blue Gauntlets']",1,0
 "['30 Different Skulltulas', '5 Magic Beans', 'Clear 8 Silver Rupee Rooms']",1,0
 "['30 Different Skulltulas', '5 Magic Beans', 'Forest Temple Boss Key']",1,0
 "['30 Different Skulltulas', '5 Magic Beans', 'Gerudos Card']",1,0
 "['30 Different Skulltulas', '5 Magic Beans', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['30 Different Skulltulas', '5 Magic Beans', 'Open 3 Boss Key Doors']",1,0
-"['30 Different Skulltulas', '5 Magic Beans']",5,0
+"['30 Different Skulltulas', '5 Magic Beans']",4,0
 "['30 Different Skulltulas', '5 Maps', '8 Hearts (no duping)']",1,0
 "['30 Different Skulltulas', '5 Maps', 'All 5 Skulltulas in Fire Temple']",1,0
 "['30 Different Skulltulas', '5 Maps', 'Beat the Fire Temple']",1,1
@@ -3944,9 +3868,8 @@ goal combination,count,pick count
 "['30 Different Skulltulas', '6 Compasses']",1,1
 "['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds', '7 Maps']",1,1
 "['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds', '7 Songs']",1,1
-"['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds', 'Beat the Fire Temple']",1,0
 "['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds', 'Open 3 Boss Key Doors']",1,0
-"['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds']",3,1
+"['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds']",2,1
 "['30 Different Skulltulas', '6 Hearts', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['30 Different Skulltulas', '6 Hearts', 'Map & Compass in Deku Tree']",1,0
 "['30 Different Skulltulas', '6 Hearts']",1,0
@@ -3996,12 +3919,10 @@ goal combination,count,pick count
 "['30 Different Skulltulas', '7 Maps', 'Water Temple Boss Key']",1,0
 "['30 Different Skulltulas', '7 Maps']",13,3
 "['30 Different Skulltulas', '7 Songs']",1,1
-"['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds', 'Cow in House']",1,0
-"['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds', 'Exactly 30 Deku Sticks']",1,0
 "['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds', 'Map & Compass in Deku Tree']",1,0
 "['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds', 'Nayrus Love']",1,0
 "['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds', 'Open 3 Gold Rupee Chests']",1,0
-"['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds']",3,0
+"['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds']",2,0
 "['30 Different Skulltulas', '8 Hearts (no duping)', '8 Songs']",1,1
 "['30 Different Skulltulas', '8 Hearts (no duping)', 'All 4 Lon Lon Ranch area Skulltulas']",1,0
 "['30 Different Skulltulas', '8 Hearts (no duping)', 'Blue Gauntlets']",1,0
@@ -4108,7 +4029,7 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Beat the Fire Temple', 'Fairy Bow']",1,0
 "['30 Different Skulltulas', 'Beat the Fire Temple', 'Map & Compass in Shadow Temple']",1,0
 "['30 Different Skulltulas', 'Beat the Fire Temple', 'Shadow Temple Boss Key']",1,0
-"['30 Different Skulltulas', 'Beat the Fire Temple']",5,1
+"['30 Different Skulltulas', 'Beat the Fire Temple']",4,1
 "['30 Different Skulltulas', 'Beat the Shadow Temple', 'Keaton Mask']",1,2
 "['30 Different Skulltulas', 'Beat the Shadow Temple', 'Open 3 Boss Key Doors']",1,2
 "['30 Different Skulltulas', 'Beat the Shadow Temple']",1,2
@@ -4179,16 +4100,14 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Clear 8 Silver Rupee Rooms', 'Spirit Temple Boss Key']",1,0
 "['30 Different Skulltulas', 'Clear 8 Silver Rupee Rooms']",3,0
 "['30 Different Skulltulas', 'Cow in House', 'Eponas Song']",1,0
-"['30 Different Skulltulas', 'Cow in House', 'Exactly 30 Deku Sticks']",1,0
 "['30 Different Skulltulas', 'Cow in House', 'Open the Final Door of Forest Trial']",1,0
 "['30 Different Skulltulas', 'Cow in House', 'Open the Final Door of Water Trial']",1,0
-"['30 Different Skulltulas', 'Cow in House']",2,0
-"['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles', 'Defeat Amy (Green Poe)']",2,0
+"['30 Different Skulltulas', 'Cow in House']",1,0
+"['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles', 'Defeat Amy (Green Poe)']",1,0
 "['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles', 'Eponas Song']",1,0
 "['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles', 'Farores Wind']",1,0
 "['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles', 'Open 3 Gold Rupee Chests']",1,0
-"['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles', 'Water Medallion']",1,0
-"['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles']",3,0
+"['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles']",2,0
 "['30 Different Skulltulas', 'Defeat Amy (Green Poe)', 'Eponas Song']",1,0
 "['30 Different Skulltulas', 'Defeat Amy (Green Poe)', 'Fill all 4 Bottle Slots']",1,0
 "['30 Different Skulltulas', 'Defeat Amy (Green Poe)', 'Ganons Castle Boss Key']",1,0
@@ -4196,8 +4115,7 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Defeat Amy (Green Poe)', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['30 Different Skulltulas', 'Defeat Amy (Green Poe)', 'Open 2 Boss Key Doors']",1,0
 "['30 Different Skulltulas', 'Defeat Amy (Green Poe)', 'Open the Final Door of Spirit Trial']",1,0
-"['30 Different Skulltulas', 'Defeat Amy (Green Poe)', 'Water Medallion']",1,0
-"['30 Different Skulltulas', 'Defeat Amy (Green Poe)']",5,0
+"['30 Different Skulltulas', 'Defeat Amy (Green Poe)']",4,0
 "['30 Different Skulltulas', 'Defeat Barinade', 'Defeat Big Octo']",1,0
 "['30 Different Skulltulas', 'Defeat Barinade', 'Fairy Slingshot']",1,0
 "['30 Different Skulltulas', 'Defeat Barinade', 'Green Gauntlets']",1,0
@@ -4250,7 +4168,7 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Eponas Song']",2,0
 "['30 Different Skulltulas', 'Exactly 30 Deku Sticks', 'Open 2 Boss Key Doors']",1,0
 "['30 Different Skulltulas', 'Exactly 30 Deku Sticks', 'Win Bombchu Bowling Prize']",1,0
-"['30 Different Skulltulas', 'Exactly 30 Deku Sticks']",3,0
+"['30 Different Skulltulas', 'Exactly 30 Deku Sticks']",2,0
 "['30 Different Skulltulas', 'Fairy Bow', 'Fire Temple Boss Key']",1,0
 "['30 Different Skulltulas', 'Fairy Bow', 'Keaton Mask']",1,0
 "['30 Different Skulltulas', 'Fairy Bow', 'Open 3 Boss Key Doors']",1,0
@@ -4370,7 +4288,7 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Two Fairy Spells', 'Water Temple Boss Key']",1,0
 "['30 Different Skulltulas', 'Two Fairy Spells', 'Win Bombchu Bowling Prize']",1,0
 "['30 Different Skulltulas', 'Two Fairy Spells']",5,1
-"['30 Different Skulltulas', 'Water Medallion']",2,0
+"['30 Different Skulltulas', 'Water Medallion']",1,0
 "['30 Different Skulltulas', 'Water Temple Boss Key']",3,0
 "['30 Different Skulltulas', 'Win Bombchu Bowling Prize']",2,0
 "['37th Heart Piece (Child Fortress)', '5 Zora area HPs', 'Exactly 20 Deku Sticks']",1,0
@@ -5089,9 +5007,8 @@ goal combination,count,pick count
 "['5 Hearts', 'Silver Gauntlets']",1,0
 "['5 Hearts', 'Spirit Temple Boss Key']",1,0
 "['5 Hearts', 'Two Fairy Spells']",1,0
-"['5 Magic Beans', '6 Different Unused Keys in Gerudo Training Grounds', 'Beat the Fire Temple']",1,0
 "['5 Magic Beans', '6 Different Unused Keys in Gerudo Training Grounds', 'Open 3 Boss Key Doors']",1,0
-"['5 Magic Beans', '6 Different Unused Keys in Gerudo Training Grounds']",2,0
+"['5 Magic Beans', '6 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['5 Magic Beans', '7 Compasses', '7 Hearts (no duping)']",1,0
 "['5 Magic Beans', '7 Compasses', 'Ice Cavern HP']",1,0
 "['5 Magic Beans', '7 Compasses', 'Open 3 Boss Key Doors']",1,0
@@ -5107,11 +5024,9 @@ goal combination,count,pick count
 "['5 Magic Beans', '7 Maps', 'Gerudos Card']",1,0
 "['5 Magic Beans', '7 Maps', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['5 Magic Beans', '7 Maps']",2,0
-"['5 Magic Beans', '8 Hearts (no duping)', 'Cow in House']",1,1
-"['5 Magic Beans', '8 Hearts (no duping)', 'Defeat Amy (Green Poe)']",1,1
 "['5 Magic Beans', '8 Hearts (no duping)', 'Longshot']",1,0
 "['5 Magic Beans', '8 Hearts (no duping)', 'Sarias Song']",1,0
-"['5 Magic Beans', '8 Hearts (no duping)']",2,1
+"['5 Magic Beans', '8 Hearts (no duping)']",1,0
 "['5 Magic Beans', '9 Hearts (no duping)', 'All 5 Skulltulas in Water Temple']",1,0
 "['5 Magic Beans', '9 Hearts (no duping)', 'Gerudos Card']",1,0
 "['5 Magic Beans', '9 Hearts (no duping)', 'Golden Gauntlets']",1,0
@@ -5154,12 +5069,9 @@ goal combination,count,pick count
 "['5 Magic Beans', 'Beat Dodongos Cavern']",1,1
 "['5 Magic Beans', 'Beat the Fire Temple', 'Beat the Shadow Temple']",1,0
 "['5 Magic Beans', 'Beat the Fire Temple', 'Light Arrows']",1,0
-"['5 Magic Beans', 'Beat the Fire Temple']",2,0
-"['5 Magic Beans', 'Beat the Shadow Temple', 'Defeat 4 Different Iron Knuckles']",1,0
-"['5 Magic Beans', 'Beat the Shadow Temple', 'Green Gauntlets']",1,0
+"['5 Magic Beans', 'Beat the Fire Temple']",1,0
 "['5 Magic Beans', 'Beat the Shadow Temple', 'Light Arrows']",1,0
-"['5 Magic Beans', 'Beat the Shadow Temple', 'Map & Compass in Forest Temple']",1,0
-"['5 Magic Beans', 'Beat the Shadow Temple']",2,0
+"['5 Magic Beans', 'Beat the Shadow Temple']",1,0
 "['5 Magic Beans', 'Beat the Spirit Temple', 'Defeat Amy (Green Poe)']",1,0
 "['5 Magic Beans', 'Beat the Spirit Temple', 'Open the Final Door of Shadow Trial']",1,0
 "['5 Magic Beans', 'Beat the Spirit Temple']",1,0
@@ -5177,14 +5089,11 @@ goal combination,count,pick count
 "['5 Magic Beans', 'Clear 4 Silver Rupee Rooms']",1,0
 "['5 Magic Beans', 'Clear 8 Silver Rupee Rooms', 'Forest Temple Boss Key']",1,0
 "['5 Magic Beans', 'Clear 8 Silver Rupee Rooms']",1,0
-"['5 Magic Beans', 'Cow in House', 'Defeat Amy (Green Poe)']",1,1
-"['5 Magic Beans', 'Cow in House']",1,1
 "['5 Magic Beans', 'Defeat 4 Different Iron Knuckles', 'Fairy Bow']",1,0
-"['5 Magic Beans', 'Defeat 4 Different Iron Knuckles', 'Green Gauntlets']",2,0
-"['5 Magic Beans', 'Defeat 4 Different Iron Knuckles', 'Map & Compass in Forest Temple']",1,0
-"['5 Magic Beans', 'Defeat 4 Different Iron Knuckles']",2,0
+"['5 Magic Beans', 'Defeat 4 Different Iron Knuckles', 'Green Gauntlets']",1,0
+"['5 Magic Beans', 'Defeat 4 Different Iron Knuckles']",1,0
 "['5 Magic Beans', 'Defeat Amy (Green Poe)', 'Open the Final Door of Shadow Trial']",1,0
-"['5 Magic Beans', 'Defeat Amy (Green Poe)']",2,1
+"['5 Magic Beans', 'Defeat Amy (Green Poe)']",1,0
 "['5 Magic Beans', 'Defeat Barinade', 'Defeat Meg (purple Poe)']",1,1
 "['5 Magic Beans', 'Defeat Barinade']",1,1
 "['5 Magic Beans', 'Defeat Meg (purple Poe)']",1,1
@@ -5204,14 +5113,12 @@ goal combination,count,pick count
 "['5 Magic Beans', 'Golden Gauntlets', 'Map & Compass in Jabu-Jabu']",1,0
 "['5 Magic Beans', 'Golden Gauntlets', 'Two Fairy Spells']",1,0
 "['5 Magic Beans', 'Golden Gauntlets']",1,0
-"['5 Magic Beans', 'Green Gauntlets', 'Map & Compass in Forest Temple']",1,0
-"['5 Magic Beans', 'Green Gauntlets']",2,0
+"['5 Magic Beans', 'Green Gauntlets']",1,0
 "['5 Magic Beans', 'Ice Cavern HP', 'Open 3 Boss Key Doors']",1,0
 "['5 Magic Beans', 'Ice Cavern HP']",1,0
 "['5 Magic Beans', 'Light Arrows']",1,0
 "['5 Magic Beans', 'Longshot', 'Sarias Song']",1,0
 "['5 Magic Beans', 'Longshot']",1,0
-"['5 Magic Beans', 'Map & Compass in Forest Temple']",1,0
 "['5 Magic Beans', 'Map & Compass in Jabu-Jabu', 'Two Fairy Spells']",1,0
 "['5 Magic Beans', 'Map & Compass in Jabu-Jabu']",1,0
 "['5 Magic Beans', 'Obtain all 8 Small Keys in Fire Temple']",1,0
@@ -5715,13 +5622,6 @@ goal combination,count,pick count
 "['6 Different Unused Keys in Gerudo Training Grounds', '7 Maps', '7 Songs']",1,1
 "['6 Different Unused Keys in Gerudo Training Grounds', '7 Maps']",1,1
 "['6 Different Unused Keys in Gerudo Training Grounds', '7 Songs']",1,1
-"['6 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)', 'Water Medallion']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', 'All 3 Skulltulas in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', 'All 3 Skulltulas in Bottom of the Well', 'Water Medallion']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', 'All 3 Skulltulas in Bottom of the Well']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'All 4 Child Skulltulas in Zoras Domain Area', 'All 5 Skulltulas in Shadow Temple']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'All 4 Child Skulltulas in Zoras Domain Area', 'Quiver (40)']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'All 4 Child Skulltulas in Zoras Domain Area']",1,0
@@ -5730,7 +5630,6 @@ goal combination,count,pick count
 "['6 Different Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Forest Temple']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Shadow Temple', 'Quiver (40)']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Shadow Temple']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Beat the Fire Temple']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Both Gerudo Valley HPs', 'Green Gauntlets']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Both Gerudo Valley HPs']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Both HPs in Death Mountain Crater', 'Defeat Morpha']",1,0
@@ -5759,11 +5658,9 @@ goal combination,count,pick count
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Map & Compass in Dodongos Cavern']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Open 3 Boss Key Doors']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests', 'Two Fairy Spells']",1,1
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests', 'Water Medallion']",1,0
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests']",2,1
+"['6 Different Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests']",1,1
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Quiver (40)']",1,0
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Two Fairy Spells']",1,1
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Water Medallion']",1,0
 "['6 Hearts', '8 Different Unused Keys in Gerudo Training Grounds', 'Map & Compass in Deku Tree']",1,0
 "['6 Hearts', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['6 Hearts', 'All 3 Elemental Arrows', 'All 5 Skulltulas in Spirit Temple']",1,0
@@ -5850,19 +5747,12 @@ goal combination,count,pick count
 "['6 Songs', 'All 3 Elemental Arrows', 'Green Gauntlets']",1,0
 "['6 Songs', 'All 3 Elemental Arrows', 'Megaton Hammer']",1,0
 "['6 Songs', 'All 3 Elemental Arrows']",1,0
-"['6 Songs', 'All 3 Skulltulas in Bottom of the Well', 'Defeat Amy (Green Poe)']",1,0
-"['6 Songs', 'All 3 Skulltulas in Bottom of the Well', 'Green Gauntlets']",1,0
-"['6 Songs', 'All 3 Skulltulas in Bottom of the Well']",1,0
 "['6 Songs', 'Beat Dodongos Cavern', 'Dins Fire']",1,0
 "['6 Songs', 'Beat Dodongos Cavern', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['6 Songs', 'Beat Dodongos Cavern']",1,0
-"['6 Songs', 'Beat the Fire Temple', 'Sarias Song']",1,1
-"['6 Songs', 'Beat the Fire Temple']",1,1
 "['6 Songs', 'Both HPs in Lost Woods', 'Map & Compass in Deku Tree']",1,0
 "['6 Songs', 'Both HPs in Lost Woods', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['6 Songs', 'Both HPs in Lost Woods']",1,0
-"['6 Songs', 'Defeat Amy (Green Poe)', 'Green Gauntlets']",1,0
-"['6 Songs', 'Defeat Amy (Green Poe)']",1,0
 "['6 Songs', 'Defeat Meg (purple Poe)', 'Defeat a Skull Kid']",1,0
 "['6 Songs', 'Defeat Meg (purple Poe)', 'Goron Bracelet']",1,0
 "['6 Songs', 'Defeat Meg (purple Poe)', 'Open All 6 Gold Rupee Chests']",1,0
@@ -5877,7 +5767,7 @@ goal combination,count,pick count
 "['6 Songs', 'Goron Bracelet', 'Open All 6 Gold Rupee Chests']",1,0
 "['6 Songs', 'Goron Bracelet']",1,0
 "['6 Songs', 'Green Gauntlets', 'Megaton Hammer']",1,0
-"['6 Songs', 'Green Gauntlets']",2,0
+"['6 Songs', 'Green Gauntlets']",1,0
 "['6 Songs', 'Light Arrows', 'Map & Compass in Dodongos Cavern']",1,0
 "['6 Songs', 'Light Arrows']",1,0
 "['6 Songs', 'Map & Compass in Deku Tree', 'Obtain all 8 Small Keys in Fire Temple']",1,0
@@ -5886,7 +5776,6 @@ goal combination,count,pick count
 "['6 Songs', 'Megaton Hammer']",1,0
 "['6 Songs', 'Obtain all 8 Small Keys in Fire Temple']",2,0
 "['6 Songs', 'Open All 6 Gold Rupee Chests']",1,0
-"['6 Songs', 'Sarias Song']",1,1
 "['7 Compasses', '7 Different Bottled Contents', '8 Hearts (no duping)']",1,0
 "['7 Compasses', '7 Different Bottled Contents', 'Longshot']",1,0
 "['7 Compasses', '7 Different Bottled Contents', 'Open 2 Boss Key Doors']",1,0
@@ -5915,13 +5804,10 @@ goal combination,count,pick count
 "['7 Compasses', '7 Songs', 'Bomb Bag (30)']",1,0
 "['7 Compasses', '7 Songs', 'Open 5 Gold Rupee Chests']",1,0
 "['7 Compasses', '7 Songs']",1,0
-"['7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",1,0
-"['7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds', 'Beat the Shadow Temple']",1,0
 "['7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds', 'Goron Tunic']",1,0
 "['7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds', 'Keaton Mask']",1,0
 "['7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds', 'Nayrus Love']",1,0
-"['7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds']",2,0
-"['7 Compasses', '8 Hearts (no duping)', 'Beat the Shadow Temple']",1,0
+"['7 Compasses', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['7 Compasses', '8 Hearts (no duping)', 'Both Gerudos Fortress area Skulltulas']",1,0
 "['7 Compasses', '8 Hearts (no duping)', 'Bottled Fairy']",1,0
 "['7 Compasses', '8 Hearts (no duping)', 'Fire Arrows']",1,0
@@ -5929,7 +5815,7 @@ goal combination,count,pick count
 "['7 Compasses', '8 Hearts (no duping)', 'Longshot']",2,0
 "['7 Compasses', '8 Hearts (no duping)', 'Open 2 Boss Key Doors']",1,0
 "['7 Compasses', '8 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",1,0
-"['7 Compasses', '8 Hearts (no duping)']",5,0
+"['7 Compasses', '8 Hearts (no duping)']",4,0
 "['7 Compasses', '9 Songs', 'Defeat Queen Gohma']",1,0
 "['7 Compasses', '9 Songs', 'Fairy Slingshot']",1,0
 "['7 Compasses', '9 Songs', 'Quiver (50)']",1,0
@@ -5987,7 +5873,6 @@ goal combination,count,pick count
 "['7 Compasses', 'Beat the Forest Temple', 'Map & Compass in Shadow Temple']",1,1
 "['7 Compasses', 'Beat the Forest Temple', 'Open 2 Boss Key Doors']",1,1
 "['7 Compasses', 'Beat the Forest Temple']",1,1
-"['7 Compasses', 'Beat the Shadow Temple']",1,0
 "['7 Compasses', 'Blue Gauntlets', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['7 Compasses', 'Blue Gauntlets']",1,0
 "['7 Compasses', 'Bomb Bag (30)', 'Open 5 Gold Rupee Chests']",1,0
@@ -6032,9 +5917,6 @@ goal combination,count,pick count
 "['7 Compasses', 'Defeat 4 Different Iron Knuckles', 'Minuet of Forest']",1,1
 "['7 Compasses', 'Defeat 4 Different Iron Knuckles', 'Sarias Song']",2,1
 "['7 Compasses', 'Defeat 4 Different Iron Knuckles']",2,1
-"['7 Compasses', 'Defeat Amy (Green Poe)', 'Goron Bracelet']",1,0
-"['7 Compasses', 'Defeat Amy (Green Poe)', 'Goron Tunic']",1,0
-"['7 Compasses', 'Defeat Amy (Green Poe)']",1,0
 "['7 Compasses', 'Defeat Bongo-Bongo', 'Goron Bracelet']",1,0
 "['7 Compasses', 'Defeat Bongo-Bongo']",1,0
 "['7 Compasses', 'Defeat Dark Link', 'Open 3 Boss Key Doors']",1,0
@@ -6088,15 +5970,14 @@ goal combination,count,pick count
 "['7 Compasses', 'Giants Wallet']",1,1
 "['7 Compasses', 'Golden Gauntlets', 'Map & Compass in Shadow Temple']",1,1
 "['7 Compasses', 'Golden Gauntlets']",2,1
-"['7 Compasses', 'Goron Bracelet', 'Goron Tunic']",1,0
 "['7 Compasses', 'Goron Bracelet', 'Light Arrows']",1,0
 "['7 Compasses', 'Goron Bracelet', 'Mirror Shield']",1,0
 "['7 Compasses', 'Goron Bracelet', 'Open 2 Boss Key Doors']",1,0
-"['7 Compasses', 'Goron Bracelet']",5,1
+"['7 Compasses', 'Goron Bracelet']",4,1
 "['7 Compasses', 'Goron Tunic', 'Keaton Mask']",1,0
 "['7 Compasses', 'Goron Tunic', 'Longshot']",1,0
 "['7 Compasses', 'Goron Tunic', 'Nayrus Love']",1,0
-"['7 Compasses', 'Goron Tunic']",3,0
+"['7 Compasses', 'Goron Tunic']",2,0
 "['7 Compasses', 'Green Gauntlets']",1,0
 "['7 Compasses', 'Ice Cavern HP', 'Open 3 Boss Key Doors']",1,0
 "['7 Compasses', 'Ice Cavern HP']",1,0
@@ -6744,8 +6625,6 @@ goal combination,count,pick count
 "['7 Songs', 'Open 3 Gold Rupee Chests']",1,0
 "['7 Songs', 'Open 5 Gold Rupee Chests']",2,0
 "['7 Songs', 'Zora Tunic']",1,0
-"['8 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)', 'Beat the Shadow Temple']",1,0
-"['8 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'All 3 Kokiri Forest area Skulltulas', 'Bolero of Fire']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'All 3 Kokiri Forest area Skulltulas', 'Defeat Twinrova']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'All 3 Kokiri Forest area Skulltulas', 'Green Gauntlets']",1,0
@@ -6764,7 +6643,6 @@ goal combination,count,pick count
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Beat Dodongos Cavern', 'Green Gauntlets']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Beat Dodongos Cavern', 'Map & Compass in Dodongos Cavern']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Beat Dodongos Cavern']",1,0
-"['8 Different Unused Keys in Gerudo Training Grounds', 'Beat the Shadow Temple']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Beat the Spirit Temple', 'Open the Final Door of Water Trial']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Beat the Spirit Temple', 'Quiver (40)']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Beat the Spirit Temple']",1,0
@@ -6773,11 +6651,8 @@ goal combination,count,pick count
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Bolero of Fire']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Bomb Bag (30)', 'Open the Final Door of Shadow Trial']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Bomb Bag (30)']",1,0
-"['8 Different Unused Keys in Gerudo Training Grounds', 'Cow in House', 'Exactly 30 Deku Sticks']",1,0
-"['8 Different Unused Keys in Gerudo Training Grounds', 'Cow in House']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Defeat Twinrova', 'Green Gauntlets']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Defeat Twinrova']",1,0
-"['8 Different Unused Keys in Gerudo Training Grounds', 'Exactly 30 Deku Sticks']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Fairy Slingshot', 'Open All 6 Gold Rupee Chests']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Fairy Slingshot']",1,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Fill all 4 Bottle Slots', 'Free all 9 Gorons in Fire Temple']",1,0
@@ -6823,9 +6698,7 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'All 3 Elemental Arrows', 'Silver Gauntlets']",1,0
 "['8 Hearts (no duping)', 'All 3 Elemental Arrows']",5,0
 "['8 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well', 'Both Gerudos Fortress area Skulltulas']",1,0
-"['8 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",1,0
-"['8 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well', 'Water Medallion']",1,0
-"['8 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well']",2,0
+"['8 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well']",1,0
 "['8 Hearts (no duping)', 'All 4 Adult Skulltulas in Zoras Domain Area', 'All 5 Skulltulas in Fire Temple']",1,0
 "['8 Hearts (no duping)', 'All 4 Adult Skulltulas in Zoras Domain Area', 'Ganons Castle Boss Key']",1,0
 "['8 Hearts (no duping)', 'All 4 Adult Skulltulas in Zoras Domain Area']",1,0
@@ -6855,7 +6728,6 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'All 8 Zoras Domain area Skulltulas', 'Fire Arrows']",1,0
 "['8 Hearts (no duping)', 'All 8 Zoras Domain area Skulltulas', 'Lon Lon Ranch HP']",1,0
 "['8 Hearts (no duping)', 'All 8 Zoras Domain area Skulltulas']",1,0
-"['8 Hearts (no duping)', 'Beat the Shadow Temple']",1,0
 "['8 Hearts (no duping)', 'Beat the Spirit Temple', 'Double Magic']",1,0
 "['8 Hearts (no duping)', 'Beat the Spirit Temple', 'Map & Compass in Jabu-Jabu']",1,0
 "['8 Hearts (no duping)', 'Beat the Spirit Temple', 'Open 3 Gold Rupee Chests']",1,0
@@ -6909,10 +6781,8 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Ganons Castle Boss Key']",1,1
 "['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",1,1
 "['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms']",1,1
-"['8 Hearts (no duping)', 'Cow in House', 'Defeat Amy (Green Poe)']",1,1
-"['8 Hearts (no duping)', 'Cow in House']",1,1
 "['8 Hearts (no duping)', 'Defeat Amy (Green Poe)', 'Lon Lon Ranch HP']",1,0
-"['8 Hearts (no duping)', 'Defeat Amy (Green Poe)']",2,1
+"['8 Hearts (no duping)', 'Defeat Amy (Green Poe)']",1,0
 "['8 Hearts (no duping)', 'Defeat Dark Link', 'Defeat Twinrova']",1,0
 "['8 Hearts (no duping)', 'Defeat Dark Link', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['8 Hearts (no duping)', 'Defeat Dark Link', 'Quiver (40)']",1,0
@@ -6984,8 +6854,7 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'Open 2 Boss Key Doors']",1,0
 "['8 Hearts (no duping)', 'Open 3 Gold Rupee Chests', 'Open the Final Door of Fire Trial']",1,0
 "['8 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",3,0
-"['8 Hearts (no duping)', 'Open All 6 Gold Rupee Chests', 'Water Medallion']",1,0
-"['8 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",3,1
+"['8 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",2,1
 "['8 Hearts (no duping)', 'Open the Final Door of Fire Trial']",1,0
 "['8 Hearts (no duping)', 'Open the Final Door of Light Trial', 'Silver Gauntlets']",1,0
 "['8 Hearts (no duping)', 'Open the Final Door of Light Trial']",1,0
@@ -7000,7 +6869,6 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'Silver Scale']",1,0
 "['8 Hearts (no duping)', 'Spirit Temple Boss Key']",1,1
 "['8 Hearts (no duping)', 'Stone of Agony']",1,0
-"['8 Hearts (no duping)', 'Water Medallion']",1,0
 "['8 Songs', '9 Hearts (no duping)', 'Map & Compass in Ice Cavern']",1,1
 "['8 Songs', '9 Hearts (no duping)', 'Open the Final Door of Spirit Trial']",1,1
 "['8 Songs', '9 Hearts (no duping)']",1,1
@@ -7738,8 +7606,7 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat 4 Different Iron Knuckles', 'Eponas Song']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat 4 Different Iron Knuckles']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat Amy (Green Poe)', 'Eponas Song']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Defeat Amy (Green Poe)', 'Green Gauntlets']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Defeat Amy (Green Poe)']",2,0
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Amy (Green Poe)']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat King Dodongo', 'Goron Bracelet']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat King Dodongo']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat Meg (purple Poe)', 'Defeat Morpha']",1,0
@@ -7767,7 +7634,6 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Free all 9 Gorons in Fire Temple', 'Open 2 Boss Key Doors']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Free all 9 Gorons in Fire Temple']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Goron Bracelet']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Green Gauntlets']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Jabu-Jabu', 'Map & Compass in Spirit Temple']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Jabu-Jabu', 'Open the Final Door of Shadow Trial']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Jabu-Jabu', 'Two Fairy Spells']",1,0
@@ -7780,8 +7646,6 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Obtain all 5 Small Keys in Shadow Temple', 'Open the Final Door of Fire Trial']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Open 2 Boss Key Doors']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Open All 6 Gold Rupee Chests', 'Water Medallion']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Fire Trial']",2,0
 "['All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Shadow Trial', 'Two Fairy Spells']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Shadow Trial']",2,0
@@ -7792,7 +7656,6 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Shadow Temple Boss Key']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Silver Gauntlets']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Two Fairy Spells']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Water Medallion']",1,0
 "['All 3 Skulltulas in Ice Cavern', 'All 4 Market area Skulltulas', 'All 5 Skulltulas in Shadow Temple']",1,0
 "['All 3 Skulltulas in Ice Cavern', 'All 4 Market area Skulltulas', 'Exactly 30 Deku Sticks']",1,0
 "['All 3 Skulltulas in Ice Cavern', 'All 4 Market area Skulltulas', 'Silver Gauntlets']",1,0
@@ -9390,7 +9253,7 @@ goal combination,count,pick count
 "['Beat the Fire Temple', 'Open 50 Rupee chest in Wasteland', 'Sarias Song']",1,0
 "['Beat the Fire Temple', 'Open 50 Rupee chest in Wasteland']",1,0
 "['Beat the Fire Temple', 'Open the Final Door of Light Trial']",1,0
-"['Beat the Fire Temple', 'Sarias Song']",2,1
+"['Beat the Fire Temple', 'Sarias Song']",1,0
 "['Beat the Fire Temple', 'Shadow Temple Boss Key']",1,0
 "['Beat the Forest Temple', 'Blue Gauntlets', 'Both HPs in Death Mountain Crater']",1,0
 "['Beat the Forest Temple', 'Blue Gauntlets', 'Free all 9 Gorons in Fire Temple']",1,0
@@ -9441,9 +9304,6 @@ goal combination,count,pick count
 "['Beat the Shadow Temple', 'Both HPs in Lost Woods']",1,0
 "['Beat the Shadow Temple', 'Bullet Bag (50)', 'Open 3 Boss Key Doors']",1,0
 "['Beat the Shadow Temple', 'Bullet Bag (50)']",1,0
-"['Beat the Shadow Temple', 'Defeat 4 Different Iron Knuckles', 'Green Gauntlets']",1,0
-"['Beat the Shadow Temple', 'Defeat 4 Different Iron Knuckles', 'Map & Compass in Forest Temple']",1,0
-"['Beat the Shadow Temple', 'Defeat 4 Different Iron Knuckles']",1,0
 "['Beat the Shadow Temple', 'Defeat Meg (purple Poe)', 'Defeat Volvagia']",1,0
 "['Beat the Shadow Temple', 'Defeat Meg (purple Poe)', 'Fire Temple Boss Key']",1,0
 "['Beat the Shadow Temple', 'Defeat Meg (purple Poe)']",2,0
@@ -9463,12 +9323,9 @@ goal combination,count,pick count
 "['Beat the Shadow Temple', 'Get Bombchu chest in Spirit Temple', 'Open All 6 Gold Rupee Chests']",1,0
 "['Beat the Shadow Temple', 'Get Bombchu chest in Spirit Temple', 'Rutos Letter']",1,0
 "['Beat the Shadow Temple', 'Get Bombchu chest in Spirit Temple']",1,0
-"['Beat the Shadow Temple', 'Green Gauntlets', 'Map & Compass in Forest Temple']",1,0
-"['Beat the Shadow Temple', 'Green Gauntlets']",1,0
 "['Beat the Shadow Temple', 'Keaton Mask', 'Open 3 Boss Key Doors']",1,2
 "['Beat the Shadow Temple', 'Keaton Mask']",1,2
 "['Beat the Shadow Temple', 'Light Arrows']",1,0
-"['Beat the Shadow Temple', 'Map & Compass in Forest Temple']",1,0
 "['Beat the Shadow Temple', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['Beat the Shadow Temple', 'Open 3 Boss Key Doors']",2,2
 "['Beat the Shadow Temple', 'Open All 6 Gold Rupee Chests', 'Rutos Letter']",1,0
@@ -10694,30 +10551,17 @@ goal combination,count,pick count
 "['Clear 8 Silver Rupee Rooms', 'Sarias Song']",1,0
 "['Clear 8 Silver Rupee Rooms', 'Spirit Temple Boss Key']",1,0
 "['Clear 8 Silver Rupee Rooms', 'Two Fairy Spells']",1,1
-"['Cow in House', 'Defeat 4 Different Iron Knuckles', 'Goron Tunic']",1,0
-"['Cow in House', 'Defeat 4 Different Iron Knuckles', 'Open All 6 Gold Rupee Chests']",1,0
-"['Cow in House', 'Defeat 4 Different Iron Knuckles', 'Sarias Song']",1,0
-"['Cow in House', 'Defeat 4 Different Iron Knuckles']",1,0
-"['Cow in House', 'Defeat Amy (Green Poe)']",1,1
 "['Cow in House', 'Double Defense', 'Open the Final Door of Shadow Trial']",1,0
 "['Cow in House', 'Double Defense']",1,0
 "['Cow in House', 'Eponas Song', 'Open the Final Door of Forest Trial']",1,0
 "['Cow in House', 'Eponas Song', 'Open the Final Door of Water Trial']",1,0
 "['Cow in House', 'Eponas Song']",1,0
-"['Cow in House', 'Exactly 30 Deku Sticks']",1,0
-"['Cow in House', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,0
-"['Cow in House', 'Goron Tunic', 'Sarias Song']",1,0
-"['Cow in House', 'Goron Tunic']",1,0
-"['Cow in House', 'Open All 6 Gold Rupee Chests', 'Sarias Song']",1,0
-"['Cow in House', 'Open All 6 Gold Rupee Chests']",1,0
 "['Cow in House', 'Open the Final Door of Forest Trial', 'Open the Final Door of Water Trial']",1,0
 "['Cow in House', 'Open the Final Door of Forest Trial']",1,0
 "['Cow in House', 'Open the Final Door of Shadow Trial']",1,0
 "['Cow in House', 'Open the Final Door of Water Trial']",1,0
-"['Cow in House', 'Sarias Song']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Defeat Amy (Green Poe)', 'Eponas Song']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Defeat Amy (Green Poe)', 'Water Medallion']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Defeat Amy (Green Poe)']",2,0
+"['Defeat 4 Different Iron Knuckles', 'Defeat Amy (Green Poe)']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Defeat Dark Link', 'Quiver (40)']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Defeat Dark Link']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Defeat Morpha', 'Defeat Volvagia']",1,0
@@ -10748,15 +10592,12 @@ goal combination,count,pick count
 "['Defeat 4 Different Iron Knuckles', 'Forest Medallion', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Forest Medallion']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Free all 9 Gorons in Fire Temple']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",2,1
-"['Defeat 4 Different Iron Knuckles', 'Goron Tunic', 'Sarias Song']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Goron Tunic']",2,1
-"['Defeat 4 Different Iron Knuckles', 'Green Gauntlets', 'Map & Compass in Forest Temple']",1,0
+"['Defeat 4 Different Iron Knuckles', 'Goron Tunic', 'Open All 6 Gold Rupee Chests']",1,1
+"['Defeat 4 Different Iron Knuckles', 'Goron Tunic']",1,1
 "['Defeat 4 Different Iron Knuckles', 'Green Gauntlets', 'Milk']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Green Gauntlets']",4,0
+"['Defeat 4 Different Iron Knuckles', 'Green Gauntlets']",3,0
 "['Defeat 4 Different Iron Knuckles', 'Lon Lon Ranch HP', 'Shadow Temple Boss Key']",1,1
 "['Defeat 4 Different Iron Knuckles', 'Lon Lon Ranch HP']",1,1
-"['Defeat 4 Different Iron Knuckles', 'Map & Compass in Forest Temple']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Map & Compass in Shadow Temple', 'Minuet of Forest']",1,1
 "['Defeat 4 Different Iron Knuckles', 'Map & Compass in Shadow Temple', 'Sarias Song']",1,1
 "['Defeat 4 Different Iron Knuckles', 'Map & Compass in Shadow Temple']",1,1
@@ -10771,17 +10612,15 @@ goal combination,count,pick count
 "['Defeat 4 Different Iron Knuckles', 'Open 3 Gold Rupee Chests']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Open 50 Rupee chest in Wasteland', 'Quiver (40)']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Open 50 Rupee chest in Wasteland']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Open All 6 Gold Rupee Chests', 'Sarias Song']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Open All 6 Gold Rupee Chests']",2,1
+"['Defeat 4 Different Iron Knuckles', 'Open All 6 Gold Rupee Chests']",1,1
 "['Defeat 4 Different Iron Knuckles', 'Open the Final Door of Light Trial']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Plant 5 Magic Beans']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Quiver (40)', 'Two Fairy Spells']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Quiver (40)']",3,0
-"['Defeat 4 Different Iron Knuckles', 'Sarias Song']",3,1
+"['Defeat 4 Different Iron Knuckles', 'Sarias Song']",2,1
 "['Defeat 4 Different Iron Knuckles', 'Shadow Temple Boss Key']",1,1
 "['Defeat 4 Different Iron Knuckles', 'Silver Scale']",1,0
 "['Defeat 4 Different Iron Knuckles', 'Two Fairy Spells']",1,0
-"['Defeat 4 Different Iron Knuckles', 'Water Medallion']",1,0
 "['Defeat Amy (Green Poe)', 'Dins Fire', 'Map & Compass in Dodongos Cavern']",1,0
 "['Defeat Amy (Green Poe)', 'Dins Fire', 'Quiver (40)']",1,0
 "['Defeat Amy (Green Poe)', 'Dins Fire']",2,0
@@ -10794,11 +10633,8 @@ goal combination,count,pick count
 "['Defeat Amy (Green Poe)', 'Giants Knife', 'Green Gauntlets']",1,0
 "['Defeat Amy (Green Poe)', 'Giants Knife', 'Requiem of Spirit']",1,0
 "['Defeat Amy (Green Poe)', 'Giants Knife']",1,0
-"['Defeat Amy (Green Poe)', 'Goron Bracelet', 'Goron Tunic']",1,0
-"['Defeat Amy (Green Poe)', 'Goron Bracelet']",1,0
-"['Defeat Amy (Green Poe)', 'Goron Tunic']",1,0
 "['Defeat Amy (Green Poe)', 'Green Gauntlets', 'Requiem of Spirit']",1,0
-"['Defeat Amy (Green Poe)', 'Green Gauntlets']",2,0
+"['Defeat Amy (Green Poe)', 'Green Gauntlets']",1,0
 "['Defeat Amy (Green Poe)', 'Lon Lon Ranch HP']",1,0
 "['Defeat Amy (Green Poe)', 'Map & Compass in Dodongos Cavern']",1,0
 "['Defeat Amy (Green Poe)', 'Map & Compass in Jabu-Jabu', 'Open the Final Door of Spirit Trial']",1,0
@@ -10815,7 +10651,6 @@ goal combination,count,pick count
 "['Defeat Amy (Green Poe)', 'Plant bean in Death Mountain Crater']",1,0
 "['Defeat Amy (Green Poe)', 'Quiver (40)']",2,2
 "['Defeat Amy (Green Poe)', 'Requiem of Spirit']",1,0
-"['Defeat Amy (Green Poe)', 'Water Medallion']",1,0
 "['Defeat Barinade', 'Defeat Big Octo', 'Map & Compass in Shadow Temple']",1,0
 "['Defeat Barinade', 'Defeat Big Octo', 'Open 3 Boss Key Doors']",1,0
 "['Defeat Barinade', 'Defeat Big Octo']",1,0
@@ -11487,16 +11322,12 @@ goal combination,count,pick count
 "['Exactly 30 Deku Sticks', 'Gerudos Card']",1,0
 "['Exactly 30 Deku Sticks', 'Get Bombchu chest in Spirit Temple', 'Green Gauntlets']",1,0
 "['Exactly 30 Deku Sticks', 'Get Bombchu chest in Spirit Temple']",1,0
-"['Exactly 30 Deku Sticks', 'Goron Bracelet', 'Map & Compass in Forest Temple']",1,0
-"['Exactly 30 Deku Sticks', 'Goron Bracelet', 'Water Medallion']",1,0
-"['Exactly 30 Deku Sticks', 'Goron Bracelet']",1,0
 "['Exactly 30 Deku Sticks', 'Green Gauntlets']",4,0
 "['Exactly 30 Deku Sticks', 'Keaton Mask']",1,0
 "['Exactly 30 Deku Sticks', 'Light Arrows', 'Open All 6 Gold Rupee Chests']",1,0
 "['Exactly 30 Deku Sticks', 'Light Arrows']",1,0
 "['Exactly 30 Deku Sticks', 'Map & Compass in Forest Temple', 'Open the Final Door of Light Trial']",1,0
-"['Exactly 30 Deku Sticks', 'Map & Compass in Forest Temple', 'Water Medallion']",1,0
-"['Exactly 30 Deku Sticks', 'Map & Compass in Forest Temple']",2,0
+"['Exactly 30 Deku Sticks', 'Map & Compass in Forest Temple']",1,0
 "['Exactly 30 Deku Sticks', 'Obtain all 5 Small Keys in Forest Temple']",1,0
 "['Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",2,1
 "['Exactly 30 Deku Sticks', 'Open 2 Boss Key Doors']",1,0
@@ -11513,7 +11344,6 @@ goal combination,count,pick count
 "['Exactly 30 Deku Sticks', 'Silver Gauntlets']",1,0
 "['Exactly 30 Deku Sticks', 'Stone of Agony']",1,0
 "['Exactly 30 Deku Sticks', 'Two Fairy Spells']",1,0
-"['Exactly 30 Deku Sticks', 'Water Medallion']",1,0
 "['Exactly 30 Deku Sticks', 'Win Bombchu Bowling Prize']",1,0
 "['Fairy Bow', 'Farores Wind', 'Free all 9 Gorons in Fire Temple']",1,0
 "['Fairy Bow', 'Farores Wind']",1,0
@@ -11910,15 +11740,13 @@ goal combination,count,pick count
 "['Golden Gauntlets', 'Nayrus Love']",1,0
 "['Golden Gauntlets', 'Two Fairy Spells']",2,0
 "['Goron Bracelet', 'Goron Tunic', 'Mirror Shield']",1,0
-"['Goron Bracelet', 'Goron Tunic']",2,0
+"['Goron Bracelet', 'Goron Tunic']",1,0
 "['Goron Bracelet', 'Ice Cavern HP']",1,0
 "['Goron Bracelet', 'Light Arrows', 'Open 2 Boss Key Doors']",1,0
 "['Goron Bracelet', 'Light Arrows']",3,0
 "['Goron Bracelet', 'Lon Lon Ranch HP']",1,0
 "['Goron Bracelet', 'Map & Compass in Deku Tree']",1,0
 "['Goron Bracelet', 'Map & Compass in Dodongos Cavern']",1,0
-"['Goron Bracelet', 'Map & Compass in Forest Temple', 'Water Medallion']",1,0
-"['Goron Bracelet', 'Map & Compass in Forest Temple']",1,0
 "['Goron Bracelet', 'Map & Compass in Ice Cavern', 'Water Medallion']",1,0
 "['Goron Bracelet', 'Map & Compass in Ice Cavern']",1,0
 "['Goron Bracelet', 'Map & Compass in Jabu-Jabu', 'Silver Scale']",1,0
@@ -11940,7 +11768,7 @@ goal combination,count,pick count
 "['Goron Bracelet', 'Requiem of Spirit', 'Silver Scale']",1,0
 "['Goron Bracelet', 'Requiem of Spirit']",1,0
 "['Goron Bracelet', 'Silver Scale']",3,0
-"['Goron Bracelet', 'Water Medallion']",2,0
+"['Goron Bracelet', 'Water Medallion']",1,0
 "['Goron Bracelet', 'Zora Tunic']",1,0
 "['Goron Tunic', 'Keaton Mask', 'Nayrus Love']",1,0
 "['Goron Tunic', 'Keaton Mask']",1,0
@@ -11954,11 +11782,9 @@ goal combination,count,pick count
 "['Goron Tunic', 'Mirror Shield']",3,1
 "['Goron Tunic', 'Nayrus Love']",1,0
 "['Goron Tunic', 'Open 3 Boss Key Doors']",1,0
-"['Goron Tunic', 'Open All 6 Gold Rupee Chests', 'Sarias Song']",1,0
 "['Goron Tunic', 'Open All 6 Gold Rupee Chests', 'Two Fairy Spells']",1,0
-"['Goron Tunic', 'Open All 6 Gold Rupee Chests']",3,1
+"['Goron Tunic', 'Open All 6 Gold Rupee Chests']",2,1
 "['Goron Tunic', 'Open the Final Door of Spirit Trial']",1,0
-"['Goron Tunic', 'Sarias Song']",1,0
 "['Goron Tunic', 'Two Fairy Spells', 'Water Medallion']",1,0
 "['Goron Tunic', 'Two Fairy Spells']",3,0
 "['Goron Tunic', 'Water Medallion']",1,0
@@ -11974,7 +11800,7 @@ goal combination,count,pick count
 "['Green Gauntlets', 'Map & Compass in Dodongos Cavern', 'Open the Final Door of Shadow Trial']",1,0
 "['Green Gauntlets', 'Map & Compass in Dodongos Cavern']",4,0
 "['Green Gauntlets', 'Map & Compass in Forest Temple', 'Zora Tunic']",1,0
-"['Green Gauntlets', 'Map & Compass in Forest Temple']",2,0
+"['Green Gauntlets', 'Map & Compass in Forest Temple']",1,0
 "['Green Gauntlets', 'Map & Compass in Spirit Temple', 'Water Temple Boss Key']",1,0
 "['Green Gauntlets', 'Map & Compass in Spirit Temple']",2,0
 "['Green Gauntlets', 'Map & Compass in Water Temple']",2,0
@@ -12122,7 +11948,6 @@ goal combination,count,pick count
 "['Map & Compass in Forest Temple', 'Stone of Agony']",1,0
 "['Map & Compass in Forest Temple', 'Two Fairy Spells', 'Win Bombchu Bowling Prize']",1,0
 "['Map & Compass in Forest Temple', 'Two Fairy Spells']",1,0
-"['Map & Compass in Forest Temple', 'Water Medallion']",1,0
 "['Map & Compass in Forest Temple', 'Win Bombchu Bowling Prize']",1,0
 "['Map & Compass in Forest Temple', 'Zora Tunic']",1,0
 "['Map & Compass in Ice Cavern', 'Map & Compass in Jabu-Jabu', 'Open the Final Door of Water Trial']",1,1
@@ -12317,7 +12142,7 @@ goal combination,count,pick count
 "['Open All 6 Gold Rupee Chests', 'Quiver (50)']",3,0
 "['Open All 6 Gold Rupee Chests', 'Rutos Letter', 'Silver Scale']",1,0
 "['Open All 6 Gold Rupee Chests', 'Rutos Letter']",2,0
-"['Open All 6 Gold Rupee Chests', 'Sarias Song']",4,0
+"['Open All 6 Gold Rupee Chests', 'Sarias Song']",3,0
 "['Open All 6 Gold Rupee Chests', 'Shadow Temple Boss Key']",2,0
 "['Open All 6 Gold Rupee Chests', 'Silver Gauntlets']",1,0
 "['Open All 6 Gold Rupee Chests', 'Silver Scale', 'Water Temple Boss Key']",1,0
@@ -12325,7 +12150,7 @@ goal combination,count,pick count
 "['Open All 6 Gold Rupee Chests', 'Spirit Temple Boss Key']",2,1
 "['Open All 6 Gold Rupee Chests', 'Two Fairy Spells', 'Zora Tunic']",1,0
 "['Open All 6 Gold Rupee Chests', 'Two Fairy Spells']",3,1
-"['Open All 6 Gold Rupee Chests', 'Water Medallion']",2,0
+"['Open All 6 Gold Rupee Chests', 'Water Medallion']",1,0
 "['Open All 6 Gold Rupee Chests', 'Water Temple Boss Key']",1,0
 "['Open All 6 Gold Rupee Chests', 'Zora Tunic']",1,0
 "['Open the Final Door of Fire Trial', 'Quiver (40)']",2,0
