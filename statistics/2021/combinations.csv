@@ -1,4 +1,8 @@
 goal combination,count,pick count
+"['1 Skulltula from each Adult Dungeon', '1 Skulltula from each Child Dungeon', '8 Hearts (no duping)']",1,2
+"['1 Skulltula from each Adult Dungeon', '1 Skulltula from each Child Dungeon', 'Desert Colossus HP']",1,2
+"['1 Skulltula from each Adult Dungeon', '1 Skulltula from each Child Dungeon', 'Open 3 Gold Rupee Chests']",1,2
+"['1 Skulltula from each Adult Dungeon', '1 Skulltula from each Child Dungeon']",1,2
 "['1 Skulltula from each Adult Dungeon', '2 Skulltulas in Lon Lon Ranch', '5 Zora area HPs']",1,1
 "['1 Skulltula from each Adult Dungeon', '2 Skulltulas in Lon Lon Ranch', 'All 5 Skulltulas in Spirit Temple']",1,1
 "['1 Skulltula from each Adult Dungeon', '2 Skulltulas in Lon Lon Ranch', 'Beat the Fire Temple']",1,1
@@ -124,9 +128,12 @@ goal combination,count,pick count
 "['1 Skulltula from each Adult Dungeon', '7 Hearts (no duping)', 'Two Fairy Spells']",1,0
 "['1 Skulltula from each Adult Dungeon', '7 Hearts (no duping)']",2,1
 "['1 Skulltula from each Adult Dungeon', '7 Magic Beans', 'All 5 Lake Hylia Skulltulas']",1,0
+"['1 Skulltula from each Adult Dungeon', '7 Magic Beans', 'Defeat Meg (purple Poe)']",1,0
 "['1 Skulltula from each Adult Dungeon', '7 Magic Beans', 'Light Arrows']",1,0
+"['1 Skulltula from each Adult Dungeon', '7 Magic Beans', 'Map & Compass in Deku Tree']",1,0
+"['1 Skulltula from each Adult Dungeon', '7 Magic Beans', 'Map & Compass in Fire Temple']",1,0
 "['1 Skulltula from each Adult Dungeon', '7 Magic Beans', 'Zora Tunic']",1,0
-"['1 Skulltula from each Adult Dungeon', '7 Magic Beans']",1,0
+"['1 Skulltula from each Adult Dungeon', '7 Magic Beans']",2,0
 "['1 Skulltula from each Adult Dungeon', '7 Songs', 'All 5 Lake Hylia Skulltulas']",1,0
 "['1 Skulltula from each Adult Dungeon', '7 Songs', 'Exactly 30 Deku Sticks']",1,0
 "['1 Skulltula from each Adult Dungeon', '7 Songs', 'Open 5 Gold Rupee Chests']",1,0
@@ -136,9 +143,11 @@ goal combination,count,pick count
 "['1 Skulltula from each Adult Dungeon', '8 Different Unused Keys in Gerudo Training Grounds']",1,0
 "['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)', 'Boomerang']",1,0
 "['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)', 'Defeat both Flare Dancers']",1,0
+"['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)', 'Desert Colossus HP']",1,2
 "['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)', 'Mirror Shield']",1,0
+"['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",1,2
 "['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)', 'Plant bean in Death Mountain Crater']",1,0
-"['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)']",2,0
+"['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)']",3,2
 "['1 Skulltula from each Adult Dungeon', 'All 3 Kokiri Forest area Skulltulas', 'Beat the Fire Temple']",1,1
 "['1 Skulltula from each Adult Dungeon', 'All 3 Kokiri Forest area Skulltulas', 'Fairy Slingshot']",1,1
 "['1 Skulltula from each Adult Dungeon', 'All 3 Kokiri Forest area Skulltulas']",1,1
@@ -274,7 +283,9 @@ goal combination,count,pick count
 "['1 Skulltula from each Adult Dungeon', 'Defeat King Dodongo', 'Dins Fire']",1,2
 "['1 Skulltula from each Adult Dungeon', 'Defeat King Dodongo', 'Get Bombchu chest in Spirit Temple']",1,2
 "['1 Skulltula from each Adult Dungeon', 'Defeat King Dodongo']",1,2
-"['1 Skulltula from each Adult Dungeon', 'Defeat Meg (purple Poe)']",3,2
+"['1 Skulltula from each Adult Dungeon', 'Defeat Meg (purple Poe)', 'Map & Compass in Deku Tree']",1,0
+"['1 Skulltula from each Adult Dungeon', 'Defeat Meg (purple Poe)', 'Map & Compass in Fire Temple']",1,0
+"['1 Skulltula from each Adult Dungeon', 'Defeat Meg (purple Poe)']",4,2
 "['1 Skulltula from each Adult Dungeon', 'Defeat Morpha', 'Goron Bracelet']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Defeat Morpha']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Defeat Queen Gohma', 'Goron Bracelet']",1,0
@@ -295,9 +306,10 @@ goal combination,count,pick count
 "['1 Skulltula from each Adult Dungeon', 'Defeat all Lizalfos in Dodongos Cavern', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Defeat all Lizalfos in Dodongos Cavern']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Defeat both Flare Dancers']",1,0
+"['1 Skulltula from each Adult Dungeon', 'Desert Colossus HP', 'Open 3 Gold Rupee Chests']",1,2
 "['1 Skulltula from each Adult Dungeon', 'Desert Colossus HP', 'Open the Final Door of Water Trial']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Desert Colossus HP', 'Win Bombchu Bowling Prize']",1,0
-"['1 Skulltula from each Adult Dungeon', 'Desert Colossus HP']",1,0
+"['1 Skulltula from each Adult Dungeon', 'Desert Colossus HP']",2,2
 "['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Exactly 30 Deku Sticks']",1,1
 "['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Fire Temple Boss Key']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Dins Fire', 'Gerudos Card']",1,1
@@ -374,10 +386,12 @@ goal combination,count,pick count
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Bottom of the Well', 'Plant 5 Magic Beans']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Bottom of the Well', 'Two Fairy Spells']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Bottom of the Well']",1,0
+"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Deku Tree', 'Map & Compass in Fire Temple']",1,0
+"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Deku Tree']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Dodongos Cavern', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Dodongos Cavern']",2,0
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,0
-"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Fire Temple']",2,1
+"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Fire Temple']",3,1
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Shadow Temple', 'Nayrus Love']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Shadow Temple']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Mirror Shield', 'Plant bean in Death Mountain Crater']",1,0
@@ -393,7 +407,7 @@ goal combination,count,pick count
 "['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests', 'Open the Final Door of Spirit Trial']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests', 'Water Medallion']",1,1
 "['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests', 'Win Bombchu Bowling Prize']",1,0
-"['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests']",3,1
+"['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests']",4,3
 "['1 Skulltula from each Adult Dungeon', 'Open 5 Gold Rupee Chests']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Open 50 Rupee chest in Wasteland', 'Quiver (40)']",1,0
 "['1 Skulltula from each Adult Dungeon', 'Open 50 Rupee chest in Wasteland', 'Silver Scale']",2,0
@@ -463,6 +477,9 @@ goal combination,count,pick count
 "['1 Skulltula from each Child Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",1,0
 "['1 Skulltula from each Child Dungeon', '7 Different Unused Keys in Gerudo Training Grounds', 'Minuet of Forest']",1,0
 "['1 Skulltula from each Child Dungeon', '7 Different Unused Keys in Gerudo Training Grounds']",1,0
+"['1 Skulltula from each Child Dungeon', '8 Hearts (no duping)', 'Desert Colossus HP']",1,2
+"['1 Skulltula from each Child Dungeon', '8 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",1,2
+"['1 Skulltula from each Child Dungeon', '8 Hearts (no duping)']",1,2
 "['1 Skulltula from each Child Dungeon', 'All 3 Elemental Arrows', 'All 4 Gerudo Valley area Skulltulas']",1,0
 "['1 Skulltula from each Child Dungeon', 'All 3 Elemental Arrows', 'Defeat Meg (purple Poe)']",1,0
 "['1 Skulltula from each Child Dungeon', 'All 3 Elemental Arrows', 'Defeat a Skull Kid']",1,0
@@ -475,6 +492,10 @@ goal combination,count,pick count
 "['1 Skulltula from each Child Dungeon', 'All 4 Gerudo Valley area Skulltulas']",1,0
 "['1 Skulltula from each Child Dungeon', 'All 4 Market area Skulltulas', 'All 5 Skulltulas in Shadow Temple']",1,0
 "['1 Skulltula from each Child Dungeon', 'All 4 Market area Skulltulas']",1,0
+"['1 Skulltula from each Child Dungeon', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Bottom of the Well']",1,0
+"['1 Skulltula from each Child Dungeon', 'All 5 Skulltulas in Fire Temple', 'Map & Compass in Spirit Temple']",1,0
+"['1 Skulltula from each Child Dungeon', 'All 5 Skulltulas in Fire Temple', 'Quiver (50)']",1,0
+"['1 Skulltula from each Child Dungeon', 'All 5 Skulltulas in Fire Temple']",1,0
 "['1 Skulltula from each Child Dungeon', 'All 5 Skulltulas in Shadow Temple']",1,0
 "['1 Skulltula from each Child Dungeon', 'All 5 Skulltulas in Water Temple', 'Beat the Forest Temple']",1,0
 "['1 Skulltula from each Child Dungeon', 'All 5 Skulltulas in Water Temple', 'Clear 10 Silver Rupee Rooms']",2,0
@@ -497,6 +518,8 @@ goal combination,count,pick count
 "['1 Skulltula from each Child Dungeon', 'Defeat a Skull Kid', 'Open the Final Door of Forest Trial']",1,0
 "['1 Skulltula from each Child Dungeon', 'Defeat a Skull Kid', 'Quiver (50)']",1,0
 "['1 Skulltula from each Child Dungeon', 'Defeat a Skull Kid']",2,0
+"['1 Skulltula from each Child Dungeon', 'Desert Colossus HP', 'Open 3 Gold Rupee Chests']",1,2
+"['1 Skulltula from each Child Dungeon', 'Desert Colossus HP']",1,2
 "['1 Skulltula from each Child Dungeon', 'Dins Fire', 'Forest Medallion']",1,0
 "['1 Skulltula from each Child Dungeon', 'Dins Fire', 'Lon Lon Ranch HP']",1,0
 "['1 Skulltula from each Child Dungeon', 'Dins Fire', 'Obtain all 8 Small Keys in Fire Temple']",1,0
@@ -510,21 +533,24 @@ goal combination,count,pick count
 "['1 Skulltula from each Child Dungeon', 'Lon Lon Ranch HP', 'Map & Compass in Spirit Temple']",1,0
 "['1 Skulltula from each Child Dungeon', 'Lon Lon Ranch HP', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['1 Skulltula from each Child Dungeon', 'Lon Lon Ranch HP']",2,0
-"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple']",1,2
+"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple']",2,2
 "['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Open the Final Door of Shadow Trial']",1,2
+"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Quiver (50)']",1,0
 "['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well', 'Sarias Song']",1,2
-"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well']",1,2
+"['1 Skulltula from each Child Dungeon', 'Map & Compass in Bottom of the Well']",2,2
 "['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial']",1,2
+"['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple', 'Quiver (50)']",1,0
 "['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,2
-"['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple']",2,2
+"['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple']",3,2
 "['1 Skulltula from each Child Dungeon', 'Minuet of Forest']",1,0
 "['1 Skulltula from each Child Dungeon', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['1 Skulltula from each Child Dungeon', 'Open 3 Boss Key Doors']",1,0
+"['1 Skulltula from each Child Dungeon', 'Open 3 Gold Rupee Chests']",1,2
 "['1 Skulltula from each Child Dungeon', 'Open the Final Door of Forest Trial', 'Quiver (50)']",1,0
 "['1 Skulltula from each Child Dungeon', 'Open the Final Door of Forest Trial']",1,0
 "['1 Skulltula from each Child Dungeon', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
 "['1 Skulltula from each Child Dungeon', 'Open the Final Door of Shadow Trial']",1,2
-"['1 Skulltula from each Child Dungeon', 'Quiver (50)']",1,0
+"['1 Skulltula from each Child Dungeon', 'Quiver (50)']",2,0
 "['1 Skulltula from each Child Dungeon', 'Sarias Song']",1,2
 "['1 Unused Small Key in each Adult Dungeon', '3 Boots', 'All 3 Elemental Arrows']",1,0
 "['1 Unused Small Key in each Adult Dungeon', '3 Boots', 'Both HPs in Death Mountain Crater']",1,0
@@ -1918,10 +1944,12 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', '30 Deku Nuts', 'Defeat Amy (Green Poe)']",1,0
 "['3 Shields & 3 Boots', '30 Deku Nuts']",1,0
 "['3 Shields & 3 Boots', '30 Different Skulltulas', '7 Different Bottled Contents']",1,0
-"['3 Shields & 3 Boots', '30 Different Skulltulas', '7 Magic Beans']",1,0
+"['3 Shields & 3 Boots', '30 Different Skulltulas', '7 Magic Beans']",2,0
+"['3 Shields & 3 Boots', '30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple']",1,0
+"['3 Shields & 3 Boots', '30 Different Skulltulas', 'Exactly 30 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', '30 Different Skulltulas', 'Open 2 Boss Key Doors']",1,0
 "['3 Shields & 3 Boots', '30 Different Skulltulas', 'Open the Final Door of Forest Trial']",1,0
-"['3 Shields & 3 Boots', '30 Different Skulltulas']",2,0
+"['3 Shields & 3 Boots', '30 Different Skulltulas']",3,0
 "['3 Shields & 3 Boots', '4 Songs', 'All 8 Zoras Domain area Skulltulas']",1,0
 "['3 Shields & 3 Boots', '4 Songs', 'Longshot']",1,0
 "['3 Shields & 3 Boots', '4 Songs', 'Open 3 Boss Key Doors']",1,0
@@ -1932,8 +1960,10 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', '6 Songs']",1,0
 "['3 Shields & 3 Boots', '7 Different Bottled Contents', 'Open the Final Door of Forest Trial']",1,0
 "['3 Shields & 3 Boots', '7 Different Bottled Contents']",1,0
+"['3 Shields & 3 Boots', '7 Magic Beans', 'All 5 Skulltulas in Fire Temple']",1,0
+"['3 Shields & 3 Boots', '7 Magic Beans', 'Exactly 30 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', '7 Magic Beans', 'Open 2 Boss Key Doors']",1,0
-"['3 Shields & 3 Boots', '7 Magic Beans']",1,0
+"['3 Shields & 3 Boots', '7 Magic Beans']",2,0
 "['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'All 4 Lon Lon Ranch area Skulltulas']",1,0
 "['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Shadow Temple']",1,0
 "['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds', 'Silver Scale']",1,0
@@ -1942,21 +1972,26 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', '9 Hearts (no duping)', 'All 4 Child Skulltulas in Zoras Domain Area']",1,0
 "['3 Shields & 3 Boots', '9 Hearts (no duping)', 'Fairy Bow']",1,0
 "['3 Shields & 3 Boots', '9 Hearts (no duping)']",1,0
+"['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'All 8 Death Mountain area Skulltulas']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Bottled Fairy']",1,0
+"['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Defeat Phantom Ganon']",1,0
+"['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Desert Colossus HP']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Exactly 20 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Frogs HP']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Giants Knife']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['3 Shields & 3 Boots', 'All 3 Elemental Arrows', 'Open 5 Gold Rupee Chests']",1,0
-"['3 Shields & 3 Boots', 'All 3 Elemental Arrows']",3,0
+"['3 Shields & 3 Boots', 'All 3 Elemental Arrows']",4,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'All 4 Child Skulltulas in Zoras Domain Area']",1,0
+"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Defeat Phantom Ganon']",1,0
+"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Desert Colossus HP']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Fairy Bow']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Megaton Hammer']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Fire Trial']",1,0
-"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well']",2,0
+"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well']",3,0
 "['3 Shields & 3 Boots', 'All 4 Child Skulltulas in Zoras Domain Area', 'Fairy Bow']",1,0
 "['3 Shields & 3 Boots', 'All 4 Child Skulltulas in Zoras Domain Area', 'Fire Medallion']",1,0
 "['3 Shields & 3 Boots', 'All 4 Child Skulltulas in Zoras Domain Area', 'Ganons Castle Boss Key']",1,0
@@ -1980,8 +2015,9 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', 'All 4 Market area Skulltulas']",2,0
 "['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple', 'Defeat Big Octo']",1,0
 "['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple', 'Defeat Meg (purple Poe)']",1,0
+"['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple', 'Quiver (40)']",1,0
-"['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple']",1,0
+"['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple']",2,0
 "['3 Shields & 3 Boots', 'All 5 Skulltulas in Shadow Temple', 'Silver Scale']",1,0
 "['3 Shields & 3 Boots', 'All 5 Skulltulas in Shadow Temple']",1,0
 "['3 Shields & 3 Boots', 'All 5 Skulltulas in Water Temple', 'Bolero of Fire']",1,0
@@ -2034,15 +2070,19 @@ goal combination,count,pick count
 "['3 Shields & 3 Boots', 'Defeat Meg (purple Poe)', 'Open the Final Door of Light Trial']",1,0
 "['3 Shields & 3 Boots', 'Defeat Meg (purple Poe)', 'Quiver (40)']",1,0
 "['3 Shields & 3 Boots', 'Defeat Meg (purple Poe)']",2,0
+"['3 Shields & 3 Boots', 'Defeat Phantom Ganon', 'Desert Colossus HP']",1,0
+"['3 Shields & 3 Boots', 'Defeat Phantom Ganon']",1,0
 "['3 Shields & 3 Boots', 'Defeat all Lizalfos in Dodongos Cavern', 'Goron Bracelet']",1,0
 "['3 Shields & 3 Boots', 'Defeat all Lizalfos in Dodongos Cavern', 'Obtain all 5 Small Keys in Forest Temple']",1,0
 "['3 Shields & 3 Boots', 'Defeat all Lizalfos in Dodongos Cavern', 'Open 2 Boss Key Doors']",1,0
 "['3 Shields & 3 Boots', 'Defeat all Lizalfos in Dodongos Cavern']",1,0
+"['3 Shields & 3 Boots', 'Desert Colossus HP']",1,0
 "['3 Shields & 3 Boots', 'Eponas Song', 'Free all 9 Gorons in Fire Temple']",1,0
 "['3 Shields & 3 Boots', 'Eponas Song', 'Ice Cavern HP']",1,0
 "['3 Shields & 3 Boots', 'Eponas Song']",1,0
 "['3 Shields & 3 Boots', 'Exactly 20 Deku Sticks', 'Frogs HP']",1,0
 "['3 Shields & 3 Boots', 'Exactly 20 Deku Sticks']",1,0
+"['3 Shields & 3 Boots', 'Exactly 30 Deku Sticks']",1,0
 "['3 Shields & 3 Boots', 'Fairy Bow']",1,0
 "['3 Shields & 3 Boots', 'Fairy Slingshot', 'Light Arrows']",1,0
 "['3 Shields & 3 Boots', 'Fairy Slingshot']",1,0
@@ -3892,8 +3932,10 @@ goal combination,count,pick count
 "['30 Different Skulltulas', '7 Different Unused Keys in Gerudo Training Grounds', 'Two Fairy Spells']",1,0
 "['30 Different Skulltulas', '7 Different Unused Keys in Gerudo Training Grounds', 'Water Temple Boss Key']",1,0
 "['30 Different Skulltulas', '7 Different Unused Keys in Gerudo Training Grounds']",2,0
+"['30 Different Skulltulas', '7 Magic Beans', 'All 5 Skulltulas in Fire Temple']",1,0
+"['30 Different Skulltulas', '7 Magic Beans', 'Exactly 30 Deku Sticks']",1,0
 "['30 Different Skulltulas', '7 Magic Beans', 'Open 2 Boss Key Doors']",1,0
-"['30 Different Skulltulas', '7 Magic Beans']",1,0
+"['30 Different Skulltulas', '7 Magic Beans']",2,0
 "['30 Different Skulltulas', '7 Maps', '7 Songs']",1,1
 "['30 Different Skulltulas', '7 Maps', '9 Songs']",1,0
 "['30 Different Skulltulas', '7 Maps', 'All 3 Skulltulas in Bottom of the Well']",1,0
@@ -3998,8 +4040,9 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'All 5 Lake Hylia Skulltulas', 'Megaton Hammer']",1,0
 "['30 Different Skulltulas', 'All 5 Lake Hylia Skulltulas']",2,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Defeat Meg (purple Poe)']",1,0
+"['30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple', 'Fire Temple Boss Key']",1,0
-"['30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple']",1,0
+"['30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple']",2,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Forest Temple', 'Blue Gauntlets']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Forest Temple', 'Dins Fire']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Forest Temple', 'Fairy Slingshot']",1,0
@@ -4013,17 +4056,22 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple', 'Open 2 Boss Key Doors']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple', 'Win Bombchu Bowling Prize']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple']",3,0
+"['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple', 'Beat the Deku Tree']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple', 'Ganons Castle Boss Key']",1,0
+"['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple', 'Mirror Shield']",1,0
+"['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple', 'Open 3 Gold Rupee Chests']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple', 'Plant 5 Magic Beans']",1,0
 "['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple', 'Water Temple Boss Key']",1,0
-"['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple']",2,0
+"['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple']",3,0
 "['30 Different Skulltulas', 'Beat Jabu-Jabus Belly', 'Free all 9 Gorons in Fire Temple']",1,0
 "['30 Different Skulltulas', 'Beat Jabu-Jabus Belly', 'Open 2 Boss Key Doors']",1,0
 "['30 Different Skulltulas', 'Beat Jabu-Jabus Belly']",1,0
 "['30 Different Skulltulas', 'Beat the Deku Tree', 'Defeat Dark Link']",1,0
 "['30 Different Skulltulas', 'Beat the Deku Tree', 'Dins Fire']",1,0
+"['30 Different Skulltulas', 'Beat the Deku Tree', 'Mirror Shield']",1,0
+"['30 Different Skulltulas', 'Beat the Deku Tree', 'Open 3 Gold Rupee Chests']",1,0
 "['30 Different Skulltulas', 'Beat the Deku Tree', 'Shadow Temple Boss Key']",1,0
-"['30 Different Skulltulas', 'Beat the Deku Tree']",1,0
+"['30 Different Skulltulas', 'Beat the Deku Tree']",2,0
 "['30 Different Skulltulas', 'Beat the Fire Temple', 'Both HPs in Death Mountain Crater']",1,1
 "['30 Different Skulltulas', 'Beat the Fire Temple', 'Double Defense']",1,1
 "['30 Different Skulltulas', 'Beat the Fire Temple', 'Fairy Bow']",1,0
@@ -4131,9 +4179,12 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Defeat Big Octo']",2,1
 "['30 Different Skulltulas', 'Defeat Bongo-Bongo', 'Open 50 Rupee chest in Wasteland']",1,0
 "['30 Different Skulltulas', 'Defeat Bongo-Bongo']",1,0
+"['30 Different Skulltulas', 'Defeat Dark Link', 'Desert Colossus HP']",1,0
 "['30 Different Skulltulas', 'Defeat Dark Link', 'Dins Fire']",1,0
+"['30 Different Skulltulas', 'Defeat Dark Link', 'Map & Compass in Deku Tree']",1,0
+"['30 Different Skulltulas', 'Defeat Dark Link', 'Quiver (50)']",1,0
 "['30 Different Skulltulas', 'Defeat Dark Link', 'Shadow Temple Boss Key']",1,0
-"['30 Different Skulltulas', 'Defeat Dark Link']",2,0
+"['30 Different Skulltulas', 'Defeat Dark Link']",3,0
 "['30 Different Skulltulas', 'Defeat King Dodongo', 'Two Fairy Spells']",1,0
 "['30 Different Skulltulas', 'Defeat King Dodongo', 'Water Temple Boss Key']",1,0
 "['30 Different Skulltulas', 'Defeat King Dodongo']",1,0
@@ -4154,6 +4205,9 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Defeat a Skull Kid']",2,0
 "['30 Different Skulltulas', 'Defeat both Flare Dancers', 'Get Bombchu chest in Spirit Temple']",1,0
 "['30 Different Skulltulas', 'Defeat both Flare Dancers']",1,0
+"['30 Different Skulltulas', 'Desert Colossus HP', 'Map & Compass in Deku Tree']",1,0
+"['30 Different Skulltulas', 'Desert Colossus HP', 'Quiver (50)']",1,0
+"['30 Different Skulltulas', 'Desert Colossus HP']",1,0
 "['30 Different Skulltulas', 'Dins Fire', 'Fire Arrows']",1,0
 "['30 Different Skulltulas', 'Dins Fire', 'Lon Lon Ranch HP']",1,0
 "['30 Different Skulltulas', 'Dins Fire', 'Obtain all 8 Small Keys in Fire Temple']",1,0
@@ -4168,7 +4222,7 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Eponas Song']",2,0
 "['30 Different Skulltulas', 'Exactly 30 Deku Sticks', 'Open 2 Boss Key Doors']",1,0
 "['30 Different Skulltulas', 'Exactly 30 Deku Sticks', 'Win Bombchu Bowling Prize']",1,0
-"['30 Different Skulltulas', 'Exactly 30 Deku Sticks']",2,0
+"['30 Different Skulltulas', 'Exactly 30 Deku Sticks']",3,0
 "['30 Different Skulltulas', 'Fairy Bow', 'Fire Temple Boss Key']",1,0
 "['30 Different Skulltulas', 'Fairy Bow', 'Keaton Mask']",1,0
 "['30 Different Skulltulas', 'Fairy Bow', 'Open 3 Boss Key Doors']",1,0
@@ -4236,7 +4290,8 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Map & Compass in Bottom of the Well', 'Two Fairy Spells']",1,0
 "['30 Different Skulltulas', 'Map & Compass in Bottom of the Well', 'Win Bombchu Bowling Prize']",1,0
 "['30 Different Skulltulas', 'Map & Compass in Bottom of the Well']",1,0
-"['30 Different Skulltulas', 'Map & Compass in Deku Tree']",1,0
+"['30 Different Skulltulas', 'Map & Compass in Deku Tree', 'Quiver (50)']",1,0
+"['30 Different Skulltulas', 'Map & Compass in Deku Tree']",2,0
 "['30 Different Skulltulas', 'Map & Compass in Dodongos Cavern', 'Map & Compass in Forest Temple']",1,0
 "['30 Different Skulltulas', 'Map & Compass in Dodongos Cavern', 'Open 2 Boss Key Doors']",1,0
 "['30 Different Skulltulas', 'Map & Compass in Dodongos Cavern']",3,1
@@ -4249,8 +4304,9 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Map & Compass in Shadow Temple']",2,0
 "['30 Different Skulltulas', 'Megaton Hammer']",1,0
 "['30 Different Skulltulas', 'Minuet of Forest']",1,2
+"['30 Different Skulltulas', 'Mirror Shield', 'Open 3 Gold Rupee Chests']",1,0
 "['30 Different Skulltulas', 'Mirror Shield', 'Two Fairy Spells']",1,1
-"['30 Different Skulltulas', 'Mirror Shield']",3,1
+"['30 Different Skulltulas', 'Mirror Shield']",4,1
 "['30 Different Skulltulas', 'Nayrus Love', 'Open 3 Gold Rupee Chests']",1,0
 "['30 Different Skulltulas', 'Nayrus Love', 'Requiem of Spirit']",1,1
 "['30 Different Skulltulas', 'Nayrus Love']",2,1
@@ -4265,7 +4321,7 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Open 3 Boss Key Doors']",5,2
 "['30 Different Skulltulas', 'Open 3 Gold Rupee Chests', 'Silver Gauntlets']",1,0
 "['30 Different Skulltulas', 'Open 3 Gold Rupee Chests', 'Spirit Temple Boss Key']",1,0
-"['30 Different Skulltulas', 'Open 3 Gold Rupee Chests']",3,0
+"['30 Different Skulltulas', 'Open 3 Gold Rupee Chests']",4,0
 "['30 Different Skulltulas', 'Open 5 Gold Rupee Chests', 'Rutos Letter']",1,0
 "['30 Different Skulltulas', 'Open 5 Gold Rupee Chests']",1,0
 "['30 Different Skulltulas', 'Open 50 Rupee chest in Wasteland']",1,0
@@ -4277,7 +4333,7 @@ goal combination,count,pick count
 "['30 Different Skulltulas', 'Open the Final Door of Spirit Trial']",5,0
 "['30 Different Skulltulas', 'Open the Final Door of Water Trial']",1,0
 "['30 Different Skulltulas', 'Plant 5 Magic Beans']",2,0
-"['30 Different Skulltulas', 'Quiver (50)']",1,0
+"['30 Different Skulltulas', 'Quiver (50)']",2,0
 "['30 Different Skulltulas', 'Requiem of Spirit']",1,1
 "['30 Different Skulltulas', 'Rutos Letter']",1,0
 "['30 Different Skulltulas', 'Sarias Song']",1,0
@@ -6334,13 +6390,18 @@ goal combination,count,pick count
 "['7 Magic Beans', 'All 5 Lake Hylia Skulltulas', 'Light Arrows']",1,0
 "['7 Magic Beans', 'All 5 Lake Hylia Skulltulas', 'Zora Tunic']",1,0
 "['7 Magic Beans', 'All 5 Lake Hylia Skulltulas']",2,0
+"['7 Magic Beans', 'All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks']",1,0
+"['7 Magic Beans', 'All 5 Skulltulas in Fire Temple']",1,0
 "['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'All 8 Zoras Domain area Skulltulas']",1,0
+"['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Defeat Twinrova']",1,0
+"['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Desert Colossus HP']",1,0
 "['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Fairy Slingshot']",1,0
+"['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Map & Compass in Bottom of the Well']",1,0
 "['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Map & Compass in Dodongos Cavern']",1,0
 "['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Map & Compass in Fire Temple']",1,0
 "['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Map & Compass in Spirit Temple']",1,0
 "['7 Magic Beans', 'All 5 Skulltulas in Water Temple', 'Two Fairy Spells']",1,0
-"['7 Magic Beans', 'All 5 Skulltulas in Water Temple']",2,0
+"['7 Magic Beans', 'All 5 Skulltulas in Water Temple']",3,0
 "['7 Magic Beans', 'All 8 Zoras Domain area Skulltulas', 'Fairy Slingshot']",1,0
 "['7 Magic Beans', 'All 8 Zoras Domain area Skulltulas', 'Two Fairy Spells']",1,0
 "['7 Magic Beans', 'All 8 Zoras Domain area Skulltulas']",1,0
@@ -6361,11 +6422,20 @@ goal combination,count,pick count
 "['7 Magic Beans', 'Both Rusty Switches in Spirit Temple', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['7 Magic Beans', 'Both Rusty Switches in Spirit Temple']",2,0
 "['7 Magic Beans', 'Bottled Fairy']",2,1
+"['7 Magic Beans', 'Defeat Meg (purple Poe)', 'Map & Compass in Deku Tree']",1,0
+"['7 Magic Beans', 'Defeat Meg (purple Poe)', 'Map & Compass in Fire Temple']",1,0
+"['7 Magic Beans', 'Defeat Meg (purple Poe)']",1,0
+"['7 Magic Beans', 'Defeat Twinrova', 'Desert Colossus HP']",1,0
+"['7 Magic Beans', 'Defeat Twinrova', 'Map & Compass in Bottom of the Well']",1,0
+"['7 Magic Beans', 'Defeat Twinrova']",1,0
 "['7 Magic Beans', 'Defeat Volvagia', 'Exactly 20 Deku Sticks']",1,0
 "['7 Magic Beans', 'Defeat Volvagia', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['7 Magic Beans', 'Defeat Volvagia']",1,0
+"['7 Magic Beans', 'Desert Colossus HP', 'Map & Compass in Bottom of the Well']",1,0
+"['7 Magic Beans', 'Desert Colossus HP']",1,0
 "['7 Magic Beans', 'Exactly 20 Deku Sticks', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['7 Magic Beans', 'Exactly 20 Deku Sticks']",2,0
+"['7 Magic Beans', 'Exactly 30 Deku Sticks']",1,0
 "['7 Magic Beans', 'Fairy Slingshot', 'Two Fairy Spells']",1,0
 "['7 Magic Beans', 'Fairy Slingshot']",1,0
 "['7 Magic Beans', 'Farores Wind', 'Goron Bracelet']",1,0
@@ -6380,11 +6450,14 @@ goal combination,count,pick count
 "['7 Magic Beans', 'Goron Bracelet']",1,0
 "['7 Magic Beans', 'Light Arrows', 'Zora Tunic']",1,0
 "['7 Magic Beans', 'Light Arrows']",1,0
+"['7 Magic Beans', 'Map & Compass in Bottom of the Well']",1,0
+"['7 Magic Beans', 'Map & Compass in Deku Tree', 'Map & Compass in Fire Temple']",1,0
+"['7 Magic Beans', 'Map & Compass in Deku Tree']",1,0
 "['7 Magic Beans', 'Map & Compass in Dodongos Cavern', 'Map & Compass in Fire Temple']",1,0
 "['7 Magic Beans', 'Map & Compass in Dodongos Cavern', 'Map & Compass in Spirit Temple']",1,0
 "['7 Magic Beans', 'Map & Compass in Dodongos Cavern']",2,0
 "['7 Magic Beans', 'Map & Compass in Fire Temple', 'Map & Compass in Spirit Temple']",1,0
-"['7 Magic Beans', 'Map & Compass in Fire Temple']",1,0
+"['7 Magic Beans', 'Map & Compass in Fire Temple']",2,0
 "['7 Magic Beans', 'Map & Compass in Spirit Temple']",1,0
 "['7 Magic Beans', 'Obtain all 5 Small Keys in Shadow Temple']",2,0
 "['7 Magic Beans', 'Open 2 Boss Key Doors']",1,0
@@ -6783,10 +6856,12 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms']",1,1
 "['8 Hearts (no duping)', 'Defeat Amy (Green Poe)', 'Lon Lon Ranch HP']",1,0
 "['8 Hearts (no duping)', 'Defeat Amy (Green Poe)']",1,0
-"['8 Hearts (no duping)', 'Defeat Dark Link', 'Defeat Twinrova']",1,0
+"['8 Hearts (no duping)', 'Defeat Dark Link', 'Defeat Twinrova']",2,0
+"['8 Hearts (no duping)', 'Defeat Dark Link', 'Exactly 30 Deku Sticks']",1,0
 "['8 Hearts (no duping)', 'Defeat Dark Link', 'Obtain all 8 Small Keys in Fire Temple']",1,0
+"['8 Hearts (no duping)', 'Defeat Dark Link', 'Open 5 Gold Rupee Chests']",1,0
 "['8 Hearts (no duping)', 'Defeat Dark Link', 'Quiver (40)']",1,0
-"['8 Hearts (no duping)', 'Defeat Dark Link']",1,0
+"['8 Hearts (no duping)', 'Defeat Dark Link']",2,0
 "['8 Hearts (no duping)', 'Defeat Morpha', 'Defeat Queen Gohma']",1,0
 "['8 Hearts (no duping)', 'Defeat Morpha', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['8 Hearts (no duping)', 'Defeat Morpha']",1,0
@@ -6797,17 +6872,21 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'Defeat Phantom Ganon']",1,1
 "['8 Hearts (no duping)', 'Defeat Queen Gohma', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['8 Hearts (no duping)', 'Defeat Queen Gohma']",1,0
+"['8 Hearts (no duping)', 'Defeat Twinrova', 'Exactly 30 Deku Sticks']",1,0
 "['8 Hearts (no duping)', 'Defeat Twinrova', 'Minuet of Forest']",1,0
 "['8 Hearts (no duping)', 'Defeat Twinrova', 'Nayrus Love']",1,0
 "['8 Hearts (no duping)', 'Defeat Twinrova', 'Obtain all 8 Small Keys in Fire Temple']",1,0
+"['8 Hearts (no duping)', 'Defeat Twinrova', 'Open 5 Gold Rupee Chests']",1,0
 "['8 Hearts (no duping)', 'Defeat Twinrova', 'Quiver (40)']",2,0
-"['8 Hearts (no duping)', 'Defeat Twinrova']",3,0
+"['8 Hearts (no duping)', 'Defeat Twinrova']",4,0
 "['8 Hearts (no duping)', 'Defeat Volvagia']",1,1
 "['8 Hearts (no duping)', 'Defeat a Skull Kid', 'Obtain all 5 Small Keys in Forest Temple']",1,0
 "['8 Hearts (no duping)', 'Defeat a Skull Kid']",1,0
 "['8 Hearts (no duping)', 'Defeat all Lizalfos in Dodongos Cavern', 'Gerudos Card']",1,0
 "['8 Hearts (no duping)', 'Defeat all Lizalfos in Dodongos Cavern']",1,0
 "['8 Hearts (no duping)', 'Defeat both Flare Dancers']",1,0
+"['8 Hearts (no duping)', 'Desert Colossus HP', 'Open 3 Gold Rupee Chests']",1,2
+"['8 Hearts (no duping)', 'Desert Colossus HP']",1,2
 "['8 Hearts (no duping)', 'Dins Fire', 'Giants Knife']",1,0
 "['8 Hearts (no duping)', 'Dins Fire', 'Plant 5 Magic Beans']",1,0
 "['8 Hearts (no duping)', 'Dins Fire']",1,0
@@ -6818,6 +6897,8 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'Double Magic']",1,0
 "['8 Hearts (no duping)', 'Eponas Song']",1,0
 "['8 Hearts (no duping)', 'Exactly 20 Deku Sticks']",1,0
+"['8 Hearts (no duping)', 'Exactly 30 Deku Sticks', 'Open 5 Gold Rupee Chests']",1,0
+"['8 Hearts (no duping)', 'Exactly 30 Deku Sticks']",1,0
 "['8 Hearts (no duping)', 'Fill all 4 Bottle Slots', 'Requiem of Spirit']",1,0
 "['8 Hearts (no duping)', 'Fill all 4 Bottle Slots']",1,0
 "['8 Hearts (no duping)', 'Fire Arrows', 'Lon Lon Ranch HP']",1,0
@@ -6853,7 +6934,8 @@ goal combination,count,pick count
 "['8 Hearts (no duping)', 'Obtain all 8 Small Keys in Fire Temple']",3,0
 "['8 Hearts (no duping)', 'Open 2 Boss Key Doors']",1,0
 "['8 Hearts (no duping)', 'Open 3 Gold Rupee Chests', 'Open the Final Door of Fire Trial']",1,0
-"['8 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",3,0
+"['8 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",4,2
+"['8 Hearts (no duping)', 'Open 5 Gold Rupee Chests']",1,0
 "['8 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",2,1
 "['8 Hearts (no duping)', 'Open the Final Door of Fire Trial']",1,0
 "['8 Hearts (no duping)', 'Open the Final Door of Light Trial', 'Silver Gauntlets']",1,0
@@ -7166,7 +7248,9 @@ goal combination,count,pick count
 "['All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas', 'All 4 Market area Skulltulas']",1,1
 "['All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas']",1,1
 "['All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well', 'Both Gerudos Fortress area Skulltulas']",1,0
-"['All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well']",1,0
+"['All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well', 'Defeat Phantom Ganon']",1,0
+"['All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well', 'Desert Colossus HP']",1,0
+"['All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well']",2,0
 "['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'All 4 Market area Skulltulas']",1,0
 "['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'All 5 Skulltulas in Fire Temple']",1,1
 "['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern', 'Exactly 30 Deku Sticks']",1,0
@@ -7383,20 +7467,26 @@ goal combination,count,pick count
 "['All 3 Elemental Arrows', 'Defeat Barinade', 'Defeat Volvagia']",1,0
 "['All 3 Elemental Arrows', 'Defeat Barinade', 'Get Bombchu chest in Spirit Temple']",1,0
 "['All 3 Elemental Arrows', 'Defeat Barinade']",1,0
+"['All 3 Elemental Arrows', 'Defeat Dark Link', 'Defeat Meg (purple Poe)']",1,0
 "['All 3 Elemental Arrows', 'Defeat Dark Link', 'Exactly 30 Deku Sticks']",1,1
-"['All 3 Elemental Arrows', 'Defeat Dark Link']",1,1
+"['All 3 Elemental Arrows', 'Defeat Dark Link', 'Map & Compass in Bottom of the Well']",1,0
+"['All 3 Elemental Arrows', 'Defeat Dark Link', 'Mirror Shield']",1,0
+"['All 3 Elemental Arrows', 'Defeat Dark Link']",2,1
 "['All 3 Elemental Arrows', 'Defeat King Dodongo', 'Fire Temple Boss Key']",1,0
 "['All 3 Elemental Arrows', 'Defeat King Dodongo']",1,0
 "['All 3 Elemental Arrows', 'Defeat Meg (purple Poe)', 'Defeat Queen Gohma']",1,0
+"['All 3 Elemental Arrows', 'Defeat Meg (purple Poe)', 'Map & Compass in Bottom of the Well']",1,0
+"['All 3 Elemental Arrows', 'Defeat Meg (purple Poe)', 'Mirror Shield']",1,0
 "['All 3 Elemental Arrows', 'Defeat Meg (purple Poe)', 'Silver Scale']",1,0
-"['All 3 Elemental Arrows', 'Defeat Meg (purple Poe)']",2,0
+"['All 3 Elemental Arrows', 'Defeat Meg (purple Poe)']",3,0
 "['All 3 Elemental Arrows', 'Defeat Morpha', 'Goron Tunic']",1,1
 "['All 3 Elemental Arrows', 'Defeat Morpha', 'Mirror Shield']",1,1
 "['All 3 Elemental Arrows', 'Defeat Morpha']",1,1
 "['All 3 Elemental Arrows', 'Defeat Nabooru-Knuckle', 'Defeat all Lizalfos in Dodongos Cavern']",1,0
 "['All 3 Elemental Arrows', 'Defeat Nabooru-Knuckle', 'Gerudos Card']",1,0
 "['All 3 Elemental Arrows', 'Defeat Nabooru-Knuckle']",1,0
-"['All 3 Elemental Arrows', 'Defeat Phantom Ganon']",1,0
+"['All 3 Elemental Arrows', 'Defeat Phantom Ganon', 'Desert Colossus HP']",1,0
+"['All 3 Elemental Arrows', 'Defeat Phantom Ganon']",2,0
 "['All 3 Elemental Arrows', 'Defeat Queen Gohma', 'Defeat a Skull Kid']",1,0
 "['All 3 Elemental Arrows', 'Defeat Queen Gohma', 'Green Gauntlets']",1,0
 "['All 3 Elemental Arrows', 'Defeat Queen Gohma', 'Silver Scale']",1,0
@@ -7422,7 +7512,7 @@ goal combination,count,pick count
 "['All 3 Elemental Arrows', 'Defeat both Flare Dancers', 'Nayrus Love']",1,0
 "['All 3 Elemental Arrows', 'Defeat both Flare Dancers']",1,0
 "['All 3 Elemental Arrows', 'Desert Colossus HP', 'Green Gauntlets']",1,1
-"['All 3 Elemental Arrows', 'Desert Colossus HP']",1,1
+"['All 3 Elemental Arrows', 'Desert Colossus HP']",2,1
 "['All 3 Elemental Arrows', 'Dins Fire', 'Giants Knife']",1,0
 "['All 3 Elemental Arrows', 'Dins Fire', 'Plant 5 Magic Beans']",1,0
 "['All 3 Elemental Arrows', 'Dins Fire']",2,1
@@ -7484,6 +7574,8 @@ goal combination,count,pick count
 "['All 3 Elemental Arrows', 'Keaton Mask']",2,0
 "['All 3 Elemental Arrows', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
 "['All 3 Elemental Arrows', 'Lon Lon Ranch HP']",1,1
+"['All 3 Elemental Arrows', 'Map & Compass in Bottom of the Well', 'Mirror Shield']",1,0
+"['All 3 Elemental Arrows', 'Map & Compass in Bottom of the Well']",1,0
 "['All 3 Elemental Arrows', 'Map & Compass in Deku Tree', 'Two Fairy Spells']",1,0
 "['All 3 Elemental Arrows', 'Map & Compass in Deku Tree']",1,0
 "['All 3 Elemental Arrows', 'Map & Compass in Dodongos Cavern']",1,1
@@ -7504,7 +7596,7 @@ goal combination,count,pick count
 "['All 3 Elemental Arrows', 'Minuet of Forest', 'Open the Final Door of Light Trial']",1,0
 "['All 3 Elemental Arrows', 'Minuet of Forest', 'Silver Gauntlets']",1,0
 "['All 3 Elemental Arrows', 'Minuet of Forest']",2,0
-"['All 3 Elemental Arrows', 'Mirror Shield']",2,1
+"['All 3 Elemental Arrows', 'Mirror Shield']",3,1
 "['All 3 Elemental Arrows', 'Nayrus Love']",2,0
 "['All 3 Elemental Arrows', 'Obtain all 5 Small Keys in Forest Temple']",1,1
 "['All 3 Elemental Arrows', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
@@ -7591,6 +7683,10 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Beat Jabu-Jabus Belly', 'Free all 9 Gorons in Fire Temple']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Beat Jabu-Jabus Belly', 'Open 2 Boss Key Doors']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Beat Jabu-Jabus Belly']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Beat the Deku Tree', 'Defeat Twinrova']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Beat the Deku Tree', 'Map & Compass in Fire Temple']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Beat the Deku Tree', 'Quiver (50)']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Beat the Deku Tree']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Beat the Spirit Temple', 'Defeat Meg (purple Poe)']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Beat the Spirit Temple', 'Defeat Morpha']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Beat the Spirit Temple', 'Forest Medallion']",1,0
@@ -7614,9 +7710,14 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat Meg (purple Poe)']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat Morpha', 'Open the Final Door of Fire Trial']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat Morpha']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Phantom Ganon', 'Desert Colossus HP']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat Phantom Ganon', 'Farores Wind']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Defeat Phantom Ganon', 'Fire Medallion']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Defeat Phantom Ganon']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Phantom Ganon']",2,0
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Twinrova', 'Map & Compass in Fire Temple']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Twinrova', 'Quiver (50)']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Twinrova']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Desert Colossus HP']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Dins Fire', 'Silver Gauntlets']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Dins Fire']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Eponas Song']",1,0
@@ -7634,6 +7735,8 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Free all 9 Gorons in Fire Temple', 'Open 2 Boss Key Doors']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Free all 9 Gorons in Fire Temple']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Goron Bracelet']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Fire Temple', 'Quiver (50)']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Fire Temple']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Jabu-Jabu', 'Map & Compass in Spirit Temple']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Jabu-Jabu', 'Open the Final Door of Shadow Trial']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Jabu-Jabu', 'Two Fairy Spells']",1,0
@@ -7651,7 +7754,7 @@ goal combination,count,pick count
 "['All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Shadow Trial']",2,0
 "['All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Water Trial']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Quiver (50)', 'Sarias Song']",1,0
-"['All 3 Skulltulas in Bottom of the Well', 'Quiver (50)']",1,0
+"['All 3 Skulltulas in Bottom of the Well', 'Quiver (50)']",2,0
 "['All 3 Skulltulas in Bottom of the Well', 'Sarias Song']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Shadow Temple Boss Key']",1,0
 "['All 3 Skulltulas in Bottom of the Well', 'Silver Gauntlets']",1,0
@@ -8517,7 +8620,7 @@ goal combination,count,pick count
 "['All 5 Skulltulas in Fire Temple', 'Exactly 20 Deku Sticks']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks', 'Gerudos Card']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks', 'Obtain all 5 Small Keys in Forest Temple']",1,0
-"['All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks']",1,0
+"['All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks']",2,0
 "['All 5 Skulltulas in Fire Temple', 'Fairy Slingshot', 'Mirror Shield']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Fairy Slingshot', 'Plant bean in Death Mountain Crater']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Fairy Slingshot']",2,0
@@ -8543,12 +8646,16 @@ goal combination,count,pick count
 "['All 5 Skulltulas in Fire Temple', 'Goron Tunic']",2,0
 "['All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP', 'Open the Final Door of Spirit Trial']",1,1
 "['All 5 Skulltulas in Fire Temple', 'Lon Lon Ranch HP']",1,1
+"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple']",1,0
+"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Bottom of the Well', 'Quiver (50)']",1,0
+"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Bottom of the Well']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Map & Compass in Jabu-Jabu']",1,1
 "['All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple', 'Obtain all 5 Small Keys in Forest Temple']",1,1
 "['All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple', 'Open 3 Boss Key Doors']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Map & Compass in Shadow Temple']",2,1
 "['All 5 Skulltulas in Fire Temple', 'Map & Compass in Spirit Temple', 'Obtain all 5 Small Keys in Shadow Temple']",1,1
-"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Spirit Temple']",1,1
+"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Spirit Temple', 'Quiver (50)']",1,0
+"['All 5 Skulltulas in Fire Temple', 'Map & Compass in Spirit Temple']",2,1
 "['All 5 Skulltulas in Fire Temple', 'Minuet of Forest', 'Spirit Temple Boss Key']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Minuet of Forest']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Mirror Shield']",1,0
@@ -8562,6 +8669,7 @@ goal combination,count,pick count
 "['All 5 Skulltulas in Fire Temple', 'Open the Final Door of Spirit Trial']",1,1
 "['All 5 Skulltulas in Fire Temple', 'Plant bean in Death Mountain Crater']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Quiver (40)']",2,0
+"['All 5 Skulltulas in Fire Temple', 'Quiver (50)']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Silver Scale']",1,0
 "['All 5 Skulltulas in Fire Temple', 'Spirit Temple Boss Key']",2,0
 "['All 5 Skulltulas in Fire Temple', 'Stone of Agony']",1,0
@@ -8784,6 +8892,9 @@ goal combination,count,pick count
 "['All 5 Skulltulas in Water Temple', 'All 8 Zoras Domain area Skulltulas', 'Fairy Slingshot']",2,0
 "['All 5 Skulltulas in Water Temple', 'All 8 Zoras Domain area Skulltulas', 'Two Fairy Spells']",1,0
 "['All 5 Skulltulas in Water Temple', 'All 8 Zoras Domain area Skulltulas']",3,0
+"['All 5 Skulltulas in Water Temple', 'Beat the Deku Tree', 'Mirror Shield']",1,0
+"['All 5 Skulltulas in Water Temple', 'Beat the Deku Tree', 'Open 3 Gold Rupee Chests']",1,0
+"['All 5 Skulltulas in Water Temple', 'Beat the Deku Tree']",1,0
 "['All 5 Skulltulas in Water Temple', 'Beat the Forest Temple', 'Clear 10 Silver Rupee Rooms']",1,0
 "['All 5 Skulltulas in Water Temple', 'Beat the Forest Temple', 'Ganons Castle Boss Key']",1,0
 "['All 5 Skulltulas in Water Temple', 'Beat the Forest Temple', 'Open All 6 Gold Rupee Chests']",1,0
@@ -8816,12 +8927,17 @@ goal combination,count,pick count
 "['All 5 Skulltulas in Water Temple', 'Defeat Nabooru-Knuckle', 'Plant bean in Death Mountain Crater']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat Nabooru-Knuckle']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat Phantom Ganon', 'Defeat Twinrova']",1,0
-"['All 5 Skulltulas in Water Temple', 'Defeat Phantom Ganon']",1,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Phantom Ganon', 'Map & Compass in Deku Tree']",1,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Phantom Ganon', 'Map & Compass in Spirit Temple']",1,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Phantom Ganon', 'Open 5 Gold Rupee Chests']",1,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Phantom Ganon']",2,0
 "['All 5 Skulltulas in Water Temple', 'Defeat Queen Gohma', 'Plant bean in Death Mountain Crater']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat Queen Gohma']",1,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Twinrova', 'Desert Colossus HP']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat Twinrova', 'Fairy Bow']",1,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Twinrova', 'Map & Compass in Bottom of the Well']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat Twinrova', 'Map & Compass in Shadow Temple']",1,0
-"['All 5 Skulltulas in Water Temple', 'Defeat Twinrova']",2,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Twinrova']",3,0
 "['All 5 Skulltulas in Water Temple', 'Defeat a Skull Kid', 'Gerudos Card']",1,1
 "['All 5 Skulltulas in Water Temple', 'Defeat a Skull Kid', 'Open All 6 Gold Rupee Chests']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat a Skull Kid', 'Silver Gauntlets']",1,1
@@ -8831,6 +8947,8 @@ goal combination,count,pick count
 "['All 5 Skulltulas in Water Temple', 'Defeat both Flare Dancers', 'Open 50 Rupee chest in Wasteland']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat both Flare Dancers', 'Two Fairy Spells']",1,0
 "['All 5 Skulltulas in Water Temple', 'Defeat both Flare Dancers']",1,0
+"['All 5 Skulltulas in Water Temple', 'Desert Colossus HP', 'Map & Compass in Bottom of the Well']",1,0
+"['All 5 Skulltulas in Water Temple', 'Desert Colossus HP']",1,0
 "['All 5 Skulltulas in Water Temple', 'Exactly 30 Deku Sticks', 'Forest Temple Boss Key']",1,0
 "['All 5 Skulltulas in Water Temple', 'Exactly 30 Deku Sticks']",1,0
 "['All 5 Skulltulas in Water Temple', 'Fairy Bow', 'Lon Lon Ranch HP']",1,0
@@ -8850,20 +8968,28 @@ goal combination,count,pick count
 "['All 5 Skulltulas in Water Temple', 'Lon Lon Ranch HP', 'Map & Compass in Fire Temple']",1,0
 "['All 5 Skulltulas in Water Temple', 'Lon Lon Ranch HP', 'Plant 5 Magic Beans']",1,0
 "['All 5 Skulltulas in Water Temple', 'Lon Lon Ranch HP']",2,0
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Bottom of the Well']",1,0
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Deku Tree', 'Map & Compass in Spirit Temple']",1,0
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Deku Tree', 'Open 5 Gold Rupee Chests']",1,0
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Deku Tree']",1,0
 "['All 5 Skulltulas in Water Temple', 'Map & Compass in Dodongos Cavern', 'Map & Compass in Fire Temple']",1,0
 "['All 5 Skulltulas in Water Temple', 'Map & Compass in Dodongos Cavern', 'Map & Compass in Spirit Temple']",1,0
 "['All 5 Skulltulas in Water Temple', 'Map & Compass in Dodongos Cavern']",1,0
 "['All 5 Skulltulas in Water Temple', 'Map & Compass in Fire Temple', 'Map & Compass in Spirit Temple']",1,0
 "['All 5 Skulltulas in Water Temple', 'Map & Compass in Fire Temple']",2,0
 "['All 5 Skulltulas in Water Temple', 'Map & Compass in Shadow Temple']",1,0
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Spirit Temple', 'Open 5 Gold Rupee Chests']",1,0
 "['All 5 Skulltulas in Water Temple', 'Map & Compass in Spirit Temple', 'Shadow Temple Boss Key']",1,0
-"['All 5 Skulltulas in Water Temple', 'Map & Compass in Spirit Temple']",2,0
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Spirit Temple']",3,0
 "['All 5 Skulltulas in Water Temple', 'Megaton Hammer']",1,0
 "['All 5 Skulltulas in Water Temple', 'Minuet of Forest', 'Open 50 Rupee chest in Wasteland']",1,0
 "['All 5 Skulltulas in Water Temple', 'Minuet of Forest', 'Two Fairy Spells']",1,0
 "['All 5 Skulltulas in Water Temple', 'Minuet of Forest']",2,0
-"['All 5 Skulltulas in Water Temple', 'Mirror Shield']",1,0
+"['All 5 Skulltulas in Water Temple', 'Mirror Shield', 'Open 3 Gold Rupee Chests']",1,0
+"['All 5 Skulltulas in Water Temple', 'Mirror Shield']",2,0
 "['All 5 Skulltulas in Water Temple', 'Open 2 Boss Key Doors']",1,0
+"['All 5 Skulltulas in Water Temple', 'Open 3 Gold Rupee Chests']",1,0
+"['All 5 Skulltulas in Water Temple', 'Open 5 Gold Rupee Chests']",1,0
 "['All 5 Skulltulas in Water Temple', 'Open 50 Rupee chest in Wasteland', 'Two Fairy Spells']",1,0
 "['All 5 Skulltulas in Water Temple', 'Open 50 Rupee chest in Wasteland']",1,0
 "['All 5 Skulltulas in Water Temple', 'Open All 6 Gold Rupee Chests', 'Silver Gauntlets']",1,0
@@ -9186,13 +9312,22 @@ goal combination,count,pick count
 "['Beat the Deku Tree', 'Defeat Dark Link', 'Dins Fire']",1,0
 "['Beat the Deku Tree', 'Defeat Dark Link', 'Shadow Temple Boss Key']",1,0
 "['Beat the Deku Tree', 'Defeat Dark Link']",1,0
+"['Beat the Deku Tree', 'Defeat Twinrova', 'Map & Compass in Fire Temple']",1,0
+"['Beat the Deku Tree', 'Defeat Twinrova', 'Quiver (50)']",1,0
+"['Beat the Deku Tree', 'Defeat Twinrova']",1,0
 "['Beat the Deku Tree', 'Defeat Volvagia', 'Light Arrows']",1,0
 "['Beat the Deku Tree', 'Defeat Volvagia']",1,0
 "['Beat the Deku Tree', 'Dins Fire', 'Shadow Temple Boss Key']",1,0
 "['Beat the Deku Tree', 'Dins Fire']",1,0
 "['Beat the Deku Tree', 'Light Arrows']",1,0
+"['Beat the Deku Tree', 'Map & Compass in Fire Temple', 'Quiver (50)']",1,0
+"['Beat the Deku Tree', 'Map & Compass in Fire Temple']",1,0
 "['Beat the Deku Tree', 'Milk']",1,0
+"['Beat the Deku Tree', 'Mirror Shield', 'Open 3 Gold Rupee Chests']",1,0
+"['Beat the Deku Tree', 'Mirror Shield']",1,0
+"['Beat the Deku Tree', 'Open 3 Gold Rupee Chests']",1,0
 "['Beat the Deku Tree', 'Open the Final Door of Shadow Trial']",1,0
+"['Beat the Deku Tree', 'Quiver (50)']",1,0
 "['Beat the Deku Tree', 'Shadow Temple Boss Key']",1,0
 "['Beat the Fire Temple', 'Beat the Shadow Temple', 'Light Arrows']",1,0
 "['Beat the Fire Temple', 'Beat the Shadow Temple']",1,0
@@ -10736,10 +10871,18 @@ goal combination,count,pick count
 "['Defeat Bongo-Bongo', 'Obtain all 8 Small Keys in Fire Temple']",1,1
 "['Defeat Bongo-Bongo', 'Open 50 Rupee chest in Wasteland']",1,0
 "['Defeat Bongo-Bongo', 'Open the Final Door of Spirit Trial']",1,0
+"['Defeat Dark Link', 'Defeat Meg (purple Poe)', 'Map & Compass in Bottom of the Well']",1,0
+"['Defeat Dark Link', 'Defeat Meg (purple Poe)', 'Mirror Shield']",1,0
+"['Defeat Dark Link', 'Defeat Meg (purple Poe)']",1,0
 "['Defeat Dark Link', 'Defeat Twinrova', 'Double Defense']",1,1
+"['Defeat Dark Link', 'Defeat Twinrova', 'Exactly 30 Deku Sticks']",1,0
 "['Defeat Dark Link', 'Defeat Twinrova', 'Obtain all 8 Small Keys in Fire Temple']",1,0
+"['Defeat Dark Link', 'Defeat Twinrova', 'Open 5 Gold Rupee Chests']",1,0
 "['Defeat Dark Link', 'Defeat Twinrova', 'Quiver (40)']",2,1
-"['Defeat Dark Link', 'Defeat Twinrova']",2,1
+"['Defeat Dark Link', 'Defeat Twinrova']",3,1
+"['Defeat Dark Link', 'Desert Colossus HP', 'Map & Compass in Deku Tree']",1,0
+"['Defeat Dark Link', 'Desert Colossus HP', 'Quiver (50)']",1,0
+"['Defeat Dark Link', 'Desert Colossus HP']",1,0
 "['Defeat Dark Link', 'Dins Fire', 'Shadow Temple Boss Key']",1,0
 "['Defeat Dark Link', 'Dins Fire']",1,0
 "['Defeat Dark Link', 'Double Defense', 'Quiver (40)']",1,1
@@ -10747,7 +10890,8 @@ goal combination,count,pick count
 "['Defeat Dark Link', 'Exactly 20 Deku Sticks', 'Open All 6 Gold Rupee Chests']",1,1
 "['Defeat Dark Link', 'Exactly 20 Deku Sticks', 'Two Fairy Spells']",1,1
 "['Defeat Dark Link', 'Exactly 20 Deku Sticks']",1,1
-"['Defeat Dark Link', 'Exactly 30 Deku Sticks']",2,1
+"['Defeat Dark Link', 'Exactly 30 Deku Sticks', 'Open 5 Gold Rupee Chests']",1,0
+"['Defeat Dark Link', 'Exactly 30 Deku Sticks']",3,1
 "['Defeat Dark Link', 'Fairy Slingshot', 'Map & Compass in Spirit Temple']",1,1
 "['Defeat Dark Link', 'Fairy Slingshot', 'Open 3 Boss Key Doors']",1,1
 "['Defeat Dark Link', 'Fairy Slingshot']",1,1
@@ -10755,22 +10899,28 @@ goal combination,count,pick count
 "['Defeat Dark Link', 'Forest Temple Boss Key']",1,0
 "['Defeat Dark Link', 'Green Gauntlets', 'Open the Final Door of Forest Trial']",1,0
 "['Defeat Dark Link', 'Green Gauntlets']",1,0
+"['Defeat Dark Link', 'Map & Compass in Bottom of the Well', 'Mirror Shield']",1,0
+"['Defeat Dark Link', 'Map & Compass in Bottom of the Well']",1,0
+"['Defeat Dark Link', 'Map & Compass in Deku Tree', 'Quiver (50)']",1,0
+"['Defeat Dark Link', 'Map & Compass in Deku Tree']",1,0
 "['Defeat Dark Link', 'Map & Compass in Dodongos Cavern', 'Open the Final Door of Water Trial']",1,0
 "['Defeat Dark Link', 'Map & Compass in Dodongos Cavern']",1,0
 "['Defeat Dark Link', 'Map & Compass in Fire Temple', 'Quiver (50)']",1,0
 "['Defeat Dark Link', 'Map & Compass in Fire Temple']",1,0
 "['Defeat Dark Link', 'Map & Compass in Spirit Temple', 'Open 3 Boss Key Doors']",1,1
 "['Defeat Dark Link', 'Map & Compass in Spirit Temple']",1,1
+"['Defeat Dark Link', 'Mirror Shield']",1,0
 "['Defeat Dark Link', 'Nayrus Love']",1,0
 "['Defeat Dark Link', 'Obtain all 8 Small Keys in Fire Temple', 'Quiver (40)']",1,0
 "['Defeat Dark Link', 'Obtain all 8 Small Keys in Fire Temple']",1,0
 "['Defeat Dark Link', 'Open 3 Boss Key Doors']",2,1
+"['Defeat Dark Link', 'Open 5 Gold Rupee Chests']",1,0
 "['Defeat Dark Link', 'Open All 6 Gold Rupee Chests', 'Two Fairy Spells']",1,1
 "['Defeat Dark Link', 'Open All 6 Gold Rupee Chests']",2,1
 "['Defeat Dark Link', 'Open the Final Door of Forest Trial']",1,0
 "['Defeat Dark Link', 'Open the Final Door of Water Trial']",1,0
 "['Defeat Dark Link', 'Quiver (40)']",3,1
-"['Defeat Dark Link', 'Quiver (50)']",1,0
+"['Defeat Dark Link', 'Quiver (50)']",2,0
 "['Defeat Dark Link', 'Shadow Temple Boss Key']",1,0
 "['Defeat Dark Link', 'Two Fairy Spells']",2,1
 "['Defeat King Dodongo', 'Defeat Volvagia', 'Light Arrows']",1,0
@@ -10837,11 +10987,16 @@ goal combination,count,pick count
 "['Defeat Meg (purple Poe)', 'Longshot', 'Open All 6 Gold Rupee Chests']",1,0
 "['Defeat Meg (purple Poe)', 'Longshot', 'Silver Scale']",1,0
 "['Defeat Meg (purple Poe)', 'Longshot']",2,0
+"['Defeat Meg (purple Poe)', 'Map & Compass in Bottom of the Well', 'Mirror Shield']",1,0
+"['Defeat Meg (purple Poe)', 'Map & Compass in Bottom of the Well']",1,0
+"['Defeat Meg (purple Poe)', 'Map & Compass in Deku Tree', 'Map & Compass in Fire Temple']",1,0
+"['Defeat Meg (purple Poe)', 'Map & Compass in Deku Tree']",1,0
 "['Defeat Meg (purple Poe)', 'Map & Compass in Dodongos Cavern', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['Defeat Meg (purple Poe)', 'Map & Compass in Dodongos Cavern', 'Open the Final Door of Light Trial']",1,0
 "['Defeat Meg (purple Poe)', 'Map & Compass in Dodongos Cavern']",1,0
-"['Defeat Meg (purple Poe)', 'Map & Compass in Fire Temple']",1,0
+"['Defeat Meg (purple Poe)', 'Map & Compass in Fire Temple']",2,0
 "['Defeat Meg (purple Poe)', 'Map & Compass in Spirit Temple']",1,0
+"['Defeat Meg (purple Poe)', 'Mirror Shield']",1,0
 "['Defeat Meg (purple Poe)', 'Obtain all 5 Small Keys in Shadow Temple', 'Open the Final Door of Light Trial']",1,0
 "['Defeat Meg (purple Poe)', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['Defeat Meg (purple Poe)', 'Obtain all 8 Small Keys in Fire Temple']",1,1
@@ -10876,6 +11031,7 @@ goal combination,count,pick count
 "['Defeat Nabooru-Knuckle', 'Green Gauntlets']",1,0
 "['Defeat Nabooru-Knuckle', 'Plant bean in Death Mountain Crater']",1,0
 "['Defeat Phantom Ganon', 'Defeat Twinrova']",1,0
+"['Defeat Phantom Ganon', 'Desert Colossus HP']",1,0
 "['Defeat Phantom Ganon', 'Farores Wind', 'Fire Medallion']",1,0
 "['Defeat Phantom Ganon', 'Farores Wind']",1,0
 "['Defeat Phantom Ganon', 'Fire Medallion']",1,0
@@ -10887,10 +11043,15 @@ goal combination,count,pick count
 "['Defeat Phantom Ganon', 'Giants Wallet']",1,0
 "['Defeat Phantom Ganon', 'Light Arrows', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['Defeat Phantom Ganon', 'Light Arrows']",1,0
+"['Defeat Phantom Ganon', 'Map & Compass in Deku Tree', 'Map & Compass in Spirit Temple']",1,0
+"['Defeat Phantom Ganon', 'Map & Compass in Deku Tree', 'Open 5 Gold Rupee Chests']",1,0
+"['Defeat Phantom Ganon', 'Map & Compass in Deku Tree']",1,0
 "['Defeat Phantom Ganon', 'Map & Compass in Spirit Temple', 'Open 3 Boss Key Doors']",1,2
-"['Defeat Phantom Ganon', 'Map & Compass in Spirit Temple']",1,2
+"['Defeat Phantom Ganon', 'Map & Compass in Spirit Temple', 'Open 5 Gold Rupee Chests']",1,0
+"['Defeat Phantom Ganon', 'Map & Compass in Spirit Temple']",2,2
 "['Defeat Phantom Ganon', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['Defeat Phantom Ganon', 'Open 3 Boss Key Doors']",1,2
+"['Defeat Phantom Ganon', 'Open 5 Gold Rupee Chests']",1,0
 "['Defeat Phantom Ganon', 'Spirit Temple Boss Key']",1,1
 "['Defeat Queen Gohma', 'Defeat Twinrova', 'Ganons Castle Boss Key']",1,0
 "['Defeat Queen Gohma', 'Defeat Twinrova', 'Goron Bracelet']",1,0
@@ -10936,6 +11097,8 @@ goal combination,count,pick count
 "['Defeat Twinrova', 'Defeat a Skull Kid', 'Plant 5 Magic Beans']",1,0
 "['Defeat Twinrova', 'Defeat a Skull Kid', 'Shadow Temple Boss Key']",1,0
 "['Defeat Twinrova', 'Defeat a Skull Kid']",1,0
+"['Defeat Twinrova', 'Desert Colossus HP', 'Map & Compass in Bottom of the Well']",1,0
+"['Defeat Twinrova', 'Desert Colossus HP']",1,0
 "['Defeat Twinrova', 'Dins Fire', 'Milk']",1,1
 "['Defeat Twinrova', 'Dins Fire', 'Quiver (40)']",2,1
 "['Defeat Twinrova', 'Dins Fire']",2,1
@@ -10949,8 +11112,9 @@ goal combination,count,pick count
 "['Defeat Twinrova', 'Exactly 20 Deku Sticks', 'Green Gauntlets']",1,0
 "['Defeat Twinrova', 'Exactly 20 Deku Sticks', 'Ice Cavern HP']",1,0
 "['Defeat Twinrova', 'Exactly 20 Deku Sticks']",1,0
+"['Defeat Twinrova', 'Exactly 30 Deku Sticks', 'Open 5 Gold Rupee Chests']",1,0
 "['Defeat Twinrova', 'Exactly 30 Deku Sticks', 'Quiver (50)']",1,0
-"['Defeat Twinrova', 'Exactly 30 Deku Sticks']",2,0
+"['Defeat Twinrova', 'Exactly 30 Deku Sticks']",3,0
 "['Defeat Twinrova', 'Fairy Bow', 'Map & Compass in Shadow Temple']",1,0
 "['Defeat Twinrova', 'Fairy Bow']",1,0
 "['Defeat Twinrova', 'Fairy Slingshot', 'Map & Compass in Fire Temple']",1,0
@@ -10976,8 +11140,10 @@ goal combination,count,pick count
 "['Defeat Twinrova', 'Lon Lon Ranch HP']",1,0
 "['Defeat Twinrova', 'Longshot', 'Quiver (50)']",1,0
 "['Defeat Twinrova', 'Longshot']",1,0
+"['Defeat Twinrova', 'Map & Compass in Bottom of the Well']",1,0
+"['Defeat Twinrova', 'Map & Compass in Fire Temple', 'Quiver (50)']",1,0
 "['Defeat Twinrova', 'Map & Compass in Fire Temple', 'Two Fairy Spells']",1,1
-"['Defeat Twinrova', 'Map & Compass in Fire Temple']",2,1
+"['Defeat Twinrova', 'Map & Compass in Fire Temple']",3,1
 "['Defeat Twinrova', 'Map & Compass in Shadow Temple']",1,0
 "['Defeat Twinrova', 'Megaton Hammer', 'Milk']",1,0
 "['Defeat Twinrova', 'Megaton Hammer', 'Quiver (50)']",1,0
@@ -11002,6 +11168,7 @@ goal combination,count,pick count
 "['Defeat Twinrova', 'Open 3 Gold Rupee Chests', 'Open the Final Door of Forest Trial']",1,0
 "['Defeat Twinrova', 'Open 3 Gold Rupee Chests', 'Two Fairy Spells']",1,0
 "['Defeat Twinrova', 'Open 3 Gold Rupee Chests']",1,0
+"['Defeat Twinrova', 'Open 5 Gold Rupee Chests']",1,0
 "['Defeat Twinrova', 'Open the Final Door of Fire Trial', 'Quiver (40)']",1,0
 "['Defeat Twinrova', 'Open the Final Door of Fire Trial']",1,0
 "['Defeat Twinrova', 'Open the Final Door of Forest Trial', 'Two Fairy Spells']",1,0
@@ -11015,7 +11182,7 @@ goal combination,count,pick count
 "['Defeat Twinrova', 'Plant 5 Magic Beans', 'Shadow Temple Boss Key']",1,0
 "['Defeat Twinrova', 'Plant 5 Magic Beans']",1,0
 "['Defeat Twinrova', 'Quiver (40)']",6,2
-"['Defeat Twinrova', 'Quiver (50)']",3,0
+"['Defeat Twinrova', 'Quiver (50)']",4,0
 "['Defeat Twinrova', 'Sarias Song']",2,0
 "['Defeat Twinrova', 'Shadow Temple Boss Key', 'Win Bombchu Bowling Prize']",1,0
 "['Defeat Twinrova', 'Shadow Temple Boss Key']",2,0
@@ -11155,12 +11322,17 @@ goal combination,count,pick count
 "['Defeat both Flare Dancers', 'Water Medallion']",1,0
 "['Defeat both Flare Dancers', 'Zora Tunic']",1,0
 "['Desert Colossus HP', 'Green Gauntlets']",1,1
+"['Desert Colossus HP', 'Map & Compass in Bottom of the Well']",1,0
+"['Desert Colossus HP', 'Map & Compass in Deku Tree', 'Quiver (50)']",1,0
+"['Desert Colossus HP', 'Map & Compass in Deku Tree']",1,0
 "['Desert Colossus HP', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
+"['Desert Colossus HP', 'Open 3 Gold Rupee Chests']",1,2
 "['Desert Colossus HP', 'Open All 6 Gold Rupee Chests', 'Two Fairy Spells']",1,0
 "['Desert Colossus HP', 'Open All 6 Gold Rupee Chests', 'Zora Tunic']",1,0
 "['Desert Colossus HP', 'Open All 6 Gold Rupee Chests']",1,0
 "['Desert Colossus HP', 'Open the Final Door of Water Trial', 'Win Bombchu Bowling Prize']",1,0
 "['Desert Colossus HP', 'Open the Final Door of Water Trial']",1,0
+"['Desert Colossus HP', 'Quiver (50)']",1,0
 "['Desert Colossus HP', 'Two Fairy Spells', 'Zora Tunic']",1,0
 "['Desert Colossus HP', 'Two Fairy Spells']",1,0
 "['Desert Colossus HP', 'Win Bombchu Bowling Prize']",1,0
@@ -11331,7 +11503,7 @@ goal combination,count,pick count
 "['Exactly 30 Deku Sticks', 'Obtain all 5 Small Keys in Forest Temple']",1,0
 "['Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",2,1
 "['Exactly 30 Deku Sticks', 'Open 2 Boss Key Doors']",1,0
-"['Exactly 30 Deku Sticks', 'Open 5 Gold Rupee Chests']",1,0
+"['Exactly 30 Deku Sticks', 'Open 5 Gold Rupee Chests']",2,0
 "['Exactly 30 Deku Sticks', 'Open All 6 Gold Rupee Chests']",2,0
 "['Exactly 30 Deku Sticks', 'Open the Final Door of Forest Trial', 'Requiem of Spirit']",1,0
 "['Exactly 30 Deku Sticks', 'Open the Final Door of Forest Trial', 'Two Fairy Spells']",1,0
@@ -11892,8 +12064,10 @@ goal combination,count,pick count
 "['Longshot', 'Two Fairy Spells']",1,0
 "['Longshot', 'Zora Tunic']",1,0
 "['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial']",1,2
+"['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Quiver (50)']",1,0
 "['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple', 'Sarias Song']",1,2
-"['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple']",1,2
+"['Map & Compass in Bottom of the Well', 'Map & Compass in Spirit Temple']",2,2
+"['Map & Compass in Bottom of the Well', 'Mirror Shield']",1,0
 "['Map & Compass in Bottom of the Well', 'Open All 6 Gold Rupee Chests', 'Water Medallion']",1,0
 "['Map & Compass in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",1,0
 "['Map & Compass in Bottom of the Well', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
@@ -11901,19 +12075,24 @@ goal combination,count,pick count
 "['Map & Compass in Bottom of the Well', 'Open the Final Door of Water Trial']",1,0
 "['Map & Compass in Bottom of the Well', 'Plant 5 Magic Beans', 'Two Fairy Spells']",1,0
 "['Map & Compass in Bottom of the Well', 'Plant 5 Magic Beans']",2,0
-"['Map & Compass in Bottom of the Well', 'Quiver (50)']",1,0
+"['Map & Compass in Bottom of the Well', 'Quiver (50)']",2,0
 "['Map & Compass in Bottom of the Well', 'Sarias Song']",1,2
 "['Map & Compass in Bottom of the Well', 'Two Fairy Spells', 'Win Bombchu Bowling Prize']",1,0
 "['Map & Compass in Bottom of the Well', 'Two Fairy Spells']",2,0
 "['Map & Compass in Bottom of the Well', 'Water Medallion']",1,0
 "['Map & Compass in Bottom of the Well', 'Win Bombchu Bowling Prize']",1,0
+"['Map & Compass in Deku Tree', 'Map & Compass in Fire Temple']",1,0
+"['Map & Compass in Deku Tree', 'Map & Compass in Spirit Temple', 'Open 5 Gold Rupee Chests']",1,0
+"['Map & Compass in Deku Tree', 'Map & Compass in Spirit Temple']",1,0
 "['Map & Compass in Deku Tree', 'Obtain all 5 Small Keys in Forest Temple', 'Open the Final Door of Light Trial']",1,0
 "['Map & Compass in Deku Tree', 'Obtain all 5 Small Keys in Forest Temple']",1,0
 "['Map & Compass in Deku Tree', 'Obtain all 5 Small Keys in Shadow Temple', 'Open All 6 Gold Rupee Chests']",1,0
 "['Map & Compass in Deku Tree', 'Obtain all 5 Small Keys in Shadow Temple']",1,0
 "['Map & Compass in Deku Tree', 'Obtain all 8 Small Keys in Fire Temple']",1,0
+"['Map & Compass in Deku Tree', 'Open 5 Gold Rupee Chests']",1,0
 "['Map & Compass in Deku Tree', 'Open All 6 Gold Rupee Chests']",1,0
 "['Map & Compass in Deku Tree', 'Open the Final Door of Light Trial']",1,0
+"['Map & Compass in Deku Tree', 'Quiver (50)']",1,0
 "['Map & Compass in Deku Tree', 'Two Fairy Spells']",1,0
 "['Map & Compass in Dodongos Cavern', 'Map & Compass in Fire Temple', 'Map & Compass in Spirit Temple']",1,0
 "['Map & Compass in Dodongos Cavern', 'Map & Compass in Fire Temple']",1,0
@@ -11934,7 +12113,7 @@ goal combination,count,pick count
 "['Map & Compass in Fire Temple', 'Map & Compass in Shadow Temple']",1,0
 "['Map & Compass in Fire Temple', 'Map & Compass in Spirit Temple']",1,0
 "['Map & Compass in Fire Temple', 'Plant bean in Death Mountain Crater']",1,0
-"['Map & Compass in Fire Temple', 'Quiver (50)']",1,0
+"['Map & Compass in Fire Temple', 'Quiver (50)']",2,0
 "['Map & Compass in Fire Temple', 'Two Fairy Spells']",2,1
 "['Map & Compass in Forest Temple', 'Map & Compass in Spirit Temple', 'Silver Scale']",1,0
 "['Map & Compass in Forest Temple', 'Map & Compass in Spirit Temple', 'Stone of Agony']",1,0
@@ -12000,6 +12179,7 @@ goal combination,count,pick count
 "['Map & Compass in Spirit Temple', 'Open 2 Boss Key Doors']",2,0
 "['Map & Compass in Spirit Temple', 'Open 3 Boss Key Doors', 'Quiver (40)']",1,0
 "['Map & Compass in Spirit Temple', 'Open 3 Boss Key Doors']",6,3
+"['Map & Compass in Spirit Temple', 'Open 5 Gold Rupee Chests']",1,0
 "['Map & Compass in Spirit Temple', 'Open the Final Door of Forest Trial', 'Open the Final Door of Shadow Trial']",1,0
 "['Map & Compass in Spirit Temple', 'Open the Final Door of Forest Trial']",2,0
 "['Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial', 'Sarias Song']",1,2
@@ -12008,7 +12188,7 @@ goal combination,count,pick count
 "['Map & Compass in Spirit Temple', 'Plant 5 Magic Beans']",1,0
 "['Map & Compass in Spirit Temple', 'Plant bean in Death Mountain Crater']",1,0
 "['Map & Compass in Spirit Temple', 'Quiver (40)']",1,0
-"['Map & Compass in Spirit Temple', 'Quiver (50)']",2,0
+"['Map & Compass in Spirit Temple', 'Quiver (50)']",3,0
 "['Map & Compass in Spirit Temple', 'Sarias Song']",2,3
 "['Map & Compass in Spirit Temple', 'Shadow Temple Boss Key']",1,0
 "['Map & Compass in Spirit Temple', 'Silver Scale', 'Stone of Agony']",1,0
@@ -12054,6 +12234,7 @@ goal combination,count,pick count
 "['Minuet of Forest', 'Win Bombchu Bowling Prize']",1,0
 "['Mirror Shield', 'Open 3 Boss Key Doors', 'Quiver (40)']",1,0
 "['Mirror Shield', 'Open 3 Boss Key Doors']",1,0
+"['Mirror Shield', 'Open 3 Gold Rupee Chests']",1,0
 "['Mirror Shield', 'Open All 6 Gold Rupee Chests']",1,0
 "['Mirror Shield', 'Plant bean in Death Mountain Crater']",1,0
 "['Mirror Shield', 'Quiver (40)']",1,0
