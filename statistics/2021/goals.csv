@@ -1,204 +1,205 @@
 goal,count,pick count,win count,pick%,win%,median,sub 1:15,sub 1:15 rate
 All 3 Kokiri Forest area Skulltulas,2,3,1,150.0,33.3,1:40:45,1,33.3
-Silver Gauntlets,2,3,1,150.0,33.3,1:31:06,1,33.3
 Defeat King Dodongo,3,4,2,133.3,50.0,1:26:41,2,50.0
-6 Maps,3,3,1,100.0,33.3,1:21:40,0,0.0
-Defeat Bongo-Bongo,1,1,1,100.0,100.0,1:17:26,0,0.0
+Beat the Forest Temple,4,4,2,100.0,50.0,1:18:42,1,25.0
 Desert Colossus HP,1,1,0,100.0,0.0,1:31:45,0,0.0
-Spirit Temple Boss Key,2,2,0,100.0,0.0,1:22:47,0,0.0
 Defeat Phantom Ganon,3,3,1,100.0,33.3,1:10:24,2,66.7
-Open the Final Door of Fire Trial,2,2,1,100.0,50.0,1:17:00,1,50.0
 3 Lake Hylia Skulltulas,5,5,2,100.0,40.0,1:28:44,1,20.0
 Defeat Morpha,2,2,2,100.0,100.0,1:34:32,0,0.0
-Beat Jabu-Jabu's Belly,2,2,1,100.0,50.0,1:17:00,1,50.0
-7 Maps,10,10,6,100.0,60.0,1:25:25,3,30.0
-Ganon's Castle Boss Key,7,6,4,85.7,66.7,1:23:44,1,16.7
-Two Fairy Spells,14,12,6,85.7,50.0,1:30:07,4,33.3
-Map & Compass in Shadow Temple,6,5,3,83.3,60.0,1:17:19,2,40.0
-5 Zora area HPs,11,9,6,81.8,66.7,1:21:56,3,33.3
-15 Different Skulltulas,5,4,1,80.0,25.0,1:25:50,0,0.0
-Open 5 Gold Rupee Chests,5,4,3,80.0,75.0,1:21:34,1,25.0
-Free all 9 Gorons in Fire Temple,5,4,2,80.0,50.0,1:17:00,2,50.0
+Map & Compass in Shadow Temple,7,6,4,85.7,66.7,1:23:13,2,33.3
+Clear 4 Silver Rupee Rooms,6,5,2,83.3,40.0,1:31:06,0,0.0
+5 Zora area HPs,12,10,6,83.3,60.0,1:22:04,3,30.0
+7 Maps,15,12,6,80.0,50.0,1:26:26,3,25.0
+Golden Gauntlets,5,4,2,80.0,50.0,1:10:34,3,75.0
 Defeat Dark Link,5,4,0,80.0,0.0,1:33:47,0,0.0
-Clear 4 Silver Rupee Rooms,4,3,1,75.0,33.3,1:31:06,0,0.0
-Beat the Shadow Temple,4,3,2,75.0,66.7,1:40:59,0,0.0
-Keaton Mask,4,3,1,75.0,33.3,1:40:59,1,33.3
-8 Songs,4,3,1,75.0,33.3,1:27:47,0,0.0
-Mirror Shield,4,3,1,75.0,33.3,1:22:05,0,0.0
-Map & Compass in Spirit Temple,12,9,4,75.0,44.4,1:16:10,4,44.4
+Open 5 Gold Rupee Chests,5,4,3,80.0,75.0,1:21:34,1,25.0
+15 Different Skulltulas,5,4,1,80.0,25.0,1:25:50,0,0.0
+Two Fairy Spells,15,12,6,80.0,50.0,1:30:07,4,33.3
 Map & Compass in Ice Cavern,4,3,1,75.0,33.3,1:34:06,0,0.0
-Fire Temple Boss Key,8,6,4,75.0,66.7,1:12:41,4,66.7
-Saria's Song,10,7,4,70.0,57.1,1:29:58,1,14.3
-6 Different Unused Keys in Gerudo Training Grounds,3,2,0,66.7,0.0,1:46:00,0,0.0
-3 Boots,3,2,1,66.7,50.0,1:18:20,0,0.0
-4 Compasses,3,2,0,66.7,0.0,1:30:07,0,0.0
+6 Maps,4,3,1,75.0,33.3,1:21:40,0,0.0
+3 Boots,4,3,2,75.0,66.7,1:15:00,1,33.3
+Map & Compass in Spirit Temple,12,9,4,75.0,44.4,1:16:10,4,44.4
+Keaton Mask,4,3,1,75.0,33.3,1:40:59,1,33.3
+Silver Gauntlets,4,3,1,75.0,33.3,1:31:06,1,33.3
+8 Songs,4,3,1,75.0,33.3,1:27:47,0,0.0
+Open 3 Boss Key Doors,15,11,5,73.3,45.5,1:18:31,4,36.4
+Beat the Fire Temple,10,7,2,70.0,28.6,1:26:07,2,28.6
+Saria's Song,12,8,4,66.7,50.0,1:33:18,1,12.5
+Spirit Temple Boss Key,3,2,0,66.7,0.0,1:22:47,0,0.0
+Beat Jabu-Jabu's Belly,3,2,1,66.7,50.0,1:17:00,1,50.0
 2 Boss Keys,3,2,1,66.7,50.0,1:49:18,0,0.0
+Ganon's Castle Boss Key,9,6,4,66.7,66.7,1:23:44,1,16.7
 Map & Compass in Bottom of the Well,3,2,1,66.7,50.0,1:20:05,1,50.0
-1 Skulltula from each Child Dungeon,3,2,1,66.7,50.0,1:20:05,1,50.0
-Open 3 Boss Key Doors,12,8,3,66.7,37.5,1:20:25,3,37.5
-5 Hearts,6,4,1,66.7,25.0,1:27:42,1,25.0
+Open the Final Door of Fire Trial,3,2,1,66.7,50.0,1:17:00,1,50.0
+Free all 9 Gorons in Fire Temple,6,4,2,66.7,50.0,1:17:00,2,50.0
 500 Rupees,6,4,2,66.7,50.0,1:34:01,0,0.0
-1 Skulltula from each Adult Dungeon,18,12,7,66.7,58.3,1:17:15,6,50.0
-Bolero of Fire,8,5,2,62.5,40.0,1:44:44,0,0.0
-9 Songs,5,3,2,60.0,66.7,1:11:11,2,66.7
-All 3 Skulltulas in Ice Cavern,5,3,2,60.0,66.7,1:29:07,1,33.3
+10 Songs,19,12,6,63.2,50.0,1:27:05,3,25.0
+1 Skulltula from each Adult Dungeon,23,14,8,60.9,57.1,1:14:36,8,57.1
 Get Bombchu chest in Spirit Temple,5,3,2,60.0,66.7,1:38:56,1,33.3
+Fire Temple Boss Key,10,6,4,60.0,66.7,1:12:41,4,66.7
 3 Swords & 3 Tunics,5,3,2,60.0,66.7,1:48:32,0,0.0
-Din's Fire,12,7,2,58.3,28.6,1:31:06,1,14.3
-2 Skulltulas in Lon Lon Ranch,7,4,1,57.1,25.0,1:29:20,0,0.0
-6 Compasses,7,4,2,57.1,50.0,1:36:31,0,0.0
+Defeat Barinade,5,3,1,60.0,33.3,1:28:16,1,33.3
+Defeat Amy (Green Poe),5,3,2,60.0,66.7,1:32:42,1,33.3
+9 Songs,5,3,2,60.0,66.7,1:11:11,2,66.7
+Mirror Shield,5,3,1,60.0,33.3,1:22:05,0,0.0
+Din's Fire,17,10,5,58.8,50.0,1:29:31,3,30.0
 Giant's Knife,7,4,3,57.1,75.0,1:15:29,2,50.0
-7 Compasses,14,8,5,57.1,62.5,1:17:47,3,37.5
-Minuet of Forest,9,5,2,55.6,40.0,1:21:40,0,0.0
-Map & Compass in Dodongo's Cavern,9,5,3,55.6,60.0,1:27:05,0,0.0
-1 Unused Small Key in each Adult Dungeon,13,7,4,53.8,57.1,1:26:38,2,28.6
-3 Shields & 3 Tunics,4,2,2,50.0,100.0,1:15:53,1,50.0
-Beat the Fire Temple,6,3,2,50.0,66.7,1:26:07,1,33.3
-3 Shields,4,2,2,50.0,100.0,1:26:17,0,0.0
-3 Tunics & 3 Boots,2,1,1,50.0,100.0,1:12:38,1,100.0
-Defeat all Lizalfos in Dodongo's Cavern,2,1,1,50.0,100.0,1:26:38,0,0.0
-4 Unused Keys in Forest Temple,4,2,1,50.0,50.0,1:26:37,0,0.0
-Gerudo's Card,6,3,2,50.0,66.7,1:13:20,2,66.7
-10 Songs,14,7,3,50.0,42.9,1:29:05,1,14.3
+5 Hearts,7,4,1,57.1,25.0,1:27:42,1,25.0
+6 Compasses,7,4,2,57.1,50.0,1:36:31,0,0.0
+1 Unused Small Key in each Adult Dungeon,14,8,5,57.1,62.5,1:25:55,3,37.5
+7 Hearts (no duping),7,4,3,57.1,75.0,1:12:15,2,50.0
+Quiver (40),14,8,4,57.1,50.0,1:26:23,2,25.0
+2 Skulltulas in Lon Lon Ranch,9,5,1,55.6,20.0,1:24:40,1,20.0
+All 3 Skulltulas in Ice Cavern,6,3,2,50.0,66.7,1:29:07,1,33.3
+Water Temple Boss Key,4,2,2,50.0,100.0,1:37:34,0,0.0
+Defeat Bongo-Bongo,2,1,1,50.0,100.0,1:17:26,0,0.0
+Bolero of Fire,10,5,2,50.0,40.0,1:44:44,0,0.0
 6 Hearts,2,1,0,50.0,0.0,1:27:05,0,0.0
-All 5 Skulltulas in Shadow Temple,4,2,1,50.0,50.0,1:36:16,1,50.0
-Obtain all 5 Small Keys in Forest Temple,2,1,1,50.0,100.0,1:29:07,0,0.0
-7 Hearts (no duping),6,3,2,50.0,66.7,1:06:14,2,66.7
-Epona's Song,4,2,1,50.0,50.0,1:20:41,1,50.0
-Golden Gauntlets,4,2,1,50.0,50.0,1:14:05,1,50.0
-Water Medallion,2,1,0,50.0,0.0,1:43:01,0,0.0
-3 Songs,2,1,1,50.0,100.0,1:06:43,1,100.0
-Open All 6 Gold Rupee Chests,16,8,5,50.0,62.5,1:22:21,2,25.0
+4 Unused Keys in Forest Temple,4,2,1,50.0,50.0,1:26:37,0,0.0
 All 4 Skulltulas in Deku Tree,2,1,1,50.0,100.0,1:12:02,1,100.0
-Beat the Forest Temple,2,1,0,50.0,0.0,2:07:09,0,0.0
+Gerudo's Card,6,3,2,50.0,66.7,1:13:20,2,66.7
+3 Shields,4,2,2,50.0,100.0,1:26:17,0,0.0
+Cow in House,2,1,1,50.0,100.0,1:32:42,0,0.0
 Giant's Wallet,2,1,1,50.0,100.0,1:18:16,0,0.0
-8 Hearts (no duping),15,7,3,46.7,42.9,1:21:40,0,0.0
-All 5 Skulltulas in Spirit Temple,9,4,3,44.4,75.0,1:21:56,0,0.0
-All 5 Skulltulas in Fire Temple,9,4,2,44.4,50.0,1:16:04,2,50.0
-3 Tunics,14,6,3,42.9,50.0,1:26:45,2,33.3
+Beat the Shadow Temple,6,3,2,50.0,66.7,1:40:59,0,0.0
+3 Tunics & 3 Boots,2,1,1,50.0,100.0,1:12:38,1,100.0
+Minuet of Forest,10,5,2,50.0,40.0,1:21:40,0,0.0
+1 Skulltula from each Child Dungeon,4,2,1,50.0,50.0,1:20:05,1,50.0
+4 Compasses,4,2,0,50.0,0.0,1:30:07,0,0.0
+8 Hearts (no duping),17,8,4,47.1,50.0,1:21:58,0,0.0
+Map & Compass in Dodongo's Cavern,11,5,3,45.5,60.0,1:27:05,0,0.0
+7 Compasses,18,8,5,44.4,62.5,1:17:47,3,37.5
+Open 3 Gold Rupee Chests,7,3,2,42.9,66.7,1:41:29,0,0.0
 Clear 8 Silver Rupee Rooms,7,3,3,42.9,100.0,1:22:17,1,33.3
-Quiver (40),12,5,3,41.7,60.0,1:25:39,1,20.0
-Beat Dodongo's Cavern,5,2,1,40.0,50.0,1:24:00,0,0.0
-Exactly 20 Deku Sticks,5,2,1,40.0,50.0,1:34:05,0,0.0
-Defeat Queen Gohma,5,2,1,40.0,50.0,1:19:31,1,50.0
-Defeat Big Octo,5,2,0,40.0,0.0,1:27:14,0,0.0
-Lon Lon Ranch HP,5,2,1,40.0,50.0,1:15:50,1,50.0
+Defeat Volvagia,14,6,2,42.9,33.3,1:38:23,1,16.7
 Defeat both Flare Dancers,5,2,2,40.0,100.0,1:19:55,1,50.0
-Goron Tunic,5,2,2,40.0,100.0,1:17:53,1,50.0
-Silver Scale,10,4,2,40.0,50.0,1:26:46,2,50.0
-Defeat Meg (purple Poe),10,4,3,40.0,75.0,1:19:06,0,0.0
-Defeat 4 Different Iron Knuckles,8,3,3,37.5,100.0,1:13:41,2,66.7
-Obtain all 8 Small Keys in Fire Temple,14,5,3,35.7,60.0,1:32:28,1,20.0
-Nayru's Love,6,2,2,33.3,100.0,1:26:33,0,0.0
-Milk,3,1,1,33.3,100.0,1:43:58,0,0.0
-Defeat Barinade,3,1,0,33.3,0.0,1:28:16,0,0.0
-Both Gerudo Valley HPs,3,1,0,33.3,0.0,1:31:45,0,0.0
-5 Unused Keys in Gerudo Training Grounds,3,1,1,33.3,100.0,1:41:29,0,0.0
-30 Different Skulltulas,27,9,4,33.3,44.4,1:31:35,0,0.0
-7 Songs,3,1,0,33.3,0.0,1:50:05,0,0.0
-Fairy Slingshot,6,2,1,33.3,50.0,1:14:24,1,50.0
-Open 3 Gold Rupee Chests,6,2,1,33.3,50.0,1:42:15,0,0.0
-Fire Medallion,6,2,1,33.3,50.0,1:37:45,0,0.0
-3 Skulltulas in Water Temple,6,2,2,33.3,100.0,1:37:20,0,0.0
-Defeat Volvagia,12,4,1,33.3,25.0,1:32:58,1,25.0
-Requiem of Spirit,3,1,1,33.3,100.0,1:31:35,0,0.0
-Open the Final Door of Water Trial,6,2,2,33.3,100.0,1:30:22,0,0.0
+6 Different Unused Keys in Gerudo Training Grounds,5,2,0,40.0,0.0,1:46:00,0,0.0
+Megaton Hammer,5,2,1,40.0,50.0,1:16:03,1,50.0
+Open All 6 Gold Rupee Chests,20,8,5,40.0,62.5,1:22:21,2,25.0
+Bottled Fairy,5,2,1,40.0,50.0,1:20:58,0,0.0
+All 5 Skulltulas in Shadow Temple,5,2,1,40.0,50.0,1:36:16,1,50.0
+3 Tunics,15,6,3,40.0,50.0,1:26:45,2,33.3
+Beat Dodongo's Cavern,5,2,1,40.0,50.0,1:24:00,0,0.0
+3 Shields & 3 Tunics,5,2,2,40.0,100.0,1:15:53,1,50.0
+Defeat Big Octo,5,2,0,40.0,0.0,1:27:14,0,0.0
+Epona's Song,5,2,1,40.0,50.0,1:20:41,1,50.0
+Double Defense,10,4,2,40.0,50.0,1:20:50,1,25.0
+Boomerang,5,2,1,40.0,50.0,1:24:03,1,50.0
+All 5 Skulltulas in Spirit Temple,10,4,3,40.0,75.0,1:21:56,0,0.0
+Fairy Slingshot,8,3,1,37.5,33.3,1:16:10,1,33.3
+All 5 Skulltulas in Fire Temple,11,4,2,36.4,50.0,1:16:04,2,50.0
+Silver Scale,11,4,2,36.4,50.0,1:26:46,2,50.0
+Defeat all Lizalfos in Dodongo's Cavern,3,1,1,33.3,100.0,1:26:38,0,0.0
 4 Unused Keys in Gerudo Training Grounds,6,2,1,33.3,50.0,1:16:48,0,0.0
+Bomb Bag (30),9,3,2,33.3,66.7,1:16:01,1,33.3
+Requiem of Spirit,3,1,1,33.3,100.0,1:31:35,0,0.0
+3 Swords & 3 Shields,9,3,0,33.3,0.0,1:31:15,0,0.0
+3 Songs,3,1,1,33.3,100.0,1:06:43,1,100.0
+Blue Fire,3,1,0,33.3,0.0,1:36:02,0,0.0
+20 Different Skulltulas,6,2,1,33.3,50.0,1:23:06,0,0.0
+Water Medallion,3,1,0,33.3,0.0,1:43:01,0,0.0
+Lon Lon Ranch HP,6,2,1,33.3,50.0,1:15:50,1,50.0
+Obtain all 5 Small Keys in Forest Temple,3,1,1,33.3,100.0,1:29:07,0,0.0
 Plant 5 Magic Beans,6,2,1,33.3,50.0,1:27:24,1,50.0
-Water Temple Boss Key,3,1,1,33.3,100.0,1:16:23,0,0.0
-All 3 Elemental Arrows,28,8,4,28.6,50.0,1:27:37,0,0.0
-Obtain all 5 Small Keys in Shadow Temple,7,2,0,28.6,0.0,1:20:21,1,50.0
+9 Hearts (no duping),15,5,2,33.3,40.0,1:27:14,1,20.0
+5 Unused Keys in Gerudo Training Grounds,3,1,1,33.3,100.0,1:41:29,0,0.0
+Milk,3,1,1,33.3,100.0,1:43:58,0,0.0
+All 5 Skulltulas in Forest Temple,12,4,2,33.3,50.0,1:20:05,2,50.0
+6 Songs,3,1,0,33.3,0.0,1:48:01,0,0.0
+5 Magic Beans,9,3,2,33.3,66.7,1:28:16,1,33.3
+Both Gerudo Valley HPs,3,1,0,33.3,0.0,1:31:45,0,0.0
+Obtain all 8 Small Keys in Fire Temple,16,5,3,31.2,60.0,1:32:28,1,20.0
+Exactly 30 Deku Sticks,13,4,3,30.8,75.0,1:14:40,2,50.0
+Defeat Meg (purple Poe),13,4,3,30.8,75.0,1:19:06,0,0.0
+30 Different Skulltulas,36,11,4,30.6,36.4,1:36:02,0,0.0
+Defeat 4 Different Iron Knuckles,10,3,3,30.0,100.0,1:13:41,2,66.7
+3 Skulltulas in Water Temple,7,2,2,28.6,100.0,1:37:20,0,0.0
 Map & Compass in Fire Temple,7,2,0,28.6,0.0,1:36:20,0,0.0
+Open the Final Door of Water Trial,7,2,2,28.6,100.0,1:30:22,0,0.0
 Map & Compass in Jabu-Jabu,7,2,2,28.6,100.0,1:23:18,1,50.0
+Nayru's Love,7,2,2,28.6,100.0,1:26:33,0,0.0
+Exactly 20 Deku Sticks,7,2,1,28.6,50.0,1:34:05,0,0.0
+Defeat Queen Gohma,7,2,1,28.6,50.0,1:19:31,1,50.0
+30 Deku Nuts,7,2,1,28.6,50.0,1:28:55,1,50.0
 Open the Final Door of Spirit Trial,7,2,0,28.6,0.0,1:18:37,0,0.0
-4 Songs,7,2,2,28.6,100.0,1:17:03,1,50.0
-Double Defense,7,2,1,28.6,50.0,1:20:50,0,0.0
-All 5 Skulltulas in Forest Temple,11,3,1,27.3,33.3,1:27:57,1,33.3
-Exactly 30 Deku Sticks,11,3,2,27.3,66.7,1:17:26,1,33.3
-All 4 Market area Skulltulas,16,4,0,25.0,0.0,1:38:56,1,25.0
+All 3 Elemental Arrows,32,9,5,28.1,55.6,1:29:07,0,0.0
+Goron Tunic,8,2,2,25.0,100.0,1:17:53,1,50.0
 Bullet Bag (40),4,1,1,25.0,100.0,1:26:08,0,0.0
-5 Compasses,4,1,0,25.0,0.0,1:24:40,0,0.0
-Bottled Fairy,4,1,1,25.0,100.0,1:19:44,0,0.0
-Ice Cavern HP,4,1,1,25.0,100.0,1:12:04,1,100.0
-3 Swords & 3 Shields,8,2,0,25.0,0.0,1:32:38,0,0.0
-Light Arrows,8,2,1,25.0,50.0,1:26:37,0,0.0
-7 Different Unused Keys in Gerudo Training Grounds,8,2,1,25.0,50.0,1:14:14,2,100.0
 Shadow Temple Boss Key,4,1,1,25.0,100.0,1:12:02,1,100.0
-Green Gauntlets,17,4,1,23.5,25.0,1:27:52,0,0.0
-Beat the Spirit Temple,22,5,3,22.7,60.0,1:21:32,2,40.0
-Defeat Twinrova,14,3,1,21.4,33.3,1:43:58,0,0.0
-Both HPs in Lost Woods,15,3,2,20.0,66.7,1:22:05,0,0.0
-Open the Final Door of Shadow Trial,10,2,1,20.0,50.0,1:20:05,1,50.0
-Both Rusty Switches in Spirit Temple,10,2,1,20.0,50.0,1:21:45,0,0.0
+7 Songs,4,1,0,25.0,0.0,1:50:05,0,0.0
+Ice Cavern HP,4,1,1,25.0,100.0,1:12:04,1,100.0
+7 Different Unused Keys in Gerudo Training Grounds,8,2,1,25.0,50.0,1:14:14,2,100.0
+4 Songs,8,2,2,25.0,100.0,1:17:03,1,50.0
+All 4 Wasteland/ Colossus area Skulltulas,4,1,1,25.0,100.0,1:11:55,1,100.0
+All 4 Market area Skulltulas,17,4,0,23.5,0.0,1:38:56,1,25.0
+Open 2 Boss Key Doors,9,2,1,22.2,50.0,1:38:32,1,50.0
+Fire Medallion,9,2,1,22.2,50.0,1:37:45,0,0.0
+"3 Swords, Tunics, Boots, and Shields",29,6,4,20.7,66.7,1:18:42,1,16.7
 Plant bean in Death Mountain Crater,5,1,0,20.0,0.0,1:32:42,0,0.0
-All 4 Lost Woods area Skulltulas,5,1,0,20.0,0.0,1:19:38,0,0.0
-20 Different Skulltulas,5,1,0,20.0,0.0,1:27:42,0,0.0
-All 8 Zora's Domain area Skulltulas,11,2,1,18.2,50.0,1:16:55,1,50.0
-9 Hearts (no duping),11,2,1,18.2,50.0,1:29:32,0,0.0
-Bullet Bag (50),6,1,0,16.7,0.0,1:14:47,1,100.0
-7 Different Bottled Contents,6,1,0,16.7,0.0,1:27:01,0,0.0
-Defeat a Skull Kid,6,1,1,16.7,100.0,1:11:31,1,100.0
-All 4 Child Skulltulas in Zora's Domain Area,6,1,1,16.7,100.0,1:05:38,1,100.0
-Longshot,6,1,1,16.7,100.0,1:26:14,0,0.0
-Open 2 Boss Key Doors,6,1,0,16.7,0.0,2:07:09,0,0.0
+Green Gauntlets,20,4,1,20.0,25.0,1:27:52,0,0.0
+Beat the Spirit Temple,25,5,3,20.0,60.0,1:21:32,2,40.0
+Both Hyrule Field area Skulltulas,5,1,1,20.0,100.0,1:32:35,0,0.0
+Defeat Twinrova,15,3,1,20.0,33.3,1:43:58,0,0.0
+Obtain all 5 Small Keys in Shadow Temple,10,2,0,20.0,0.0,1:20:21,1,50.0
+Open the Final Door of Shadow Trial,11,2,1,18.2,50.0,1:20:05,1,50.0
+Both Rusty Switches in Spirit Temple,11,2,1,18.2,50.0,1:21:45,0,0.0
+5 Compasses,6,1,0,16.7,0.0,1:24:40,0,0.0
+5 Maps,6,1,0,16.7,0.0,2:32:12,0,0.0
+All 8 Zora's Domain area Skulltulas,12,2,1,16.7,50.0,1:16:55,1,50.0
+All 4 Lost Woods area Skulltulas,6,1,0,16.7,0.0,1:19:38,0,0.0
+7 Magic Beans,6,1,0,16.7,0.0,1:22:12,0,0.0
 Open the Final Door of Forest Trial,6,1,1,16.7,100.0,1:47:00,0,0.0
-Fairy Bow,6,1,1,16.7,100.0,1:16:23,0,0.0
-Bomb Bag (30),7,1,1,14.3,100.0,1:16:01,0,0.0
-5 Magic Beans,7,1,0,14.3,0.0,1:28:16,0,0.0
+Both HPs in Lost Woods,18,3,2,16.7,66.7,1:22:05,0,0.0
+Light Arrows,14,2,1,14.3,50.0,1:26:37,0,0.0
+Defeat a Skull Kid,7,1,1,14.3,100.0,1:11:31,1,100.0
+Fairy Bow,7,1,1,14.3,100.0,1:16:23,0,0.0
+7 Different Bottled Contents,7,1,0,14.3,0.0,1:27:01,0,0.0
+Clear 10 Silver Rupee Rooms,15,2,1,13.3,50.0,1:13:28,1,50.0
+Longshot,8,1,1,12.5,100.0,1:26:14,0,0.0
 3 Swords & 3 Boots,8,1,0,12.5,0.0,1:16:10,0,0.0
-Beat the Water Temple,8,1,1,12.5,100.0,1:18:29,0,0.0
-Goron Bracelet,9,1,1,11.1,100.0,1:48:32,0,0.0
-All 5 Skulltulas in Water Temple,9,1,1,11.1,100.0,1:11:31,1,100.0
-Quiver (50),11,1,0,9.1,0.0,1:31:15,0,0.0
-Clear 10 Silver Rupee Rooms,13,1,0,7.7,0.0,1:17:06,0,0.0
-All 5 Lake Hylia Skulltulas,13,1,0,7.7,0.0,1:27:05,0,0.0
-"3 Swords, Tunics, Boots, and Shields",22,1,1,4.5,100.0,1:17:26,0,0.0
-Iron Boots,1,0,0,0.0,0.0,nan,0,0.0
-Both HPs in Death Mountain Crater,10,0,0,0.0,0.0,nan,0,0.0
-3 Boss Keys,2,0,0,0.0,0.0,nan,0,0.0
-Defeat Amy (Green Poe),2,0,0,0.0,0.0,nan,0,0.0
-Stone of Agony,2,0,0,0.0,0.0,nan,0,0.0
-All 5 Skulltulas in Dodongo's Cavern,1,0,0,0.0,0.0,nan,0,0.0
-3 Unused Keys in Gerudo Training Grounds,2,0,0,0.0,0.0,nan,0,0.0
-Cow in House,1,0,0,0.0,0.0,nan,0,0.0
-Beat the Deku Tree,1,0,0,0.0,0.0,nan,0,0.0
+Bullet Bag (50),9,1,0,11.1,0.0,1:14:47,1,100.0
+Beat the Water Temple,9,1,1,11.1,100.0,1:18:29,0,0.0
+All 4 Child Skulltulas in Zora's Domain Area,9,1,1,11.1,100.0,1:05:38,1,100.0
+Both HPs in Death Mountain Crater,11,1,0,9.1,0.0,2:32:12,0,0.0
+All 5 Skulltulas in Water Temple,11,1,1,9.1,100.0,1:11:31,1,100.0
+Quiver (50),12,1,0,8.3,0.0,1:31:15,0,0.0
+All 5 Lake Hylia Skulltulas,15,1,0,6.7,0.0,1:27:05,0,0.0
+Goron Bracelet,15,1,1,6.7,100.0,1:48:32,0,0.0
 Ice Arrows,1,0,0,0.0,0.0,nan,0,0.0
-All 4 Gerudo Valley area Skulltulas,1,0,0,0.0,0.0,nan,0,0.0
-6 Songs,1,0,0,0.0,0.0,nan,0,0.0
-Open the Final Door of Light Trial,1,0,0,0.0,0.0,nan,0,0.0
-Blue Potion,2,0,0,0.0,0.0,nan,0,0.0
-Defeat Nabooru-Knuckle,1,0,0,0.0,0.0,nan,0,0.0
-Fill all 4 Bottle Slots,2,0,0,0.0,0.0,nan,0,0.0
-Blue Fire,2,0,0,0.0,0.0,nan,0,0.0
-Zora Tunic,5,0,0,0.0,0.0,nan,0,0.0
-Ruto's Letter,2,0,0,0.0,0.0,nan,0,0.0
-Bronze Gauntlets,3,0,0,0.0,0.0,nan,0,0.0
-Win Bombchu Bowling Prize,6,0,0,0.0,0.0,nan,0,0.0
-Blue Gauntlets,5,0,0,0.0,0.0,nan,0,0.0
-All 3 Skulltulas in Bottom of the Well,5,0,0,0.0,0.0,nan,0,0.0
-All 4 Adult Skulltulas in Zora's Domain Area,6,0,0,0.0,0.0,nan,0,0.0
-3 Shields & 3 Boots,4,0,0,0.0,0.0,nan,0,0.0
-All 4 Lon Lon Ranch area Skulltulas,6,0,0,0.0,0.0,nan,0,0.0
-8 Different Unused Keys in Gerudo Training Grounds,4,0,0,0.0,0.0,nan,0,0.0
-5 Maps,4,0,0,0.0,0.0,nan,0,0.0
-Farore's Wind,6,0,0,0.0,0.0,nan,0,0.0
-Boomerang,4,0,0,0.0,0.0,nan,0,0.0
-Both Hyrule Field area Skulltulas,4,0,0,0.0,0.0,nan,0,0.0
-Frog's HP,6,0,0,0.0,0.0,nan,0,0.0
-Defeat a White Wolfos,3,0,0,0.0,0.0,nan,0,0.0
-Megaton Hammer,3,0,0,0.0,0.0,nan,0,0.0
+All 5 Skulltulas in Dodongo's Cavern,1,0,0,0.0,0.0,nan,0,0.0
+Map & Compass in Water Temple,2,0,0,0.0,0.0,nan,0,0.0
+Map & Compass in Deku Tree,3,0,0,0.0,0.0,nan,0,0.0
 37th Heart Piece (Child Fortress),2,0,0,0.0,0.0,nan,0,0.0
-All 8 Death Mountain area Skulltulas,7,0,0,0.0,0.0,nan,0,0.0
-7 Magic Beans,3,0,0,0.0,0.0,nan,0,0.0
-Open 50 Rupee chest in Wasteland,3,0,0,0.0,0.0,nan,0,0.0
-4 Skulltulas in Shadow Temple,7,0,0,0.0,0.0,nan,0,0.0
-30 Deku Nuts,3,0,0,0.0,0.0,nan,0,0.0
-Fire Arrows,5,0,0,0.0,0.0,nan,0,0.0
-Map & Compass in Forest Temple,3,0,0,0.0,0.0,nan,0,0.0
-All 4 Wasteland/ Colossus area Skulltulas,3,0,0,0.0,0.0,nan,0,0.0
-Double Magic,3,0,0,0.0,0.0,nan,0,0.0
-Forest Temple Boss Key,3,0,0,0.0,0.0,nan,0,0.0
-All 8 Kakariko area Skulltulas,3,0,0,0.0,0.0,nan,0,0.0
-Both Gerudo's Fortress area Skulltulas,3,0,0,0.0,0.0,nan,0,0.0
+Beat the Deku Tree,2,0,0,0.0,0.0,nan,0,0.0
+Ruto's Letter,2,0,0,0.0,0.0,nan,0,0.0
+3 Unused Keys in Gerudo Training Grounds,2,0,0,0.0,0.0,nan,0,0.0
+Stone of Agony,2,0,0,0.0,0.0,nan,0,0.0
+Blue Potion,2,0,0,0.0,0.0,nan,0,0.0
 Forest Medallion,3,0,0,0.0,0.0,nan,0,0.0
-Map & Compass in Deku Tree,1,0,0,0.0,0.0,nan,0,0.0
+Defeat Nabooru-Knuckle,2,0,0,0.0,0.0,nan,0,0.0
+8 Different Unused Keys in Gerudo Training Grounds,6,0,0,0.0,0.0,nan,0,0.0
+Forest Temple Boss Key,4,0,0,0.0,0.0,nan,0,0.0
+Double Magic,3,0,0,0.0,0.0,nan,0,0.0
+Bronze Gauntlets,3,0,0,0.0,0.0,nan,0,0.0
+Fire Arrows,5,0,0,0.0,0.0,nan,0,0.0
+All 4 Adult Skulltulas in Zora's Domain Area,6,0,0,0.0,0.0,nan,0,0.0
+Both Gerudo's Fortress area Skulltulas,5,0,0,0.0,0.0,nan,0,0.0
+Zora Tunic,6,0,0,0.0,0.0,nan,0,0.0
+Frog's HP,6,0,0,0.0,0.0,nan,0,0.0
+Win Bombchu Bowling Prize,6,0,0,0.0,0.0,nan,0,0.0
+All 8 Kakariko area Skulltulas,5,0,0,0.0,0.0,nan,0,0.0
+Blue Gauntlets,5,0,0,0.0,0.0,nan,0,0.0
+Farore's Wind,7,0,0,0.0,0.0,nan,0,0.0
+3 Boss Keys,4,0,0,0.0,0.0,nan,0,0.0
+Map & Compass in Forest Temple,4,0,0,0.0,0.0,nan,0,0.0
+Open 50 Rupee chest in Wasteland,4,0,0,0.0,0.0,nan,0,0.0
+All 4 Lon Lon Ranch area Skulltulas,8,0,0,0.0,0.0,nan,0,0.0
+4 Skulltulas in Shadow Temple,8,0,0,0.0,0.0,nan,0,0.0
+All 4 Gerudo Valley area Skulltulas,4,0,0,0.0,0.0,nan,0,0.0
+Fill all 4 Bottle Slots,4,0,0,0.0,0.0,nan,0,0.0
+All 8 Death Mountain area Skulltulas,8,0,0,0.0,0.0,nan,0,0.0
+3 Shields & 3 Boots,9,0,0,0.0,0.0,nan,0,0.0
+All 3 Skulltulas in Bottom of the Well,9,0,0,0.0,0.0,nan,0,0.0
+Defeat a White Wolfos,3,0,0,0.0,0.0,nan,0,0.0
+Open the Final Door of Light Trial,3,0,0,0.0,0.0,nan,0,0.0
+Iron Boots,1,0,0,0.0,0.0,nan,0,0.0
