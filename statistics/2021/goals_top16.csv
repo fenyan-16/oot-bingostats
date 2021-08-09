@@ -1,54 +1,54 @@
 goal,count,pick count,win count,pick%,win%,median,sub 1:15,sub 1:15 rate
 Fairy Slingshot,1,2,1,200.0,50.0,1:14:52,1,50.0
 Map & Compass in Forest Temple,2,3,2,150.0,66.7,1:13:45,2,66.7
-Silver Gauntlets,1,1,0,100.0,0.0,1:05:36,1,100.0
-All 4 Child Skulltulas in Zora's Domain Area,1,1,0,100.0,0.0,1:11:14,1,100.0
+Silver Gauntlets,1,1,1,100.0,100.0,1:05:36,1,100.0
+All 4 Child Skulltulas in Zora's Domain Area,1,1,1,100.0,100.0,1:11:14,1,100.0
 9 Hearts (no duping),2,2,1,100.0,50.0,1:14:52,1,50.0
 Silver Scale,1,1,0,100.0,0.0,1:17:12,0,0.0
 Frog's HP,1,1,1,100.0,100.0,1:18:44,0,0.0
-Ice Cavern HP,1,1,1,100.0,100.0,nan,0,0.0
-Open the Final Door of Fire Trial,1,1,1,100.0,100.0,nan,0,0.0
+Ice Cavern HP,1,1,0,100.0,0.0,nan,0,0.0
+Open the Final Door of Fire Trial,1,1,0,100.0,0.0,nan,0,0.0
 Open All 6 Gold Rupee Chests,1,1,0,100.0,0.0,1:19:43,0,0.0
-Open 5 Gold Rupee Chests,1,1,1,100.0,100.0,nan,0,0.0
-Saria's Song,1,1,0,100.0,0.0,1:16:54,0,0.0
+Open 5 Gold Rupee Chests,1,1,0,100.0,0.0,nan,0,0.0
+Saria's Song,1,1,1,100.0,100.0,1:16:54,0,0.0
 Milk,1,1,1,100.0,100.0,1:11:01,1,100.0
-6 Songs,1,1,0,100.0,0.0,1:16:54,0,0.0
+6 Songs,1,1,1,100.0,100.0,1:16:54,0,0.0
 3 Shields & 3 Boots,2,2,1,100.0,50.0,1:14:52,1,50.0
 6 Different Unused Keys in Gerudo Training Grounds,1,1,0,100.0,0.0,1:19:43,0,0.0
 4 Compasses,1,1,1,100.0,100.0,1:18:44,0,0.0
-3 Shields & 3 Tunics,1,1,0,100.0,0.0,1:16:54,0,0.0
-3 Shields,1,1,1,100.0,100.0,nan,0,0.0
+3 Shields & 3 Tunics,1,1,1,100.0,100.0,1:16:54,0,0.0
+3 Shields,1,1,0,100.0,0.0,nan,0,0.0
 All 5 Skulltulas in Fire Temple,1,1,1,100.0,100.0,1:18:44,0,0.0
-Defeat Queen Gohma,1,1,1,100.0,100.0,nan,0,0.0
+Defeat Queen Gohma,1,1,0,100.0,0.0,nan,0,0.0
 Defeat Big Octo,1,1,1,100.0,100.0,1:03:38,1,100.0
 Both HPs in Death Mountain Crater,1,1,1,100.0,100.0,1:18:44,0,0.0
-Both Gerudo's Fortress area Skulltulas,1,1,1,100.0,100.0,nan,0,0.0
+Both Gerudo's Fortress area Skulltulas,1,1,0,100.0,0.0,nan,0,0.0
 Bomb Bag (30),1,1,0,100.0,0.0,1:13:48,1,100.0
 All 5 Skulltulas in Spirit Temple,1,1,1,100.0,100.0,1:03:38,1,100.0
 2 Skulltulas in Lon Lon Ranch,2,2,1,100.0,50.0,1:14:52,1,50.0
 Zora Tunic,1,1,0,100.0,0.0,1:19:43,0,0.0
-Gerudo's Card,2,2,0,100.0,0.0,1:09:42,2,100.0
+Gerudo's Card,2,2,1,100.0,50.0,1:09:42,2,100.0
 Defeat Volvagia,4,3,1,75.0,33.3,1:13:48,2,66.7
-9 Songs,3,2,0,66.7,0.0,1:12:31,2,100.0
-Defeat Meg (purple Poe),3,2,1,66.7,50.0,1:19:43,0,0.0
+9 Songs,3,2,1,66.7,50.0,1:12:31,2,100.0
+Defeat Meg (purple Poe),3,2,0,66.7,0.0,1:19:43,0,0.0
 All 4 Gerudo Valley area Skulltulas,2,1,0,50.0,0.0,1:17:12,0,0.0
 6 Maps,2,1,0,50.0,0.0,1:17:12,0,0.0
 7 Compasses,4,2,1,50.0,50.0,1:11:14,1,50.0
-Quiver (40),2,1,0,50.0,0.0,1:16:54,0,0.0
-Minuet of Forest,2,1,0,50.0,0.0,1:11:14,1,100.0
-8 Hearts (no duping),2,1,0,50.0,0.0,1:05:36,1,100.0
+Quiver (40),2,1,1,50.0,100.0,1:16:54,0,0.0
+Minuet of Forest,2,1,1,50.0,100.0,1:11:14,1,100.0
+8 Hearts (no duping),2,1,1,50.0,100.0,1:05:36,1,100.0
 All 3 Skulltulas in Bottom of the Well,2,1,1,50.0,100.0,1:03:38,1,100.0
 10 Songs,2,1,0,50.0,0.0,1:17:12,0,0.0
-Obtain all 5 Small Keys in Shadow Temple,2,1,0,50.0,0.0,1:11:14,1,100.0
+Obtain all 5 Small Keys in Shadow Temple,2,1,1,50.0,100.0,1:11:14,1,100.0
 All 3 Elemental Arrows,5,2,1,40.0,50.0,1:05:36,1,50.0
 Beat the Spirit Temple,5,2,2,40.0,100.0,1:14:52,1,50.0
 Keaton Mask,3,1,0,33.3,0.0,1:19:43,0,0.0
-1 Skulltula from each Adult Dungeon,3,1,0,33.3,0.0,1:16:54,0,0.0
-Exactly 30 Deku Sticks,3,1,0,33.3,0.0,1:05:36,1,100.0
+1 Skulltula from each Adult Dungeon,3,1,1,33.3,100.0,1:16:54,0,0.0
+Exactly 30 Deku Sticks,3,1,1,33.3,100.0,1:05:36,1,100.0
 Defeat a White Wolfos,3,1,1,33.3,100.0,1:11:01,1,100.0
 Defeat Twinrova,4,1,0,25.0,0.0,1:13:48,1,100.0
 Farore's Wind,4,1,1,25.0,100.0,1:03:38,1,100.0
-All 5 Skulltulas in Water Temple,4,1,1,25.0,100.0,nan,0,0.0
+All 5 Skulltulas in Water Temple,4,1,0,25.0,0.0,nan,0,0.0
 30 Different Skulltulas,6,1,1,16.7,100.0,1:03:38,1,100.0
 Defeat a Skull Kid,1,0,0,0.0,0.0,nan,0,0.0
 Defeat all Lizalfos in Dodongo's Cavern,1,0,0,0.0,0.0,nan,0,0.0
