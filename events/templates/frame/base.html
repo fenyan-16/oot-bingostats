@@ -34,7 +34,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players_era' %}">[v10.1 Statistics]</a>
+                            <a class="nav-link" href="{% url 'players_era' 'v10.2' %}">[v10.2 Statistics]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'players_era' 'v10.1' %}">[v10.1 Statistics]</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'players' 2021 'swiss' %}">[OLD - 2021 Bingo Tournament - Statistics]</a>
@@ -45,12 +48,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'frequency' %}">[OLD - Goal Frequency Analysis 10.0]</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'league-list'%}">[OLD - Leagues]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'tournament-list' format='race' %}">[OLD - Races]</a>
-                        </li>
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="{% url 'league-list'%}">[OLD - Leagues]</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="{% url 'tournament-list' format='race' %}">[OLD - Races]</a>-->
+<!--                        </li>-->
                     </ul>
 
                     <span class="navbar-text">

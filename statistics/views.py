@@ -53,10 +53,10 @@ def players_era(request):
 	return render(request, 'players_era.html', {'players': player_df_repr, 'timestamp': timestamp})
 
 
-def goals_era(request):
-	goal_df_repr = return_goallist('swiss', year='v10.1')
-	total_races = return_race_count('swiss', year='v10.1')
-	timestamp = return_timestamp('', 'v10.1')
+def goals_era(request, year):
+	goal_df_repr = return_goallist('swiss', year=year)
+	total_races = return_race_count('swiss', year=year)
+	timestamp = return_timestamp('', year)
 
 	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races, 'timestamp': timestamp})
 
