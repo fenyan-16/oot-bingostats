@@ -51,7 +51,10 @@ def frequency(request):
 def players_era(request, version):
 	player_df_repr = return_playerstats('swiss', year=version)
 	timestamp = return_timestamp('', version)
-	return render(request, 'players_era.html', {'players': player_df_repr, 'timestamp': timestamp, 'version': version})
+	first_last = return_first_last_races(version)
+	timestamp = return_timestamp('', version)
+	return render(request, 'players_era.html', {'players': player_df_repr, 'timestamp': timestamp, 'version': version,
+	                                            'firstrace': first_last['first'], 'lastrace': first_last['last']})
 
 
 def goals_era(request, version):
@@ -69,7 +72,9 @@ def goals_era(request, version):
 def combinations_era(request, version):
 	goal_combi_repr = return_goal_combinations(year=version)
 	total_races = return_race_count(year=version, mode='swiss')
+	first_last = return_first_last_races(version)
 	timestamp = return_timestamp('', version)
 
 	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': str(total_races),
-	                                                 'timestamp': timestamp, 'version': version})
+	                                                 'timestamp': timestamp, 'version': version,
+	                                                 'firstrace': first_last['first'], 'lastrace': first_last['last']})
