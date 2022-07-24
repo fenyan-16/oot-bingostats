@@ -47,9 +47,9 @@ def frequency(request):
 	return render(request, 'frequency.html')
 
 
-def players_era(request, version):
-	player_df_repr = return_playerstats('swiss', year=version)
-	timestamp = return_timestamp('', version)
+def players_era(request, year):
+	player_df_repr = return_playerstats('swiss', year=year)
+	timestamp = return_timestamp('', year)
 	return render(request, 'players_era.html', {'players': player_df_repr, 'timestamp': timestamp})
 
 
