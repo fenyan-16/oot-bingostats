@@ -15,7 +15,8 @@ from django.db import transaction
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
-from .services import return_goallist, return_playerstats, return_goal_combinations, return_race_count, return_timestamp
+from .services import return_goallist, return_playerstats, return_goal_combinations, return_race_count
+from .services import return_timestamp, return_first_last_races
 
 
 def goals(request, year, phase):
@@ -56,11 +57,13 @@ def players_era(request, version):
 def goals_era(request, version):
 	goal_df_repr = return_goallist('swiss', year=version)
 	total_races = return_race_count('swiss', year=version)
+	first_last = return_first_last_races(version)
 	timestamp = return_timestamp('', version)
 	print(total_races)
 
-	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': str(total_races), 'timestamp': timestamp,
-	                                          'version': version})
+	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races, 'timestamp': timestamp,
+	                                          'version': version, 'firstrace': first_last['first'],
+	                                          'lastrace': first_last['last']})
 
 
 def combinations_era(request, version):
