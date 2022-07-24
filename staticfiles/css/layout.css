@@ -3,9 +3,12 @@ body {
     color: #ededed;
 }
 
-.navbar {
-    height: 64px;
-    margin-bottom: 36px;
+.h2spacing {
+    margin: 60px 0 26px;
+}
+
+#content {
+    margin-top: 36px;
 }
 
 .bg-primary {
@@ -15,4 +18,8 @@ body {
 .btn-primary {
     background-color: #dc4b0b !important;
     border-color: #dc4b0b;
+}
+
+.warning_with_button {
+    padding: .375rem .75rem;
 }

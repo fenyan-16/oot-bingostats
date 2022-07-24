@@ -15,7 +15,8 @@ from django.db import transaction
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
-from .services import return_goallist, return_playerstats, return_goal_combinations, return_race_count, return_timestamp
+from .services import return_goallist, return_playerstats, return_goal_combinations, return_race_count
+from .services import return_timestamp, return_first_last_races
 
 
 def goals(request, year, phase):
@@ -39,7 +40,7 @@ def combinations(request, year):
 	total_races = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
 	timestamp = return_timestamp('swiss', year)
 
-	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': total_races, 'year': year
+	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': str(total_races), 'year': year
 	                                             , 'timestamp': timestamp})
 
 
@@ -47,23 +48,34 @@ def frequency(request):
 	return render(request, 'frequency.html')
 
 
-def players_era(request):
-	player_df_repr = return_playerstats('swiss', year='v10.1')
-	timestamp = return_timestamp('', 'v10.1')
-	return render(request, 'players_era.html', {'players': player_df_repr, 'timestamp': timestamp})
+def players_era(request, version):
+	player_df_repr = return_playerstats('swiss', year=version)
+	total_races = return_race_count('swiss', year=version)
+	first_last = return_first_last_races(version)
+	timestamp = return_timestamp('', version)
+	return render(request, 'players_era.html', {'players': player_df_repr, 'racecount': total_races,
+	                                            'timestamp': timestamp, 'version': version,
+	                                            'firstrace': first_last['first'], 'lastrace': first_last['last']})
 
 
-def goals_era(request):
-	goal_df_repr = return_goallist('swiss', year='v10.1')
-	total_races = return_race_count('swiss', year='v10.1')
-	timestamp = return_timestamp('', 'v10.1')
+def goals_era(request, version):
+	goal_df_repr = return_goallist('swiss', year=version)
+	total_races = return_race_count('swiss', year=version)
+	first_last = return_first_last_races(version)
+	timestamp = return_timestamp('', version)
+	print(total_races)
 
-	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races, 'timestamp': timestamp})
+	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races, 'timestamp': timestamp,
+	                                          'version': version, 'firstrace': first_last['first'],
+	                                          'lastrace': first_last['last']})
 
 
-def combinations_era(request):
-	goal_combi_repr = return_goal_combinations(year='v10.1')
-	total_races = return_race_count(year='v10.1', mode='swiss')
-	timestamp = return_timestamp('', 'v10.1')
+def combinations_era(request, version):
+	goal_combi_repr = return_goal_combinations(year=version)
+	total_races = return_race_count(year=version, mode='swiss')
+	first_last = return_first_last_races(version)
+	timestamp = return_timestamp('', version)
 
-	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': total_races, 'timestamp': timestamp})
+	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': str(total_races),
+	                                                 'timestamp': timestamp, 'version': version,
+	                                                 'firstrace': first_last['first'], 'lastrace': first_last['last']})

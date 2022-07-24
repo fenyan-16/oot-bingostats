@@ -59,3 +59,14 @@ def return_timestamp(mode, year):
 	with open(timestamp_path) as f:
 		txt = f.read()
 	return txt
+
+
+def return_first_last_races(version):
+	race_first_last = dict()
+	if version == 'v10.1':
+		race_first_last['first'] = '30.11.2020'
+		race_first_last['last'] = '13.07.2022'
+	elif version == 'v10.2':
+		race_first_last['first'] = '13.07.2022'
+		race_first_last['last'] = '-'
+	return race_first_last
