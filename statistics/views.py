@@ -39,7 +39,7 @@ def combinations(request, year):
 	total_races = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
 	timestamp = return_timestamp('swiss', year)
 
-	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': total_races, 'year': year
+	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': str(total_races), 'year': year
 	                                             , 'timestamp': timestamp})
 
 
@@ -57,8 +57,9 @@ def goals_era(request, version):
 	goal_df_repr = return_goallist('swiss', year=version)
 	total_races = return_race_count('swiss', year=version)
 	timestamp = return_timestamp('', version)
+	print(total_races)
 
-	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races, 'timestamp': timestamp,
+	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': str(total_races), 'timestamp': timestamp,
 	                                          'version': version})
 
 
@@ -67,5 +68,5 @@ def combinations_era(request, version):
 	total_races = return_race_count(year=version, mode='swiss')
 	timestamp = return_timestamp('', version)
 
-	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': total_races,
+	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': str(total_races),
 	                                                 'timestamp': timestamp, 'version': version})
