@@ -50,10 +50,11 @@ def frequency(request):
 
 def players_era(request, version):
 	player_df_repr = return_playerstats('swiss', year=version)
-	timestamp = return_timestamp('', version)
+	total_races = return_race_count('swiss', year=version)
 	first_last = return_first_last_races(version)
 	timestamp = return_timestamp('', version)
-	return render(request, 'players_era.html', {'players': player_df_repr, 'timestamp': timestamp, 'version': version,
+	return render(request, 'players_era.html', {'players': player_df_repr, 'racecount': total_races,
+	                                            'timestamp': timestamp, 'version': version,
 	                                            'firstrace': first_last['first'], 'lastrace': first_last['last']})
 
 
