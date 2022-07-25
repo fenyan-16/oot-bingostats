@@ -109,27 +109,28 @@
                 </div>
             </nav>
         </div>
-        <div class="sidenav">
-            <a href="/">Home</a>
-        </div>
-        <div id="content" class="container">
-            <div class="row">
-                <div class="col-12">
-                    {% if messages %}
-                        <div class="alert alert-warning {{ message.tags }}" role="alert">
-                            {% for message in messages %}
-                            <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
-                            {% endfor %}
-                        </div>
-                    {% endif %}
-                        {% block secondnav %}
-                        {% endblock %}
-                        {% block content %}
-                        {% endblock %}
+        <div id="page-content">
+            <div class="sidenav">
+                <a href="/">Home</a>
+            </div>
+            <div id="content" class="container">
+                <div class="row">
+                    <div class="col-12">
+                        {% if messages %}
+                            <div class="alert alert-warning {{ message.tags }}" role="alert">
+                                {% for message in messages %}
+                                <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                            {% block secondnav %}
+                            {% endblock %}
+                            {% block content %}
+                            {% endblock %}
+                    </div>
                 </div>
             </div>
         </div>
-
     <script>
         // Simple list
         //Sortable.create(document.getElementById('simpleList'));
