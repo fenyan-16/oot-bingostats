@@ -16,7 +16,7 @@ from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
 from .services import return_goallist, return_playerstats, return_goal_combinations, return_race_count
-from .services import return_timestamp, return_first_last_races
+from .services import return_timestamp, return_first_last_races, return_tournament_url
 
 
 def goals(request, year, phase):
@@ -24,15 +24,16 @@ def goals(request, year, phase):
 	total_races = return_race_count(phase, year=year)
 	timestamp = return_timestamp(phase, year)
 
-	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races,
-	                                      'year': year, 'timestamp': timestamp})
+	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races, 'year': year,
+	                                      'url': return_tournament_url(year), 'timestamp': timestamp})
 
 
 def players(request, year, phase):
 	player_df_repr = return_playerstats(phase, year=year)
 	timestamp = return_timestamp(phase, year)
 
-	return render(request, 'players.html', {'players': player_df_repr, 'year': year, 'timestamp': timestamp})
+	return render(request, 'players.html', {'players': player_df_repr, 'year': year, 'url': return_tournament_url(year),
+	                                        'timestamp': timestamp})
 
 
 def combinations(request, year):
@@ -40,8 +41,8 @@ def combinations(request, year):
 	total_races = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
 	timestamp = return_timestamp('swiss', year)
 
-	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': str(total_races), 'year': year
-	                                             , 'timestamp': timestamp})
+	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': str(total_races),
+	                                             'year': year, 'url': return_tournament_url(year), 'timestamp': timestamp})
 
 
 def frequency(request):
