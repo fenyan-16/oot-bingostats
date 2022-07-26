@@ -1,15 +1,11 @@
-{% extends "goals.html" %}
+{% extends "tournament_page.html" %}
 
-{% block content %}
+{% block subnav-combinations %}
+active
+{% endblock %}
 
-<h1>OoT Bingo Tournament {{ year }} - Goal Combinations</h1>
-<h2>Total races: {{ racecount }}</h2>
-<h2><a href="{{url}}">Official Tournament Website</a></h2>
-<br>
+{% block datatable %}
 
-<div align='left'><a href="">Back to original sorting</a>
-    <div align='left'>Last refresh: {{ timestamp }} CEST</div>
-<div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>
  <div id="content">
    <table id="myTable" class="table table-dark" data-order='[[4, "desc"], [3, "desc"]]' data-page-length='250' order-column='1'>
 

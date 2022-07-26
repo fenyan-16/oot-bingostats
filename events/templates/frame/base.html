@@ -22,80 +22,97 @@
 
         <title>Speedrun League, Race and Stat Tracking</title>
 
+        <style type="text/css">
+
+		.main{
+			margin-left:160px;
+			padding: 0px 10px;
+		}
+
+
+	    </style>
     </head>
     <body>
         <div id="navigation">
-            <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="{% url 'players_era' 'v10.2' %}">Version Stats</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="{% url 'goals_era' 'v10.2' %}">v10.2</a></li>
+                                    <li><a class="dropdown-item" href="{% url 'goals_era' 'v10.1' %}">v10.1</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="{% url 'players' 2022 'swiss' %}">Tournaments</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="{% url 'players' 2022 'swiss' %}">Bingo Tournament 2022</a></li>
+                                    <li><a class="dropdown-item" href="{% url 'players' 2021 'swiss' %}">Bingo Tournament 2021</a></li>
+                                    <li><a class="dropdown-item" href="{% url 'players' 2020 'swiss' %}">Bingo Tournament 2020</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div id="#madeby">
+                            <a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a>
+                        </div>
+<!--                        <span class="navbar-text">-->
+<!--                            <ul class="navbar-nav mr-auto">-->
+<!--                            {% if user.is_authenticated %}-->
+<!--                                <li class="nav-link">-->
+<!--                                    <a href="{% url 'profile-datail' user.pk %}"><i class="fas fa-user"></i> {{ user.get_username }}</a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-link">-->
+<!--                                    <a href="{% url 'logout'%}?next={{request.path}}">Logout</a>-->
+<!--                                </li>-->
+<!--                            {% else %}-->
+<!--                                <li class="nav-link">-->
+<!--                                    <a href="{% url 'login'%}?next={{request.path}}">Login</a>-->
+<!--                                </li>-->
+<!--                            {% endif %}-->
+<!--                            </ul>-->
+<!--                        </span>-->
+                    </div>
+                </div>
+            </nav>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players_era' 'v10.2' %}">[v10.2 Statistics]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players' 2022 'swiss' %}">[2022 Bingo Tournament - Statistics]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players_era' 'v10.1' %}">[OLD - v10.1 Statistics]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players' 2021 'swiss' %}">[OLD - 2021 Bingo Tournament - Statistics]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'players' 2020 'swiss' %}">[OLD - 2020 Bingo Tournament - Statistics]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'frequency' %}">[OLD - Goal Frequency Analysis 10.0]</a>
-                        </li>
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="{% url 'players_era' 'v10.1' %}">[OLD - v10.1 Statistics]</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="{% url 'players' 2021 'swiss' %}">[OLD - 2021 Bingo Tournament - Statistics]</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="{% url 'players' 2020 'swiss' %}">[OLD - 2020 Bingo Tournament - Statistics]</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="{% url 'frequency' %}">[OLD - Goal Frequency Analysis 10.0]</a>-->
+<!--                        </li>-->
 <!--                        <li class="nav-item">-->
 <!--                            <a class="nav-link" href="{% url 'league-list'%}">[OLD - Leagues]</a>-->
 <!--                        </li>-->
 <!--                        <li class="nav-item">-->
 <!--                            <a class="nav-link" href="{% url 'tournament-list' format='race' %}">[OLD - Races]</a>-->
 <!--                        </li>-->
-                    </ul>
-
-                    <span class="navbar-text">
-                        <ul class="navbar-nav mr-auto">
-                        {% if user.is_authenticated %}
-                            <li class="nav-link">
-                                <a href="{% url 'profile-datail' user.pk %}"><i class="fas fa-user"></i> {{ user.get_username }}</a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="{% url 'logout'%}?next={{request.path}}">Logout</a>
-                            </li>
-                        {% else %}
-                            <li class="nav-link">
-                                <a href="{% url 'login'%}?next={{request.path}}">Login</a>
-                            </li>
-                        {% endif %}
-                        </ul>
-                    </span>
-                </div>
-            </nav>
         </div>
-        <div id="content" class="container">
-            <div class="row">
-                <div class="col-12">
-                    {% if messages %}
-                        <div class="alert alert-warning {{ message.tags }}" role="alert">
-                            {% for message in messages %}
-                            <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
-                            {% endfor %}
-                        </div>
-                    {% endif %}
-                        {% block secondnav %}
-                        {% endblock %}
-                        {% block content %}
-                        {% endblock %}
+        <div id="page-content">
+            <div id="content" class="container">
+                <div class="row">
+                    <div class="col-12">
+                        {% if messages %}
+                            <div class="alert alert-warning {{ message.tags }}" role="alert">
+                                {% for message in messages %}
+                                <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                            {% block content %}
+                            {% endblock %}
+                    </div>
                 </div>
             </div>
         </div>
-
     <script>
         // Simple list
         //Sortable.create(document.getElementById('simpleList'));
@@ -119,6 +136,7 @@
                 console.log('winner player two');
               });
         })
+
     </script>
 {% block datatablejs %}
 

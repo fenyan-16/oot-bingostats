@@ -23,26 +23,30 @@ def goals(request, year, phase):
 	goal_df_repr = return_goallist(phase, year=year)
 	total_races = return_race_count(phase, year=year)
 	timestamp = return_timestamp(phase, year)
+	tournament_url = return_tournament_url(year)
 
-	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races, 'year': year,
-	                                      'url': return_tournament_url(year), 'timestamp': timestamp})
+	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races, 'phase': phase,
+	                                      'year': year, 'url': tournament_url, 'timestamp': timestamp})
 
 
 def players(request, year, phase):
 	player_df_repr = return_playerstats(phase, year=year)
+	total_races = return_race_count(phase, year=year)
 	timestamp = return_timestamp(phase, year)
+	tournament_url = return_tournament_url(year)
 
-	return render(request, 'players.html', {'players': player_df_repr, 'year': year, 'url': return_tournament_url(year),
-	                                        'timestamp': timestamp})
+	return render(request, 'players.html', {'players': player_df_repr, 'racecount': total_races, 'year': year,
+	                                        'url': tournament_url, 'timestamp': timestamp, 'phase': phase})
 
 
 def combinations(request, year):
 	goal_combi_repr = return_goal_combinations(year=year)
 	total_races = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
 	timestamp = return_timestamp('swiss', year)
+	tournament_url = return_tournament_url(year)
 
 	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': str(total_races),
-	                                             'year': year, 'url': return_tournament_url(year), 'timestamp': timestamp})
+	                                             'url': tournament_url, 'year': year, 'timestamp': timestamp})
 
 
 def frequency(request):
@@ -64,7 +68,6 @@ def goals_era(request, version):
 	total_races = return_race_count('swiss', year=version)
 	first_last = return_first_last_races(version)
 	timestamp = return_timestamp('', version)
-	print(total_races)
 
 	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races, 'timestamp': timestamp,
 	                                          'version': version, 'firstrace': first_last['first'],

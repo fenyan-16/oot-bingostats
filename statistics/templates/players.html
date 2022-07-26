@@ -1,23 +1,42 @@
-{% extends "goals.html" %}
+{% extends "tournament_page.html" %}
 
-{% block content %}
 
-<h1>OoT Bingo Tournament {{ year }} - Player Statistics</h1>
-<br>
-<h2><a href="{{ url }}">Official Tournament Website</a></h2>
+<!--<h1>OoT Bingo Tournament {{ year }} - Player Statistics</h1>-->
+<!--<br>-->
+<!--<h2><a href="{{ url }}">Official Tournament Website</a></h2>-->
 
-<br>
-<div>&diams; Synergy is calculated as the percentage of maximum reachable synergy (7 minutes), even if no row with full synergy is available on the board.</div>
-<!--<div>&dagger; Only rows with Frog's HP and Market GS are counted. BiT opportunities from Forest goals etc. are ignored.</div>-->
-<br>
+<!--<br>-->
+<!--<div>&diams; Synergy is calculated as the percentage of maximum reachable synergy (7 minutes), even if no row with full synergy is available on the board.</div>-->
+<!--&lt;!&ndash;<div>&dagger; Only rows with Frog's HP and Market GS are counted. BiT opportunities from Forest goals etc. are ignored.</div>&ndash;&gt;-->
+<!--<br>-->
 
-<div align='left'><a href="">Back to original sorting</a></div>
-<div align='left'>Last refresh: {{ timestamp }} CEST</div>
-<div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>
-<br>
+<!--<div align='left'><a href="">Back to original sorting</a></div>-->
+<!--<div align='left'>Last refresh: {{ timestamp }} CEST</div>-->
+<!--<div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>-->
+<!--<br>-->
 <!-- <div align='left'><a href="./v10">Go to 10.0 balancing comparison</a></div>
 <div align='left'><a href="./rebalance">Go to 10.1 balancing comparison</a></div> //-->
 
+{% block subnav-playerstats-swiss %}
+{% if phase == "swiss" %}
+active
+{% endif %}
+{% endblock %}
+
+{% block subnav-playerstats-top16 %}
+{% if phase == "top16" %}
+active
+{% endif %}
+{% endblock %}
+
+{% block annotation %}
+
+<p>&diams; Synergy is calculated as the percentage of maximum reachable synergy (7 minutes), even if no row with full synergy is available on the board.</p>
+<p>&dagger; Only rows with Frog's HP and Market GS are counted. BiT opportunities from Forest goals etc. are ignored.</p>
+
+{% endblock %}
+
+{% block datatable %}
  <div id="content">
    <table id="myTable" class="table table-dark" data-order='[[2, "desc"], [5, "asc"]]' data-page-length='250' order-column='1'>
 

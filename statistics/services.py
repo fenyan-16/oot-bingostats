@@ -73,7 +73,7 @@ def return_first_last_races(version):
 
 
 def return_tournament_url(year):
-	if year == 2022:
-		return 'https://bingo-tournament.scaramangado.de/'
+	if str(year) == '2022':
+		return "https://bingo-tournament.scaramangado.de/"
 	else:
 		return f"https://xwmtp.github.io/bingo{year}/"
