@@ -1,19 +1,28 @@
-{% extends "goals_era.html" %}
+{% extends "era_page.html" %}
 
-{% block content %}
 
-<h1>OoT Bingo {{ version }} - Goal Combinations</h1>
-<div>Total races: {{ racecount }}</div>
-<div>First {{ version }} race: {{ firstrace }}</div>
-<div>Last {{ version }} race: {{ lastrace }}</div>
-<br>
 
-<div>Showing how often sets of goals appeared together. Every combination with 3 or fewer appearances on race boards
-    are omitted.</div>
+<!--<h1>OoT Bingo {{ version }} - Goal Combinations</h1>-->
+<!--<div>Total races: {{ racecount }}</div>-->
+<!--<div>First {{ version }} race: {{ firstrace }}</div>-->
+<!--<div>Last {{ version }} race: {{ lastrace }}</div>-->
+<!--<br>-->
 
-<div align='left'><a href="">Back to original sorting</a>
-<div align='left'>Last refresh: {{ timestamp }} CEST</div>
-<div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>
+
+
+<!--<div align='left'><a href="">Back to original sorting</a>-->
+<!--<div align='left'>Last refresh: {{ timestamp }} CEST</div>-->
+<!--<div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>-->
+
+{% block subnav-combinations%}
+    active
+{% endblock %}
+
+{% block annotation %}
+<p>Showing how often sets of goals appeared together. Every combination with 3 or fewer appearances on race boards
+    are omitted.</p>
+{% endblock %}
+{% block datatable %}
  <div id="content">
    <table id="myTable" class="table table-dark" data-order='[[4, "desc"], [3, "desc"]]' data-page-length='250' order-column='1'>
 

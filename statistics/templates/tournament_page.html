@@ -1,0 +1,45 @@
+{% extends "frame/base.html" %}
+{% load static %}
+{% block datatablecss %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.css"/>
+{% endblock %}
+
+
+
+
+{% block content %}
+
+<h1>OoT Bingo Tournament {{ year }}</h1>
+<p><a style="font-size: 16px" href={{ url }}>(Link to official Webseite)</a></p>
+
+<p>Total races: {{ racecount }}</p>
+<p>Last update: {{ timestamp }} CEST</p>
+
+<h3 style="margin-top: 5%">Please choose the statistics you would like to display:</h3>
+{% block secondnav %}
+ <div id="sub-nav-tournament">
+        <ul class="nav nav-tabs">
+            <li class={% block subnav-playerstats-swiss %}{% endblock %}>
+                <a class="nav-link" href="{% url 'players' year 'swiss' %}">Swiss Rounds - Player Statistics</a>
+            </li>
+            <li class={% block subnav-goalstats-swiss %}{% endblock %}>
+                <a class="nav-link" href="{% url 'goals' year 'swiss' %}">Swiss Rounds - Goal Statistics</a>
+            </li>
+            <li class={% block subnav-playerstats-top16 %}{% endblock %}>
+                <a class="nav-link" href="{% url 'players' year 'top16' %}">Top 16 - Player Statistics</a>
+            </li>
+            <li class={% block subnav-goalstats-top16 %}{% endblock %}>
+                <a class="nav-link" href="{% url 'goals' year 'top16' %}">Top 16 - Goal Statistics</a>
+            </li>
+            <li class={% block subnav-combinations %}{% endblock %}>
+                <a class="nav-link" href="{% url 'combinations' year %}">Goal Combinations</a>
+            </li>
+        </ul>
+</div>
+{% endblock %}
+{% block annotation %}
+{% endblock %}
+<p align='right'><a href="">Back to original sorting</a>
+{% block datatable %}
+{% endblock %}
+{% endblock %}

@@ -1,54 +1,21 @@
-{% extends "frame/base.html" %}
-{% load static %}
-{% block datatablecss %}
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.css"/>
+{% extends "tournament_page.html" %}
+
+
+{% block subnav-goalstats-swiss %}
+{% if phase == "swiss" %}
+active
+{% endif %}
+{% endblock %}
+
+{% block subnav-goalstats-top16 %}
+{% if phase == "top16" %}
+active
+{% endif %}
 {% endblock %}
 
 
-
-{% block secondnav %}
- <div id="navigation">
-        <nav class="navbar navbar-dark navbar-expand-lg bg-secondary">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'players' year 'swiss' %}">[Swiss Rounds - Player Statistics]</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'goals' year 'swiss' %}">[Swiss Rounds - Goal Statistics]</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'players' year 'top16' %}">[Top 16 - Player Statistics]</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'goals' year 'top16' %}">[Top 16 - Goal Statistics]</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'combinations' year %}">[Goal Combinations]</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-</div>
-{% endblock %}
-
-{% block content %}
-<h1>OoT Bingo Tournament {{ year }} - Goal Statistics</h1>
-<h2>Total races: {{ racecount }}</h2>
-<h2><a href="https://xwmtp.github.io/bingo{{year}}/#/">Official Tournament Website</a></h2>
-<br>
-
-<div align='left'><a href="">Back to original sorting</a></div>
-<div align='left'>Last refresh: {{ timestamp }} CEST</div>
-<div align='right'><a href="http://www.twitter.com/r_fenyan">Made by Fenyan</a></div>
-
-
- <div id="content">
+{% block datatable %}
+<div id="overview-table">
    <table id="myTable" class="table table-dark" data-order='[[1, "desc"], [3, "desc"]]' data-page-length='250' order-column='1'>
 
     <thead>

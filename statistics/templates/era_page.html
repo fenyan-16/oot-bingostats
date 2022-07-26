@@ -1,0 +1,43 @@
+{% extends "frame/base.html" %}
+{% load static %}
+{% block datatablecss %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.css"/>
+{% endblock %}
+
+{% block content %}
+<h1>OoT Bingo {{ version }} Statistics</h1>
+<p>Total races: {{ racecount }}</p>
+<p>First {{ version }} race: {{ firstrace }}</p>
+<p>Last {{ version }} race: {{ lastrace }}</p>
+<p>Last refresh: {{ timestamp }} CEST</p>
+
+<!--<div align='left'><a href="">Back to original sorting</a>-->
+
+
+<h3 style="margin-top: 5%">Please choose the statistics you would like to display:</h3>
+{% block secondnav %}
+ <div id="sub-nav-era">
+<!--        <nav class="navbar navbar-expand-lg">-->
+<!--            <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--                <ul class="navbar-nav mr-auto">-->
+        <ul class="nav nav-tabs">
+            <li class="{% block subnav-playerstats %}{% endblock %}">
+                <a class="nav-link" href="{% url 'players_era' version %}">Player Statistics</a>
+            </li>
+            <li class="{% block subnav-goalstats %}{% endblock %}">
+                <a class="nav-link" href="{% url 'goals_era' version %}">Goal Statistics</a>
+            </li>
+            <li class="{% block subnav-combinations %}{% endblock %}">
+                <a class="nav-link" href="{% url 'combinations_era' version %}">Goal Combinations</a>
+            </li>
+        </ul>
+<!--            </div>-->
+<!--        </nav>-->
+</div>
+{% endblock %}
+{% block annotation %}
+{% endblock %}
+<p align='right'><a href="">Back to original sorting</a>
+{% block datatable %}
+{% endblock %}
+{% endblock %}
