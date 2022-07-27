@@ -43,7 +43,10 @@ def players(request, year, phase):
 
 def combinations(request, year):
 	goal_combi_repr = return_goal_combinations(year=year)
-	total_races, total_completed_bingos = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
+	total_races_swiss, total_completed_bingos_swiss = return_race_count(year=year, mode='swiss')
+	total_races_top16, total_completed_bingos_top16 = return_race_count(year=year, mode='top16')
+	total_races = total_races_swiss+total_races_top16
+	total_completed_bingos = total_completed_bingos_swiss+total_completed_bingos_top16
 	timestamp = return_timestamp('swiss', year)
 	tournament_url = return_tournament_url(year)
 
