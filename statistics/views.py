@@ -21,32 +21,35 @@ from .services import return_timestamp, return_first_last_races, return_tourname
 
 def goals(request, year, phase):
 	goal_df_repr = return_goallist(phase, year=year)
-	total_races = return_race_count(phase, year=year)
+	total_races, total_completed_bingos = return_race_count(phase, year=year)
 	timestamp = return_timestamp(phase, year)
 	tournament_url = return_tournament_url(year)
 
-	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races, 'phase': phase,
+	return render(request, 'goals.html', {'goals': goal_df_repr, 'racecount': total_races,
+	                                      'bingocount': total_completed_bingos, 'phase': phase,
 	                                      'year': year, 'url': tournament_url, 'timestamp': timestamp})
 
 
 def players(request, year, phase):
 	player_df_repr = return_playerstats(phase, year=year)
-	total_races = return_race_count(phase, year=year)
+	total_races, total_completed_bingos = return_race_count(phase, year=year)
 	timestamp = return_timestamp(phase, year)
 	tournament_url = return_tournament_url(year)
 
-	return render(request, 'players.html', {'players': player_df_repr, 'racecount': total_races, 'year': year,
+	return render(request, 'players.html', {'players': player_df_repr, 'racecount': total_races,
+	                                        'bingocount': total_completed_bingos, 'year': year,
 	                                        'url': tournament_url, 'timestamp': timestamp, 'phase': phase})
 
 
 def combinations(request, year):
 	goal_combi_repr = return_goal_combinations(year=year)
-	total_races = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
+	total_races, total_completed_bingos = return_race_count(year=year, mode='swiss')+return_race_count(year=year, mode='top16')
 	timestamp = return_timestamp('swiss', year)
 	tournament_url = return_tournament_url(year)
 
 	return render(request, 'combinations.html', {'combinations': goal_combi_repr, 'racecount': str(total_races),
-	                                             'url': tournament_url, 'year': year, 'timestamp': timestamp})
+	                                             'bingocount': total_completed_bingos, 'url': tournament_url,
+	                                             'year': year, 'timestamp': timestamp})
 
 
 def frequency(request):
@@ -55,31 +58,33 @@ def frequency(request):
 
 def players_era(request, version):
 	player_df_repr = return_playerstats('swiss', year=version)
-	total_races = return_race_count('swiss', year=version)
+	total_races, total_completed_bingos = return_race_count('swiss', year=version)
 	first_last = return_first_last_races(version)
 	timestamp = return_timestamp('', version)
 	return render(request, 'players_era.html', {'players': player_df_repr, 'racecount': total_races,
-	                                            'timestamp': timestamp, 'version': version,
-	                                            'firstrace': first_last['first'], 'lastrace': first_last['last']})
+	                                            'bingocount': total_completed_bingos, 'timestamp': timestamp,
+	                                            'version': version, 'firstrace': first_last['first'], 'lastrace': first_last['last']})
 
 
 def goals_era(request, version):
 	goal_df_repr = return_goallist('swiss', year=version)
-	total_races = return_race_count('swiss', year=version)
+	total_races, total_completed_bingos = return_race_count('swiss', year=version)
 	first_last = return_first_last_races(version)
 	timestamp = return_timestamp('', version)
 
-	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races, 'timestamp': timestamp,
+	return render(request, 'goals_era.html', {'goals': goal_df_repr, 'racecount': total_races,
+	                                          'bingocount': total_completed_bingos, 'timestamp': timestamp,
 	                                          'version': version, 'firstrace': first_last['first'],
 	                                          'lastrace': first_last['last']})
 
 
 def combinations_era(request, version):
 	goal_combi_repr = return_goal_combinations(year=version)
-	total_races = return_race_count(year=version, mode='swiss')
+	total_races, total_completed_bingos = return_race_count(year=version, mode='swiss')
 	first_last = return_first_last_races(version)
 	timestamp = return_timestamp('', version)
 
 	return render(request, 'combinations_era.html', {'combinations': goal_combi_repr, 'racecount': str(total_races),
+	                                                 'bingocount': total_completed_bingos,
 	                                                 'timestamp': timestamp, 'version': version,
 	                                                 'firstrace': first_last['first'], 'lastrace': first_last['last']})

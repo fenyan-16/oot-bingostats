@@ -47,7 +47,8 @@ def return_race_count(mode='swiss', year='2021'):
 	elif mode == 'top16':
 		goals_df = read_csv(os.path.join(pwd, 'statistics/'+str(year)+'/goals_top16.csv'))
 	total_races = int(goals_df['count'].sum() / 25)
-	return total_races
+	total_completed_bingos = int(goals_df['pick count'].sum()/5)
+	return total_races, total_completed_bingos
 
 
 def return_timestamp(mode, year):
