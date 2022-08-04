@@ -12,8 +12,10 @@
 <h1>OoT Bingo Tournament {{ year }}</h1>
 <p><a style="font-size: 16px" href={{ url }}>(Link to official Webseite)</a></p>
 
-<p>Total races: {{ racecount }}</p>
-<p>Last update: {{ timestamp }} CEST</p>
+<p class="summary-stats">
+    Total races: {{ racecount }}<br>
+    Last update: {{ timestamp }} CEST
+</p>
 
 <h3 style="margin-top: 5%">Please choose the statistics you would like to display:</h3>
 {% block secondnav %}

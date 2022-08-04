@@ -124,6 +124,11 @@ body {
   width: 50px;
 }
 
-#players-disclaimer {
+.table-disclaimer {
  margin-top: 24px;
 }
+
+.summary-stats {
+ margin-top: 36px;
+}
+
