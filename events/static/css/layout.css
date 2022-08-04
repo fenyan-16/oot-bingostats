@@ -9,7 +9,7 @@ body {
 
 
 #content, #overview-table {
-    margin-top: 36px;
+    margin-top: 24px;
 }
 
 .bg-primary {
@@ -111,4 +111,15 @@ body {
 
 .nav-tabs .active {
   background-color: #666666;
+}
+
+#table-filter {
+  padding-bottom: 20px;
+  padding-right: 0px;
+}
+
+#table-filter-min {
+  margin-left: 0.5em;
+  display: inline-block;
+  width: 50px;
 }
