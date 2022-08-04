@@ -123,3 +123,7 @@ body {
   display: inline-block;
   width: 50px;
 }
+
+#players-disclaimer {
+ margin-top: 24px;
+}
