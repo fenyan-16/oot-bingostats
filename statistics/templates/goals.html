@@ -15,9 +15,19 @@ active
 
 
 {% block datatable %}
-<div id="overview-table">
-   <table id="myTable" class="table table-dark" data-order='[[1, "desc"], [3, "desc"]]' data-page-length='250' order-column='1'>
+<div id="table-filter">
+   <table align="right">
+    <tbody>
+        <tr>
+            <td>Minimum picks:</td>
+            <td width="50px"><input type="number" id="table-filter-min" name="min"></td>
+        </tr>
+    </tbody>
+   </table>
+</div>
 
+<div id="overview-table">
+<table id="myTable" class="table table-dark" data-order='[[1, "desc"], [3, "desc"]]' data-page-length='250' order-column='1'>
     <thead>
      <tr>
       <th>Goal</th>
@@ -57,13 +67,37 @@ active
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.js"></script>
 <script>
-$(document).ready( function () {
-    $('#myTable').DataTable(
-    {
-      "targets": 1,
-      "className": 'dt-body-center'
-      });
-} );
+/* Custom filtering function which will search data in column four between two values */
+$.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
+    var min = parseInt($('#table-filter-min').val(), 10);
+    var picks = parseFloat(data[2]) || 0; // use data for the age column
+
+    if (
+        (isNaN(min) ||
+        (min <= picks))
+    ) {
+        return true;
+    }
+    return false;
+});
+
+$(document).ready(function () {
+    var t = $('#myTable').DataTable( {"columnDefs": [ {
+            "searchable": false,
+            "orderable": false,
+            "targets": 0
+        } ],
+        "order": [[ 1, 'asc' ]]
+    } );
+
+    // Event listener to the two range filtering inputs to redraw on input
+    $('#table-filter-min').keyup(function () {
+        t.draw();
+    });
+    $('#table-filter-min').on('click', function () {
+        t.draw();
+    });
+});
 </script>
 {% endblock %}
 
