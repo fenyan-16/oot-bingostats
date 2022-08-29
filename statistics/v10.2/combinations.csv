@@ -1,653 +1,788 @@
 goal combination,count,pick count
-"['1 Skulltula from each Adult Dungeon', '1 Skulltula from each Child Dungeon']",6,1
-"['1 Skulltula from each Adult Dungeon', '2 Skulltulas in Lon Lon Ranch']",6,1
+"['1 Skulltula from each Adult Dungeon', '1 Skulltula from each Child Dungeon']",7,1
+"['1 Skulltula from each Adult Dungeon', '2 Skulltulas in Lon Lon Ranch']",9,1
 "['1 Skulltula from each Adult Dungeon', '3 Lake Hylia Skulltulas']",6,1
 "['1 Skulltula from each Adult Dungeon', '3 Shields & 3 Boots']",6,1
-"['1 Skulltula from each Adult Dungeon', '3 Swords & 3 Boots']",11,1
+"['1 Skulltula from each Adult Dungeon', '3 Swords & 3 Boots']",12,1
 "['1 Skulltula from each Adult Dungeon', '3 Tunics']",11,3
-"['1 Skulltula from each Adult Dungeon', '30 Deku Nuts']",10,3
+"['1 Skulltula from each Adult Dungeon', '30 Deku Nuts']",11,3
 "['1 Skulltula from each Adult Dungeon', '4 Unused Keys in Forest Temple']",6,0
-"['1 Skulltula from each Adult Dungeon', '5 Hearts']",8,1
+"['1 Skulltula from each Adult Dungeon', '5 Hearts']",9,1
+"['1 Skulltula from each Adult Dungeon', '5 Magic Beans']",6,1
 "['1 Skulltula from each Adult Dungeon', '5 Zora area HPs']",13,2
 "['1 Skulltula from each Adult Dungeon', '6 Different Unused Keys in Gerudo Training Grounds']",6,3
 "['1 Skulltula from each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds']",7,1
 "['1 Skulltula from each Adult Dungeon', '7 Hearts (no duping)']",8,0
-"['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)']",16,6
-"['1 Skulltula from each Adult Dungeon', '9 Hearts (no duping)']",7,2
-"['1 Skulltula from each Adult Dungeon', 'All 3 Elemental Arrows']",9,2
+"['1 Skulltula from each Adult Dungeon', '8 Hearts (no duping)']",17,6
+"['1 Skulltula from each Adult Dungeon', '9 Hearts (no duping)']",9,2
+"['1 Skulltula from each Adult Dungeon', 'All 3 Elemental Arrows']",11,2
 "['1 Skulltula from each Adult Dungeon', 'All 3 Skulltulas in Bottom of the Well']",6,1
 "['1 Skulltula from each Adult Dungeon', 'All 4 Gerudo Valley area Skulltulas']",8,0
 "['1 Skulltula from each Adult Dungeon', 'All 4 Lon Lon Ranch area Skulltulas']",6,1
 "['1 Skulltula from each Adult Dungeon', 'All 4 Lost Woods area Skulltulas']",7,0
-"['1 Skulltula from each Adult Dungeon', 'All 5 Lake Hylia Skulltulas']",8,1
+"['1 Skulltula from each Adult Dungeon', 'All 5 Lake Hylia Skulltulas']",10,1
+"['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Dodongos Cavern']",6,2
 "['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Fire Temple']",7,1
 "['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Forest Temple']",7,0
 "['1 Skulltula from each Adult Dungeon', 'All 5 Skulltulas in Water Temple']",6,2
 "['1 Skulltula from each Adult Dungeon', 'All 8 Kakariko area Skulltulas']",6,0
-"['1 Skulltula from each Adult Dungeon', 'All 8 Zoras Domain area Skulltulas']",18,4
+"['1 Skulltula from each Adult Dungeon', 'All 8 Zoras Domain area Skulltulas']",20,4
 "['1 Skulltula from each Adult Dungeon', 'Beat the Fire Temple']",9,0
 "['1 Skulltula from each Adult Dungeon', 'Bolero of Fire']",9,1
 "['1 Skulltula from each Adult Dungeon', 'Both HPs in Lost Woods']",6,1
 "['1 Skulltula from each Adult Dungeon', 'Bronze Gauntlets']",6,7
-"['1 Skulltula from each Adult Dungeon', 'Bullet Bag (50)']",7,0
+"['1 Skulltula from each Adult Dungeon', 'Bullet Bag (50)']",8,0
 "['1 Skulltula from each Adult Dungeon', 'Clear 10 Silver Rupee Rooms']",6,1
 "['1 Skulltula from each Adult Dungeon', 'Defeat Big Octo']",6,2
 "['1 Skulltula from each Adult Dungeon', 'Defeat Nabooru-Knuckle']",6,2
+"['1 Skulltula from each Adult Dungeon', 'Defeat a Skull Kid']",6,0
 "['1 Skulltula from each Adult Dungeon', 'Desert Colossus HP']",6,1
-"['1 Skulltula from each Adult Dungeon', 'Dins Fire']",16,8
-"['1 Skulltula from each Adult Dungeon', 'Eponas Song']",10,1
+"['1 Skulltula from each Adult Dungeon', 'Dins Fire']",18,9
+"['1 Skulltula from each Adult Dungeon', 'Eponas Song']",11,4
 "['1 Skulltula from each Adult Dungeon', 'Exactly 30 Deku Sticks']",10,0
+"['1 Skulltula from each Adult Dungeon', 'Fairy Slingshot']",6,1
 "['1 Skulltula from each Adult Dungeon', 'Farores Wind']",6,2
 "['1 Skulltula from each Adult Dungeon', 'Fire Medallion']",6,2
 "['1 Skulltula from each Adult Dungeon', 'Fire Temple Boss Key']",9,3
 "['1 Skulltula from each Adult Dungeon', 'Free all 9 Gorons in Fire Temple']",6,9
 "['1 Skulltula from each Adult Dungeon', 'Ganons Castle Boss Key']",8,4
-"['1 Skulltula from each Adult Dungeon', 'Goron Bracelet']",16,4
+"['1 Skulltula from each Adult Dungeon', 'Goron Bracelet']",18,4
 "['1 Skulltula from each Adult Dungeon', 'Goron Tunic']",9,0
-"['1 Skulltula from each Adult Dungeon', 'Green Gauntlets']",22,4
+"['1 Skulltula from each Adult Dungeon', 'Green Gauntlets']",25,7
 "['1 Skulltula from each Adult Dungeon', 'Keaton Mask']",6,1
-"['1 Skulltula from each Adult Dungeon', 'Light Arrows']",7,0
+"['1 Skulltula from each Adult Dungeon', 'Light Arrows']",8,0
+"['1 Skulltula from each Adult Dungeon', 'Longshot']",6,1
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Bottom of the Well']",7,2
+"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Deku Tree']",6,0
 "['1 Skulltula from each Adult Dungeon', 'Map & Compass in Dodongos Cavern']",6,3
-"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Forest Temple']",6,1
-"['1 Skulltula from each Adult Dungeon', 'Megaton Hammer']",10,4
-"['1 Skulltula from each Adult Dungeon', 'Obtain all 8 Small Keys in Fire Temple']",8,2
+"['1 Skulltula from each Adult Dungeon', 'Map & Compass in Forest Temple']",7,4
+"['1 Skulltula from each Adult Dungeon', 'Megaton Hammer']",11,4
+"['1 Skulltula from each Adult Dungeon', 'Nayrus Love']",7,2
+"['1 Skulltula from each Adult Dungeon', 'Obtain all 8 Small Keys in Fire Temple']",9,2
 "['1 Skulltula from each Adult Dungeon', 'Open 3 Gold Rupee Chests']",9,4
 "['1 Skulltula from each Adult Dungeon', 'Open the Final Door of Forest Trial']",11,1
 "['1 Skulltula from each Adult Dungeon', 'Open the Final Door of Shadow Trial']",11,0
-"['1 Skulltula from each Adult Dungeon', 'Open the Final Door of Water Trial']",14,2
+"['1 Skulltula from each Adult Dungeon', 'Open the Final Door of Water Trial']",15,2
+"['1 Skulltula from each Adult Dungeon', 'Plant 5 Magic Beans']",6,0
 "['1 Skulltula from each Adult Dungeon', 'Quiver (40)']",10,2
 "['1 Skulltula from each Adult Dungeon', 'Quiver (50)']",10,5
-"['1 Skulltula from each Adult Dungeon', 'Sarias Song']",12,3
+"['1 Skulltula from each Adult Dungeon', 'Requiem of Spirit']",6,0
+"['1 Skulltula from each Adult Dungeon', 'Sarias Song']",13,3
 "['1 Skulltula from each Adult Dungeon', 'Silver Gauntlets']",7,2
 "['1 Skulltula from each Adult Dungeon', 'Silver Scale']",13,5
 "['1 Skulltula from each Adult Dungeon', 'Two Fairy Spells']",14,3
-"['1 Skulltula from each Adult Dungeon', 'Win Bombchu Bowling Prize']",8,3
-"['1 Skulltula from each Adult Dungeon', 'Zora Tunic']",6,3
+"['1 Skulltula from each Adult Dungeon', 'Win Bombchu Bowling Prize']",9,3
+"['1 Skulltula from each Adult Dungeon', 'Zora Tunic']",7,3
 "['1 Skulltula from each Child Dungeon', '1 Unused Small Key in each Adult Dungeon']",9,2
 "['1 Skulltula from each Child Dungeon', '10 Songs']",6,4
-"['1 Skulltula from each Child Dungeon', 'All 3 Elemental Arrows']",14,5
+"['1 Skulltula from each Child Dungeon', '3 Shields & 3 Boots']",6,1
+"['1 Skulltula from each Child Dungeon', '3 Swords, Tunics, Boots, and Shields']",7,1
+"['1 Skulltula from each Child Dungeon', '30 Different Skulltulas']",7,5
+"['1 Skulltula from each Child Dungeon', 'All 3 Elemental Arrows']",17,6
 "['1 Skulltula from each Child Dungeon', 'All 4 Market area Skulltulas']",6,5
 "['1 Skulltula from each Child Dungeon', 'Beat the Spirit Temple']",6,2
 "['1 Skulltula from each Child Dungeon', 'Clear 10 Silver Rupee Rooms']",6,0
 "['1 Skulltula from each Child Dungeon', 'Dins Fire']",6,1
 "['1 Skulltula from each Child Dungeon', 'Exactly 30 Deku Sticks']",7,0
-"['1 Skulltula from each Child Dungeon', 'Green Gauntlets']",6,0
+"['1 Skulltula from each Child Dungeon', 'Green Gauntlets']",9,0
 "['1 Skulltula from each Child Dungeon', 'Map & Compass in Spirit Temple']",6,6
 "['1 Skulltula from each Child Dungeon', 'Open All 6 Gold Rupee Chests']",6,1
 "['1 Skulltula from each Child Dungeon', 'Open the Final Door of Spirit Trial']",6,1
+"['1 Unused Small Key in each Adult Dungeon', '3 Shields & 3 Boots']",6,6
 "['1 Unused Small Key in each Adult Dungeon', '30 Deku Nuts']",6,0
-"['1 Unused Small Key in each Adult Dungeon', '5 Magic Beans']",9,3
+"['1 Unused Small Key in each Adult Dungeon', '5 Hearts']",6,1
+"['1 Unused Small Key in each Adult Dungeon', '5 Magic Beans']",11,3
 "['1 Unused Small Key in each Adult Dungeon', '5 Zora area HPs']",8,4
+"['1 Unused Small Key in each Adult Dungeon', '7 Different Unused Keys in Gerudo Training Grounds']",6,1
 "['1 Unused Small Key in each Adult Dungeon', '8 Different Unused Keys in Gerudo Training Grounds']",7,2
-"['1 Unused Small Key in each Adult Dungeon', '9 Hearts (no duping)']",12,8
-"['1 Unused Small Key in each Adult Dungeon', 'All 3 Elemental Arrows']",16,1
+"['1 Unused Small Key in each Adult Dungeon', '9 Hearts (no duping)']",15,9
+"['1 Unused Small Key in each Adult Dungeon', 'All 3 Elemental Arrows']",19,1
 "['1 Unused Small Key in each Adult Dungeon', 'All 4 Child Skulltulas in Zoras Domain Area']",6,1
+"['1 Unused Small Key in each Adult Dungeon', 'All 4 Market area Skulltulas']",6,0
+"['1 Unused Small Key in each Adult Dungeon', 'All 4 Skulltulas in Jabu-Jabu']",6,1
 "['1 Unused Small Key in each Adult Dungeon', 'All 5 Lake Hylia Skulltulas']",6,0
+"['1 Unused Small Key in each Adult Dungeon', 'All 8 Death Mountain area Skulltulas']",6,2
 "['1 Unused Small Key in each Adult Dungeon', 'All 8 Zoras Domain area Skulltulas']",8,0
-"['1 Unused Small Key in each Adult Dungeon', 'Beat the Spirit Temple']",11,1
-"['1 Unused Small Key in each Adult Dungeon', 'Both Rusty Switches in Spirit Temple']",8,1
-"['1 Unused Small Key in each Adult Dungeon', 'Clear 10 Silver Rupee Rooms']",9,3
-"['1 Unused Small Key in each Adult Dungeon', 'Defeat Barinade']",7,2
+"['1 Unused Small Key in each Adult Dungeon', 'Beat the Spirit Temple']",13,1
+"['1 Unused Small Key in each Adult Dungeon', 'Both Rusty Switches in Spirit Temple']",9,1
+"['1 Unused Small Key in each Adult Dungeon', 'Bronze Gauntlets']",6,0
+"['1 Unused Small Key in each Adult Dungeon', 'Bullet Bag (50)']",6,1
+"['1 Unused Small Key in each Adult Dungeon', 'Clear 10 Silver Rupee Rooms']",10,3
+"['1 Unused Small Key in each Adult Dungeon', 'Defeat Barinade']",9,2
 "['1 Unused Small Key in each Adult Dungeon', 'Defeat Twinrova']",6,1
-"['1 Unused Small Key in each Adult Dungeon', 'Exactly 30 Deku Sticks']",6,3
+"['1 Unused Small Key in each Adult Dungeon', 'Defeat Volvagia']",6,1
+"['1 Unused Small Key in each Adult Dungeon', 'Exactly 30 Deku Sticks']",8,4
 "['1 Unused Small Key in each Adult Dungeon', 'Green Gauntlets']",15,2
-"['1 Unused Small Key in each Adult Dungeon', 'Lens of Truth']",6,2
+"['1 Unused Small Key in each Adult Dungeon', 'Lens of Truth']",7,2
 "['1 Unused Small Key in each Adult Dungeon', 'Map & Compass in Bottom of the Well']",6,2
-"['1 Unused Small Key in each Adult Dungeon', 'Map & Compass in Spirit Temple']",8,4
-"['1 Unused Small Key in each Adult Dungeon', 'Open 3 Gold Rupee Chests']",11,3
-"['1 Unused Small Key in each Adult Dungeon', 'Open All 6 Gold Rupee Chests']",7,2
-"['1 Unused Small Key in each Adult Dungeon', 'Open the Final Door of Forest Trial']",6,1
+"['1 Unused Small Key in each Adult Dungeon', 'Map & Compass in Jabu-Jabu']",7,2
+"['1 Unused Small Key in each Adult Dungeon', 'Map & Compass in Spirit Temple']",9,4
+"['1 Unused Small Key in each Adult Dungeon', 'Obtain all 8 Small Keys in Fire Temple']",6,0
+"['1 Unused Small Key in each Adult Dungeon', 'Open 3 Gold Rupee Chests']",13,4
+"['1 Unused Small Key in each Adult Dungeon', 'Open All 6 Gold Rupee Chests']",10,2
+"['1 Unused Small Key in each Adult Dungeon', 'Open the Final Door of Forest Trial']",7,1
 "['1 Unused Small Key in each Adult Dungeon', 'Quiver (40)']",7,1
-"['1 Unused Small Key in each Adult Dungeon', 'Sarias Song']",9,6
+"['1 Unused Small Key in each Adult Dungeon', 'Sarias Song']",11,6
 "['1 Unused Small Key in each Adult Dungeon', 'Two Fairy Spells']",6,3
-"['10 Songs', '2 Skulltulas in Lon Lon Ranch']",7,3
+"['10 Songs', '2 Skulltulas in Lon Lon Ranch']",11,5
 "['10 Songs', '20 Different Skulltulas']",7,3
+"['10 Songs', '3 Boss Keys']",6,3
 "['10 Songs', '3 Lake Hylia Skulltulas']",6,3
+"['10 Songs', '3 Skulltulas in Water Temple']",6,3
+"['10 Songs', '3 Tunics']",6,2
 "['10 Songs', '30 Deku Nuts']",11,2
-"['10 Songs', '4 Unused Keys in Gerudo Training Grounds']",6,0
-"['10 Songs', '5 Compasses']",10,3
+"['10 Songs', '37th Heart Piece (Child Fortress)']",7,1
+"['10 Songs', '4 Compasses']",7,3
+"['10 Songs', '4 Unused Keys in Gerudo Training Grounds']",7,0
+"['10 Songs', '5 Compasses']",11,3
+"['10 Songs', '5 Hearts']",6,2
 "['10 Songs', '5 Magic Beans']",12,0
 "['10 Songs', '5 Maps']",16,9
-"['10 Songs', '5 Zora area HPs']",8,1
-"['10 Songs', '6 Compasses']",17,8
-"['10 Songs', '6 Maps']",15,7
+"['10 Songs', '5 Zora area HPs']",10,4
+"['10 Songs', '6 Compasses', 'Open 2 Boss Key Doors']",6,4
+"['10 Songs', '6 Compasses']",24,17
+"['10 Songs', '6 Different Unused Keys in Gerudo Training Grounds']",6,0
+"['10 Songs', '6 Maps']",17,7
 "['10 Songs', '7 Different Bottled Contents']",7,2
-"['10 Songs', '7 Different Unused Keys in Gerudo Training Grounds']",10,3
-"['10 Songs', '7 Hearts (no duping)']",6,1
-"['10 Songs', '7 Maps']",12,3
-"['10 Songs', '8 Different Unused Keys in Gerudo Training Grounds']",8,3
-"['10 Songs', '8 Hearts (no duping)']",16,18
-"['10 Songs', '9 Hearts (no duping)']",12,10
-"['10 Songs', 'All 3 Kokiri Forest area Skulltulas']",6,1
-"['10 Songs', 'All 3 Skulltulas in Bottom of the Well']",7,2
+"['10 Songs', '7 Different Unused Keys in Gerudo Training Grounds']",11,3
+"['10 Songs', '7 Hearts (no duping)']",7,1
+"['10 Songs', '7 Maps']",17,3
+"['10 Songs', '8 Different Unused Keys in Gerudo Training Grounds']",9,3
+"['10 Songs', '8 Hearts (no duping)']",20,20
+"['10 Songs', '9 Hearts (no duping)']",14,10
+"['10 Songs', 'All 3 Kokiri Forest area Skulltulas']",8,1
+"['10 Songs', 'All 3 Skulltulas in Bottom of the Well']",9,5
 "['10 Songs', 'All 3 Skulltulas in Ice Cavern']",7,2
-"['10 Songs', 'All 4 Gerudo Valley area Skulltulas']",9,2
+"['10 Songs', 'All 4 Gerudo Valley area Skulltulas']",12,4
 "['10 Songs', 'All 4 Skulltulas in Deku Tree']",6,1
-"['10 Songs', 'All 4 Skulltulas in Jabu-Jabu']",6,2
-"['10 Songs', 'All 5 Lake Hylia Skulltulas']",14,2
+"['10 Songs', 'All 4 Skulltulas in Jabu-Jabu']",7,2
+"['10 Songs', 'All 5 Lake Hylia Skulltulas']",18,2
 "['10 Songs', 'All 5 Skulltulas in Dodongos Cavern']",8,5
-"['10 Songs', 'All 5 Skulltulas in Fire Temple']",7,0
-"['10 Songs', 'All 5 Skulltulas in Water Temple']",9,4
-"['10 Songs', 'All 8 Death Mountain area Skulltulas']",6,1
+"['10 Songs', 'All 5 Skulltulas in Fire Temple']",11,1
+"['10 Songs', 'All 5 Skulltulas in Water Temple']",11,4
+"['10 Songs', 'All 8 Death Mountain area Skulltulas']",8,1
 "['10 Songs', 'All 8 Kakariko area Skulltulas']",6,1
-"['10 Songs', 'All 8 Zoras Domain area Skulltulas']",14,1
+"['10 Songs', 'All 8 Zoras Domain area Skulltulas']",16,1
+"['10 Songs', 'Beat Dodongos Cavern']",6,1
 "['10 Songs', 'Beat the Fire Temple']",9,1
-"['10 Songs', 'Bomb Bag (30)']",6,3
+"['10 Songs', 'Bomb Bag (30)']",8,3
 "['10 Songs', 'Both Gerudo Valley HPs']",6,0
 "['10 Songs', 'Both HPs in Death Mountain Crater']",7,9
 "['10 Songs', 'Both HPs in Lost Woods']",9,1
+"['10 Songs', 'Both Hyrule Field area Skulltulas']",8,3
 "['10 Songs', 'Bottled Fairy']",6,3
-"['10 Songs', 'Bronze Gauntlets']",6,0
+"['10 Songs', 'Bronze Gauntlets']",7,0
 "['10 Songs', 'Bullet Bag (50)']",6,1
-"['10 Songs', 'Clear 8 Silver Rupee Rooms']",6,3
-"['10 Songs', 'Cow in House']",6,3
+"['10 Songs', 'Clear 4 Silver Rupee Rooms']",6,4
+"['10 Songs', 'Clear 8 Silver Rupee Rooms']",8,3
+"['10 Songs', 'Cow in House']",7,4
 "['10 Songs', 'Defeat Bongo-Bongo']",8,0
 "['10 Songs', 'Defeat Dark Link']",7,0
 "['10 Songs', 'Defeat Meg (Purple Poe)']",7,0
 "['10 Songs', 'Defeat Meg (purple Poe)']",8,1
 "['10 Songs', 'Defeat Nabooru-Knuckle']",8,1
 "['10 Songs', 'Defeat Volvagia']",19,2
-"['10 Songs', 'Defeat a Skull Kid']",10,3
-"['10 Songs', 'Defeat both Flare Dancers']",6,4
-"['10 Songs', 'Dins Fire']",16,10
-"['10 Songs', 'Exactly 20 Deku Sticks']",9,3
-"['10 Songs', 'Exactly 30 Deku Sticks']",11,1
+"['10 Songs', 'Defeat a Skull Kid']",11,3
+"['10 Songs', 'Defeat both Flare Dancers']",7,4
+"['10 Songs', 'Dins Fire']",18,13
+"['10 Songs', 'Exactly 20 Deku Sticks']",11,3
+"['10 Songs', 'Exactly 30 Deku Sticks']",12,1
 "['10 Songs', 'Fairy Bow']",6,1
-"['10 Songs', 'Fill all 4 Bottle Slots']",7,1
+"['10 Songs', 'Farores Wind']",9,3
+"['10 Songs', 'Fill all 4 Bottle Slots']",9,2
 "['10 Songs', 'Fire Medallion']",7,0
 "['10 Songs', 'Fire Temple Boss Key']",7,5
-"['10 Songs', 'Free all 9 Gorons in Fire Temple']",6,5
-"['10 Songs', 'Ganons Castle Boss Key']",14,1
-"['10 Songs', 'Gerudos Card']",6,1
-"['10 Songs', 'Goron Bracelet']",28,10
-"['10 Songs', 'Goron Tunic']",9,4
-"['10 Songs', 'Green Gauntlets']",17,1
-"['10 Songs', 'Ice Arrows']",11,7
+"['10 Songs', 'Forest Temple Boss Key']",6,0
+"['10 Songs', 'Free all 9 Gorons in Fire Temple']",7,6
+"['10 Songs', 'Ganons Castle Boss Key']",16,3
+"['10 Songs', 'Gerudos Card']",7,1
+"['10 Songs', 'Giants Wallet']",6,4
+"['10 Songs', 'Goron Bracelet']",29,10
+"['10 Songs', 'Goron Tunic']",10,4
+"['10 Songs', 'Green Gauntlets']",20,1
+"['10 Songs', 'Ice Arrows']",13,10
 "['10 Songs', 'Keaton Mask']",7,0
-"['10 Songs', 'Lens of Truth']",13,5
-"['10 Songs', 'Light Arrows']",9,12
-"['10 Songs', 'Map & Compass in Bottom of the Well']",10,2
-"['10 Songs', 'Map & Compass in Dodongos Cavern']",11,2
+"['10 Songs', 'Lens of Truth']",14,5
+"['10 Songs', 'Light Arrows']",10,13
+"['10 Songs', 'Lon Lon Ranch HP']",6,5
+"['10 Songs', 'Map & Compass in Bottom of the Well']",11,2
+"['10 Songs', 'Map & Compass in Dodongos Cavern']",13,3
 "['10 Songs', 'Map & Compass in Fire Temple']",10,2
-"['10 Songs', 'Map & Compass in Forest Temple']",8,1
-"['10 Songs', 'Obtain all 5 Small Keys in Shadow Temple']",9,4
-"['10 Songs', 'Open 2 Boss Key Doors']",10,3
-"['10 Songs', 'Open 3 Boss Key Doors']",15,6
-"['10 Songs', 'Open 3 Gold Rupee Chests']",8,3
+"['10 Songs', 'Map & Compass in Forest Temple']",9,1
+"['10 Songs', 'Obtain all 5 Small Keys in Forest Temple']",6,5
+"['10 Songs', 'Obtain all 5 Small Keys in Shadow Temple']",13,6
+"['10 Songs', 'Obtain all 8 Small Keys in Fire Temple']",6,3
+"['10 Songs', 'Open 2 Boss Key Doors']",11,4
+"['10 Songs', 'Open 3 Boss Key Doors']",16,6
+"['10 Songs', 'Open 3 Gold Rupee Chests']",9,4
 "['10 Songs', 'Open the Final Door of Forest Trial']",6,2
-"['10 Songs', 'Open the Final Door of Shadow Trial']",6,1
-"['10 Songs', 'Open the Final Door of Water Trial']",11,0
+"['10 Songs', 'Open the Final Door of Shadow Trial']",8,1
+"['10 Songs', 'Open the Final Door of Water Trial']",12,1
 "['10 Songs', 'Plant 5 Magic Beans']",7,3
-"['10 Songs', 'Quiver (40)']",10,5
+"['10 Songs', 'Quiver (40)']",11,6
 "['10 Songs', 'Quiver (50)']",14,2
-"['10 Songs', 'Sarias Song']",13,4
+"['10 Songs', 'Rutos Letter']",6,2
+"['10 Songs', 'Sarias Song']",18,7
 "['10 Songs', 'Silver Scale']",7,3
 "['10 Songs', 'Win Bombchu Bowling Prize']",10,3
-"['10 Songs', 'Zora Tunic']",7,4
+"['10 Songs', 'Zora Tunic']",10,4
+"['15 Different Skulltulas', '3 Swords, Tunics, Boots, and Shields']",6,1
+"['15 Different Skulltulas', '7 Compasses']",7,7
 "['15 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds']",6,2
-"['15 Different Skulltulas', 'All 3 Elemental Arrows']",7,7
+"['15 Different Skulltulas', 'All 3 Elemental Arrows']",8,7
 "['15 Different Skulltulas', 'All 4 Market area Skulltulas']",7,9
 "['15 Different Skulltulas', 'Beat the Spirit Temple']",7,1
-"['15 Different Skulltulas', 'Fire Medallion']",6,2
+"['15 Different Skulltulas', 'Both Rusty Switches in Spirit Temple']",7,0
+"['15 Different Skulltulas', 'Clear 10 Silver Rupee Rooms']",6,3
+"['15 Different Skulltulas', 'Dins Fire']",6,1
+"['15 Different Skulltulas', 'Fire Medallion']",7,2
 "['15 Different Skulltulas', 'Green Gauntlets']",11,9
-"['15 Different Skulltulas', 'Map & Compass in Spirit Temple']",6,2
-"['15 Different Skulltulas', 'Open All 6 Gold Rupee Chests']",6,5
+"['15 Different Skulltulas', 'Map & Compass in Spirit Temple']",7,2
+"['15 Different Skulltulas', 'Open All 6 Gold Rupee Chests']",7,6
 "['15 Different Skulltulas', 'Two Fairy Spells']",6,2
-"['2 Boss Keys', '30 Different Skulltulas']",10,4
-"['2 Boss Keys', '7 Compasses']",8,0
-"['2 Boss Keys', 'Green Gauntlets']",8,1
-"['2 Skulltulas in Lon Lon Ranch', '3 Shields & 3 Boots']",7,1
+"['2 Boss Keys', '30 Different Skulltulas']",11,4
+"['2 Boss Keys', '7 Compasses']",9,0
+"['2 Boss Keys', '9 Hearts (no duping)']",6,2
+"['2 Boss Keys', 'Green Gauntlets']",9,1
+"['2 Skulltulas in Lon Lon Ranch', '3 Shields & 3 Boots']",8,1
 "['2 Skulltulas in Lon Lon Ranch', '3 Swords & 3 Shields']",9,2
-"['2 Skulltulas in Lon Lon Ranch', '3 Swords, Tunics, Boots, and Shields']",10,1
+"['2 Skulltulas in Lon Lon Ranch', '3 Swords, Tunics, Boots, and Shields']",11,1
 "['2 Skulltulas in Lon Lon Ranch', '30 Different Skulltulas']",12,6
 "['2 Skulltulas in Lon Lon Ranch', '4 Skulltulas in Shadow Temple']",6,2
-"['2 Skulltulas in Lon Lon Ranch', '7 Compasses']",7,2
-"['2 Skulltulas in Lon Lon Ranch', 'All 3 Elemental Arrows']",13,2
+"['2 Skulltulas in Lon Lon Ranch', '6 Maps']",6,1
+"['2 Skulltulas in Lon Lon Ranch', '7 Compasses']",8,3
+"['2 Skulltulas in Lon Lon Ranch', '7 Maps']",6,1
+"['2 Skulltulas in Lon Lon Ranch', 'All 3 Elemental Arrows']",14,2
+"['2 Skulltulas in Lon Lon Ranch', 'All 5 Lake Hylia Skulltulas']",7,1
 "['2 Skulltulas in Lon Lon Ranch', 'All 5 Skulltulas in Water Temple']",7,0
-"['2 Skulltulas in Lon Lon Ranch', 'Both Rusty Switches in Spirit Temple']",11,0
+"['2 Skulltulas in Lon Lon Ranch', 'Beat the Spirit Temple']",6,0
+"['2 Skulltulas in Lon Lon Ranch', 'Both Rusty Switches in Spirit Temple']",12,0
 "['2 Skulltulas in Lon Lon Ranch', 'Clear 10 Silver Rupee Rooms']",7,1
 "['2 Skulltulas in Lon Lon Ranch', 'Defeat 4 Different Iron Knuckles']",6,4
+"['2 Skulltulas in Lon Lon Ranch', 'Goron Bracelet']",6,0
 "['2 Skulltulas in Lon Lon Ranch', 'Green Gauntlets']",13,3
-"['2 Skulltulas in Lon Lon Ranch', 'Nayrus Love']",7,1
-"['2 Skulltulas in Lon Lon Ranch', 'Open All 6 Gold Rupee Chests']",12,2
+"['2 Skulltulas in Lon Lon Ranch', 'Nayrus Love']",8,1
+"['2 Skulltulas in Lon Lon Ranch', 'Obtain all 5 Small Keys in Shadow Temple']",6,1
+"['2 Skulltulas in Lon Lon Ranch', 'Open All 6 Gold Rupee Chests']",13,2
 "['20 Different Skulltulas', '3 Shields & 3 Boots']",8,4
-"['20 Different Skulltulas', '3 Swords, Tunics, Boots, and Shields']",6,2
+"['20 Different Skulltulas', '3 Swords, Tunics, Boots, and Shields']",7,2
 "['20 Different Skulltulas', '7 Compasses']",6,3
 "['20 Different Skulltulas', '8 Hearts (no duping)']",8,4
-"['20 Different Skulltulas', 'All 3 Elemental Arrows']",13,3
+"['20 Different Skulltulas', '9 Hearts (no duping)']",6,0
+"['20 Different Skulltulas', 'All 3 Elemental Arrows']",15,4
 "['20 Different Skulltulas', 'Both Rusty Switches in Spirit Temple']",9,2
 "['20 Different Skulltulas', 'Defeat Twinrova']",7,3
+"['20 Different Skulltulas', 'Fire Temple Boss Key']",6,1
+"['20 Different Skulltulas', 'Free all 9 Gorons in Fire Temple']",6,2
+"['20 Different Skulltulas', 'Green Gauntlets']",6,3
 "['20 Different Skulltulas', 'Obtain all 5 Small Keys in Shadow Temple']",6,2
 "['20 Different Skulltulas', 'Open 3 Boss Key Doors']",6,4
+"['20 Different Skulltulas', 'Open All 6 Gold Rupee Chests']",6,3
 "['20 Different Skulltulas', 'Quiver (50)']",7,3
 "['20 Different Skulltulas', 'Two Fairy Spells']",9,2
 "['3 Boots', '8 Hearts (no duping)']",6,3
-"['3 Boots', 'All 3 Elemental Arrows']",16,6
-"['3 Boots', 'Dins Fire']",6,2
-"['3 Boots', 'Green Gauntlets']",7,2
-"['3 Boots', 'Open All 6 Gold Rupee Chests']",7,2
+"['3 Boots', 'All 3 Elemental Arrows']",17,6
+"['3 Boots', 'Both Rusty Switches in Spirit Temple']",6,2
+"['3 Boots', 'Dins Fire']",7,3
+"['3 Boots', 'Green Gauntlets']",8,2
+"['3 Boots', 'Open All 6 Gold Rupee Chests']",9,2
+"['3 Boss Keys', '3 Shields & 3 Boots']",6,0
 "['3 Boss Keys', '3 Swords, Tunics, Boots, and Shields']",9,1
-"['3 Boss Keys', '30 Different Skulltulas']",14,4
+"['3 Boss Keys', '30 Different Skulltulas']",15,4
 "['3 Boss Keys', '7 Compasses']",6,2
 "['3 Lake Hylia Skulltulas', 'Clear 10 Silver Rupee Rooms']",9,1
-"['3 Shields & 3 Boots', '30 Deku Nuts']",8,1
-"['3 Shields & 3 Boots', '30 Different Skulltulas']",32,14
-"['3 Shields & 3 Boots', '4 Skulltulas in Shadow Temple']",7,3
-"['3 Shields & 3 Boots', '5 Hearts']",6,1
-"['3 Shields & 3 Boots', '5 Magic Beans']",9,0
+"['3 Shields & 3 Boots', '30 Deku Nuts']",9,1
+"['3 Shields & 3 Boots', '30 Different Skulltulas']",35,14
+"['3 Shields & 3 Boots', '4 Skulltulas in Shadow Temple']",8,4
+"['3 Shields & 3 Boots', '5 Hearts']",7,1
+"['3 Shields & 3 Boots', '5 Magic Beans']",12,0
 "['3 Shields & 3 Boots', '500 Rupees']",10,1
-"['3 Shields & 3 Boots', '7 Hearts (no duping)']",6,0
+"['3 Shields & 3 Boots', '6 Hearts']",7,1
+"['3 Shields & 3 Boots', '7 Different Unused Keys in Gerudo Training Grounds']",6,0
+"['3 Shields & 3 Boots', '7 Hearts (no duping)']",8,0
 "['3 Shields & 3 Boots', '8 Different Unused Keys in Gerudo Training Grounds']",8,2
 "['3 Shields & 3 Boots', '8 Hearts (no duping)']",11,11
-"['3 Shields & 3 Boots', '9 Hearts (no duping)']",14,0
-"['3 Shields & 3 Boots', '9 Songs']",7,2
-"['3 Shields & 3 Boots', 'All 3 Elemental Arrows']",28,2
-"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well']",14,3
+"['3 Shields & 3 Boots', '9 Hearts (no duping)']",15,0
+"['3 Shields & 3 Boots', '9 Songs']",8,2
+"['3 Shields & 3 Boots', 'All 3 Elemental Arrows']",30,2
+"['3 Shields & 3 Boots', 'All 3 Skulltulas in Bottom of the Well']",16,3
 "['3 Shields & 3 Boots', 'All 4 Gerudo Valley area Skulltulas']",7,0
-"['3 Shields & 3 Boots', 'All 4 Lon Lon Ranch area Skulltulas']",10,0
-"['3 Shields & 3 Boots', 'All 4 Market area Skulltulas']",9,2
-"['3 Shields & 3 Boots', 'All 5 Skulltulas in Dodongos Cavern']",6,4
-"['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple']",6,7
+"['3 Shields & 3 Boots', 'All 4 Lon Lon Ranch area Skulltulas']",12,0
+"['3 Shields & 3 Boots', 'All 4 Market area Skulltulas']",11,2
+"['3 Shields & 3 Boots', 'All 5 Skulltulas in Dodongos Cavern']",7,4
+"['3 Shields & 3 Boots', 'All 5 Skulltulas in Fire Temple']",8,8
 "['3 Shields & 3 Boots', 'All 5 Skulltulas in Forest Temple']",8,0
 "['3 Shields & 3 Boots', 'All 8 Death Mountain area Skulltulas']",9,2
-"['3 Shields & 3 Boots', 'All 8 Kakariko area Skulltulas']",7,3
-"['3 Shields & 3 Boots', 'All 8 Zoras Domain area Skulltulas']",16,1
-"['3 Shields & 3 Boots', 'Beat the Fire Temple']",9,1
-"['3 Shields & 3 Boots', 'Bomb Bag (30)']",7,0
+"['3 Shields & 3 Boots', 'All 8 Kakariko area Skulltulas']",8,3
+"['3 Shields & 3 Boots', 'All 8 Zoras Domain area Skulltulas']",20,1
+"['3 Shields & 3 Boots', 'Beat the Fire Temple']",10,1
+"['3 Shields & 3 Boots', 'Bomb Bag (30)']",8,0
 "['3 Shields & 3 Boots', 'Bronze Gauntlets']",6,0
-"['3 Shields & 3 Boots', 'Bullet Bag (50)']",6,2
+"['3 Shields & 3 Boots', 'Bullet Bag (40)']",7,2
+"['3 Shields & 3 Boots', 'Bullet Bag (50)']",8,2
+"['3 Shields & 3 Boots', 'Defeat Barinade']",6,5
 "['3 Shields & 3 Boots', 'Defeat Dark Link']",6,0
-"['3 Shields & 3 Boots', 'Defeat Volvagia']",12,2
-"['3 Shields & 3 Boots', 'Defeat all Lizalfos in Dodongos Cavern']",6,0
-"['3 Shields & 3 Boots', 'Defeat both Flare Dancers']",9,1
-"['3 Shields & 3 Boots', 'Dins Fire']",8,3
-"['3 Shields & 3 Boots', 'Double Defense']",10,5
-"['3 Shields & 3 Boots', 'Eponas Song']",10,0
-"['3 Shields & 3 Boots', 'Exactly 30 Deku Sticks']",11,3
+"['3 Shields & 3 Boots', 'Defeat Volvagia']",15,2
+"['3 Shields & 3 Boots', 'Defeat all Lizalfos in Dodongos Cavern']",8,0
+"['3 Shields & 3 Boots', 'Defeat both Flare Dancers']",10,2
+"['3 Shields & 3 Boots', 'Dins Fire']",9,3
+"['3 Shields & 3 Boots', 'Double Defense']",11,5
+"['3 Shields & 3 Boots', 'Eponas Song']",11,0
+"['3 Shields & 3 Boots', 'Exactly 20 Deku Sticks']",6,0
+"['3 Shields & 3 Boots', 'Exactly 30 Deku Sticks']",13,3
 "['3 Shields & 3 Boots', 'Fairy Bow']",7,3
 "['3 Shields & 3 Boots', 'Farores Wind']",7,2
 "['3 Shields & 3 Boots', 'Fire Medallion']",9,1
 "['3 Shields & 3 Boots', 'Fire Temple Boss Key']",9,3
-"['3 Shields & 3 Boots', 'Forest Temple Boss Key']",7,2
-"['3 Shields & 3 Boots', 'Free all 9 Gorons in Fire Temple']",10,4
-"['3 Shields & 3 Boots', 'Ganons Castle Boss Key']",11,2
+"['3 Shields & 3 Boots', 'Forest Temple Boss Key']",8,2
+"['3 Shields & 3 Boots', 'Free all 9 Gorons in Fire Temple']",12,4
+"['3 Shields & 3 Boots', 'Ganons Castle Boss Key']",13,2
 "['3 Shields & 3 Boots', 'Giants Wallet']",8,0
 "['3 Shields & 3 Boots', 'Goron Bracelet']",6,0
-"['3 Shields & 3 Boots', 'Green Gauntlets']",23,9
+"['3 Shields & 3 Boots', 'Green Gauntlets']",27,9
 "['3 Shields & 3 Boots', 'Keaton Mask']",8,2
-"['3 Shields & 3 Boots', 'Light Arrows']",11,2
+"['3 Shields & 3 Boots', 'Light Arrows']",13,2
 "['3 Shields & 3 Boots', 'Lon Lon Ranch HP']",6,6
-"['3 Shields & 3 Boots', 'Longshot']",13,1
-"['3 Shields & 3 Boots', 'Map & Compass in Dodongos Cavern']",9,6
-"['3 Shields & 3 Boots', 'Map & Compass in Forest Temple']",11,5
-"['3 Shields & 3 Boots', 'Megaton Hammer']",14,5
-"['3 Shields & 3 Boots', 'Obtain all 5 Small Keys in Forest Temple']",12,4
-"['3 Shields & 3 Boots', 'Obtain all 8 Small Keys in Fire Temple']",7,1
-"['3 Shields & 3 Boots', 'Open 3 Gold Rupee Chests']",23,6
-"['3 Shields & 3 Boots', 'Open All 6 Gold Rupee Chests']",23,1
+"['3 Shields & 3 Boots', 'Longshot']",14,1
+"['3 Shields & 3 Boots', 'Map & Compass in Dodongos Cavern']",11,6
+"['3 Shields & 3 Boots', 'Map & Compass in Forest Temple']",12,5
+"['3 Shields & 3 Boots', 'Megaton Hammer']",19,5
+"['3 Shields & 3 Boots', 'Obtain all 5 Small Keys in Forest Temple']",14,4
+"['3 Shields & 3 Boots', 'Obtain all 8 Small Keys in Fire Temple']",9,1
+"['3 Shields & 3 Boots', 'Open 2 Boss Key Doors']",6,0
+"['3 Shields & 3 Boots', 'Open 3 Boss Key Doors']",9,4
+"['3 Shields & 3 Boots', 'Open 3 Gold Rupee Chests']",24,6
+"['3 Shields & 3 Boots', 'Open All 6 Gold Rupee Chests']",24,1
 "['3 Shields & 3 Boots', 'Open the Final Door of Forest Trial']",10,1
-"['3 Shields & 3 Boots', 'Open the Final Door of Shadow Trial']",6,1
+"['3 Shields & 3 Boots', 'Open the Final Door of Shadow Trial']",7,1
 "['3 Shields & 3 Boots', 'Open the Final Door of Water Trial']",8,1
-"['3 Shields & 3 Boots', 'Plant 5 Magic Beans']",9,3
-"['3 Shields & 3 Boots', 'Plant bean in Death Mountain Crater']",6,0
+"['3 Shields & 3 Boots', 'Plant 5 Magic Beans']",10,3
+"['3 Shields & 3 Boots', 'Plant bean in Death Mountain Crater']",7,0
 "['3 Shields & 3 Boots', 'Quiver (40)']",10,5
-"['3 Shields & 3 Boots', 'Sarias Song']",11,8
-"['3 Shields & 3 Boots', 'Shadow Temple Boss Key']",6,3
+"['3 Shields & 3 Boots', 'Quiver (50)']",6,2
+"['3 Shields & 3 Boots', 'Sarias Song']",12,8
+"['3 Shields & 3 Boots', 'Shadow Temple Boss Key']",7,3
 "['3 Shields & 3 Boots', 'Silver Scale']",6,3
-"['3 Shields & 3 Boots', 'Two Fairy Spells']",8,2
+"['3 Shields & 3 Boots', 'Two Fairy Spells']",9,2
 "['3 Shields & 3 Boots', 'Win Bombchu Bowling Prize']",6,0
-"['3 Shields & 3 Tunics', '30 Different Skulltulas']",22,6
+"['3 Shields & 3 Boots', 'Zora Tunic']",6,2
+"['3 Shields & 3 Tunics', '30 Different Skulltulas']",25,8
 "['3 Shields & 3 Tunics', '5 Hearts']",6,3
 "['3 Shields & 3 Tunics', '5 Magic Beans']",6,0
-"['3 Shields & 3 Tunics', '7 Compasses']",6,1
-"['3 Shields & 3 Tunics', '9 Hearts (no duping)']",10,6
-"['3 Shields & 3 Tunics', 'All 3 Elemental Arrows']",25,5
-"['3 Shields & 3 Tunics', 'All 3 Skulltulas in Bottom of the Well']",6,4
-"['3 Shields & 3 Tunics', 'All 8 Zoras Domain area Skulltulas']",6,1
-"['3 Shields & 3 Tunics', 'Clear 10 Silver Rupee Rooms']",9,0
+"['3 Shields & 3 Tunics', '7 Compasses']",7,1
+"['3 Shields & 3 Tunics', '9 Hearts (no duping)']",11,6
+"['3 Shields & 3 Tunics', '9 Songs']",6,0
+"['3 Shields & 3 Tunics', 'All 3 Elemental Arrows']",27,6
+"['3 Shields & 3 Tunics', 'All 3 Skulltulas in Bottom of the Well']",7,4
+"['3 Shields & 3 Tunics', 'All 8 Zoras Domain area Skulltulas']",7,1
+"['3 Shields & 3 Tunics', 'Clear 10 Silver Rupee Rooms']",10,0
+"['3 Shields & 3 Tunics', 'Eponas Song']",6,4
 "['3 Shields & 3 Tunics', 'Fire Temple Boss Key']",6,0
+"['3 Shields & 3 Tunics', 'Ganons Castle Boss Key']",6,0
+"['3 Shields & 3 Tunics', 'Keaton Mask']",6,0
 "['3 Shields & 3 Tunics', 'Light Arrows']",10,1
 "['3 Shields & 3 Tunics', 'Longshot']",11,3
-"['3 Shields & 3 Tunics', 'Open 5 Gold Rupee Chests']",6,1
-"['3 Shields & 3 Tunics', 'Open All 6 Gold Rupee Chests']",34,7
+"['3 Shields & 3 Tunics', 'Open 5 Gold Rupee Chests']",7,1
+"['3 Shields & 3 Tunics', 'Open All 6 Gold Rupee Chests']",37,7
 "['3 Shields & 3 Tunics', 'Rutos Letter']",6,3
 "['3 Shields & 3 Tunics', 'Sarias Song']",9,2
-"['3 Shields', '30 Different Skulltulas']",20,7
-"['3 Shields', '7 Compasses']",9,3
+"['3 Shields', '30 Different Skulltulas']",24,9
+"['3 Shields', '7 Compasses']",11,5
 "['3 Shields', '8 Hearts (no duping)']",7,1
-"['3 Shields', '9 Hearts (no duping)']",13,2
-"['3 Shields', 'All 3 Elemental Arrows']",11,1
+"['3 Shields', '9 Hearts (no duping)']",14,2
+"['3 Shields', 'All 3 Elemental Arrows']",15,1
 "['3 Shields', 'Bullet Bag (50)']",6,1
 "['3 Shields', 'Clear 10 Silver Rupee Rooms']",9,0
-"['3 Shields', 'Dins Fire']",10,2
-"['3 Shields', 'Fire Temple Boss Key']",6,1
-"['3 Shields', 'Green Gauntlets']",12,4
+"['3 Shields', 'Dins Fire']",13,5
+"['3 Shields', 'Fire Temple Boss Key']",7,1
+"['3 Shields', 'Free all 9 Gorons in Fire Temple']",6,1
+"['3 Shields', 'Green Gauntlets']",15,5
+"['3 Shields', 'Obtain all 5 Small Keys in Shadow Temple']",7,1
 "['3 Shields', 'Open All 6 Gold Rupee Chests']",11,2
 "['3 Skulltulas in Water Temple', '30 Different Skulltulas']",15,8
-"['3 Skulltulas in Water Temple', '6 Compasses']",7,2
+"['3 Skulltulas in Water Temple', '6 Compasses']",8,4
 "['3 Skulltulas in Water Temple', '7 Compasses']",6,1
+"['3 Skulltulas in Water Temple', '7 Songs']",6,2
 "['3 Skulltulas in Water Temple', 'All 3 Elemental Arrows']",11,3
-"['3 Skulltulas in Water Temple', 'Beat the Spirit Temple']",9,3
-"['3 Skulltulas in Water Temple', 'Both Rusty Switches in Spirit Temple']",15,1
+"['3 Skulltulas in Water Temple', 'Beat the Spirit Temple']",10,3
+"['3 Skulltulas in Water Temple', 'Both Rusty Switches in Spirit Temple']",16,1
 "['3 Skulltulas in Water Temple', 'Clear 10 Silver Rupee Rooms']",8,1
 "['3 Skulltulas in Water Temple', 'Clear 8 Silver Rupee Rooms']",6,2
 "['3 Skulltulas in Water Temple', 'Exactly 30 Deku Sticks']",6,0
 "['3 Skulltulas in Water Temple', 'Goron Bracelet']",9,0
-"['3 Skulltulas in Water Temple', 'Green Gauntlets']",9,2
+"['3 Skulltulas in Water Temple', 'Green Gauntlets']",11,2
 "['3 Skulltulas in Water Temple', 'Map & Compass in Spirit Temple']",10,0
+"['3 Skulltulas in Water Temple', 'Nayrus Love']",6,0
 "['3 Skulltulas in Water Temple', 'Open All 6 Gold Rupee Chests']",8,1
 "['3 Skulltulas in Water Temple', 'Quiver (50)']",6,1
-"['3 Skulltulas in Water Temple', 'Two Fairy Spells']",7,1
+"['3 Skulltulas in Water Temple', 'Two Fairy Spells']",8,1
 "['3 Skulltulas in Water Temple', 'Win Bombchu Bowling Prize']",7,0
+"['3 Songs', '30 Different Skulltulas']",6,0
 "['3 Songs', 'All 3 Elemental Arrows']",7,0
 "['3 Swords & 3 Boots', '30 Different Skulltulas']",12,3
 "['3 Swords & 3 Boots', '7 Compasses']",7,0
 "['3 Swords & 3 Boots', 'All 3 Elemental Arrows']",16,1
 "['3 Swords & 3 Boots', 'All 3 Skulltulas in Bottom of the Well']",7,1
-"['3 Swords & 3 Boots', 'Both Rusty Switches in Spirit Temple']",6,1
+"['3 Swords & 3 Boots', 'Both Rusty Switches in Spirit Temple']",7,2
 "['3 Swords & 3 Boots', 'Bullet Bag (50)']",6,1
 "['3 Swords & 3 Boots', 'Dins Fire']",7,0
 "['3 Swords & 3 Boots', 'Green Gauntlets']",8,1
-"['3 Swords & 3 Shields', '30 Different Skulltulas']",14,6
+"['3 Swords & 3 Shields', '30 Deku Nuts']",6,0
+"['3 Swords & 3 Shields', '30 Different Skulltulas']",15,8
 "['3 Swords & 3 Shields', '6 Compasses']",6,2
-"['3 Swords & 3 Shields', '7 Compasses']",10,1
+"['3 Swords & 3 Shields', '7 Compasses']",11,1
 "['3 Swords & 3 Shields', '9 Hearts (no duping)']",16,3
-"['3 Swords & 3 Shields', 'All 3 Elemental Arrows']",23,4
+"['3 Swords & 3 Shields', 'All 3 Elemental Arrows']",25,4
 "['3 Swords & 3 Shields', 'All 4 Lon Lon Ranch area Skulltulas']",7,0
 "['3 Swords & 3 Shields', 'Beat Dodongos Cavern']",6,3
-"['3 Swords & 3 Shields', 'Both Rusty Switches in Spirit Temple']",6,1
-"['3 Swords & 3 Shields', 'Clear 10 Silver Rupee Rooms']",21,4
-"['3 Swords & 3 Shields', 'Dins Fire']",12,6
+"['3 Swords & 3 Shields', 'Both Rusty Switches in Spirit Temple']",7,2
+"['3 Swords & 3 Shields', 'Clear 10 Silver Rupee Rooms']",24,4
+"['3 Swords & 3 Shields', 'Defeat Volvagia']",6,3
+"['3 Swords & 3 Shields', 'Dins Fire']",15,8
 "['3 Swords & 3 Shields', 'Exactly 20 Deku Sticks']",7,1
 "['3 Swords & 3 Shields', 'Fire Temple Boss Key']",7,5
+"['3 Swords & 3 Shields', 'Ganons Castle Boss Key']",6,0
 "['3 Swords & 3 Shields', 'Goron Bracelet']",14,0
-"['3 Swords & 3 Shields', 'Green Gauntlets']",14,4
-"['3 Swords & 3 Shields', 'Map & Compass in Bottom of the Well']",7,2
+"['3 Swords & 3 Shields', 'Green Gauntlets']",15,4
+"['3 Swords & 3 Shields', 'Map & Compass in Bottom of the Well']",9,2
 "['3 Swords & 3 Shields', 'Open All 6 Gold Rupee Chests']",9,1
-"['3 Swords & 3 Shields', 'Quiver (40)']",6,0
+"['3 Swords & 3 Shields', 'Quiver (40)']",7,1
 "['3 Swords & 3 Tunics', '30 Different Skulltulas']",6,2
-"['3 Swords & 3 Tunics', 'All 3 Elemental Arrows']",7,0
+"['3 Swords & 3 Tunics', '9 Hearts (no duping)']",7,3
+"['3 Swords & 3 Tunics', 'All 3 Elemental Arrows']",9,2
 "['3 Swords & 3 Tunics', 'Defeat 4 Different Iron Knuckles']",9,1
 "['3 Swords & 3 Tunics', 'Goron Bracelet']",6,2
+"['3 Swords & 3 Tunics', 'Green Gauntlets']",6,1
 "['3 Swords & 3 Tunics', 'Quiver (50)']",6,3
-"['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts']",13,2
+"['3 Swords, Tunics, Boots, and Shields', '30 Deku Nuts']",14,2
 "['3 Swords, Tunics, Boots, and Shields', '4 Skulltulas in Shadow Temple']",15,0
+"['3 Swords, Tunics, Boots, and Shields', '4 Songs']",6,1
 "['3 Swords, Tunics, Boots, and Shields', '4 Unused Keys in Forest Temple']",7,0
-"['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans']",15,0
+"['3 Swords, Tunics, Boots, and Shields', '4 Unused Keys in Gerudo Training Grounds']",7,0
+"['3 Swords, Tunics, Boots, and Shields', '5 Magic Beans']",18,0
 "['3 Swords, Tunics, Boots, and Shields', '500 Rupees']",10,5
 "['3 Swords, Tunics, Boots, and Shields', '6 Different Unused Keys in Gerudo Training Grounds']",8,0
+"['3 Swords, Tunics, Boots, and Shields', '6 Hearts']",6,1
 "['3 Swords, Tunics, Boots, and Shields', '7 Different Unused Keys in Gerudo Training Grounds']",14,2
-"['3 Swords, Tunics, Boots, and Shields', '7 Hearts (no duping)']",7,4
+"['3 Swords, Tunics, Boots, and Shields', '7 Hearts (no duping)']",8,5
 "['3 Swords, Tunics, Boots, and Shields', '7 Songs']",7,2
-"['3 Swords, Tunics, Boots, and Shields', '8 Different Unused Keys in Gerudo Training Grounds']",9,3
-"['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)']",17,9
+"['3 Swords, Tunics, Boots, and Shields', '8 Different Unused Keys in Gerudo Training Grounds']",11,3
+"['3 Swords, Tunics, Boots, and Shields', '8 Hearts (no duping)']",20,9
 "['3 Swords, Tunics, Boots, and Shields', '8 Songs']",6,3
 "['3 Swords, Tunics, Boots, and Shields', '9 Songs']",9,0
-"['3 Swords, Tunics, Boots, and Shields', 'All 3 Skulltulas in Bottom of the Well']",8,2
-"['3 Swords, Tunics, Boots, and Shields', 'All 4 Gerudo Valley area Skulltulas']",6,1
+"['3 Swords, Tunics, Boots, and Shields', 'All 3 Skulltulas in Bottom of the Well']",10,2
+"['3 Swords, Tunics, Boots, and Shields', 'All 4 Gerudo Valley area Skulltulas']",9,1
+"['3 Swords, Tunics, Boots, and Shields', 'All 4 Lon Lon Ranch area Skulltulas']",6,2
 "['3 Swords, Tunics, Boots, and Shields', 'All 4 Lost Woods area Skulltulas']",8,0
-"['3 Swords, Tunics, Boots, and Shields', 'All 4 Market area Skulltulas']",6,0
+"['3 Swords, Tunics, Boots, and Shields', 'All 4 Market area Skulltulas']",8,0
 "['3 Swords, Tunics, Boots, and Shields', 'All 4 Skulltulas in Deku Tree']",8,2
-"['3 Swords, Tunics, Boots, and Shields', 'All 4 Wasteland/ Colossus area Skulltulas']",9,0
+"['3 Swords, Tunics, Boots, and Shields', 'All 4 Wasteland/ Colossus area Skulltulas']",10,0
 "['3 Swords, Tunics, Boots, and Shields', 'All 5 Lake Hylia Skulltulas']",6,1
 "['3 Swords, Tunics, Boots, and Shields', 'All 5 Skulltulas in Dodongos Cavern']",9,0
-"['3 Swords, Tunics, Boots, and Shields', 'All 5 Skulltulas in Fire Temple']",8,0
-"['3 Swords, Tunics, Boots, and Shields', 'All 5 Skulltulas in Forest Temple']",6,0
-"['3 Swords, Tunics, Boots, and Shields', 'All 5 Skulltulas in Shadow Temple']",6,0
-"['3 Swords, Tunics, Boots, and Shields', 'All 8 Kakariko area Skulltulas']",9,3
-"['3 Swords, Tunics, Boots, and Shields', 'All 8 Zoras Domain area Skulltulas']",19,1
-"['3 Swords, Tunics, Boots, and Shields', 'Beat Jabu-Jabus Belly']",8,0
-"['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple']",19,4
+"['3 Swords, Tunics, Boots, and Shields', 'All 5 Skulltulas in Fire Temple']",9,1
+"['3 Swords, Tunics, Boots, and Shields', 'All 5 Skulltulas in Forest Temple']",7,0
+"['3 Swords, Tunics, Boots, and Shields', 'All 5 Skulltulas in Shadow Temple']",8,1
+"['3 Swords, Tunics, Boots, and Shields', 'All 8 Death Mountain area Skulltulas']",6,0
+"['3 Swords, Tunics, Boots, and Shields', 'All 8 Kakariko area Skulltulas']",10,3
+"['3 Swords, Tunics, Boots, and Shields', 'All 8 Zoras Domain area Skulltulas']",21,1
+"['3 Swords, Tunics, Boots, and Shields', 'Beat Jabu-Jabus Belly']",9,0
+"['3 Swords, Tunics, Boots, and Shields', 'Beat the Fire Temple']",22,4
 "['3 Swords, Tunics, Boots, and Shields', 'Beat the Forest Temple']",11,0
+"['3 Swords, Tunics, Boots, and Shields', 'Beat the Water Temple']",6,1
 "['3 Swords, Tunics, Boots, and Shields', 'Blue Potion']",12,2
 "['3 Swords, Tunics, Boots, and Shields', 'Bolero of Fire']",17,1
 "['3 Swords, Tunics, Boots, and Shields', 'Bomb Bag (30)']",12,4
 "['3 Swords, Tunics, Boots, and Shields', 'Boomerang']",6,0
-"['3 Swords, Tunics, Boots, and Shields', 'Both HPs in Death Mountain Crater']",8,1
-"['3 Swords, Tunics, Boots, and Shields', 'Both Hyrule Field area Skulltulas']",7,1
-"['3 Swords, Tunics, Boots, and Shields', 'Bottled Fairy']",6,0
-"['3 Swords, Tunics, Boots, and Shields', 'Bullet Bag (40)']",8,0
-"['3 Swords, Tunics, Boots, and Shields', 'Bullet Bag (50)']",20,3
+"['3 Swords, Tunics, Boots, and Shields', 'Both HPs in Death Mountain Crater']",9,1
+"['3 Swords, Tunics, Boots, and Shields', 'Both Hyrule Field area Skulltulas']",8,1
+"['3 Swords, Tunics, Boots, and Shields', 'Bottled Fairy']",7,0
+"['3 Swords, Tunics, Boots, and Shields', 'Bullet Bag (40)']",9,0
+"['3 Swords, Tunics, Boots, and Shields', 'Bullet Bag (50)']",22,3
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat Bongo-Bongo']",6,0
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat Dark Link']",7,1
 "['3 Swords, Tunics, Boots, and Shields', 'Defeat King Dodongo']",6,1
-"['3 Swords, Tunics, Boots, and Shields', 'Defeat Meg (Purple Poe)']",9,0
-"['3 Swords, Tunics, Boots, and Shields', 'Defeat Volvagia']",18,3
-"['3 Swords, Tunics, Boots, and Shields', 'Defeat a Skull Kid']",9,0
-"['3 Swords, Tunics, Boots, and Shields', 'Defeat all Lizalfos in Dodongos Cavern']",10,4
-"['3 Swords, Tunics, Boots, and Shields', 'Defeat both Flare Dancers']",9,0
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat Meg (Purple Poe)']",11,0
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat Nabooru-Knuckle']",7,2
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat Queen Gohma']",7,0
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat Volvagia']",20,3
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat a Skull Kid']",11,0
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat all Lizalfos in Dodongos Cavern']",13,4
+"['3 Swords, Tunics, Boots, and Shields', 'Defeat both Flare Dancers']",10,0
 "['3 Swords, Tunics, Boots, and Shields', 'Desert Colossus HP']",12,4
-"['3 Swords, Tunics, Boots, and Shields', 'Dins Fire']",24,4
-"['3 Swords, Tunics, Boots, and Shields', 'Double Defense']",7,2
+"['3 Swords, Tunics, Boots, and Shields', 'Dins Fire']",26,4
+"['3 Swords, Tunics, Boots, and Shields', 'Double Defense']",8,2
 "['3 Swords, Tunics, Boots, and Shields', 'Double Magic']",6,1
-"['3 Swords, Tunics, Boots, and Shields', 'Eponas Song']",8,6
-"['3 Swords, Tunics, Boots, and Shields', 'Exactly 20 Deku Sticks']",13,2
-"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks']",17,3
+"['3 Swords, Tunics, Boots, and Shields', 'Eponas Song']",9,6
+"['3 Swords, Tunics, Boots, and Shields', 'Exactly 20 Deku Sticks']",14,2
+"['3 Swords, Tunics, Boots, and Shields', 'Exactly 30 Deku Sticks']",19,4
+"['3 Swords, Tunics, Boots, and Shields', 'Fairy Bow']",7,1
 "['3 Swords, Tunics, Boots, and Shields', 'Farores Wind']",9,2
 "['3 Swords, Tunics, Boots, and Shields', 'Fire Arrows']",8,0
-"['3 Swords, Tunics, Boots, and Shields', 'Fire Medallion']",21,3
-"['3 Swords, Tunics, Boots, and Shields', 'Fire Temple Boss Key']",12,2
+"['3 Swords, Tunics, Boots, and Shields', 'Fire Medallion']",24,4
+"['3 Swords, Tunics, Boots, and Shields', 'Fire Temple Boss Key']",13,2
 "['3 Swords, Tunics, Boots, and Shields', 'Forest Medallion']",9,5
-"['3 Swords, Tunics, Boots, and Shields', 'Forest Temple Boss Key']",8,0
-"['3 Swords, Tunics, Boots, and Shields', 'Free all 9 Gorons in Fire Temple']",19,2
-"['3 Swords, Tunics, Boots, and Shields', 'Ganons Castle Boss Key']",13,1
-"['3 Swords, Tunics, Boots, and Shields', 'Giants Wallet']",8,4
-"['3 Swords, Tunics, Boots, and Shields', 'Goron Bracelet']",27,2
-"['3 Swords, Tunics, Boots, and Shields', 'Green Gauntlets']",25,1
-"['3 Swords, Tunics, Boots, and Shields', 'Lens of Truth']",16,2
+"['3 Swords, Tunics, Boots, and Shields', 'Forest Temple Boss Key']",9,0
+"['3 Swords, Tunics, Boots, and Shields', 'Free all 9 Gorons in Fire Temple']",23,2
+"['3 Swords, Tunics, Boots, and Shields', 'Ganons Castle Boss Key']",15,1
+"['3 Swords, Tunics, Boots, and Shields', 'Giants Wallet']",10,5
+"['3 Swords, Tunics, Boots, and Shields', 'Goron Bracelet']",29,2
+"['3 Swords, Tunics, Boots, and Shields', 'Green Gauntlets']",26,1
+"['3 Swords, Tunics, Boots, and Shields', 'Keaton Mask']",7,0
+"['3 Swords, Tunics, Boots, and Shields', 'Lens of Truth']",18,2
 "['3 Swords, Tunics, Boots, and Shields', 'Light Arrows']",13,2
 "['3 Swords, Tunics, Boots, and Shields', 'Lon Lon Ranch HP']",7,1
 "['3 Swords, Tunics, Boots, and Shields', 'Longshot']",6,1
 "['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Bottom of the Well']",16,2
-"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Dodongos Cavern']",13,1
-"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Fire Temple']",9,0
-"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple']",15,3
+"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Dodongos Cavern']",14,1
+"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Fire Temple']",11,1
+"['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Forest Temple']",17,3
 "['3 Swords, Tunics, Boots, and Shields', 'Map & Compass in Jabu-Jabu']",6,0
-"['3 Swords, Tunics, Boots, and Shields', 'Megaton Hammer']",10,7
+"['3 Swords, Tunics, Boots, and Shields', 'Megaton Hammer']",14,7
 "['3 Swords, Tunics, Boots, and Shields', 'Milk']",6,0
-"['3 Swords, Tunics, Boots, and Shields', 'Minuet of Forest']",11,3
-"['3 Swords, Tunics, Boots, and Shields', 'Nayrus Love']",17,2
+"['3 Swords, Tunics, Boots, and Shields', 'Minuet of Forest']",15,4
+"['3 Swords, Tunics, Boots, and Shields', 'Nayrus Love']",20,2
 "['3 Swords, Tunics, Boots, and Shields', 'Obtain all 5 Small Keys in Forest Temple']",12,2
-"['3 Swords, Tunics, Boots, and Shields', 'Obtain all 5 Small Keys in Shadow Temple']",20,3
-"['3 Swords, Tunics, Boots, and Shields', 'Obtain all 8 Small Keys in Fire Temple']",12,5
-"['3 Swords, Tunics, Boots, and Shields', 'Open 2 Boss Key Doors']",9,3
-"['3 Swords, Tunics, Boots, and Shields', 'Open 3 Boss Key Doors']",21,6
-"['3 Swords, Tunics, Boots, and Shields', 'Open 3 Gold Rupee Chests']",9,2
-"['3 Swords, Tunics, Boots, and Shields', 'Open the Final Door of Fire Trial']",7,0
+"['3 Swords, Tunics, Boots, and Shields', 'Obtain all 5 Small Keys in Shadow Temple']",21,3
+"['3 Swords, Tunics, Boots, and Shields', 'Obtain all 8 Small Keys in Fire Temple']",14,5
+"['3 Swords, Tunics, Boots, and Shields', 'Open 2 Boss Key Doors']",10,3
+"['3 Swords, Tunics, Boots, and Shields', 'Open 3 Boss Key Doors']",24,6
+"['3 Swords, Tunics, Boots, and Shields', 'Open 3 Gold Rupee Chests']",11,2
+"['3 Swords, Tunics, Boots, and Shields', 'Open 50 Rupee chest in Wasteland']",6,0
+"['3 Swords, Tunics, Boots, and Shields', 'Open the Final Door of Fire Trial']",8,0
 "['3 Swords, Tunics, Boots, and Shields', 'Open the Final Door of Forest Trial']",7,0
-"['3 Swords, Tunics, Boots, and Shields', 'Open the Final Door of Shadow Trial']",16,2
+"['3 Swords, Tunics, Boots, and Shields', 'Open the Final Door of Shadow Trial']",17,2
 "['3 Swords, Tunics, Boots, and Shields', 'Open the Final Door of Water Trial']",26,4
 "['3 Swords, Tunics, Boots, and Shields', 'Plant 5 Magic Beans']",10,1
-"['3 Swords, Tunics, Boots, and Shields', 'Plant bean in Death Mountain Crater']",7,0
+"['3 Swords, Tunics, Boots, and Shields', 'Plant bean in Death Mountain Crater']",8,0
 "['3 Swords, Tunics, Boots, and Shields', 'Quiver (40)']",14,5
-"['3 Swords, Tunics, Boots, and Shields', 'Quiver (50)']",13,3
-"['3 Swords, Tunics, Boots, and Shields', 'Requiem of Spirit']",8,0
+"['3 Swords, Tunics, Boots, and Shields', 'Quiver (50)']",15,3
+"['3 Swords, Tunics, Boots, and Shields', 'Requiem of Spirit']",9,0
 "['3 Swords, Tunics, Boots, and Shields', 'Rutos Letter']",10,2
-"['3 Swords, Tunics, Boots, and Shields', 'Sarias Song']",8,3
+"['3 Swords, Tunics, Boots, and Shields', 'Sarias Song']",12,3
 "['3 Swords, Tunics, Boots, and Shields', 'Silver Scale']",8,0
-"['3 Swords, Tunics, Boots, and Shields', 'Spirit Temple Boss Key']",10,1
+"['3 Swords, Tunics, Boots, and Shields', 'Spirit Temple Boss Key']",11,1
 "['3 Swords, Tunics, Boots, and Shields', 'Water Medallion']",7,1
+"['3 Swords, Tunics, Boots, and Shields', 'Win Bombchu Bowling Prize']",6,0
+"['3 Tunics & 3 Boots', 'All 3 Elemental Arrows']",9,1
+"['3 Tunics & 3 Boots', 'Green Gauntlets']",7,1
 "['3 Tunics', '30 Different Skulltulas']",14,0
 "['3 Tunics', '9 Hearts (no duping)']",6,1
 "['3 Tunics', 'All 3 Elemental Arrows']",10,2
 "['3 Tunics', 'All 4 Market area Skulltulas']",6,4
 "['3 Tunics', 'All 5 Lake Hylia Skulltulas']",6,3
-"['3 Tunics', 'Both Rusty Switches in Spirit Temple']",11,4
+"['3 Tunics', 'Beat the Spirit Temple']",6,0
+"['3 Tunics', 'Both Rusty Switches in Spirit Temple']",13,4
 "['3 Tunics', 'Clear 10 Silver Rupee Rooms']",6,0
 "['3 Tunics', 'Defeat Volvagia']",9,2
 "['3 Tunics', 'Dins Fire']",6,1
 "['3 Tunics', 'Goron Bracelet']",7,0
-"['3 Tunics', 'Green Gauntlets']",15,4
-"['3 Tunics', 'Open All 6 Gold Rupee Chests']",6,1
+"['3 Tunics', 'Green Gauntlets']",16,4
+"['3 Tunics', 'Light Arrows']",6,2
+"['3 Tunics', 'Open All 6 Gold Rupee Chests']",7,1
 "['3 Tunics', 'Quiver (50)']",6,1
-"['3 Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests']",7,1
-"['30 Deku Nuts', '30 Different Skulltulas']",14,7
-"['30 Deku Nuts', '7 Compasses']",8,1
-"['30 Deku Nuts', 'All 3 Elemental Arrows']",17,7
+"['3 Unused Keys in Gerudo Training Grounds', '7 Compasses']",7,1
+"['3 Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",7,3
+"['3 Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests']",9,1
+"['30 Deku Nuts', '30 Different Skulltulas']",16,7
+"['30 Deku Nuts', '7 Compasses']",9,1
+"['30 Deku Nuts', '8 Hearts (no duping)']",6,1
+"['30 Deku Nuts', '9 Hearts (no duping)']",6,0
+"['30 Deku Nuts', 'All 3 Elemental Arrows']",20,8
+"['30 Deku Nuts', 'All 4 Market area Skulltulas']",6,1
 "['30 Deku Nuts', 'All 5 Lake Hylia Skulltulas']",6,3
-"['30 Deku Nuts', 'All 5 Skulltulas in Water Temple']",9,0
+"['30 Deku Nuts', 'All 5 Skulltulas in Water Temple']",10,0
 "['30 Deku Nuts', 'All 8 Zoras Domain area Skulltulas']",12,6
-"['30 Deku Nuts', 'Beat the Spirit Temple']",14,5
-"['30 Deku Nuts', 'Both Rusty Switches in Spirit Temple']",15,4
-"['30 Deku Nuts', 'Clear 10 Silver Rupee Rooms']",8,2
+"['30 Deku Nuts', 'Beat the Spirit Temple']",15,5
+"['30 Deku Nuts', 'Both Rusty Switches in Spirit Temple']",16,4
+"['30 Deku Nuts', 'Clear 10 Silver Rupee Rooms']",9,2
 "['30 Deku Nuts', 'Clear 8 Silver Rupee Rooms']",6,1
 "['30 Deku Nuts', 'Defeat Twinrova']",7,3
-"['30 Deku Nuts', 'Dins Fire']",9,5
-"['30 Deku Nuts', 'Goron Bracelet']",12,2
-"['30 Deku Nuts', 'Green Gauntlets']",17,5
+"['30 Deku Nuts', 'Dins Fire']",10,5
+"['30 Deku Nuts', 'Goron Bracelet']",13,2
+"['30 Deku Nuts', 'Green Gauntlets']",22,6
+"['30 Deku Nuts', 'Light Arrows']",6,0
 "['30 Deku Nuts', 'Obtain all 5 Small Keys in Shadow Temple']",6,1
 "['30 Deku Nuts', 'Open All 6 Gold Rupee Chests']",12,4
+"['30 Deku Nuts', 'Plant 5 Magic Beans']",6,3
 "['30 Deku Nuts', 'Sarias Song']",7,1
 "['30 Deku Nuts', 'Two Fairy Spells']",6,3
-"['30 Different Skulltulas', '37th Heart Piece (Child Fortress)']",9,1
+"['30 Different Skulltulas', '37th Heart Piece (Child Fortress)']",10,1
+"['30 Different Skulltulas', '4 Compasses']",8,3
 "['30 Different Skulltulas', '4 Maps']",9,3
-"['30 Different Skulltulas', '4 Skulltulas in Shadow Temple']",8,2
-"['30 Different Skulltulas', '4 Unused Keys in Gerudo Training Grounds']",13,4
-"['30 Different Skulltulas', '5 Compasses']",8,1
-"['30 Different Skulltulas', '5 Hearts']",13,4
-"['30 Different Skulltulas', '5 Magic Beans']",12,2
-"['30 Different Skulltulas', '5 Maps']",19,9
-"['30 Different Skulltulas', '6 Compasses']",10,6
-"['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds']",6,3
-"['30 Different Skulltulas', '6 Hearts']",12,6
-"['30 Different Skulltulas', '6 Maps']",19,10
+"['30 Different Skulltulas', '4 Skulltulas in Shadow Temple']",9,2
+"['30 Different Skulltulas', '4 Songs']",6,5
+"['30 Different Skulltulas', '4 Unused Keys in Gerudo Training Grounds']",14,5
+"['30 Different Skulltulas', '5 Compasses']",10,1
+"['30 Different Skulltulas', '5 Hearts']",17,6
+"['30 Different Skulltulas', '5 Magic Beans']",14,2
+"['30 Different Skulltulas', '5 Maps']",20,10
+"['30 Different Skulltulas', '5 Unused Keys in Gerudo Training Grounds']",6,3
+"['30 Different Skulltulas', '5 Zora area HPs']",7,5
+"['30 Different Skulltulas', '6 Compasses']",13,9
+"['30 Different Skulltulas', '6 Different Unused Keys in Gerudo Training Grounds']",7,5
+"['30 Different Skulltulas', '6 Hearts']",14,6
+"['30 Different Skulltulas', '6 Maps']",21,10
 "['30 Different Skulltulas', '6 Songs']",6,2
-"['30 Different Skulltulas', '7 Different Unused Keys in Gerudo Training Grounds']",10,2
-"['30 Different Skulltulas', '7 Hearts (no duping)']",6,3
-"['30 Different Skulltulas', '7 Maps']",30,6
-"['30 Different Skulltulas', '7 Songs']",13,8
-"['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds']",13,3
+"['30 Different Skulltulas', '7 Different Unused Keys in Gerudo Training Grounds']",11,2
+"['30 Different Skulltulas', '7 Hearts (no duping)']",7,3
+"['30 Different Skulltulas', '7 Maps']",35,11
+"['30 Different Skulltulas', '7 Songs']",14,8
+"['30 Different Skulltulas', '8 Different Unused Keys in Gerudo Training Grounds']",15,4
 "['30 Different Skulltulas', '8 Hearts (no duping)']",8,1
-"['30 Different Skulltulas', '9 Hearts (no duping)']",6,0
-"['30 Different Skulltulas', '9 Songs']",9,3
-"['30 Different Skulltulas', 'All 3 Elemental Arrows']",13,2
+"['30 Different Skulltulas', '9 Hearts (no duping)']",7,0
+"['30 Different Skulltulas', '9 Songs']",11,5
+"['30 Different Skulltulas', 'All 3 Elemental Arrows']",14,2
 "['30 Different Skulltulas', 'All 3 Skulltulas in Bottom of the Well']",15,8
-"['30 Different Skulltulas', 'All 4 Adult Zoras Domain area Skulltulas']",6,2
+"['30 Different Skulltulas', 'All 3 Skulltulas in Ice Cavern']",8,3
+"['30 Different Skulltulas', 'All 4 Adult Zoras Domain area Skulltulas']",9,3
 "['30 Different Skulltulas', 'All 4 Gerudo Valley area Skulltulas']",12,0
-"['30 Different Skulltulas', 'All 4 Market area Skulltulas']",10,7
+"['30 Different Skulltulas', 'All 4 Market area Skulltulas']",13,10
 "['30 Different Skulltulas', 'All 4 Skulltulas in Jabu-Jabu']",7,1
-"['30 Different Skulltulas', 'All 4 Wasteland/ Colossus area Skulltulas']",12,1
+"['30 Different Skulltulas', 'All 4 Wasteland/ Colossus area Skulltulas']",14,3
 "['30 Different Skulltulas', 'All 5 Lake Hylia Skulltulas']",6,1
-"['30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple']",8,3
-"['30 Different Skulltulas', 'All 5 Skulltulas in Forest Temple']",10,1
-"['30 Different Skulltulas', 'All 5 Skulltulas in Shadow Temple']",9,3
-"['30 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple']",9,6
-"['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple']",14,4
+"['30 Different Skulltulas', 'All 5 Skulltulas in Fire Temple']",10,3
+"['30 Different Skulltulas', 'All 5 Skulltulas in Forest Temple']",11,1
+"['30 Different Skulltulas', 'All 5 Skulltulas in Shadow Temple']",11,4
+"['30 Different Skulltulas', 'All 5 Skulltulas in Spirit Temple']",11,6
+"['30 Different Skulltulas', 'All 5 Skulltulas in Water Temple']",16,7
 "['30 Different Skulltulas', 'Beat Dodongos Cavern']",13,2
-"['30 Different Skulltulas', 'Beat Jabu-Jabus Belly']",10,2
-"['30 Different Skulltulas', 'Beat the Fire Temple']",11,4
-"['30 Different Skulltulas', 'Beat the Shadow Temple']",10,1
-"['30 Different Skulltulas', 'Beat the Water Temple']",8,0
-"['30 Different Skulltulas', 'Blue Fire']",8,3
+"['30 Different Skulltulas', 'Beat Jabu-Jabus Belly']",12,4
+"['30 Different Skulltulas', 'Beat the Fire Temple']",12,4
+"['30 Different Skulltulas', 'Beat the Forest Temple']",6,2
+"['30 Different Skulltulas', 'Beat the Shadow Temple']",12,1
+"['30 Different Skulltulas', 'Beat the Water Temple']",9,1
+"['30 Different Skulltulas', 'Blue Fire']",9,4
 "['30 Different Skulltulas', 'Blue Gauntlets']",7,1
 "['30 Different Skulltulas', 'Blue Potion']",6,1
-"['30 Different Skulltulas', 'Bolero of Fire']",12,7
-"['30 Different Skulltulas', 'Bomb Bag (30)']",7,1
-"['30 Different Skulltulas', 'Boomerang']",10,1
+"['30 Different Skulltulas', 'Bolero of Fire']",13,8
+"['30 Different Skulltulas', 'Bomb Bag (30)']",8,1
+"['30 Different Skulltulas', 'Boomerang']",11,3
 "['30 Different Skulltulas', 'Both Gerudo Valley HPs']",9,7
-"['30 Different Skulltulas', 'Both HPs in Death Mountain Crater']",18,7
+"['30 Different Skulltulas', 'Both HPs in Death Mountain Crater']",21,10
 "['30 Different Skulltulas', 'Both HPs in Lost Woods']",10,6
-"['30 Different Skulltulas', 'Both Hyrule Field area Skulltulas']",6,4
+"['30 Different Skulltulas', 'Both Hyrule Field area Skulltulas']",7,4
+"['30 Different Skulltulas', 'Bottled Fairy']",6,3
+"['30 Different Skulltulas', 'Bronze Gauntlets']",6,1
 "['30 Different Skulltulas', 'Bullet Bag (50)']",7,3
 "['30 Different Skulltulas', 'Clear 8 Silver Rupee Rooms']",11,4
-"['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles']",13,5
+"['30 Different Skulltulas', 'Defeat 4 Different Iron Knuckles']",14,5
 "['30 Different Skulltulas', 'Defeat Amy (Green Poe)']",6,0
 "['30 Different Skulltulas', 'Defeat Big Octo']",9,5
-"['30 Different Skulltulas', 'Defeat Bongo-Bongo']",7,2
+"['30 Different Skulltulas', 'Defeat Bongo-Bongo']",8,2
 "['30 Different Skulltulas', 'Defeat Dark Link']",9,2
-"['30 Different Skulltulas', 'Defeat Morpha']",7,2
-"['30 Different Skulltulas', 'Defeat Nabooru-Knuckle']",9,3
+"['30 Different Skulltulas', 'Defeat Meg (Purple Poe)']",7,3
+"['30 Different Skulltulas', 'Defeat Morpha']",8,2
+"['30 Different Skulltulas', 'Defeat Nabooru-Knuckle']",10,3
 "['30 Different Skulltulas', 'Defeat Phantom Ganon']",7,0
-"['30 Different Skulltulas', 'Defeat Volvagia']",13,4
-"['30 Different Skulltulas', 'Defeat a Skull Kid']",7,0
+"['30 Different Skulltulas', 'Defeat Queen Gohma']",6,3
+"['30 Different Skulltulas', 'Defeat Volvagia']",15,4
+"['30 Different Skulltulas', 'Defeat a Skull Kid']",8,0
 "['30 Different Skulltulas', 'Defeat a White Wolfos']",7,2
-"['30 Different Skulltulas', 'Defeat all Lizalfos in Dodongos Cavern']",11,3
-"['30 Different Skulltulas', 'Dins Fire']",13,1
+"['30 Different Skulltulas', 'Defeat all Lizalfos in Dodongos Cavern']",12,4
+"['30 Different Skulltulas', 'Defeat both Flare Dancers']",6,3
+"['30 Different Skulltulas', 'Desert Colossus HP']",6,0
+"['30 Different Skulltulas', 'Dins Fire']",15,2
+"['30 Different Skulltulas', 'Double Magic']",6,3
 "['30 Different Skulltulas', 'Eponas Song']",6,2
-"['30 Different Skulltulas', 'Exactly 30 Deku Sticks']",7,1
+"['30 Different Skulltulas', 'Exactly 30 Deku Sticks']",9,2
 "['30 Different Skulltulas', 'Fairy Bow']",6,1
-"['30 Different Skulltulas', 'Farores Wind']",9,8
-"['30 Different Skulltulas', 'Fire Arrows']",10,1
-"['30 Different Skulltulas', 'Fire Medallion']",16,10
-"['30 Different Skulltulas', 'Fire Temple Boss Key']",24,10
+"['30 Different Skulltulas', 'Farores Wind']",11,10
+"['30 Different Skulltulas', 'Fire Arrows']",11,1
+"['30 Different Skulltulas', 'Fire Medallion']",18,10
+"['30 Different Skulltulas', 'Fire Temple Boss Key']",27,10
+"['30 Different Skulltulas', 'Forest Medallion']",7,3
 "['30 Different Skulltulas', 'Forest Temple Boss Key']",12,3
 "['30 Different Skulltulas', 'Free all 9 Gorons in Fire Temple']",6,4
-"['30 Different Skulltulas', 'Frogs HP']",6,1
-"['30 Different Skulltulas', 'Ganons Castle Boss Key']",14,2
+"['30 Different Skulltulas', 'Frogs HP']",7,1
+"['30 Different Skulltulas', 'Ganons Castle Boss Key']",15,2
 "['30 Different Skulltulas', 'Get Bombchu chest in Spirit Temple']",9,7
 "['30 Different Skulltulas', 'Goron Tunic']",8,7
-"['30 Different Skulltulas', 'Green Gauntlets']",17,3
-"['30 Different Skulltulas', 'Ice Arrows']",6,2
-"['30 Different Skulltulas', 'Ice Cavern HP']",7,2
+"['30 Different Skulltulas', 'Green Gauntlets']",24,6
+"['30 Different Skulltulas', 'Ice Arrows']",8,3
+"['30 Different Skulltulas', 'Ice Cavern HP']",8,2
 "['30 Different Skulltulas', 'Iron Boots']",6,4
-"['30 Different Skulltulas', 'Keaton Mask']",6,1
+"['30 Different Skulltulas', 'Keaton Mask']",7,1
 "['30 Different Skulltulas', 'Lens of Truth']",6,0
 "['30 Different Skulltulas', 'Light Arrows']",21,1
 "['30 Different Skulltulas', 'Longshot']",13,1
-"['30 Different Skulltulas', 'Map & Compass in Bottom of the Well']",8,4
+"['30 Different Skulltulas', 'Map & Compass in Bottom of the Well']",10,5
 "['30 Different Skulltulas', 'Map & Compass in Deku Tree']",7,2
-"['30 Different Skulltulas', 'Map & Compass in Dodongos Cavern']",13,4
-"['30 Different Skulltulas', 'Map & Compass in Fire Temple']",6,1
-"['30 Different Skulltulas', 'Map & Compass in Forest Temple']",12,7
+"['30 Different Skulltulas', 'Map & Compass in Dodongos Cavern']",15,6
+"['30 Different Skulltulas', 'Map & Compass in Fire Temple']",7,1
+"['30 Different Skulltulas', 'Map & Compass in Forest Temple']",13,7
 "['30 Different Skulltulas', 'Map & Compass in Jabu-Jabu']",7,2
-"['30 Different Skulltulas', 'Map & Compass in Shadow Temple']",6,1
+"['30 Different Skulltulas', 'Map & Compass in Shadow Temple']",7,1
 "['30 Different Skulltulas', 'Map & Compass in Spirit Temple']",7,0
-"['30 Different Skulltulas', 'Megaton Hammer']",10,4
-"['30 Different Skulltulas', 'Minuet of Forest']",9,1
-"['30 Different Skulltulas', 'Mirror Shield']",17,4
-"['30 Different Skulltulas', 'Nayrus Love']",12,5
-"['30 Different Skulltulas', 'Obtain all 5 Small Keys in Forest Temple']",8,7
-"['30 Different Skulltulas', 'Obtain all 5 Small Keys in Shadow Temple']",14,1
-"['30 Different Skulltulas', 'Obtain all 8 Small Keys in Fire Temple']",11,2
-"['30 Different Skulltulas', 'Open 2 Boss Key Doors']",11,7
+"['30 Different Skulltulas', 'Megaton Hammer']",12,4
+"['30 Different Skulltulas', 'Minuet of Forest']",11,1
+"['30 Different Skulltulas', 'Mirror Shield']",19,4
+"['30 Different Skulltulas', 'Nayrus Love']",14,5
+"['30 Different Skulltulas', 'Obtain all 5 Small Keys in Forest Temple']",9,8
+"['30 Different Skulltulas', 'Obtain all 5 Small Keys in Shadow Temple']",19,3
+"['30 Different Skulltulas', 'Obtain all 8 Small Keys in Fire Temple']",12,2
+"['30 Different Skulltulas', 'Open 2 Boss Key Doors']",13,7
 "['30 Different Skulltulas', 'Open 3 Boss Key Doors']",21,2
-"['30 Different Skulltulas', 'Open 3 Gold Rupee Chests']",20,2
+"['30 Different Skulltulas', 'Open 3 Gold Rupee Chests']",22,4
+"['30 Different Skulltulas', 'Open 5 Gold Rupee Chests']",6,0
+"['30 Different Skulltulas', 'Open the Final Door of Fire Trial']",7,0
 "['30 Different Skulltulas', 'Open the Final Door of Light Trial']",8,3
 "['30 Different Skulltulas', 'Open the Final Door of Shadow Trial']",16,3
-"['30 Different Skulltulas', 'Open the Final Door of Spirit Trial']",19,1
-"['30 Different Skulltulas', 'Open the Final Door of Water Trial']",11,5
-"['30 Different Skulltulas', 'Quiver (40)']",11,4
+"['30 Different Skulltulas', 'Open the Final Door of Spirit Trial']",20,1
+"['30 Different Skulltulas', 'Open the Final Door of Water Trial']",12,5
+"['30 Different Skulltulas', 'Plant 5 Magic Beans']",7,5
+"['30 Different Skulltulas', 'Quiver (40)']",12,5
 "['30 Different Skulltulas', 'Quiver (50)']",8,5
-"['30 Different Skulltulas', 'Requiem of Spirit']",12,2
+"['30 Different Skulltulas', 'Requiem of Spirit']",14,4
 "['30 Different Skulltulas', 'Rutos Letter']",6,0
 "['30 Different Skulltulas', 'Sarias Song']",9,4
-"['30 Different Skulltulas', 'Silver Gauntlets']",20,9
+"['30 Different Skulltulas', 'Silver Gauntlets']",22,10
 "['30 Different Skulltulas', 'Spirit Temple Boss Key']",8,2
 "['30 Different Skulltulas', 'Two Fairy Spells']",16,7
-"['30 Different Skulltulas', 'Water Medallion']",8,3
+"['30 Different Skulltulas', 'Water Medallion']",9,4
 "['30 Different Skulltulas', 'Win Bombchu Bowling Prize']",13,6
-"['30 Different Skulltulas', 'Zora Tunic']",13,4
+"['30 Different Skulltulas', 'Zora Tunic']",16,8
+"['37th Heart Piece (Child Fortress)', '9 Hearts (no duping)']",6,1
 "['37th Heart Piece (Child Fortress)', 'All 3 Elemental Arrows']",9,4
 "['37th Heart Piece (Child Fortress)', 'All 5 Skulltulas in Water Temple']",6,1
+"['37th Heart Piece (Child Fortress)', 'Beat the Fire Temple']",6,0
+"['37th Heart Piece (Child Fortress)', 'Beat the Spirit Temple']",6,0
 "['37th Heart Piece (Child Fortress)', 'Both Rusty Switches in Spirit Temple']",6,1
-"['37th Heart Piece (Child Fortress)', 'Clear 10 Silver Rupee Rooms']",6,1
-"['37th Heart Piece (Child Fortress)', 'Green Gauntlets']",10,5
-"['4 Compasses', '9 Hearts (no duping)']",9,4
-"['4 Compasses', 'All 3 Elemental Arrows']",9,0
-"['4 Compasses', 'Green Gauntlets']",6,1
-"['4 Compasses', 'Open All 6 Gold Rupee Chests']",7,4
+"['37th Heart Piece (Child Fortress)', 'Clear 10 Silver Rupee Rooms']",7,1
+"['37th Heart Piece (Child Fortress)', 'Defeat Twinrova']",6,1
+"['37th Heart Piece (Child Fortress)', 'Green Gauntlets']",11,5
+"['4 Compasses', '9 Hearts (no duping)']",11,4
+"['4 Compasses', 'All 3 Elemental Arrows']",12,1
+"['4 Compasses', 'Fire Temple Boss Key']",6,0
+"['4 Compasses', 'Goron Bracelet']",6,0
+"['4 Compasses', 'Green Gauntlets']",8,1
+"['4 Compasses', 'Open All 6 Gold Rupee Chests']",8,4
 "['4 Maps', 'Beat the Spirit Temple']",7,0
 "['4 Maps', 'Green Gauntlets']",8,1
 "['4 Skulltulas in Shadow Temple', '5 Magic Beans']",6,0
 "['4 Skulltulas in Shadow Temple', '7 Compasses']",10,1
 "['4 Skulltulas in Shadow Temple', '8 Hearts (no duping)']",11,2
-"['4 Skulltulas in Shadow Temple', '9 Hearts (no duping)']",9,13
-"['4 Skulltulas in Shadow Temple', 'All 3 Elemental Arrows']",17,6
-"['4 Skulltulas in Shadow Temple', 'Beat the Spirit Temple']",8,3
-"['4 Skulltulas in Shadow Temple', 'Both Rusty Switches in Spirit Temple']",9,2
+"['4 Skulltulas in Shadow Temple', '9 Hearts (no duping)']",10,13
+"['4 Skulltulas in Shadow Temple', 'All 3 Elemental Arrows']",18,6
+"['4 Skulltulas in Shadow Temple', 'All 3 Skulltulas in Bottom of the Well']",6,2
+"['4 Skulltulas in Shadow Temple', 'Beat the Spirit Temple']",9,3
+"['4 Skulltulas in Shadow Temple', 'Bolero of Fire']",6,0
+"['4 Skulltulas in Shadow Temple', 'Both Rusty Switches in Spirit Temple']",10,2
 "['4 Skulltulas in Shadow Temple', 'Bullet Bag (50)']",10,1
-"['4 Skulltulas in Shadow Temple', 'Dins Fire']",6,3
-"['4 Skulltulas in Shadow Temple', 'Goron Bracelet']",8,4
+"['4 Skulltulas in Shadow Temple', 'Defeat 4 Different Iron Knuckles']",6,0
+"['4 Skulltulas in Shadow Temple', 'Dins Fire']",7,3
+"['4 Skulltulas in Shadow Temple', 'Goron Bracelet']",9,4
 "['4 Skulltulas in Shadow Temple', 'Green Gauntlets']",15,4
 "['4 Skulltulas in Shadow Temple', 'Map & Compass in Spirit Temple']",7,3
 "['4 Skulltulas in Shadow Temple', 'Open 2 Boss Key Doors']",6,4
-"['4 Skulltulas in Shadow Temple', 'Open 3 Boss Key Doors']",10,4
+"['4 Skulltulas in Shadow Temple', 'Open 3 Boss Key Doors']",11,5
 "['4 Skulltulas in Shadow Temple', 'Open 3 Gold Rupee Chests']",6,3
 "['4 Skulltulas in Shadow Temple', 'Open All 6 Gold Rupee Chests']",16,1
 "['4 Skulltulas in Shadow Temple', 'Two Fairy Spells']",10,11
-"['4 Songs', '9 Hearts (no duping)']",8,6
-"['4 Songs', 'All 3 Elemental Arrows']",11,8
+"['4 Songs', '9 Hearts (no duping)']",9,6
+"['4 Songs', 'All 3 Elemental Arrows']",14,8
 "['4 Songs', 'All 8 Zoras Domain area Skulltulas']",6,1
+"['4 Songs', 'Clear 10 Silver Rupee Rooms']",6,2
+"['4 Songs', 'Dins Fire']",6,0
 "['4 Unused Keys in Forest Temple', '7 Compasses']",6,2
 "['4 Unused Keys in Forest Temple', '8 Hearts (no duping)']",6,1
 "['4 Unused Keys in Forest Temple', 'All 3 Elemental Arrows']",10,5
@@ -656,65 +791,78 @@ goal combination,count,pick count
 "['4 Unused Keys in Forest Temple', 'Dins Fire']",7,2
 "['4 Unused Keys in Forest Temple', 'Green Gauntlets']",6,4
 "['4 Unused Keys in Forest Temple', 'Open All 6 Gold Rupee Chests']",8,2
-"['4 Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",7,6
-"['4 Unused Keys in Gerudo Training Grounds', 'All 3 Elemental Arrows']",10,2
+"['4 Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",9,8
+"['4 Unused Keys in Gerudo Training Grounds', 'All 3 Elemental Arrows']",11,2
+"['4 Unused Keys in Gerudo Training Grounds', 'Both Rusty Switches in Spirit Temple']",6,0
+"['4 Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",7,6
 "['4 Unused Keys in Gerudo Training Grounds', 'Defeat Volvagia']",8,4
-"['4 Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",6,0
-"['4 Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",6,0
+"['4 Unused Keys in Gerudo Training Grounds', 'Defeat a Skull Kid']",6,1
+"['4 Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",7,0
+"['4 Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",8,1
+"['4 Unused Keys in Gerudo Training Grounds', 'Open 3 Gold Rupee Chests']",7,3
 "['4 Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests']",7,5
 "['5 Compasses', '9 Hearts (no duping)']",6,4
 "['5 Compasses', 'All 3 Elemental Arrows']",16,6
 "['5 Compasses', 'All 4 Market area Skulltulas']",7,4
-"['5 Compasses', 'Beat the Spirit Temple']",11,4
+"['5 Compasses', 'All 5 Skulltulas in Shadow Temple']",6,3
+"['5 Compasses', 'Beat the Spirit Temple']",12,4
+"['5 Compasses', 'Defeat 4 Different Iron Knuckles']",6,1
+"['5 Compasses', 'Exactly 30 Deku Sticks']",6,6
 "['5 Compasses', 'Goron Bracelet']",9,0
-"['5 Compasses', 'Green Gauntlets']",12,7
-"['5 Compasses', 'Open All 6 Gold Rupee Chests']",12,5
-"['5 Compasses', 'Quiver (50)']",6,1
-"['5 Hearts', '7 Compasses']",6,1
-"['5 Hearts', 'All 3 Elemental Arrows']",12,4
-"['5 Hearts', 'All 4 Market area Skulltulas']",8,1
-"['5 Hearts', 'All 5 Lake Hylia Skulltulas']",7,1
+"['5 Compasses', 'Green Gauntlets']",13,7
+"['5 Compasses', 'Open All 6 Gold Rupee Chests']",14,6
+"['5 Compasses', 'Quiver (50)']",8,2
+"['5 Hearts', '7 Compasses']",7,2
+"['5 Hearts', 'All 3 Elemental Arrows']",16,4
+"['5 Hearts', 'All 4 Market area Skulltulas']",10,1
+"['5 Hearts', 'All 5 Lake Hylia Skulltulas']",8,1
 "['5 Hearts', 'All 8 Zoras Domain area Skulltulas']",6,2
-"['5 Hearts', 'Beat the Spirit Temple']",6,0
+"['5 Hearts', 'Beat the Spirit Temple']",7,0
 "['5 Hearts', 'Clear 10 Silver Rupee Rooms']",8,0
 "['5 Hearts', 'Clear 8 Silver Rupee Rooms']",6,0
-"['5 Hearts', 'Dins Fire']",6,0
-"['5 Hearts', 'Free all 9 Gorons in Fire Temple']",8,1
-"['5 Hearts', 'Green Gauntlets']",11,1
+"['5 Hearts', 'Dins Fire']",7,0
+"['5 Hearts', 'Free all 9 Gorons in Fire Temple']",9,1
+"['5 Hearts', 'Green Gauntlets']",17,4
+"['5 Hearts', 'Longshot']",6,2
 "['5 Hearts', 'Map & Compass in Spirit Temple']",7,0
-"['5 Hearts', 'Open All 6 Gold Rupee Chests']",12,3
-"['5 Hearts', 'Quiver (50)']",6,2
+"['5 Hearts', 'Open All 6 Gold Rupee Chests']",15,5
+"['5 Hearts', 'Quiver (50)']",8,2
 "['5 Magic Beans', '5 Unused Keys in Gerudo Training Grounds']",6,2
 "['5 Magic Beans', '7 Compasses']",6,3
-"['5 Magic Beans', '7 Hearts (no duping)']",6,2
+"['5 Magic Beans', '7 Hearts (no duping)']",7,2
 "['5 Magic Beans', '8 Hearts (no duping)']",7,2
-"['5 Magic Beans', '9 Hearts (no duping)']",9,2
+"['5 Magic Beans', '9 Hearts (no duping)']",11,2
 "['5 Magic Beans', 'All 3 Elemental Arrows']",17,5
 "['5 Magic Beans', 'All 5 Lake Hylia Skulltulas']",7,3
-"['5 Magic Beans', 'Both Rusty Switches in Spirit Temple']",6,1
+"['5 Magic Beans', 'All 8 Zoras Domain area Skulltulas']",6,0
+"['5 Magic Beans', 'Both Rusty Switches in Spirit Temple']",7,1
 "['5 Magic Beans', 'Clear 10 Silver Rupee Rooms']",9,0
-"['5 Magic Beans', 'Defeat Twinrova']",6,3
-"['5 Magic Beans', 'Defeat Volvagia']",8,1
-"['5 Magic Beans', 'Dins Fire']",6,1
+"['5 Magic Beans', 'Defeat Twinrova']",7,3
+"['5 Magic Beans', 'Defeat Volvagia']",11,1
+"['5 Magic Beans', 'Dins Fire']",8,1
 "['5 Magic Beans', 'Goron Bracelet']",11,1
-"['5 Magic Beans', 'Green Gauntlets']",14,2
+"['5 Magic Beans', 'Green Gauntlets']",15,2
 "['5 Magic Beans', 'Light Arrows']",6,0
-"['5 Magic Beans', 'Map & Compass in Spirit Temple']",7,1
-"['5 Magic Beans', 'Open 3 Boss Key Doors']",6,0
-"['5 Magic Beans', 'Open All 6 Gold Rupee Chests']",16,3
+"['5 Magic Beans', 'Map & Compass in Spirit Temple']",8,1
+"['5 Magic Beans', 'Nayrus Love']",6,0
+"['5 Magic Beans', 'Open 3 Boss Key Doors']",9,0
+"['5 Magic Beans', 'Open All 6 Gold Rupee Chests']",19,3
 "['5 Magic Beans', 'Two Fairy Spells']",7,0
-"['5 Maps', 'Beat the Spirit Temple']",9,2
-"['5 Maps', 'Defeat 4 Different Iron Knuckles']",6,0
+"['5 Maps', '9 Hearts (no duping)']",7,1
+"['5 Maps', 'Beat the Spirit Temple']",10,3
+"['5 Maps', 'Defeat 4 Different Iron Knuckles']",8,1
 "['5 Maps', 'Defeat Twinrova']",12,2
-"['5 Maps', 'Green Gauntlets']",11,3
-"['5 Maps', 'Open the Final Door of Water Trial']",8,0
+"['5 Maps', 'Goron Bracelet']",6,4
+"['5 Maps', 'Green Gauntlets']",13,4
+"['5 Maps', 'Open the Final Door of Water Trial']",9,0
 "['5 Unused Keys in Gerudo Training Grounds', '7 Compasses']",7,1
-"['5 Unused Keys in Gerudo Training Grounds', '9 Hearts (no duping)']",6,4
-"['5 Unused Keys in Gerudo Training Grounds', 'All 3 Elemental Arrows']",14,4
-"['5 Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",7,0
-"['5 Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",7,1
+"['5 Unused Keys in Gerudo Training Grounds', '9 Hearts (no duping)']",7,4
+"['5 Unused Keys in Gerudo Training Grounds', 'All 3 Elemental Arrows']",17,4
+"['5 Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",6,1
+"['5 Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",8,0
+"['5 Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",8,1
 "['5 Zora area HPs', '9 Hearts (no duping)']",6,7
-"['5 Zora area HPs', 'All 3 Elemental Arrows']",14,4
+"['5 Zora area HPs', 'All 3 Elemental Arrows']",16,4
 "['5 Zora area HPs', 'Beat the Fire Temple']",7,3
 "['5 Zora area HPs', 'Both Rusty Switches in Spirit Temple']",11,1
 "['5 Zora area HPs', 'Defeat Volvagia']",7,0
@@ -724,120 +872,151 @@ goal combination,count,pick count
 "['5 Zora area HPs', 'Open All 6 Gold Rupee Chests']",9,2
 "['5 Zora area HPs', 'Quiver (40)']",8,2
 "['5 Zora area HPs', 'Zora Tunic']",7,3
-"['500 Rupees', 'All 3 Elemental Arrows']",6,1
+"['500 Rupees', 'All 3 Elemental Arrows']",7,1
 "['6 Compasses', '7 Songs']",7,6
-"['6 Compasses', '8 Different Unused Keys in Gerudo Training Grounds']",6,5
-"['6 Compasses', '9 Hearts (no duping)']",8,0
-"['6 Compasses', 'All 3 Elemental Arrows']",26,15
+"['6 Compasses', '8 Different Unused Keys in Gerudo Training Grounds']",8,6
+"['6 Compasses', '9 Hearts (no duping)']",9,0
+"['6 Compasses', 'All 3 Elemental Arrows']",32,16
 "['6 Compasses', 'All 3 Skulltulas in Bottom of the Well']",6,2
+"['6 Compasses', 'All 4 Gerudo Valley area Skulltulas']",8,1
 "['6 Compasses', 'All 5 Skulltulas in Forest Temple']",6,0
-"['6 Compasses', 'Beat the Spirit Temple']",13,3
-"['6 Compasses', 'Defeat Twinrova']",10,3
-"['6 Compasses', 'Farores Wind']",7,6
+"['6 Compasses', 'Beat the Spirit Temple']",15,3
+"['6 Compasses', 'Bullet Bag (50)']",7,3
+"['6 Compasses', 'Defeat Twinrova']",12,3
+"['6 Compasses', 'Farores Wind']",10,8
 "['6 Compasses', 'Fire Temple Boss Key']",7,3
-"['6 Compasses', 'Ganons Castle Boss Key']",6,2
-"['6 Compasses', 'Open 2 Boss Key Doors']",6,4
+"['6 Compasses', 'Ganons Castle Boss Key']",7,4
+"['6 Compasses', 'Open 2 Boss Key Doors']",7,5
 "['6 Compasses', 'Open 3 Gold Rupee Chests']",6,2
-"['6 Compasses', 'Open All 6 Gold Rupee Chests']",27,6
-"['6 Different Unused Keys in Gerudo Training Grounds', '7 Compasses']",10,7
-"['6 Different Unused Keys in Gerudo Training Grounds', 'All 3 Skulltulas in Bottom of the Well']",6,7
+"['6 Compasses', 'Open All 6 Gold Rupee Chests']",31,7
+"['6 Different Unused Keys in Gerudo Training Grounds', '7 Compasses']",11,7
+"['6 Different Unused Keys in Gerudo Training Grounds', 'All 3 Skulltulas in Bottom of the Well']",7,7
+"['6 Different Unused Keys in Gerudo Training Grounds', 'All 4 Market area Skulltulas']",6,5
 "['6 Different Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Water Temple']",6,2
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Beat the Spirit Temple']",6,0
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Both Rusty Switches in Spirit Temple']",6,1
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",6,1
+"['6 Different Unused Keys in Gerudo Training Grounds', 'Beat the Spirit Temple']",7,0
+"['6 Different Unused Keys in Gerudo Training Grounds', 'Both Rusty Switches in Spirit Temple']",7,1
+"['6 Different Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",7,1
 "['6 Different Unused Keys in Gerudo Training Grounds', 'Fire Medallion']",6,3
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",9,2
-"['6 Different Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",13,2
-"['6 Hearts', 'All 3 Elemental Arrows']",7,0
-"['6 Hearts', 'Open All 6 Gold Rupee Chests']",6,0
+"['6 Different Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",10,2
+"['6 Different Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",14,2
+"['6 Hearts', 'All 3 Elemental Arrows']",8,0
+"['6 Hearts', 'Open All 6 Gold Rupee Chests']",8,0
+"['6 Hearts', 'Quiver (50)']",6,0
 "['6 Maps', '9 Hearts (no duping)']",11,4
-"['6 Maps', 'Beat the Spirit Temple']",12,1
-"['6 Maps', 'Defeat Twinrova']",14,1
+"['6 Maps', 'All 5 Skulltulas in Water Temple']",6,2
+"['6 Maps', 'Beat the Spirit Temple']",14,1
+"['6 Maps', 'Defeat Meg (Purple Poe)']",6,1
+"['6 Maps', 'Defeat Twinrova']",15,1
 "['6 Maps', 'Fire Medallion']",6,1
+"['6 Maps', 'Goron Bracelet']",6,1
 "['6 Maps', 'Green Gauntlets']",10,0
-"['6 Maps', 'Obtain all 5 Small Keys in Shadow Temple']",6,3
-"['6 Songs', 'All 3 Elemental Arrows']",9,0
-"['6 Songs', 'Green Gauntlets']",8,1
+"['6 Maps', 'Obtain all 5 Small Keys in Shadow Temple']",8,3
+"['6 Songs', 'All 3 Elemental Arrows']",10,0
+"['6 Songs', 'Dins Fire']",6,0
+"['6 Songs', 'Green Gauntlets']",9,1
 "['6 Songs', 'Open All 6 Gold Rupee Chests']",7,0
-"['7 Compasses', '7 Different Unused Keys in Gerudo Training Grounds']",6,7
-"['7 Compasses', '8 Hearts (no duping)']",21,7
+"['7 Compasses', '7 Different Unused Keys in Gerudo Training Grounds']",8,8
+"['7 Compasses', '8 Hearts (no duping)']",23,8
 "['7 Compasses', '8 Songs']",7,1
-"['7 Compasses', '9 Hearts (no duping)']",6,2
+"['7 Compasses', '9 Hearts (no duping)']",7,3
 "['7 Compasses', '9 Songs']",7,1
 "['7 Compasses', 'All 3 Skulltulas in Bottom of the Well']",7,11
-"['7 Compasses', 'All 4 Child Zoras Domain area Skulltulas']",6,0
-"['7 Compasses', 'All 4 Market area Skulltulas']",11,3
-"['7 Compasses', 'All 4 Wasteland/ Colossus area Skulltulas']",10,7
-"['7 Compasses', 'All 5 Skulltulas in Fire Temple']",15,7
-"['7 Compasses', 'All 5 Skulltulas in Shadow Temple']",8,4
+"['7 Compasses', 'All 4 Child Zoras Domain area Skulltulas']",7,0
+"['7 Compasses', 'All 4 Market area Skulltulas']",12,5
+"['7 Compasses', 'All 4 Wasteland/ Colossus area Skulltulas']",11,7
+"['7 Compasses', 'All 5 Skulltulas in Dodongos Cavern']",6,6
+"['7 Compasses', 'All 5 Skulltulas in Fire Temple']",16,7
+"['7 Compasses', 'All 5 Skulltulas in Shadow Temple']",10,5
 "['7 Compasses', 'All 5 Skulltulas in Water Temple']",10,2
 "['7 Compasses', 'All 8 Kakariko area Skulltulas']",7,2
+"['7 Compasses', 'All 8 Zoras Domain area Skulltulas']",7,0
 "['7 Compasses', 'Blue Potion']",6,0
 "['7 Compasses', 'Bolero of Fire']",6,1
 "['7 Compasses', 'Bomb Bag (30)']",7,5
-"['7 Compasses', 'Bullet Bag (50)']",6,2
-"['7 Compasses', 'Defeat 4 Different Iron Knuckles']",11,6
+"['7 Compasses', 'Bottled Fairy']",7,4
+"['7 Compasses', 'Bullet Bag (50)']",8,4
+"['7 Compasses', 'Defeat 4 Different Iron Knuckles']",12,6
 "['7 Compasses', 'Defeat Bongo-Bongo']",8,1
+"['7 Compasses', 'Defeat Nabooru-Knuckle']",7,1
 "['7 Compasses', 'Defeat a Skull Kid']",10,4
-"['7 Compasses', 'Dins Fire']",18,5
+"['7 Compasses', 'Desert Colossus HP']",6,0
+"['7 Compasses', 'Dins Fire']",21,7
 "['7 Compasses', 'Double Defense']",7,3
 "['7 Compasses', 'Double Magic']",7,2
 "['7 Compasses', 'Exactly 30 Deku Sticks']",7,1
-"['7 Compasses', 'Fire Arrows']",6,2
+"['7 Compasses', 'Fire Arrows']",7,2
 "['7 Compasses', 'Fire Temple Boss Key']",6,1
-"['7 Compasses', 'Forest Medallion']",7,1
-"['7 Compasses', 'Goron Bracelet']",13,3
-"['7 Compasses', 'Goron Tunic']",6,1
-"['7 Compasses', 'Green Gauntlets']",16,4
+"['7 Compasses', 'Forest Medallion']",8,2
+"['7 Compasses', 'Goron Bracelet']",14,3
+"['7 Compasses', 'Goron Tunic']",7,2
+"['7 Compasses', 'Green Gauntlets']",20,5
 "['7 Compasses', 'Ice Arrows']",6,3
-"['7 Compasses', 'Light Arrows']",9,2
+"['7 Compasses', 'Lens of Truth']",6,4
+"['7 Compasses', 'Light Arrows']",11,4
 "['7 Compasses', 'Map & Compass in Bottom of the Well']",7,2
 "['7 Compasses', 'Map & Compass in Water Temple']",6,3
-"['7 Compasses', 'Minuet of Forest']",7,3
-"['7 Compasses', 'Mirror Shield']",6,1
-"['7 Compasses', 'Nayrus Love']",7,5
-"['7 Compasses', 'Obtain all 5 Small Keys in Shadow Temple']",11,8
-"['7 Compasses', 'Open 2 Boss Key Doors']",11,7
-"['7 Compasses', 'Open 3 Boss Key Doors']",14,4
+"['7 Compasses', 'Minuet of Forest']",10,4
+"['7 Compasses', 'Mirror Shield']",8,1
+"['7 Compasses', 'Nayrus Love']",8,5
+"['7 Compasses', 'Obtain all 5 Small Keys in Shadow Temple']",15,10
+"['7 Compasses', 'Open 2 Boss Key Doors']",13,8
+"['7 Compasses', 'Open 3 Boss Key Doors']",16,4
 "['7 Compasses', 'Open 3 Gold Rupee Chests']",7,2
-"['7 Compasses', 'Open the Final Door of Fire Trial']",7,0
+"['7 Compasses', 'Open 5 Gold Rupee Chests']",6,4
+"['7 Compasses', 'Open the Final Door of Fire Trial']",8,1
 "['7 Compasses', 'Open the Final Door of Spirit Trial']",9,1
-"['7 Compasses', 'Quiver (50)']",14,3
-"['7 Different Bottled Contents', 'All 3 Elemental Arrows']",12,1
+"['7 Compasses', 'Plant 5 Magic Beans']",6,1
+"['7 Compasses', 'Quiver (50)']",17,4
+"['7 Compasses', 'Sarias Song']",7,5
+"['7 Compasses', 'Silver Gauntlets']",7,7
+"['7 Different Bottled Contents', 'All 3 Elemental Arrows']",13,1
 "['7 Different Bottled Contents', 'Open All 6 Gold Rupee Chests']",6,1
-"['7 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",6,4
-"['7 Different Unused Keys in Gerudo Training Grounds', 'All 3 Elemental Arrows']",10,2
-"['7 Different Unused Keys in Gerudo Training Grounds', 'All 4 Market area Skulltulas']",9,3
+"['7 Different Unused Keys in Gerudo Training Grounds', '7 Maps']",6,0
+"['7 Different Unused Keys in Gerudo Training Grounds', '8 Hearts (no duping)']",7,4
+"['7 Different Unused Keys in Gerudo Training Grounds', 'All 3 Elemental Arrows']",11,2
+"['7 Different Unused Keys in Gerudo Training Grounds', 'All 4 Market area Skulltulas']",10,3
 "['7 Different Unused Keys in Gerudo Training Grounds', 'All 5 Skulltulas in Water Temple']",8,3
-"['7 Different Unused Keys in Gerudo Training Grounds', 'Beat the Fire Temple']",6,0
-"['7 Different Unused Keys in Gerudo Training Grounds', 'Beat the Spirit Temple']",12,1
-"['7 Different Unused Keys in Gerudo Training Grounds', 'Both Rusty Switches in Spirit Temple']",14,0
-"['7 Different Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",6,0
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Beat the Fire Temple']",7,0
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Beat the Spirit Temple']",14,2
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Both Rusty Switches in Spirit Temple']",16,1
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",8,0
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat Twinrova']",7,4
 "['7 Different Unused Keys in Gerudo Training Grounds', 'Defeat Volvagia']",6,3
-"['7 Different Unused Keys in Gerudo Training Grounds', 'Dins Fire']",10,1
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Dins Fire']",11,2
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Exactly 20 Deku Sticks']",6,1
 "['7 Different Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",10,4
-"['7 Different Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",15,1
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",17,1
 "['7 Different Unused Keys in Gerudo Training Grounds', 'Map & Compass in Bottom of the Well']",7,2
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Minuet of Forest']",6,1
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Open All 6 Gold Rupee Chests']",6,1
+"['7 Different Unused Keys in Gerudo Training Grounds', 'Open the Final Door of Shadow Trial']",6,0
 "['7 Different Unused Keys in Gerudo Training Grounds', 'Open the Final Door of Water Trial']",7,0
 "['7 Different Unused Keys in Gerudo Training Grounds', 'Two Fairy Spells']",8,4
-"['7 Hearts (no duping)', 'All 3 Elemental Arrows']",13,3
-"['7 Hearts (no duping)', 'Both Rusty Switches in Spirit Temple']",8,3
-"['7 Hearts (no duping)', 'Clear 10 Silver Rupee Rooms']",8,0
-"['7 Hearts (no duping)', 'Green Gauntlets']",8,0
-"['7 Hearts (no duping)', 'Map & Compass in Spirit Temple']",7,5
-"['7 Hearts (no duping)', 'Obtain all 5 Small Keys in Shadow Temple']",7,3
-"['7 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",6,1
+"['7 Hearts (no duping)', 'All 3 Elemental Arrows']",15,4
+"['7 Hearts (no duping)', 'Both Rusty Switches in Spirit Temple']",9,3
+"['7 Hearts (no duping)', 'Clear 10 Silver Rupee Rooms']",9,0
+"['7 Hearts (no duping)', 'Green Gauntlets']",9,0
+"['7 Hearts (no duping)', 'Map & Compass in Spirit Temple']",8,5
+"['7 Hearts (no duping)', 'Obtain all 5 Small Keys in Shadow Temple']",8,3
+"['7 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",6,3
+"['7 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",7,1
 "['7 Magic Beans', 'Defeat Twinrova']",6,1
+"['7 Magic Beans', 'Green Gauntlets']",6,0
 "['7 Maps', '8 Different Unused Keys in Gerudo Training Grounds']",6,1
-"['7 Maps', '9 Hearts (no duping)']",13,4
-"['7 Maps', 'All 4 Skulltulas in Jabu-Jabu']",7,1
-"['7 Maps', 'Beat the Spirit Temple']",14,2
-"['7 Maps', 'Bolero of Fire']",6,3
-"['7 Maps', 'Defeat 4 Different Iron Knuckles']",6,4
-"['7 Maps', 'Defeat Twinrova']",12,1
+"['7 Maps', '9 Hearts (no duping)']",15,5
+"['7 Maps', '9 Songs']",6,6
+"['7 Maps', 'All 4 Market area Skulltulas']",6,1
+"['7 Maps', 'All 4 Skulltulas in Jabu-Jabu']",9,1
+"['7 Maps', 'Beat the Spirit Temple']",17,2
+"['7 Maps', 'Bolero of Fire']",7,3
+"['7 Maps', 'Defeat 4 Different Iron Knuckles']",11,7
+"['7 Maps', 'Defeat Twinrova']",13,1
 "['7 Maps', 'Double Defense']",7,0
 "['7 Maps', 'Exactly 30 Deku Sticks']",8,1
+"['7 Maps', 'Fire Arrows']",6,1
 "['7 Maps', 'Map & Compass in Forest Temple']",6,1
+"['7 Maps', 'Obtain all 8 Small Keys in Fire Temple']",6,0
+"['7 Maps', 'Sarias Song']",8,4
 "['7 Maps', 'Shadow Temple Boss Key']",6,1
 "['7 Songs', '9 Hearts (no duping)']",9,13
 "['7 Songs', 'All 3 Elemental Arrows']",10,2
@@ -846,275 +1025,322 @@ goal combination,count,pick count
 "['7 Songs', 'Clear 10 Silver Rupee Rooms']",10,2
 "['7 Songs', 'Dins Fire']",7,5
 "['7 Songs', 'Goron Bracelet']",9,2
-"['7 Songs', 'Green Gauntlets']",6,1
+"['7 Songs', 'Green Gauntlets']",7,1
 "['8 Different Unused Keys in Gerudo Training Grounds', '9 Hearts (no duping)']",6,0
-"['8 Different Unused Keys in Gerudo Training Grounds', 'Both Rusty Switches in Spirit Temple']",6,0
+"['8 Different Unused Keys in Gerudo Training Grounds', 'Both Rusty Switches in Spirit Temple']",7,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Clear 10 Silver Rupee Rooms']",11,1
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Defeat Twinrova']",6,3
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Exactly 30 Deku Sticks']",7,1
-"['8 Different Unused Keys in Gerudo Training Grounds', 'Free all 9 Gorons in Fire Temple']",6,2
+"['8 Different Unused Keys in Gerudo Training Grounds', 'Free all 9 Gorons in Fire Temple']",7,2
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Goron Bracelet']",6,0
-"['8 Different Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",9,1
+"['8 Different Unused Keys in Gerudo Training Grounds', 'Green Gauntlets']",11,1
+"['8 Different Unused Keys in Gerudo Training Grounds', 'Open the Final Door of Shadow Trial']",6,0
 "['8 Different Unused Keys in Gerudo Training Grounds', 'Open the Final Door of Water Trial']",7,1
 "['8 Hearts (no duping)', '8 Songs']",6,6
 "['8 Hearts (no duping)', '9 Songs']",7,2
-"['8 Hearts (no duping)', 'All 3 Elemental Arrows']",24,7
+"['8 Hearts (no duping)', 'All 3 Elemental Arrows']",25,8
 "['8 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well']",8,2
+"['8 Hearts (no duping)', 'All 4 Gerudo Valley area Skulltulas']",6,1
 "['8 Hearts (no duping)', 'All 5 Lake Hylia Skulltulas']",7,0
-"['8 Hearts (no duping)', 'All 5 Skulltulas in Fire Temple']",6,3
+"['8 Hearts (no duping)', 'All 5 Skulltulas in Fire Temple']",7,3
 "['8 Hearts (no duping)', 'All 8 Death Mountain area Skulltulas']",8,5
-"['8 Hearts (no duping)', 'All 8 Zoras Domain area Skulltulas']",7,4
+"['8 Hearts (no duping)', 'All 8 Zoras Domain area Skulltulas']",8,4
+"['8 Hearts (no duping)', 'Blue Gauntlets']",7,3
 "['8 Hearts (no duping)', 'Bomb Bag (30)']",8,0
 "['8 Hearts (no duping)', 'Both HPs in Death Mountain Crater']",6,8
-"['8 Hearts (no duping)', 'Both Rusty Switches in Spirit Temple']",29,3
-"['8 Hearts (no duping)', 'Bottled Fairy']",6,1
-"['8 Hearts (no duping)', 'Bronze Gauntlets']",7,1
+"['8 Hearts (no duping)', 'Both Hyrule Field area Skulltulas']",6,1
+"['8 Hearts (no duping)', 'Both Rusty Switches in Spirit Temple']",33,5
+"['8 Hearts (no duping)', 'Bottled Fairy']",7,1
+"['8 Hearts (no duping)', 'Bronze Gauntlets']",9,2
 "['8 Hearts (no duping)', 'Bullet Bag (50)']",6,1
-"['8 Hearts (no duping)', 'Clear 10 Silver Rupee Rooms']",15,6
-"['8 Hearts (no duping)', 'Defeat Big Octo']",6,6
+"['8 Hearts (no duping)', 'Clear 10 Silver Rupee Rooms']",20,8
+"['8 Hearts (no duping)', 'Clear 4 Silver Rupee Rooms']",6,1
+"['8 Hearts (no duping)', 'Defeat Big Octo']",7,7
+"['8 Hearts (no duping)', 'Defeat Twinrova']",6,1
+"['8 Hearts (no duping)', 'Defeat a Skull Kid']",6,3
+"['8 Hearts (no duping)', 'Defeat all Lizalfos in Dodongos Cavern']",7,2
+"['8 Hearts (no duping)', 'Exactly 30 Deku Sticks']",6,5
 "['8 Hearts (no duping)', 'Fire Temple Boss Key']",9,4
-"['8 Hearts (no duping)', 'Forest Medallion']",6,1
+"['8 Hearts (no duping)', 'Forest Medallion']",8,1
 "['8 Hearts (no duping)', 'Ganons Castle Boss Key']",6,2
 "['8 Hearts (no duping)', 'Get Bombchu chest in Spirit Temple']",6,1
-"['8 Hearts (no duping)', 'Golden Gauntlets']",6,3
+"['8 Hearts (no duping)', 'Giants Wallet']",6,3
+"['8 Hearts (no duping)', 'Golden Gauntlets']",8,3
 "['8 Hearts (no duping)', 'Goron Tunic']",12,8
+"['8 Hearts (no duping)', 'Light Arrows']",6,4
 "['8 Hearts (no duping)', 'Map & Compass in Bottom of the Well']",6,4
 "['8 Hearts (no duping)', 'Map & Compass in Dodongos Cavern']",8,6
-"['8 Hearts (no duping)', 'Map & Compass in Spirit Temple']",12,3
-"['8 Hearts (no duping)', 'Minuet of Forest']",6,3
-"['8 Hearts (no duping)', 'Obtain all 5 Small Keys in Forest Temple']",6,2
-"['8 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",16,3
+"['8 Hearts (no duping)', 'Map & Compass in Spirit Temple']",13,4
+"['8 Hearts (no duping)', 'Minuet of Forest']",7,3
+"['8 Hearts (no duping)', 'Obtain all 5 Small Keys in Forest Temple']",7,3
+"['8 Hearts (no duping)', 'Open 2 Boss Key Doors']",6,3
+"['8 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",8,6
+"['8 Hearts (no duping)', 'Open All 6 Gold Rupee Chests']",17,3
 "['8 Hearts (no duping)', 'Open the Final Door of Fire Trial']",7,1
-"['8 Hearts (no duping)', 'Silver Gauntlets']",6,4
+"['8 Hearts (no duping)', 'Silver Gauntlets']",7,5
 "['8 Hearts (no duping)', 'Silver Scale']",7,2
 "['8 Hearts (no duping)', 'Two Fairy Spells']",7,2
-"['8 Songs', 'All 3 Elemental Arrows']",7,0
-"['8 Songs', 'Beat the Spirit Temple']",8,2
-"['8 Songs', 'Clear 10 Silver Rupee Rooms']",7,0
-"['8 Songs', 'Defeat Twinrova']",6,0
-"['8 Songs', 'Dins Fire']",6,0
+"['8 Songs', 'All 3 Elemental Arrows']",8,0
+"['8 Songs', 'Beat the Spirit Temple']",9,2
+"['8 Songs', 'Clear 10 Silver Rupee Rooms']",8,1
+"['8 Songs', 'Defeat Twinrova']",8,0
+"['8 Songs', 'Dins Fire']",8,0
+"['8 Songs', 'Ganons Castle Boss Key']",6,4
 "['8 Songs', 'Goron Bracelet']",6,0
-"['8 Songs', 'Green Gauntlets']",6,1
-"['8 Songs', 'Open All 6 Gold Rupee Chests']",10,1
-"['9 Hearts (no duping)', '9 Songs']",8,4
+"['8 Songs', 'Green Gauntlets']",8,1
+"['8 Songs', 'Open All 6 Gold Rupee Chests']",11,1
+"['8 Songs', 'Quiver (50)']",6,2
+"['9 Hearts (no duping)', '9 Songs']",9,4
 "['9 Hearts (no duping)', 'All 3 Elemental Arrows']",7,4
 "['9 Hearts (no duping)', 'All 3 Kokiri Forest area Skulltulas']",6,1
 "['9 Hearts (no duping)', 'All 3 Skulltulas in Bottom of the Well']",7,3
 "['9 Hearts (no duping)', 'All 4 Skulltulas in Deku Tree']",7,0
 "['9 Hearts (no duping)', 'All 4 Wasteland/ Colossus area Skulltulas']",7,1
-"['9 Hearts (no duping)', 'All 5 Skulltulas in Fire Temple']",9,3
-"['9 Hearts (no duping)', 'All 5 Skulltulas in Forest Temple']",7,3
+"['9 Hearts (no duping)', 'All 5 Skulltulas in Fire Temple']",10,3
+"['9 Hearts (no duping)', 'All 5 Skulltulas in Forest Temple']",8,3
 "['9 Hearts (no duping)', 'All 5 Skulltulas in Shadow Temple']",6,5
 "['9 Hearts (no duping)', 'All 5 Skulltulas in Spirit Temple']",11,2
 "['9 Hearts (no duping)', 'All 5 Skulltulas in Water Temple']",9,4
+"['9 Hearts (no duping)', 'All 8 Kakariko area Skulltulas']",6,1
 "['9 Hearts (no duping)', 'Beat the Fire Temple']",9,6
 "['9 Hearts (no duping)', 'Blue Potion']",8,4
 "['9 Hearts (no duping)', 'Bolero of Fire']",7,1
-"['9 Hearts (no duping)', 'Bomb Bag (30)']",8,2
-"['9 Hearts (no duping)', 'Bottled Fairy']",6,4
-"['9 Hearts (no duping)', 'Bullet Bag (50)']",12,5
+"['9 Hearts (no duping)', 'Bomb Bag (30)']",9,2
+"['9 Hearts (no duping)', 'Bottled Fairy']",7,4
+"['9 Hearts (no duping)', 'Bullet Bag (50)']",15,5
 "['9 Hearts (no duping)', 'Clear 8 Silver Rupee Rooms']",6,0
 "['9 Hearts (no duping)', 'Cow in House']",6,1
+"['9 Hearts (no duping)', 'Defeat 4 Different Iron Knuckles']",7,1
 "['9 Hearts (no duping)', 'Defeat Dark Link']",7,4
-"['9 Hearts (no duping)', 'Defeat Volvagia']",8,5
+"['9 Hearts (no duping)', 'Defeat Nabooru-Knuckle']",6,2
+"['9 Hearts (no duping)', 'Defeat Volvagia']",10,6
 "['9 Hearts (no duping)', 'Double Magic']",7,3
-"['9 Hearts (no duping)', 'Eponas Song']",8,2
-"['9 Hearts (no duping)', 'Exactly 20 Deku Sticks']",9,4
-"['9 Hearts (no duping)', 'Exactly 30 Deku Sticks']",9,4
-"['9 Hearts (no duping)', 'Fire Arrows']",8,1
+"['9 Hearts (no duping)', 'Eponas Song']",10,2
+"['9 Hearts (no duping)', 'Exactly 20 Deku Sticks']",10,4
+"['9 Hearts (no duping)', 'Exactly 30 Deku Sticks']",14,6
+"['9 Hearts (no duping)', 'Fairy Bow']",6,1
+"['9 Hearts (no duping)', 'Farores Wind']",8,4
+"['9 Hearts (no duping)', 'Fire Arrows']",10,2
 "['9 Hearts (no duping)', 'Fire Medallion']",6,2
-"['9 Hearts (no duping)', 'Fire Temple Boss Key']",13,8
-"['9 Hearts (no duping)', 'Forest Temple Boss Key']",7,2
-"['9 Hearts (no duping)', 'Ganons Castle Boss Key']",10,5
-"['9 Hearts (no duping)', 'Gerudos Card']",11,5
-"['9 Hearts (no duping)', 'Get Bombchu chest in Spirit Temple']",6,1
-"['9 Hearts (no duping)', 'Goron Bracelet']",9,0
-"['9 Hearts (no duping)', 'Green Gauntlets']",12,0
+"['9 Hearts (no duping)', 'Fire Temple Boss Key']",14,8
+"['9 Hearts (no duping)', 'Forest Medallion']",7,2
+"['9 Hearts (no duping)', 'Forest Temple Boss Key']",8,2
+"['9 Hearts (no duping)', 'Free all 9 Gorons in Fire Temple']",7,1
+"['9 Hearts (no duping)', 'Ganons Castle Boss Key']",12,5
+"['9 Hearts (no duping)', 'Gerudos Card']",12,5
+"['9 Hearts (no duping)', 'Get Bombchu chest in Spirit Temple']",7,1
+"['9 Hearts (no duping)', 'Goron Bracelet']",11,0
+"['9 Hearts (no duping)', 'Goron Tunic']",6,0
+"['9 Hearts (no duping)', 'Green Gauntlets']",14,0
 "['9 Hearts (no duping)', 'Ice Arrows']",6,3
 "['9 Hearts (no duping)', 'Keaton Mask']",6,1
-"['9 Hearts (no duping)', 'Lens of Truth']",9,3
-"['9 Hearts (no duping)', 'Light Arrows']",8,4
-"['9 Hearts (no duping)', 'Lon Lon Ranch HP']",6,1
+"['9 Hearts (no duping)', 'Lens of Truth']",10,4
+"['9 Hearts (no duping)', 'Light Arrows']",10,4
+"['9 Hearts (no duping)', 'Lon Lon Ranch HP']",7,1
 "['9 Hearts (no duping)', 'Map & Compass in Bottom of the Well']",6,2
 "['9 Hearts (no duping)', 'Map & Compass in Fire Temple']",6,2
 "['9 Hearts (no duping)', 'Map & Compass in Forest Temple']",8,6
-"['9 Hearts (no duping)', 'Map & Compass in Jabu-Jabu']",7,2
-"['9 Hearts (no duping)', 'Megaton Hammer']",9,4
+"['9 Hearts (no duping)', 'Map & Compass in Jabu-Jabu']",9,2
+"['9 Hearts (no duping)', 'Map & Compass in Spirit Temple']",7,3
+"['9 Hearts (no duping)', 'Megaton Hammer']",10,4
 "['9 Hearts (no duping)', 'Minuet of Forest']",7,1
-"['9 Hearts (no duping)', 'Obtain all 8 Small Keys in Fire Temple']",9,1
-"['9 Hearts (no duping)', 'Open 3 Boss Key Doors']",12,3
-"['9 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",10,5
+"['9 Hearts (no duping)', 'Obtain all 5 Small Keys in Forest Temple']",6,1
+"['9 Hearts (no duping)', 'Obtain all 8 Small Keys in Fire Temple']",11,1
+"['9 Hearts (no duping)', 'Open 3 Boss Key Doors']",13,3
+"['9 Hearts (no duping)', 'Open 3 Gold Rupee Chests']",12,6
+"['9 Hearts (no duping)', 'Open the Final Door of Shadow Trial']",6,2
 "['9 Hearts (no duping)', 'Open the Final Door of Spirit Trial']",15,4
-"['9 Hearts (no duping)', 'Open the Final Door of Water Trial']",6,1
+"['9 Hearts (no duping)', 'Open the Final Door of Water Trial']",7,1
 "['9 Hearts (no duping)', 'Quiver (40)']",10,7
 "['9 Hearts (no duping)', 'Quiver (50)']",8,1
-"['9 Hearts (no duping)', 'Rutos Letter']",6,5
-"['9 Hearts (no duping)', 'Silver Gauntlets']",8,7
+"['9 Hearts (no duping)', 'Requiem of Spirit']",6,4
+"['9 Hearts (no duping)', 'Rutos Letter']",7,5
+"['9 Hearts (no duping)', 'Sarias Song']",6,1
+"['9 Hearts (no duping)', 'Silver Gauntlets']",11,8
 "['9 Hearts (no duping)', 'Silver Scale']",14,6
 "['9 Hearts (no duping)', 'Spirit Temple Boss Key']",7,4
 "['9 Hearts (no duping)', 'Stone of Agony']",7,0
-"['9 Hearts (no duping)', 'Two Fairy Spells']",14,17
+"['9 Hearts (no duping)', 'Two Fairy Spells']",15,18
 "['9 Hearts (no duping)', 'Water Medallion']",6,0
-"['9 Hearts (no duping)', 'Zora Tunic']",7,12
+"['9 Hearts (no duping)', 'Zora Tunic']",9,14
 "['9 Songs', 'All 3 Elemental Arrows']",8,1
-"['9 Songs', 'Both Rusty Switches in Spirit Temple']",7,3
+"['9 Songs', 'Both Rusty Switches in Spirit Temple']",9,4
+"['9 Songs', 'Clear 10 Silver Rupee Rooms']",7,1
 "['9 Songs', 'Defeat 4 Different Iron Knuckles']",8,4
 "['9 Songs', 'Defeat Twinrova']",7,2
-"['9 Songs', 'Dins Fire']",6,1
-"['All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas']",9,0
-"['All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well']",18,1
-"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern']",7,3
-"['All 3 Elemental Arrows', 'All 4 Adult Zoras Domain area Skulltulas']",7,3
-"['All 3 Elemental Arrows', 'All 4 Child Zoras Domain area Skulltulas']",11,2
-"['All 3 Elemental Arrows', 'All 4 Gerudo Valley area Skulltulas']",11,1
-"['All 3 Elemental Arrows', 'All 4 Lon Lon Ranch area Skulltulas']",6,0
+"['9 Songs', 'Dins Fire']",8,2
+"['9 Songs', 'Green Gauntlets']",6,5
+"['All 3 Elemental Arrows', 'All 3 Kokiri Forest area Skulltulas']",12,2
+"['All 3 Elemental Arrows', 'All 3 Skulltulas in Bottom of the Well']",19,1
+"['All 3 Elemental Arrows', 'All 3 Skulltulas in Ice Cavern']",10,3
+"['All 3 Elemental Arrows', 'All 4 Adult Zoras Domain area Skulltulas']",9,4
+"['All 3 Elemental Arrows', 'All 4 Child Zoras Domain area Skulltulas']",12,2
+"['All 3 Elemental Arrows', 'All 4 Gerudo Valley area Skulltulas']",13,1
+"['All 3 Elemental Arrows', 'All 4 Lon Lon Ranch area Skulltulas']",7,0
 "['All 3 Elemental Arrows', 'All 4 Lost Woods area Skulltulas']",7,4
-"['All 3 Elemental Arrows', 'All 4 Market area Skulltulas']",21,8
-"['All 3 Elemental Arrows', 'All 4 Skulltulas in Deku Tree']",7,0
-"['All 3 Elemental Arrows', 'All 4 Skulltulas in Jabu-Jabu']",12,3
-"['All 3 Elemental Arrows', 'All 4 Wasteland/ Colossus area Skulltulas']",11,0
-"['All 3 Elemental Arrows', 'All 5 Lake Hylia Skulltulas']",27,7
-"['All 3 Elemental Arrows', 'All 5 Skulltulas in Dodongos Cavern']",12,3
-"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple']",27,2
-"['All 3 Elemental Arrows', 'All 5 Skulltulas in Forest Temple']",13,3
-"['All 3 Elemental Arrows', 'All 5 Skulltulas in Shadow Temple']",7,4
-"['All 3 Elemental Arrows', 'All 5 Skulltulas in Spirit Temple']",19,5
-"['All 3 Elemental Arrows', 'All 5 Skulltulas in Water Temple']",10,1
-"['All 3 Elemental Arrows', 'All 8 Death Mountain area Skulltulas']",14,2
+"['All 3 Elemental Arrows', 'All 4 Market area Skulltulas']",25,10
+"['All 3 Elemental Arrows', 'All 4 Skulltulas in Deku Tree']",8,0
+"['All 3 Elemental Arrows', 'All 4 Skulltulas in Jabu-Jabu']",13,3
+"['All 3 Elemental Arrows', 'All 4 Wasteland/ Colossus area Skulltulas']",13,0
+"['All 3 Elemental Arrows', 'All 5 Lake Hylia Skulltulas']",29,7
+"['All 3 Elemental Arrows', 'All 5 Skulltulas in Dodongos Cavern']",13,3
+"['All 3 Elemental Arrows', 'All 5 Skulltulas in Fire Temple']",31,3
+"['All 3 Elemental Arrows', 'All 5 Skulltulas in Forest Temple']",15,5
+"['All 3 Elemental Arrows', 'All 5 Skulltulas in Shadow Temple']",8,4
+"['All 3 Elemental Arrows', 'All 5 Skulltulas in Spirit Temple']",21,7
+"['All 3 Elemental Arrows', 'All 5 Skulltulas in Water Temple']",11,1
+"['All 3 Elemental Arrows', 'All 8 Death Mountain area Skulltulas']",17,2
 "['All 3 Elemental Arrows', 'All 8 Kakariko area Skulltulas']",6,0
-"['All 3 Elemental Arrows', 'All 8 Zoras Domain area Skulltulas']",24,8
-"['All 3 Elemental Arrows', 'Beat Dodongos Cavern']",12,2
-"['All 3 Elemental Arrows', 'Beat Jabu-Jabus Belly']",8,0
-"['All 3 Elemental Arrows', 'Beat the Fire Temple']",17,3
-"['All 3 Elemental Arrows', 'Beat the Shadow Temple']",8,3
-"['All 3 Elemental Arrows', 'Beat the Water Temple']",6,2
-"['All 3 Elemental Arrows', 'Blue Fire']",8,0
-"['All 3 Elemental Arrows', 'Blue Gauntlets']",9,0
+"['All 3 Elemental Arrows', 'All 8 Zoras Domain area Skulltulas']",26,9
+"['All 3 Elemental Arrows', 'Beat Dodongos Cavern']",13,2
+"['All 3 Elemental Arrows', 'Beat Jabu-Jabus Belly']",11,1
+"['All 3 Elemental Arrows', 'Beat the Fire Temple']",18,3
+"['All 3 Elemental Arrows', 'Beat the Shadow Temple']",11,3
+"['All 3 Elemental Arrows', 'Beat the Water Temple']",9,2
+"['All 3 Elemental Arrows', 'Blue Fire']",9,0
+"['All 3 Elemental Arrows', 'Blue Gauntlets']",10,1
 "['All 3 Elemental Arrows', 'Blue Potion']",9,1
-"['All 3 Elemental Arrows', 'Bolero of Fire']",13,2
+"['All 3 Elemental Arrows', 'Bolero of Fire']",16,2
 "['All 3 Elemental Arrows', 'Bomb Bag (30)']",16,0
 "['All 3 Elemental Arrows', 'Both Gerudo Valley HPs']",12,2
-"['All 3 Elemental Arrows', 'Both Gerudos Fortress area Skulltulas']",7,1
-"['All 3 Elemental Arrows', 'Both HPs in Death Mountain Crater']",7,3
+"['All 3 Elemental Arrows', 'Both Gerudos Fortress area Skulltulas']",10,2
+"['All 3 Elemental Arrows', 'Both HPs in Death Mountain Crater']",11,3
 "['All 3 Elemental Arrows', 'Both HPs in Lost Woods']",10,1
 "['All 3 Elemental Arrows', 'Both Hyrule Field area Skulltulas']",7,0
-"['All 3 Elemental Arrows', 'Bottled Fairy']",8,3
-"['All 3 Elemental Arrows', 'Bronze Gauntlets']",10,0
-"['All 3 Elemental Arrows', 'Bullet Bag (40)']",6,0
-"['All 3 Elemental Arrows', 'Bullet Bag (50)']",20,3
+"['All 3 Elemental Arrows', 'Bottled Fairy']",9,3
+"['All 3 Elemental Arrows', 'Bronze Gauntlets']",12,0
+"['All 3 Elemental Arrows', 'Bullet Bag (40)']",7,0
+"['All 3 Elemental Arrows', 'Bullet Bag (50)']",23,4
 "['All 3 Elemental Arrows', 'Clear 4 Silver Rupee Rooms']",7,2
 "['All 3 Elemental Arrows', 'Clear 8 Silver Rupee Rooms']",20,2
-"['All 3 Elemental Arrows', 'Cow in House']",12,1
-"['All 3 Elemental Arrows', 'Defeat 4 Different Iron Knuckles']",10,2
-"['All 3 Elemental Arrows', 'Defeat Barinade']",11,2
-"['All 3 Elemental Arrows', 'Defeat Big Octo']",8,1
-"['All 3 Elemental Arrows', 'Defeat Bongo-Bongo']",10,1
+"['All 3 Elemental Arrows', 'Cow in House']",14,1
+"['All 3 Elemental Arrows', 'Defeat 4 Different Iron Knuckles']",12,3
+"['All 3 Elemental Arrows', 'Defeat Barinade']",13,2
+"['All 3 Elemental Arrows', 'Defeat Big Octo']",9,1
+"['All 3 Elemental Arrows', 'Defeat Bongo-Bongo']",13,2
 "['All 3 Elemental Arrows', 'Defeat Dark Link']",10,4
-"['All 3 Elemental Arrows', 'Defeat Meg (Purple Poe)']",9,1
+"['All 3 Elemental Arrows', 'Defeat Meg (Purple Poe)']",13,3
 "['All 3 Elemental Arrows', 'Defeat Meg (purple Poe)']",9,0
-"['All 3 Elemental Arrows', 'Defeat Morpha']",9,2
-"['All 3 Elemental Arrows', 'Defeat Nabooru-Knuckle']",11,0
+"['All 3 Elemental Arrows', 'Defeat Morpha']",10,2
+"['All 3 Elemental Arrows', 'Defeat Nabooru-Knuckle']",14,0
 "['All 3 Elemental Arrows', 'Defeat Phantom Ganon']",9,4
-"['All 3 Elemental Arrows', 'Defeat Queen Gohma']",11,3
-"['All 3 Elemental Arrows', 'Defeat Volvagia']",31,2
-"['All 3 Elemental Arrows', 'Defeat a Skull Kid']",10,3
-"['All 3 Elemental Arrows', 'Defeat a White Wolfos']",7,0
-"['All 3 Elemental Arrows', 'Defeat all Lizalfos in Dodongos Cavern']",12,1
-"['All 3 Elemental Arrows', 'Defeat both Flare Dancers']",7,1
+"['All 3 Elemental Arrows', 'Defeat Queen Gohma']",16,5
+"['All 3 Elemental Arrows', 'Defeat Volvagia']",34,3
+"['All 3 Elemental Arrows', 'Defeat a Skull Kid']",13,3
+"['All 3 Elemental Arrows', 'Defeat a White Wolfos']",8,0
+"['All 3 Elemental Arrows', 'Defeat all Lizalfos in Dodongos Cavern']",15,2
+"['All 3 Elemental Arrows', 'Defeat both Flare Dancers']",10,2
 "['All 3 Elemental Arrows', 'Desert Colossus HP']",11,4
-"['All 3 Elemental Arrows', 'Dins Fire']",20,1
+"['All 3 Elemental Arrows', 'Dins Fire']",25,1
 "['All 3 Elemental Arrows', 'Exactly 20 Deku Sticks']",14,3
-"['All 3 Elemental Arrows', 'Exactly 30 Deku Sticks']",18,7
-"['All 3 Elemental Arrows', 'Fairy Bow']",8,5
-"['All 3 Elemental Arrows', 'Fairy Slingshot']",8,2
-"['All 3 Elemental Arrows', 'Farores Wind']",6,4
-"['All 3 Elemental Arrows', 'Fill all 4 Bottle Slots']",9,2
-"['All 3 Elemental Arrows', 'Fire Medallion']",17,7
-"['All 3 Elemental Arrows', 'Fire Temple Boss Key']",12,6
-"['All 3 Elemental Arrows', 'Forest Temple Boss Key']",13,2
-"['All 3 Elemental Arrows', 'Free all 9 Gorons in Fire Temple']",17,3
-"['All 3 Elemental Arrows', 'Frogs HP']",9,1
+"['All 3 Elemental Arrows', 'Exactly 30 Deku Sticks']",22,7
+"['All 3 Elemental Arrows', 'Fairy Bow']",11,5
+"['All 3 Elemental Arrows', 'Fairy Slingshot']",10,2
+"['All 3 Elemental Arrows', 'Farores Wind']",8,4
+"['All 3 Elemental Arrows', 'Fill all 4 Bottle Slots']",11,2
+"['All 3 Elemental Arrows', 'Fire Medallion']",21,8
+"['All 3 Elemental Arrows', 'Fire Temple Boss Key']",15,6
+"['All 3 Elemental Arrows', 'Forest Temple Boss Key', 'Green Gauntlets']",6,2
+"['All 3 Elemental Arrows', 'Forest Temple Boss Key']",19,4
+"['All 3 Elemental Arrows', 'Free all 9 Gorons in Fire Temple']",22,4
+"['All 3 Elemental Arrows', 'Frogs HP']",10,1
 "['All 3 Elemental Arrows', 'Ganons Castle Boss Key']",17,2
-"['All 3 Elemental Arrows', 'Gerudos Card']",15,1
-"['All 3 Elemental Arrows', 'Get Bombchu chest in Spirit Temple']",11,1
-"['All 3 Elemental Arrows', 'Giants Knife']",10,2
-"['All 3 Elemental Arrows', 'Golden Gauntlets']",9,3
-"['All 3 Elemental Arrows', 'Goron Bracelet']",27,4
-"['All 3 Elemental Arrows', 'Goron Tunic']",11,2
-"['All 3 Elemental Arrows', 'Green Gauntlets']",47,9
-"['All 3 Elemental Arrows', 'Ice Cavern HP']",13,1
-"['All 3 Elemental Arrows', 'Iron Boots']",11,1
-"['All 3 Elemental Arrows', 'Keaton Mask']",12,0
-"['All 3 Elemental Arrows', 'Lens of Truth']",11,2
-"['All 3 Elemental Arrows', 'Lon Lon Ranch HP']",8,4
+"['All 3 Elemental Arrows', 'Gerudos Card']",17,1
+"['All 3 Elemental Arrows', 'Get Bombchu chest in Spirit Temple']",13,2
+"['All 3 Elemental Arrows', 'Giants Knife']",12,2
+"['All 3 Elemental Arrows', 'Giants Wallet']",6,1
+"['All 3 Elemental Arrows', 'Golden Gauntlets']",10,3
+"['All 3 Elemental Arrows', 'Goron Bracelet']",29,4
+"['All 3 Elemental Arrows', 'Goron Tunic']",12,2
+"['All 3 Elemental Arrows', 'Green Gauntlets']",61,10
+"['All 3 Elemental Arrows', 'Ice Cavern HP']",14,1
+"['All 3 Elemental Arrows', 'Iron Boots']",12,1
+"['All 3 Elemental Arrows', 'Keaton Mask']",14,0
+"['All 3 Elemental Arrows', 'Lens of Truth']",12,2
+"['All 3 Elemental Arrows', 'Lon Lon Ranch HP']",9,4
 "['All 3 Elemental Arrows', 'Longshot']",14,4
-"['All 3 Elemental Arrows', 'Map & Compass in Bottom of the Well']",12,1
-"['All 3 Elemental Arrows', 'Map & Compass in Deku Tree']",10,2
-"['All 3 Elemental Arrows', 'Map & Compass in Dodongos Cavern']",9,0
+"['All 3 Elemental Arrows', 'Map & Compass in Bottom of the Well']",14,3
+"['All 3 Elemental Arrows', 'Map & Compass in Deku Tree']",13,4
+"['All 3 Elemental Arrows', 'Map & Compass in Dodongos Cavern']",10,0
 "['All 3 Elemental Arrows', 'Map & Compass in Fire Temple']",9,3
-"['All 3 Elemental Arrows', 'Map & Compass in Forest Temple']",22,6
-"['All 3 Elemental Arrows', 'Map & Compass in Ice Cavern']",11,6
-"['All 3 Elemental Arrows', 'Map & Compass in Jabu-Jabu']",15,3
-"['All 3 Elemental Arrows', 'Map & Compass in Shadow Temple']",9,1
-"['All 3 Elemental Arrows', 'Megaton Hammer']",20,5
+"['All 3 Elemental Arrows', 'Map & Compass in Forest Temple']",23,6
+"['All 3 Elemental Arrows', 'Map & Compass in Ice Cavern']",13,6
+"['All 3 Elemental Arrows', 'Map & Compass in Jabu-Jabu']",16,3
+"['All 3 Elemental Arrows', 'Map & Compass in Shadow Temple']",10,2
+"['All 3 Elemental Arrows', 'Megaton Hammer']",26,7
 "['All 3 Elemental Arrows', 'Milk']",8,1
-"['All 3 Elemental Arrows', 'Minuet of Forest']",7,1
-"['All 3 Elemental Arrows', 'Mirror Shield']",11,4
-"['All 3 Elemental Arrows', 'Nayrus Love']",12,3
-"['All 3 Elemental Arrows', 'Obtain all 5 Small Keys in Forest Temple']",17,4
-"['All 3 Elemental Arrows', 'Obtain all 5 Small Keys in Shadow Temple']",14,2
-"['All 3 Elemental Arrows', 'Obtain all 8 Small Keys in Fire Temple']",20,3
-"['All 3 Elemental Arrows', 'Open 3 Gold Rupee Chests']",24,7
-"['All 3 Elemental Arrows', 'Open 5 Gold Rupee Chests']",18,3
-"['All 3 Elemental Arrows', 'Open the Final Door of Fire Trial']",9,1
-"['All 3 Elemental Arrows', 'Open the Final Door of Spirit Trial']",16,1
+"['All 3 Elemental Arrows', 'Minuet of Forest']",9,1
+"['All 3 Elemental Arrows', 'Mirror Shield']",14,4
+"['All 3 Elemental Arrows', 'Nayrus Love']",16,5
+"['All 3 Elemental Arrows', 'Obtain all 5 Small Keys in Forest Temple']",18,5
+"['All 3 Elemental Arrows', 'Obtain all 5 Small Keys in Shadow Temple']",15,2
+"['All 3 Elemental Arrows', 'Obtain all 8 Small Keys in Fire Temple']",21,3
+"['All 3 Elemental Arrows', 'Open 3 Gold Rupee Chests']",27,9
+"['All 3 Elemental Arrows', 'Open 5 Gold Rupee Chests']",22,3
+"['All 3 Elemental Arrows', 'Open the Final Door of Fire Trial']",10,1
+"['All 3 Elemental Arrows', 'Open the Final Door of Spirit Trial']",20,1
 "['All 3 Elemental Arrows', 'Plant 5 Magic Beans']",9,4
 "['All 3 Elemental Arrows', 'Plant bean in Death Mountain Crater']",10,0
-"['All 3 Elemental Arrows', 'Quiver (40)']",8,2
-"['All 3 Elemental Arrows', 'Quiver (50)']",17,3
-"['All 3 Elemental Arrows', 'Requiem of Spirit']",10,2
-"['All 3 Elemental Arrows', 'Rutos Letter']",8,0
-"['All 3 Elemental Arrows', 'Sarias Song']",18,2
-"['All 3 Elemental Arrows', 'Shadow Temple Boss Key']",7,1
-"['All 3 Elemental Arrows', 'Silver Gauntlets']",10,5
-"['All 3 Elemental Arrows', 'Silver Scale']",12,2
-"['All 3 Elemental Arrows', 'Stone of Agony']",12,1
+"['All 3 Elemental Arrows', 'Quiver (40)']",10,2
+"['All 3 Elemental Arrows', 'Quiver (50)']",20,3
+"['All 3 Elemental Arrows', 'Requiem of Spirit']",12,3
+"['All 3 Elemental Arrows', 'Rutos Letter']",9,0
+"['All 3 Elemental Arrows', 'Sarias Song']",20,2
+"['All 3 Elemental Arrows', 'Shadow Temple Boss Key']",11,6
+"['All 3 Elemental Arrows', 'Silver Gauntlets']",11,5
+"['All 3 Elemental Arrows', 'Silver Scale']",15,4
+"['All 3 Elemental Arrows', 'Stone of Agony']",13,1
 "['All 3 Elemental Arrows', 'Two Fairy Spells']",22,9
-"['All 3 Elemental Arrows', 'Win Bombchu Bowling Prize']",12,0
-"['All 3 Elemental Arrows', 'Zora Tunic']",14,3
-"['All 3 Kokiri Forest area Skulltulas', 'Both Rusty Switches in Spirit Temple']",6,0
+"['All 3 Elemental Arrows', 'Win Bombchu Bowling Prize']",14,0
+"['All 3 Elemental Arrows', 'Zora Tunic']",16,3
+"['All 3 Kokiri Forest area Skulltulas', 'All 5 Skulltulas in Water Temple']",6,2
+"['All 3 Kokiri Forest area Skulltulas', 'Both Rusty Switches in Spirit Temple']",7,1
+"['All 3 Kokiri Forest area Skulltulas', 'Goron Bracelet']",6,1
 "['All 3 Skulltulas in Bottom of the Well', 'All 4 Market area Skulltulas']",10,5
 "['All 3 Skulltulas in Bottom of the Well', 'All 5 Lake Hylia Skulltulas']",6,0
 "['All 3 Skulltulas in Bottom of the Well', 'All 5 Skulltulas in Fire Temple']",6,2
-"['All 3 Skulltulas in Bottom of the Well', 'All 5 Skulltulas in Spirit Temple']",7,1
+"['All 3 Skulltulas in Bottom of the Well', 'All 5 Skulltulas in Spirit Temple']",8,1
+"['All 3 Skulltulas in Bottom of the Well', 'All 5 Skulltulas in Water Temple']",7,2
 "['All 3 Skulltulas in Bottom of the Well', 'Beat the Fire Temple']",7,2
 "['All 3 Skulltulas in Bottom of the Well', 'Beat the Forest Temple']",8,1
 "['All 3 Skulltulas in Bottom of the Well', 'Beat the Spirit Temple']",13,1
-"['All 3 Skulltulas in Bottom of the Well', 'Both Rusty Switches in Spirit Temple']",12,0
-"['All 3 Skulltulas in Bottom of the Well', 'Clear 10 Silver Rupee Rooms']",13,3
-"['All 3 Skulltulas in Bottom of the Well', 'Defeat Twinrova']",6,2
-"['All 3 Skulltulas in Bottom of the Well', 'Goron Bracelet']",8,2
+"['All 3 Skulltulas in Bottom of the Well', 'Both Rusty Switches in Spirit Temple']",13,1
+"['All 3 Skulltulas in Bottom of the Well', 'Clear 10 Silver Rupee Rooms']",14,4
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Twinrova']",8,2
+"['All 3 Skulltulas in Bottom of the Well', 'Defeat Volvagia']",6,2
+"['All 3 Skulltulas in Bottom of the Well', 'Dins Fire']",7,6
+"['All 3 Skulltulas in Bottom of the Well', 'Goron Bracelet']",9,2
 "['All 3 Skulltulas in Bottom of the Well', 'Green Gauntlets']",12,4
 "['All 3 Skulltulas in Bottom of the Well', 'Map & Compass in Spirit Temple']",9,5
 "['All 3 Skulltulas in Bottom of the Well', 'Megaton Hammer']",7,0
 "['All 3 Skulltulas in Bottom of the Well', 'Nayrus Love']",9,5
 "['All 3 Skulltulas in Bottom of the Well', 'Obtain all 5 Small Keys in Shadow Temple']",8,6
 "['All 3 Skulltulas in Bottom of the Well', 'Open 3 Boss Key Doors']",8,6
-"['All 3 Skulltulas in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",14,4
-"['All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Spirit Trial']",8,1
+"['All 3 Skulltulas in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",15,4
+"['All 3 Skulltulas in Bottom of the Well', 'Open the Final Door of Spirit Trial']",9,1
 "['All 3 Skulltulas in Bottom of the Well', 'Quiver (50)']",7,0
+"['All 3 Skulltulas in Bottom of the Well', 'Shadow Temple Boss Key']",6,1
 "['All 3 Skulltulas in Bottom of the Well', 'Two Fairy Spells']",12,1
+"['All 3 Skulltulas in Ice Cavern', 'Both Rusty Switches in Spirit Temple']",6,0
 "['All 3 Skulltulas in Ice Cavern', 'Goron Bracelet']",7,4
-"['All 4 Adult Zoras Domain area Skulltulas', 'Silver Gauntlets']",6,1
+"['All 3 Skulltulas in Ice Cavern', 'Green Gauntlets']",7,4
+"['All 4 Adult Zoras Domain area Skulltulas', 'Green Gauntlets']",7,0
+"['All 4 Adult Zoras Domain area Skulltulas', 'Open All 6 Gold Rupee Chests']",8,1
+"['All 4 Adult Zoras Domain area Skulltulas', 'Silver Gauntlets']",7,1
 "['All 4 Child Skulltulas in Zoras Domain Area', 'Both Rusty Switches in Spirit Temple']",7,1
 "['All 4 Child Skulltulas in Zoras Domain Area', 'Goron Tunic']",6,2
 "['All 4 Gerudo Valley area Skulltulas', 'Clear 10 Silver Rupee Rooms']",7,0
-"['All 4 Gerudo Valley area Skulltulas', 'Exactly 20 Deku Sticks']",6,1
-"['All 4 Gerudo Valley area Skulltulas', 'Nayrus Love']",6,0
+"['All 4 Gerudo Valley area Skulltulas', 'Exactly 20 Deku Sticks']",8,1
+"['All 4 Gerudo Valley area Skulltulas', 'Nayrus Love']",7,0
+"['All 4 Gerudo Valley area Skulltulas', 'Open All 6 Gold Rupee Chests']",6,0
 "['All 4 Gerudo Valley area Skulltulas', 'Quiver (40)']",6,3
+"['All 4 Gerudo Valley area Skulltulas', 'Silver Gauntlets']",6,1
 "['All 4 Gerudo Valley area Skulltulas', 'Two Fairy Spells']",9,0
-"['All 4 Lon Lon Ranch area Skulltulas', 'Beat the Spirit Temple']",8,1
-"['All 4 Lon Lon Ranch area Skulltulas', 'Both Rusty Switches in Spirit Temple']",6,0
+"['All 4 Lon Lon Ranch area Skulltulas', 'All 5 Lake Hylia Skulltulas']",6,0
+"['All 4 Lon Lon Ranch area Skulltulas', 'Beat the Fire Temple']",6,0
+"['All 4 Lon Lon Ranch area Skulltulas', 'Beat the Spirit Temple']",9,1
+"['All 4 Lon Lon Ranch area Skulltulas', 'Bomb Bag (30)']",6,1
+"['All 4 Lon Lon Ranch area Skulltulas', 'Both Rusty Switches in Spirit Temple']",8,0
 "['All 4 Lon Lon Ranch area Skulltulas', 'Two Fairy Spells']",6,2
 "['All 4 Lost Woods area Skulltulas', 'Beat the Spirit Temple']",10,2
 "['All 4 Lost Woods area Skulltulas', 'Both Rusty Switches in Spirit Temple']",7,1
@@ -1122,653 +1348,843 @@ goal combination,count,pick count
 "['All 4 Lost Woods area Skulltulas', 'Two Fairy Spells']",6,2
 "['All 4 Market area Skulltulas', 'All 8 Zoras Domain area Skulltulas']",8,2
 "['All 4 Market area Skulltulas', 'Beat the Spirit Temple']",6,1
-"['All 4 Market area Skulltulas', 'Bullet Bag (50)']",7,0
+"['All 4 Market area Skulltulas', 'Bolero of Fire']",6,2
+"['All 4 Market area Skulltulas', 'Bullet Bag (50)']",8,2
 "['All 4 Market area Skulltulas', 'Clear 10 Silver Rupee Rooms']",14,1
-"['All 4 Market area Skulltulas', 'Defeat Twinrova']",9,2
+"['All 4 Market area Skulltulas', 'Defeat Twinrova']",10,3
 "['All 4 Market area Skulltulas', 'Double Defense']",7,1
 "['All 4 Market area Skulltulas', 'Exactly 30 Deku Sticks']",8,3
-"['All 4 Market area Skulltulas', 'Fire Temple Boss Key']",8,3
-"['All 4 Market area Skulltulas', 'Ganons Castle Boss Key']",7,0
-"['All 4 Market area Skulltulas', 'Green Gauntlets']",7,3
-"['All 4 Market area Skulltulas', 'Light Arrows']",8,0
+"['All 4 Market area Skulltulas', 'Fire Temple Boss Key']",9,3
+"['All 4 Market area Skulltulas', 'Ganons Castle Boss Key']",8,0
+"['All 4 Market area Skulltulas', 'Green Gauntlets']",9,3
+"['All 4 Market area Skulltulas', 'Light Arrows']",9,0
 "['All 4 Market area Skulltulas', 'Map & Compass in Bottom of the Well']",9,0
-"['All 4 Market area Skulltulas', 'Map & Compass in Dodongos Cavern']",6,1
+"['All 4 Market area Skulltulas', 'Map & Compass in Dodongos Cavern']",7,1
 "['All 4 Market area Skulltulas', 'Map & Compass in Spirit Temple']",12,3
-"['All 4 Market area Skulltulas', 'Obtain all 8 Small Keys in Fire Temple']",11,2
+"['All 4 Market area Skulltulas', 'Megaton Hammer']",8,2
+"['All 4 Market area Skulltulas', 'Obtain all 8 Small Keys in Fire Temple']",12,2
 "['All 4 Market area Skulltulas', 'Open 3 Gold Rupee Chests']",6,1
 "['All 4 Market area Skulltulas', 'Quiver (40)']",6,1
+"['All 4 Market area Skulltulas', 'Requiem of Spirit']",6,1
+"['All 4 Market area Skulltulas', 'Shadow Temple Boss Key']",6,2
 "['All 4 Market area Skulltulas', 'Silver Gauntlets']",6,4
+"['All 4 Market area Skulltulas', 'Silver Scale']",6,2
 "['All 4 Skulltulas in Deku Tree', 'Clear 10 Silver Rupee Rooms']",6,0
 "['All 4 Skulltulas in Deku Tree', 'Goron Bracelet']",6,0
-"['All 4 Skulltulas in Deku Tree', 'Green Gauntlets']",6,0
+"['All 4 Skulltulas in Deku Tree', 'Green Gauntlets']",7,0
 "['All 4 Skulltulas in Deku Tree', 'Open the Final Door of Water Trial']",6,0
-"['All 4 Skulltulas in Jabu-Jabu', 'All 5 Skulltulas in Shadow Temple']",6,1
-"['All 4 Skulltulas in Jabu-Jabu', 'Beat the Spirit Temple']",9,1
-"['All 4 Skulltulas in Jabu-Jabu', 'Open 3 Gold Rupee Chests']",6,2
+"['All 4 Skulltulas in Jabu-Jabu', 'All 5 Skulltulas in Shadow Temple']",7,1
+"['All 4 Skulltulas in Jabu-Jabu', 'Beat the Spirit Temple']",10,1
+"['All 4 Skulltulas in Jabu-Jabu', 'Both Rusty Switches in Spirit Temple']",7,3
+"['All 4 Skulltulas in Jabu-Jabu', 'Defeat Twinrova']",7,2
+"['All 4 Skulltulas in Jabu-Jabu', 'Obtain all 5 Small Keys in Shadow Temple']",6,1
+"['All 4 Skulltulas in Jabu-Jabu', 'Open 3 Gold Rupee Chests']",7,2
 "['All 4 Wasteland/ Colossus area Skulltulas', 'Beat the Fire Temple']",6,1
-"['All 4 Wasteland/ Colossus area Skulltulas', 'Beat the Spirit Temple']",7,2
+"['All 4 Wasteland/ Colossus area Skulltulas', 'Beat the Spirit Temple']",8,3
 "['All 4 Wasteland/ Colossus area Skulltulas', 'Both HPs in Death Mountain Crater']",8,6
 "['All 4 Wasteland/ Colossus area Skulltulas', 'Fire Medallion']",7,1
 "['All 4 Wasteland/ Colossus area Skulltulas', 'Green Gauntlets']",12,2
+"['All 4 Wasteland/ Colossus area Skulltulas', 'Map & Compass in Bottom of the Well']",6,1
+"['All 4 Wasteland/ Colossus area Skulltulas', 'Minuet of Forest']",7,4
 "['All 4 Wasteland/ Colossus area Skulltulas', 'Open All 6 Gold Rupee Chests']",11,2
 "['All 5 Lake Hylia Skulltulas', 'Beat the Fire Temple']",10,2
 "['All 5 Lake Hylia Skulltulas', 'Beat the Spirit Temple']",8,1
-"['All 5 Lake Hylia Skulltulas', 'Bomb Bag (30)']",7,0
+"['All 5 Lake Hylia Skulltulas', 'Bomb Bag (30)']",8,0
 "['All 5 Lake Hylia Skulltulas', 'Both HPs in Death Mountain Crater']",7,5
-"['All 5 Lake Hylia Skulltulas', 'Both Rusty Switches in Spirit Temple']",22,5
-"['All 5 Lake Hylia Skulltulas', 'Clear 10 Silver Rupee Rooms']",8,0
-"['All 5 Lake Hylia Skulltulas', 'Defeat Twinrova']",13,0
+"['All 5 Lake Hylia Skulltulas', 'Both Rusty Switches in Spirit Temple']",26,5
+"['All 5 Lake Hylia Skulltulas', 'Clear 10 Silver Rupee Rooms']",9,0
+"['All 5 Lake Hylia Skulltulas', 'Defeat Twinrova']",14,0
 "['All 5 Lake Hylia Skulltulas', 'Defeat Volvagia']",9,3
-"['All 5 Lake Hylia Skulltulas', 'Ganons Castle Boss Key']",8,0
+"['All 5 Lake Hylia Skulltulas', 'Fire Temple Boss Key']",7,0
+"['All 5 Lake Hylia Skulltulas', 'Ganons Castle Boss Key']",9,0
 "['All 5 Lake Hylia Skulltulas', 'Goron Bracelet']",6,0
 "['All 5 Lake Hylia Skulltulas', 'Goron Tunic']",10,0
 "['All 5 Lake Hylia Skulltulas', 'Green Gauntlets']",6,3
 "['All 5 Lake Hylia Skulltulas', 'Map & Compass in Spirit Temple']",13,3
-"['All 5 Lake Hylia Skulltulas', 'Nayrus Love']",7,2
-"['All 5 Lake Hylia Skulltulas', 'Obtain all 5 Small Keys in Shadow Temple']",7,0
+"['All 5 Lake Hylia Skulltulas', 'Nayrus Love']",8,2
+"['All 5 Lake Hylia Skulltulas', 'Obtain all 5 Small Keys in Shadow Temple']",8,0
 "['All 5 Lake Hylia Skulltulas', 'Open 3 Gold Rupee Chests']",10,4
 "['All 5 Lake Hylia Skulltulas', 'Open All 6 Gold Rupee Chests']",12,3
-"['All 5 Lake Hylia Skulltulas', 'Open the Final Door of Shadow Trial']",8,2
-"['All 5 Lake Hylia Skulltulas', 'Open the Final Door of Spirit Trial']",6,4
+"['All 5 Lake Hylia Skulltulas', 'Open the Final Door of Shadow Trial']",9,2
+"['All 5 Lake Hylia Skulltulas', 'Open the Final Door of Spirit Trial']",7,4
 "['All 5 Lake Hylia Skulltulas', 'Open the Final Door of Water Trial']",9,3
+"['All 5 Lake Hylia Skulltulas', 'Plant 5 Magic Beans']",6,0
 "['All 5 Lake Hylia Skulltulas', 'Quiver (40)']",6,2
 "['All 5 Skulltulas in Dodongos Cavern', 'All 5 Skulltulas in Water Temple']",6,4
-"['All 5 Skulltulas in Dodongos Cavern', 'Clear 10 Silver Rupee Rooms']",7,0
+"['All 5 Skulltulas in Dodongos Cavern', 'Clear 10 Silver Rupee Rooms']",8,0
 "['All 5 Skulltulas in Dodongos Cavern', 'Defeat Twinrova']",6,1
+"['All 5 Skulltulas in Dodongos Cavern', 'Dins Fire']",6,2
 "['All 5 Skulltulas in Dodongos Cavern', 'Open 3 Gold Rupee Chests']",7,1
 "['All 5 Skulltulas in Dodongos Cavern', 'Open All 6 Gold Rupee Chests']",7,0
+"['All 5 Skulltulas in Dodongos Cavern', 'Sarias Song']",6,2
 "['All 5 Skulltulas in Dodongos Cavern', 'Silver Scale']",6,2
 "['All 5 Skulltulas in Fire Temple', 'Blue Potion']",6,2
-"['All 5 Skulltulas in Fire Temple', 'Clear 10 Silver Rupee Rooms']",18,3
+"['All 5 Skulltulas in Fire Temple', 'Bullet Bag (50)']",6,1
+"['All 5 Skulltulas in Fire Temple', 'Clear 10 Silver Rupee Rooms']",20,3
 "['All 5 Skulltulas in Fire Temple', 'Defeat Twinrova']",7,2
+"['All 5 Skulltulas in Fire Temple', 'Exactly 30 Deku Sticks']",6,1
+"['All 5 Skulltulas in Fire Temple', 'Forest Medallion']",6,0
 "['All 5 Skulltulas in Fire Temple', 'Green Gauntlets']",6,0
-"['All 5 Skulltulas in Fire Temple', 'Minuet of Forest']",6,0
-"['All 5 Skulltulas in Fire Temple', 'Quiver (40)']",7,2
-"['All 5 Skulltulas in Fire Temple', 'Quiver (50)']",6,0
+"['All 5 Skulltulas in Fire Temple', 'Minuet of Forest']",9,1
+"['All 5 Skulltulas in Fire Temple', 'Quiver (40)']",8,3
+"['All 5 Skulltulas in Fire Temple', 'Quiver (50)']",7,1
 "['All 5 Skulltulas in Fire Temple', 'Spirit Temple Boss Key']",6,1
 "['All 5 Skulltulas in Forest Temple', 'Beat the Spirit Temple']",7,0
 "['All 5 Skulltulas in Forest Temple', 'Bolero of Fire']",6,1
 "['All 5 Skulltulas in Forest Temple', 'Both Rusty Switches in Spirit Temple']",6,0
-"['All 5 Skulltulas in Forest Temple', 'Bullet Bag (50)']",7,1
-"['All 5 Skulltulas in Forest Temple', 'Clear 10 Silver Rupee Rooms']",6,1
+"['All 5 Skulltulas in Forest Temple', 'Bullet Bag (50)']",8,1
+"['All 5 Skulltulas in Forest Temple', 'Clear 10 Silver Rupee Rooms']",7,2
 "['All 5 Skulltulas in Forest Temple', 'Goron Bracelet']",6,1
-"['All 5 Skulltulas in Forest Temple', 'Green Gauntlets']",7,0
-"['All 5 Skulltulas in Forest Temple', 'Nayrus Love']",6,0
-"['All 5 Skulltulas in Forest Temple', 'Obtain all 5 Small Keys in Shadow Temple']",8,0
+"['All 5 Skulltulas in Forest Temple', 'Green Gauntlets']",8,0
+"['All 5 Skulltulas in Forest Temple', 'Nayrus Love']",7,1
+"['All 5 Skulltulas in Forest Temple', 'Obtain all 5 Small Keys in Shadow Temple']",9,0
 "['All 5 Skulltulas in Forest Temple', 'Open All 6 Gold Rupee Chests']",7,0
-"['All 5 Skulltulas in Forest Temple', 'Quiver (50)']",7,0
+"['All 5 Skulltulas in Forest Temple', 'Open the Final Door of Water Trial']",6,0
+"['All 5 Skulltulas in Forest Temple', 'Quiver (50)']",8,1
 "['All 5 Skulltulas in Forest Temple', 'Two Fairy Spells']",9,3
-"['All 5 Skulltulas in Shadow Temple', 'Beat the Spirit Temple']",6,2
-"['All 5 Skulltulas in Shadow Temple', 'Both Rusty Switches in Spirit Temple']",9,1
-"['All 5 Skulltulas in Shadow Temple', 'Defeat Twinrova']",6,0
+"['All 5 Skulltulas in Shadow Temple', 'Beat the Spirit Temple']",9,2
+"['All 5 Skulltulas in Shadow Temple', 'Bolero of Fire']",7,1
+"['All 5 Skulltulas in Shadow Temple', 'Both Rusty Switches in Spirit Temple']",13,2
+"['All 5 Skulltulas in Shadow Temple', 'Defeat Twinrova']",7,0
 "['All 5 Skulltulas in Shadow Temple', 'Defeat Volvagia']",8,1
-"['All 5 Skulltulas in Shadow Temple', 'Exactly 30 Deku Sticks']",6,0
-"['All 5 Skulltulas in Shadow Temple', 'Ganons Castle Boss Key']",6,4
+"['All 5 Skulltulas in Shadow Temple', 'Exactly 30 Deku Sticks']",7,1
+"['All 5 Skulltulas in Shadow Temple', 'Ganons Castle Boss Key']",7,4
 "['All 5 Skulltulas in Shadow Temple', 'Map & Compass in Bottom of the Well']",8,6
 "['All 5 Skulltulas in Shadow Temple', 'Obtain all 8 Small Keys in Fire Temple']",6,1
 "['All 5 Skulltulas in Shadow Temple', 'Open All 6 Gold Rupee Chests', 'Silver Gauntlets']",6,1
-"['All 5 Skulltulas in Shadow Temple', 'Open All 6 Gold Rupee Chests']",19,8
-"['All 5 Skulltulas in Shadow Temple', 'Silver Gauntlets']",7,1
-"['All 5 Skulltulas in Shadow Temple', 'Zora Tunic']",6,3
-"['All 5 Skulltulas in Spirit Temple', 'Clear 10 Silver Rupee Rooms']",8,1
-"['All 5 Skulltulas in Spirit Temple', 'Defeat Volvagia']",6,2
+"['All 5 Skulltulas in Shadow Temple', 'Open All 6 Gold Rupee Chests']",20,9
+"['All 5 Skulltulas in Shadow Temple', 'Silver Gauntlets']",8,2
+"['All 5 Skulltulas in Shadow Temple', 'Zora Tunic']",7,4
+"['All 5 Skulltulas in Spirit Temple', 'Clear 10 Silver Rupee Rooms']",10,1
+"['All 5 Skulltulas in Spirit Temple', 'Defeat Volvagia']",8,2
 "['All 5 Skulltulas in Spirit Temple', 'Green Gauntlets']",6,3
-"['All 5 Skulltulas in Spirit Temple', 'Open 3 Gold Rupee Chests']",8,1
-"['All 5 Skulltulas in Spirit Temple', 'Open All 6 Gold Rupee Chests']",11,0
+"['All 5 Skulltulas in Spirit Temple', 'Megaton Hammer']",6,2
+"['All 5 Skulltulas in Spirit Temple', 'Open 3 Gold Rupee Chests']",9,2
+"['All 5 Skulltulas in Spirit Temple', 'Open All 6 Gold Rupee Chests']",15,0
 "['All 5 Skulltulas in Water Temple', 'All 8 Zoras Domain area Skulltulas']",10,1
-"['All 5 Skulltulas in Water Temple', 'Beat the Spirit Temple']",10,1
+"['All 5 Skulltulas in Water Temple', 'Beat the Spirit Temple']",11,1
 "['All 5 Skulltulas in Water Temple', 'Bolero of Fire']",9,0
-"['All 5 Skulltulas in Water Temple', 'Both Rusty Switches in Spirit Temple']",23,5
-"['All 5 Skulltulas in Water Temple', 'Bullet Bag (50)']",6,0
-"['All 5 Skulltulas in Water Temple', 'Clear 10 Silver Rupee Rooms']",12,0
-"['All 5 Skulltulas in Water Temple', 'Defeat 4 Different Iron Knuckles']",6,0
-"['All 5 Skulltulas in Water Temple', 'Defeat Twinrova']",9,2
+"['All 5 Skulltulas in Water Temple', 'Both Rusty Switches in Spirit Temple']",26,6
+"['All 5 Skulltulas in Water Temple', 'Bullet Bag (50)']",7,0
+"['All 5 Skulltulas in Water Temple', 'Clear 10 Silver Rupee Rooms']",15,2
+"['All 5 Skulltulas in Water Temple', 'Defeat 4 Different Iron Knuckles']",10,0
+"['All 5 Skulltulas in Water Temple', 'Defeat Twinrova']",10,2
+"['All 5 Skulltulas in Water Temple', 'Defeat Volvagia']",7,0
+"['All 5 Skulltulas in Water Temple', 'Exactly 30 Deku Sticks']",6,1
 "['All 5 Skulltulas in Water Temple', 'Fairy Bow']",7,1
-"['All 5 Skulltulas in Water Temple', 'Fire Temple Boss Key']",7,1
-"['All 5 Skulltulas in Water Temple', 'Golden Gauntlets']",6,2
-"['All 5 Skulltulas in Water Temple', 'Map & Compass in Bottom of the Well']",7,1
+"['All 5 Skulltulas in Water Temple', 'Fire Temple Boss Key']",8,1
+"['All 5 Skulltulas in Water Temple', 'Ganons Castle Boss Key']",7,2
+"['All 5 Skulltulas in Water Temple', 'Golden Gauntlets']",7,2
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Bottom of the Well']",8,2
+"['All 5 Skulltulas in Water Temple', 'Map & Compass in Spirit Temple']",6,1
 "['All 5 Skulltulas in Water Temple', 'Megaton Hammer']",7,4
-"['All 5 Skulltulas in Water Temple', 'Open 3 Gold Rupee Chests']",7,2
-"['All 5 Skulltulas in Water Temple', 'Open All 6 Gold Rupee Chests']",11,1
-"['All 8 Death Mountain area Skulltulas', 'Beat the Spirit Temple']",6,0
+"['All 5 Skulltulas in Water Temple', 'Open 3 Gold Rupee Chests']",8,4
+"['All 5 Skulltulas in Water Temple', 'Open 50 Rupee chest in Wasteland']",6,2
+"['All 5 Skulltulas in Water Temple', 'Open All 6 Gold Rupee Chests']",12,1
+"['All 5 Skulltulas in Water Temple', 'Requiem of Spirit']",6,3
+"['All 5 Skulltulas in Water Temple', 'Silver Gauntlets']",6,0
+"['All 5 Skulltulas in Water Temple', 'Two Fairy Spells']",6,2
+"['All 5 Skulltulas in Water Temple', 'Win Bombchu Bowling Prize']",6,4
+"['All 5 Skulltulas in Water Temple', 'Zora Tunic']",7,5
+"['All 8 Death Mountain area Skulltulas', 'Beat the Spirit Temple']",7,0
 "['All 8 Death Mountain area Skulltulas', 'Both Rusty Switches in Spirit Temple']",10,1
+"['All 8 Death Mountain area Skulltulas', 'Clear 10 Silver Rupee Rooms']",6,0
+"['All 8 Death Mountain area Skulltulas', 'Clear 8 Silver Rupee Rooms']",7,1
+"['All 8 Death Mountain area Skulltulas', 'Green Gauntlets']",6,0
+"['All 8 Death Mountain area Skulltulas', 'Map & Compass in Dodongos Cavern']",6,0
 "['All 8 Death Mountain area Skulltulas', 'Map & Compass in Spirit Temple']",7,1
 "['All 8 Death Mountain area Skulltulas', 'Two Fairy Spells']",10,1
 "['All 8 Kakariko area Skulltulas', 'Beat the Spirit Temple']",7,0
-"['All 8 Kakariko area Skulltulas', 'Green Gauntlets']",8,4
+"['All 8 Kakariko area Skulltulas', 'Both Rusty Switches in Spirit Temple']",6,0
+"['All 8 Kakariko area Skulltulas', 'Bullet Bag (50)']",6,1
+"['All 8 Kakariko area Skulltulas', 'Green Gauntlets']",9,4
+"['All 8 Kakariko area Skulltulas', 'Map & Compass in Spirit Temple']",6,1
 "['All 8 Kakariko area Skulltulas', 'Obtain all 5 Small Keys in Shadow Temple']",6,2
 "['All 8 Kakariko area Skulltulas', 'Open the Final Door of Water Trial']",7,2
+"['All 8 Kakariko area Skulltulas', 'Two Fairy Spells']",6,4
 "['All 8 Zoras Domain area Skulltulas', 'Beat the Fire Temple']",8,0
 "['All 8 Zoras Domain area Skulltulas', 'Beat the Spirit Temple']",7,1
-"['All 8 Zoras Domain area Skulltulas', 'Bomb Bag (30)']",6,0
-"['All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple']",14,3
+"['All 8 Zoras Domain area Skulltulas', 'Bomb Bag (30)']",8,0
+"['All 8 Zoras Domain area Skulltulas', 'Both Rusty Switches in Spirit Temple']",16,3
 "['All 8 Zoras Domain area Skulltulas', 'Defeat Bongo-Bongo']",6,0
+"['All 8 Zoras Domain area Skulltulas', 'Defeat Queen Gohma']",7,1
+"['All 8 Zoras Domain area Skulltulas', 'Defeat Twinrova']",6,2
+"['All 8 Zoras Domain area Skulltulas', 'Defeat a Skull Kid']",6,1
+"['All 8 Zoras Domain area Skulltulas', 'Exactly 30 Deku Sticks']",6,1
 "['All 8 Zoras Domain area Skulltulas', 'Fill all 4 Bottle Slots']",6,0
 "['All 8 Zoras Domain area Skulltulas', 'Fire Medallion']",6,0
-"['All 8 Zoras Domain area Skulltulas', 'Green Gauntlets']",7,1
+"['All 8 Zoras Domain area Skulltulas', 'Fire Temple Boss Key']",6,4
+"['All 8 Zoras Domain area Skulltulas', 'Forest Medallion']",6,0
+"['All 8 Zoras Domain area Skulltulas', 'Green Gauntlets']",9,1
 "['All 8 Zoras Domain area Skulltulas', 'Ice Arrows']",7,4
-"['All 8 Zoras Domain area Skulltulas', 'Lens of Truth']",6,0
+"['All 8 Zoras Domain area Skulltulas', 'Lens of Truth']",7,0
 "['All 8 Zoras Domain area Skulltulas', 'Map & Compass in Spirit Temple']",13,0
-"['All 8 Zoras Domain area Skulltulas', 'Nayrus Love']",7,0
+"['All 8 Zoras Domain area Skulltulas', 'Nayrus Love']",10,0
 "['All 8 Zoras Domain area Skulltulas', 'Obtain all 5 Small Keys in Shadow Temple']",10,2
 "['All 8 Zoras Domain area Skulltulas', 'Open 3 Gold Rupee Chests']",6,2
-"['All 8 Zoras Domain area Skulltulas', 'Open All 6 Gold Rupee Chests']",10,1
-"['All 8 Zoras Domain area Skulltulas', 'Open the Final Door of Spirit Trial']",10,3
+"['All 8 Zoras Domain area Skulltulas', 'Open All 6 Gold Rupee Chests']",12,1
+"['All 8 Zoras Domain area Skulltulas', 'Open the Final Door of Spirit Trial']",12,4
 "['All 8 Zoras Domain area Skulltulas', 'Open the Final Door of Water Trial']",10,0
 "['All 8 Zoras Domain area Skulltulas', 'Quiver (40)']",6,0
-"['All 8 Zoras Domain area Skulltulas', 'Two Fairy Spells']",13,6
+"['All 8 Zoras Domain area Skulltulas', 'Two Fairy Spells']",15,7
 "['Beat Dodongos Cavern', 'Clear 10 Silver Rupee Rooms']",8,4
 "['Beat Dodongos Cavern', 'Goron Bracelet']",7,0
-"['Beat Dodongos Cavern', 'Green Gauntlets']",10,2
+"['Beat Dodongos Cavern', 'Green Gauntlets']",12,2
 "['Beat Dodongos Cavern', 'Open All 6 Gold Rupee Chests']",11,1
-"['Beat the Fire Temple', 'Beat the Spirit Temple']",24,3
-"['Beat the Fire Temple', 'Clear 10 Silver Rupee Rooms']",14,5
+"['Beat Jabu-Jabus Belly', 'Beat the Spirit Temple']",6,0
+"['Beat Jabu-Jabus Belly', 'Green Gauntlets']",8,5
+"['Beat the Fire Temple', 'Beat the Spirit Temple']",26,3
+"['Beat the Fire Temple', 'Clear 10 Silver Rupee Rooms']",16,5
+"['Beat the Fire Temple', 'Defeat Nabooru-Knuckle']",6,0
 "['Beat the Fire Temple', 'Defeat Twinrova']",11,0
-"['Beat the Fire Temple', 'Defeat all Lizalfos in Dodongos Cavern']",8,3
+"['Beat the Fire Temple', 'Defeat all Lizalfos in Dodongos Cavern']",10,3
+"['Beat the Fire Temple', 'Exactly 30 Deku Sticks']",6,0
 "['Beat the Fire Temple', 'Farores Wind']",6,3
 "['Beat the Fire Temple', 'Gerudos Card']",6,0
 "['Beat the Fire Temple', 'Giants Wallet']",9,3
 "['Beat the Fire Temple', 'Light Arrows']",6,1
-"['Beat the Fire Temple', 'Open 3 Gold Rupee Chests']",9,3
+"['Beat the Fire Temple', 'Map & Compass in Dodongos Cavern']",6,1
+"['Beat the Fire Temple', 'Open 3 Gold Rupee Chests']",12,3
 "['Beat the Fire Temple', 'Quiver (40)']",7,0
 "['Beat the Fire Temple', 'Sarias Song']",9,0
 "['Beat the Fire Temple', 'Silver Gauntlets']",6,2
-"['Beat the Forest Temple', 'Goron Bracelet']",6,3
+"['Beat the Forest Temple', 'Defeat Twinrova']",6,0
+"['Beat the Forest Temple', 'Fire Temple Boss Key']",6,1
+"['Beat the Forest Temple', 'Goron Bracelet']",7,3
 "['Beat the Forest Temple', 'Green Gauntlets']",7,1
 "['Beat the Forest Temple', 'Open All 6 Gold Rupee Chests']",7,2
+"['Beat the Forest Temple', 'Quiver (50)']",6,0
 "['Beat the Shadow Temple', 'Both Rusty Switches in Spirit Temple']",7,3
 "['Beat the Shadow Temple', 'Goron Bracelet']",6,2
+"['Beat the Shadow Temple', 'Green Gauntlets']",7,1
 "['Beat the Shadow Temple', 'Open All 6 Gold Rupee Chests']",6,1
 "['Beat the Shadow Temple', 'Quiver (50)']",6,1
-"['Beat the Spirit Temple', 'Beat the Water Temple']",6,1
-"['Beat the Spirit Temple', 'Bolero of Fire']",8,1
+"['Beat the Spirit Temple', 'Beat the Water Temple']",7,1
+"['Beat the Spirit Temple', 'Bolero of Fire']",10,1
 "['Beat the Spirit Temple', 'Bomb Bag (30)']",7,0
 "['Beat the Spirit Temple', 'Boomerang']",6,2
+"['Beat the Spirit Temple', 'Both HPs in Death Mountain Crater']",8,2
 "['Beat the Spirit Temple', 'Bottled Fairy']",9,3
-"['Beat the Spirit Temple', 'Bullet Bag (50)']",14,0
-"['Beat the Spirit Temple', 'Clear 8 Silver Rupee Rooms']",8,0
-"['Beat the Spirit Temple', 'Defeat Meg (Purple Poe)']",8,0
-"['Beat the Spirit Temple', 'Defeat Volvagia']",14,5
-"['Beat the Spirit Temple', 'Defeat all Lizalfos in Dodongos Cavern']",6,1
+"['Beat the Spirit Temple', 'Bullet Bag (50)']",16,0
+"['Beat the Spirit Temple', 'Clear 8 Silver Rupee Rooms']",10,0
+"['Beat the Spirit Temple', 'Defeat Barinade']",6,0
+"['Beat the Spirit Temple', 'Defeat Meg (Purple Poe)']",9,0
+"['Beat the Spirit Temple', 'Defeat Morpha']",6,0
+"['Beat the Spirit Temple', 'Defeat Queen Gohma']",6,1
+"['Beat the Spirit Temple', 'Defeat Volvagia']",16,5
+"['Beat the Spirit Temple', 'Defeat all Lizalfos in Dodongos Cavern']",7,1
 "['Beat the Spirit Temple', 'Desert Colossus HP']",6,1
-"['Beat the Spirit Temple', 'Dins Fire']",7,3
+"['Beat the Spirit Temple', 'Dins Fire']",13,5
 "['Beat the Spirit Temple', 'Double Defense']",9,1
-"['Beat the Spirit Temple', 'Exactly 20 Deku Sticks']",8,0
+"['Beat the Spirit Temple', 'Exactly 20 Deku Sticks']",9,0
 "['Beat the Spirit Temple', 'Exactly 30 Deku Sticks']",15,1
 "['Beat the Spirit Temple', 'Fire Arrows']",9,1
 "['Beat the Spirit Temple', 'Fire Medallion']",11,0
 "['Beat the Spirit Temple', 'Fire Temple Boss Key']",10,2
 "['Beat the Spirit Temple', 'Forest Medallion']",7,0
-"['Beat the Spirit Temple', 'Forest Temple Boss Key']",11,0
-"['Beat the Spirit Temple', 'Free all 9 Gorons in Fire Temple']",10,4
-"['Beat the Spirit Temple', 'Ganons Castle Boss Key']",13,4
+"['Beat the Spirit Temple', 'Forest Temple Boss Key']",13,0
+"['Beat the Spirit Temple', 'Free all 9 Gorons in Fire Temple']",11,5
+"['Beat the Spirit Temple', 'Ganons Castle Boss Key']",14,4
+"['Beat the Spirit Temple', 'Giants Knife']",7,1
 "['Beat the Spirit Temple', 'Golden Gauntlets']",8,0
-"['Beat the Spirit Temple', 'Goron Bracelet']",16,6
-"['Beat the Spirit Temple', 'Goron Tunic']",11,4
-"['Beat the Spirit Temple', 'Green Gauntlets']",16,2
-"['Beat the Spirit Temple', 'Ice Arrows']",6,2
+"['Beat the Spirit Temple', 'Goron Bracelet']",18,6
+"['Beat the Spirit Temple', 'Goron Tunic']",12,4
+"['Beat the Spirit Temple', 'Green Gauntlets']",17,2
+"['Beat the Spirit Temple', 'Ice Arrows']",7,2
 "['Beat the Spirit Temple', 'Lens of Truth']",11,1
-"['Beat the Spirit Temple', 'Light Arrows']",6,1
-"['Beat the Spirit Temple', 'Map & Compass in Bottom of the Well']",10,3
+"['Beat the Spirit Temple', 'Light Arrows']",8,1
+"['Beat the Spirit Temple', 'Map & Compass in Bottom of the Well']",14,4
+"['Beat the Spirit Temple', 'Map & Compass in Dodongos Cavern']",8,1
 "['Beat the Spirit Temple', 'Map & Compass in Fire Temple']",6,1
 "['Beat the Spirit Temple', 'Map & Compass in Forest Temple']",11,1
-"['Beat the Spirit Temple', 'Map & Compass in Jabu-Jabu']",6,0
-"['Beat the Spirit Temple', 'Megaton Hammer']",8,1
-"['Beat the Spirit Temple', 'Minuet of Forest']",6,1
-"['Beat the Spirit Temple', 'Nayrus Love']",14,3
-"['Beat the Spirit Temple', 'Obtain all 5 Small Keys in Forest Temple']",8,1
-"['Beat the Spirit Temple', 'Obtain all 5 Small Keys in Shadow Temple']",17,3
-"['Beat the Spirit Temple', 'Obtain all 8 Small Keys in Fire Temple']",9,3
-"['Beat the Spirit Temple', 'Open 3 Gold Rupee Chests']",18,4
-"['Beat the Spirit Temple', 'Open 50 Rupee chest in Wasteland']",6,0
-"['Beat the Spirit Temple', 'Open the Final Door of Shadow Trial']",13,1
-"['Beat the Spirit Temple', 'Open the Final Door of Water Trial']",27,0
-"['Beat the Spirit Temple', 'Quiver (40)']",10,1
-"['Beat the Spirit Temple', 'Quiver (50)']",9,1
+"['Beat the Spirit Temple', 'Map & Compass in Ice Cavern']",6,3
+"['Beat the Spirit Temple', 'Map & Compass in Jabu-Jabu']",7,0
+"['Beat the Spirit Temple', 'Megaton Hammer']",9,1
+"['Beat the Spirit Temple', 'Minuet of Forest']",7,1
+"['Beat the Spirit Temple', 'Nayrus Love']",17,3
+"['Beat the Spirit Temple', 'Obtain all 5 Small Keys in Forest Temple']",10,1
+"['Beat the Spirit Temple', 'Obtain all 5 Small Keys in Shadow Temple']",18,4
+"['Beat the Spirit Temple', 'Obtain all 8 Small Keys in Fire Temple']",11,3
+"['Beat the Spirit Temple', 'Open 3 Gold Rupee Chests']",20,4
+"['Beat the Spirit Temple', 'Open 50 Rupee chest in Wasteland']",8,1
+"['Beat the Spirit Temple', 'Open the Final Door of Forest Trial']",6,0
+"['Beat the Spirit Temple', 'Open the Final Door of Shadow Trial']",14,1
+"['Beat the Spirit Temple', 'Open the Final Door of Water Trial']",29,0
+"['Beat the Spirit Temple', 'Quiver (40)']",11,2
+"['Beat the Spirit Temple', 'Quiver (50)']",12,1
 "['Beat the Spirit Temple', 'Sarias Song']",9,1
 "['Beat the Spirit Temple', 'Shadow Temple Boss Key']",7,1
-"['Beat the Spirit Temple', 'Silver Gauntlets']",10,3
-"['Beat the Spirit Temple', 'Silver Scale']",6,2
+"['Beat the Spirit Temple', 'Silver Gauntlets']",13,3
+"['Beat the Spirit Temple', 'Silver Scale']",8,2
 "['Beat the Spirit Temple', 'Two Fairy Spells']",7,3
-"['Beat the Spirit Temple', 'Zora Tunic']",6,1
-"['Beat the Water Temple', 'Clear 10 Silver Rupee Rooms']",6,0
+"['Beat the Spirit Temple', 'Win Bombchu Bowling Prize']",8,2
+"['Beat the Spirit Temple', 'Zora Tunic']",7,1
+"['Beat the Water Temple', 'Both Rusty Switches in Spirit Temple']",6,0
+"['Beat the Water Temple', 'Clear 10 Silver Rupee Rooms']",9,0
 "['Beat the Water Temple', 'Defeat Volvagia']",7,1
-"['Beat the Water Temple', 'Green Gauntlets']",10,2
-"['Blue Fire', 'Open All 6 Gold Rupee Chests']",8,0
-"['Blue Potion', 'Clear 10 Silver Rupee Rooms']",7,1
+"['Beat the Water Temple', 'Exactly 30 Deku Sticks']",7,1
+"['Beat the Water Temple', 'Green Gauntlets']",13,2
+"['Beat the Water Temple', 'Map & Compass in Spirit Temple']",6,2
+"['Blue Fire', 'Open All 6 Gold Rupee Chests']",9,0
+"['Blue Gauntlets', 'Dins Fire']",6,0
+"['Blue Potion', 'Clear 10 Silver Rupee Rooms']",8,1
 "['Blue Potion', 'Green Gauntlets']",7,0
-"['Bolero of Fire', 'Both Rusty Switches in Spirit Temple']",8,0
+"['Bolero of Fire', 'Both Rusty Switches in Spirit Temple']",10,0
 "['Bolero of Fire', 'Clear 10 Silver Rupee Rooms']",10,5
-"['Bolero of Fire', 'Defeat Twinrova']",8,1
-"['Bolero of Fire', 'Dins Fire']",7,0
-"['Bolero of Fire', 'Goron Bracelet']",7,1
-"['Bolero of Fire', 'Green Gauntlets']",12,1
-"['Bolero of Fire', 'Open All 6 Gold Rupee Chests']",10,1
-"['Bolero of Fire', 'Open the Final Door of Shadow Trial']",6,0
+"['Bolero of Fire', 'Defeat Twinrova']",10,1
+"['Bolero of Fire', 'Defeat Volvagia']",6,0
+"['Bolero of Fire', 'Dins Fire']",8,0
+"['Bolero of Fire', 'Fire Medallion']",6,2
+"['Bolero of Fire', 'Goron Bracelet']",8,1
+"['Bolero of Fire', 'Green Gauntlets']",16,1
+"['Bolero of Fire', 'Obtain all 5 Small Keys in Forest Temple']",6,1
+"['Bolero of Fire', 'Open All 6 Gold Rupee Chests']",11,1
+"['Bolero of Fire', 'Open the Final Door of Shadow Trial']",7,0
+"['Bolero of Fire', 'Sarias Song']",6,1
 "['Bolero of Fire', 'Silver Gauntlets']",6,3
+"['Bomb Bag (30)', 'Both Rusty Switches in Spirit Temple']",6,0
 "['Bomb Bag (30)', 'Clear 10 Silver Rupee Rooms']",9,2
 "['Bomb Bag (30)', 'Defeat Twinrova']",8,0
 "['Bomb Bag (30)', 'Dins Fire']",8,3
 "['Bomb Bag (30)', 'Fire Medallion']",6,1
-"['Bomb Bag (30)', 'Open All 6 Gold Rupee Chests']",12,1
+"['Bomb Bag (30)', 'Megaton Hammer']",6,0
+"['Bomb Bag (30)', 'Open 3 Boss Key Doors']",6,3
+"['Bomb Bag (30)', 'Open All 6 Gold Rupee Chests']",13,1
 "['Boomerang', 'Both Rusty Switches in Spirit Temple']",10,0
-"['Boomerang', 'Defeat 4 Different Iron Knuckles']",9,2
+"['Boomerang', 'Defeat 4 Different Iron Knuckles']",10,3
 "['Boomerang', 'Green Gauntlets']",7,1
 "['Boomerang', 'Two Fairy Spells']",6,0
 "['Both Gerudo Valley HPs', 'Both Rusty Switches in Spirit Temple']",6,1
 "['Both Gerudo Valley HPs', 'Green Gauntlets']",7,1
-"['Both Gerudos Fortress area Skulltulas', 'Clear 10 Silver Rupee Rooms']",6,0
+"['Both Gerudos Fortress area Skulltulas', 'Clear 10 Silver Rupee Rooms']",7,0
 "['Both HPs in Death Mountain Crater', 'Both Rusty Switches in Spirit Temple']",8,2
-"['Both HPs in Death Mountain Crater', 'Green Gauntlets']",8,5
+"['Both HPs in Death Mountain Crater', 'Green Gauntlets']",10,5
+"['Both HPs in Death Mountain Crater', 'Obtain all 5 Small Keys in Shadow Temple']",6,5
 "['Both HPs in Death Mountain Crater', 'Open All 6 Gold Rupee Chests']",9,4
+"['Both HPs in Death Mountain Crater', 'Quiver (50)']",6,1
 "['Both HPs in Lost Woods', 'Bullet Bag (50)']",7,0
-"['Both Hyrule Field area Skulltulas', 'Defeat Twinrova']",6,2
+"['Both Hyrule Field area Skulltulas', 'Defeat Twinrova']",7,2
 "['Both Hyrule Field area Skulltulas', 'Defeat Volvagia']",6,1
-"['Both Hyrule Field area Skulltulas', 'Dins Fire']",7,2
+"['Both Hyrule Field area Skulltulas', 'Dins Fire']",8,2
 "['Both Hyrule Field area Skulltulas', 'Goron Bracelet']",6,1
 "['Both Hyrule Field area Skulltulas', 'Green Gauntlets']",7,2
-"['Both Rusty Switches in Spirit Temple', 'Bottled Fairy']",6,1
-"['Both Rusty Switches in Spirit Temple', 'Bronze Gauntlets']",9,3
+"['Both Rusty Switches in Spirit Temple', 'Bottled Fairy']",7,1
+"['Both Rusty Switches in Spirit Temple', 'Bronze Gauntlets']",11,4
 "['Both Rusty Switches in Spirit Temple', 'Bullet Bag (50)']",6,1
-"['Both Rusty Switches in Spirit Temple', 'Clear 8 Silver Rupee Rooms']",21,1
-"['Both Rusty Switches in Spirit Temple', 'Defeat Barinade']",6,1
+"['Both Rusty Switches in Spirit Temple', 'Clear 8 Silver Rupee Rooms']",23,2
+"['Both Rusty Switches in Spirit Temple', 'Defeat Barinade']",8,1
+"['Both Rusty Switches in Spirit Temple', 'Defeat Big Octo']",7,2
 "['Both Rusty Switches in Spirit Temple', 'Defeat Bongo-Bongo']",7,2
 "['Both Rusty Switches in Spirit Temple', 'Defeat Dark Link']",12,2
 "['Both Rusty Switches in Spirit Temple', 'Defeat Meg (Purple Poe)']",14,3
 "['Both Rusty Switches in Spirit Temple', 'Defeat Morpha']",8,1
 "['Both Rusty Switches in Spirit Temple', 'Defeat a Skull Kid']",8,1
 "['Both Rusty Switches in Spirit Temple', 'Defeat all Lizalfos in Dodongos Cavern']",8,0
-"['Both Rusty Switches in Spirit Temple', 'Dins Fire']",21,5
-"['Both Rusty Switches in Spirit Temple', 'Eponas Song']",8,1
+"['Both Rusty Switches in Spirit Temple', 'Dins Fire']",26,9
+"['Both Rusty Switches in Spirit Temple', 'Eponas Song']",9,1
 "['Both Rusty Switches in Spirit Temple', 'Exactly 20 Deku Sticks']",8,2
-"['Both Rusty Switches in Spirit Temple', 'Exactly 30 Deku Sticks']",10,1
-"['Both Rusty Switches in Spirit Temple', 'Fairy Bow']",6,3
+"['Both Rusty Switches in Spirit Temple', 'Exactly 30 Deku Sticks']",14,3
+"['Both Rusty Switches in Spirit Temple', 'Fairy Bow']",7,4
 "['Both Rusty Switches in Spirit Temple', 'Fill all 4 Bottle Slots']",6,1
 "['Both Rusty Switches in Spirit Temple', 'Fire Arrows']",9,4
-"['Both Rusty Switches in Spirit Temple', 'Fire Temple Boss Key']",9,0
-"['Both Rusty Switches in Spirit Temple', 'Forest Temple Boss Key']",11,1
-"['Both Rusty Switches in Spirit Temple', 'Ganons Castle Boss Key']",8,2
-"['Both Rusty Switches in Spirit Temple', 'Goron Bracelet']",20,1
+"['Both Rusty Switches in Spirit Temple', 'Fire Temple Boss Key']",11,0
+"['Both Rusty Switches in Spirit Temple', 'Forest Temple Boss Key']",14,2
+"['Both Rusty Switches in Spirit Temple', 'Ganons Castle Boss Key']",9,2
+"['Both Rusty Switches in Spirit Temple', 'Goron Bracelet']",22,1
 "['Both Rusty Switches in Spirit Temple', 'Goron Tunic']",8,4
-"['Both Rusty Switches in Spirit Temple', 'Green Gauntlets']",25,5
+"['Both Rusty Switches in Spirit Temple', 'Green Gauntlets']",31,5
 "['Both Rusty Switches in Spirit Temple', 'Keaton Mask']",6,0
 "['Both Rusty Switches in Spirit Temple', 'Lens of Truth']",6,0
-"['Both Rusty Switches in Spirit Temple', 'Lon Lon Ranch HP']",6,0
+"['Both Rusty Switches in Spirit Temple', 'Lon Lon Ranch HP']",7,0
 "['Both Rusty Switches in Spirit Temple', 'Map & Compass in Bottom of the Well']",12,4
-"['Both Rusty Switches in Spirit Temple', 'Map & Compass in Dodongos Cavern']",10,0
-"['Both Rusty Switches in Spirit Temple', 'Map & Compass in Forest Temple']",6,0
-"['Both Rusty Switches in Spirit Temple', 'Minuet of Forest']",12,3
-"['Both Rusty Switches in Spirit Temple', 'Obtain all 5 Small Keys in Forest Temple']",12,1
-"['Both Rusty Switches in Spirit Temple', 'Obtain all 5 Small Keys in Shadow Temple']",19,4
-"['Both Rusty Switches in Spirit Temple', 'Open the Final Door of Forest Trial']",7,1
-"['Both Rusty Switches in Spirit Temple', 'Open the Final Door of Spirit Trial']",18,5
-"['Both Rusty Switches in Spirit Temple', 'Quiver (40)']",9,4
+"['Both Rusty Switches in Spirit Temple', 'Map & Compass in Dodongos Cavern']",11,0
+"['Both Rusty Switches in Spirit Temple', 'Map & Compass in Forest Temple']",7,0
+"['Both Rusty Switches in Spirit Temple', 'Map & Compass in Jabu-Jabu']",6,1
+"['Both Rusty Switches in Spirit Temple', 'Minuet of Forest']",13,3
+"['Both Rusty Switches in Spirit Temple', 'Nayrus Love']",6,0
+"['Both Rusty Switches in Spirit Temple', 'Obtain all 5 Small Keys in Forest Temple']",14,3
+"['Both Rusty Switches in Spirit Temple', 'Obtain all 5 Small Keys in Shadow Temple']",21,4
+"['Both Rusty Switches in Spirit Temple', 'Open 3 Gold Rupee Chests']",6,1
+"['Both Rusty Switches in Spirit Temple', 'Open the Final Door of Fire Trial']",6,1
+"['Both Rusty Switches in Spirit Temple', 'Open the Final Door of Forest Trial']",8,1
+"['Both Rusty Switches in Spirit Temple', 'Open the Final Door of Spirit Trial']",19,5
+"['Both Rusty Switches in Spirit Temple', 'Plant bean in Death Mountain Crater']",6,1
+"['Both Rusty Switches in Spirit Temple', 'Quiver (40)']",11,6
 "['Both Rusty Switches in Spirit Temple', 'Quiver (50)']",28,6
 "['Both Rusty Switches in Spirit Temple', 'Requiem of Spirit']",7,1
-"['Both Rusty Switches in Spirit Temple', 'Sarias Song']",12,2
+"['Both Rusty Switches in Spirit Temple', 'Rutos Letter']",6,1
+"['Both Rusty Switches in Spirit Temple', 'Sarias Song']",13,2
 "['Both Rusty Switches in Spirit Temple', 'Shadow Temple Boss Key']",7,2
 "['Both Rusty Switches in Spirit Temple', 'Silver Scale']",8,1
-"['Both Rusty Switches in Spirit Temple', 'Water Temple Boss Key']",7,0
-"['Both Rusty Switches in Spirit Temple', 'Zora Tunic']",13,3
+"['Both Rusty Switches in Spirit Temple', 'Water Temple Boss Key']",8,0
+"['Both Rusty Switches in Spirit Temple', 'Zora Tunic']",16,5
+"['Bottled Fairy', 'Clear 10 Silver Rupee Rooms']",6,1
 "['Bottled Fairy', 'Goron Bracelet']",7,0
-"['Bottled Fairy', 'Green Gauntlets']",7,1
-"['Bottled Fairy', 'Open All 6 Gold Rupee Chests']",6,0
+"['Bottled Fairy', 'Green Gauntlets']",8,1
+"['Bottled Fairy', 'Open All 6 Gold Rupee Chests']",7,0
 "['Bronze Gauntlets', 'Two Fairy Spells']",7,2
-"['Bullet Bag (50)', 'Clear 10 Silver Rupee Rooms']",16,2
-"['Bullet Bag (50)', 'Defeat Twinrova']",7,3
-"['Bullet Bag (50)', 'Defeat Volvagia']",8,5
+"['Bullet Bag (40)', 'Open All 6 Gold Rupee Chests']",6,1
+"['Bullet Bag (50)', 'Clear 10 Silver Rupee Rooms']",19,2
+"['Bullet Bag (50)', 'Defeat Twinrova']",8,3
+"['Bullet Bag (50)', 'Defeat Volvagia']",9,5
 "['Bullet Bag (50)', 'Fire Medallion']",7,2
 "['Bullet Bag (50)', 'Goron Bracelet']",10,0
+"['Bullet Bag (50)', 'Megaton Hammer']",6,4
 "['Bullet Bag (50)', 'Obtain all 5 Small Keys in Forest Temple']",6,1
-"['Bullet Bag (50)', 'Obtain all 5 Small Keys in Shadow Temple']",8,4
-"['Bullet Bag (50)', 'Open All 6 Gold Rupee Chests']",13,3
+"['Bullet Bag (50)', 'Obtain all 5 Small Keys in Shadow Temple']",9,4
+"['Bullet Bag (50)', 'Obtain all 8 Small Keys in Fire Temple']",6,0
+"['Bullet Bag (50)', 'Open All 6 Gold Rupee Chests']",14,3
 "['Bullet Bag (50)', 'Open the Final Door of Spirit Trial']",7,1
 "['Bullet Bag (50)', 'Open the Final Door of Water Trial']",6,0
-"['Bullet Bag (50)', 'Quiver (50)']",6,2
-"['Bullet Bag (50)', 'Sarias Song']",6,3
+"['Bullet Bag (50)', 'Quiver (50)']",7,2
+"['Bullet Bag (50)', 'Sarias Song']",9,5
 "['Bullet Bag (50)', 'Two Fairy Spells']",9,1
 "['Clear 10 Silver Rupee Rooms', 'Defeat Dark Link']",11,0
 "['Clear 10 Silver Rupee Rooms', 'Defeat Meg (Purple Poe)']",17,2
-"['Clear 10 Silver Rupee Rooms', 'Defeat Nabooru-Knuckle']",6,1
+"['Clear 10 Silver Rupee Rooms', 'Defeat Nabooru-Knuckle']",8,1
 "['Clear 10 Silver Rupee Rooms', 'Defeat Volvagia']",14,4
+"['Clear 10 Silver Rupee Rooms', 'Defeat a Skull Kid']",6,2
 "['Clear 10 Silver Rupee Rooms', 'Desert Colossus HP']",10,1
-"['Clear 10 Silver Rupee Rooms', 'Dins Fire']",13,2
+"['Clear 10 Silver Rupee Rooms', 'Dins Fire']",16,2
 "['Clear 10 Silver Rupee Rooms', 'Double Defense']",12,4
-"['Clear 10 Silver Rupee Rooms', 'Double Magic']",10,4
-"['Clear 10 Silver Rupee Rooms', 'Eponas Song']",8,2
-"['Clear 10 Silver Rupee Rooms', 'Exactly 20 Deku Sticks']",7,0
-"['Clear 10 Silver Rupee Rooms', 'Exactly 30 Deku Sticks']",10,0
-"['Clear 10 Silver Rupee Rooms', 'Fairy Bow']",7,1
+"['Clear 10 Silver Rupee Rooms', 'Double Magic']",11,4
+"['Clear 10 Silver Rupee Rooms', 'Eponas Song']",10,2
+"['Clear 10 Silver Rupee Rooms', 'Exactly 20 Deku Sticks']",8,0
+"['Clear 10 Silver Rupee Rooms', 'Exactly 30 Deku Sticks']",13,3
+"['Clear 10 Silver Rupee Rooms', 'Fairy Bow']",8,1
+"['Clear 10 Silver Rupee Rooms', 'Fairy Slingshot']",6,0
 "['Clear 10 Silver Rupee Rooms', 'Fill all 4 Bottle Slots']",7,1
 "['Clear 10 Silver Rupee Rooms', 'Fire Medallion']",14,3
-"['Clear 10 Silver Rupee Rooms', 'Forest Medallion']",12,1
+"['Clear 10 Silver Rupee Rooms', 'Forest Medallion']",14,1
 "['Clear 10 Silver Rupee Rooms', 'Forest Temple Boss Key']",7,0
-"['Clear 10 Silver Rupee Rooms', 'Free all 9 Gorons in Fire Temple']",12,2
-"['Clear 10 Silver Rupee Rooms', 'Ganons Castle Boss Key']",7,1
+"['Clear 10 Silver Rupee Rooms', 'Free all 9 Gorons in Fire Temple']",14,3
+"['Clear 10 Silver Rupee Rooms', 'Ganons Castle Boss Key']",9,3
+"['Clear 10 Silver Rupee Rooms', 'Gerudos Card']",6,0
 "['Clear 10 Silver Rupee Rooms', 'Get Bombchu chest in Spirit Temple']",8,3
-"['Clear 10 Silver Rupee Rooms', 'Giants Knife']",7,0
-"['Clear 10 Silver Rupee Rooms', 'Goron Bracelet']",11,0
+"['Clear 10 Silver Rupee Rooms', 'Giants Knife']",8,0
+"['Clear 10 Silver Rupee Rooms', 'Goron Bracelet']",12,0
 "['Clear 10 Silver Rupee Rooms', 'Goron Tunic']",6,0
-"['Clear 10 Silver Rupee Rooms', 'Green Gauntlets']",21,3
+"['Clear 10 Silver Rupee Rooms', 'Green Gauntlets']",25,3
 "['Clear 10 Silver Rupee Rooms', 'Ice Arrows']",8,1
-"['Clear 10 Silver Rupee Rooms', 'Lens of Truth']",6,0
-"['Clear 10 Silver Rupee Rooms', 'Light Arrows']",11,1
+"['Clear 10 Silver Rupee Rooms', 'Lens of Truth']",7,0
+"['Clear 10 Silver Rupee Rooms', 'Light Arrows']",14,2
 "['Clear 10 Silver Rupee Rooms', 'Lon Lon Ranch HP']",6,1
 "['Clear 10 Silver Rupee Rooms', 'Longshot']",7,1
-"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Bottom of the Well']",13,4
-"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Dodongos Cavern']",12,3
+"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Bottom of the Well']",15,4
+"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Dodongos Cavern']",13,3
 "['Clear 10 Silver Rupee Rooms', 'Map & Compass in Fire Temple']",15,0
 "['Clear 10 Silver Rupee Rooms', 'Map & Compass in Forest Temple']",8,3
 "['Clear 10 Silver Rupee Rooms', 'Map & Compass in Ice Cavern']",7,0
-"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",8,2
-"['Clear 10 Silver Rupee Rooms', 'Minuet of Forest']",10,4
+"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Jabu-Jabu']",6,2
+"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",9,2
+"['Clear 10 Silver Rupee Rooms', 'Map & Compass in Water Temple']",6,0
+"['Clear 10 Silver Rupee Rooms', 'Minuet of Forest']",11,4
 "['Clear 10 Silver Rupee Rooms', 'Mirror Shield']",8,0
-"['Clear 10 Silver Rupee Rooms', 'Nayrus Love']",20,5
-"['Clear 10 Silver Rupee Rooms', 'Obtain all 8 Small Keys in Fire Temple']",7,0
-"['Clear 10 Silver Rupee Rooms', 'Open 3 Gold Rupee Chests']",7,2
+"['Clear 10 Silver Rupee Rooms', 'Nayrus Love']",22,8
+"['Clear 10 Silver Rupee Rooms', 'Obtain all 8 Small Keys in Fire Temple']",10,0
+"['Clear 10 Silver Rupee Rooms', 'Open 3 Gold Rupee Chests']",8,2
+"['Clear 10 Silver Rupee Rooms', 'Open the Final Door of Forest Trial']",6,1
+"['Clear 10 Silver Rupee Rooms', 'Open the Final Door of Shadow Trial']",6,0
 "['Clear 10 Silver Rupee Rooms', 'Open the Final Door of Spirit Trial']",9,3
-"['Clear 10 Silver Rupee Rooms', 'Open the Final Door of Water Trial']",13,1
-"['Clear 10 Silver Rupee Rooms', 'Plant bean in Death Mountain Crater']",6,3
+"['Clear 10 Silver Rupee Rooms', 'Open the Final Door of Water Trial']",14,1
+"['Clear 10 Silver Rupee Rooms', 'Plant bean in Death Mountain Crater']",7,3
 "['Clear 10 Silver Rupee Rooms', 'Quiver (40)']",10,3
-"['Clear 10 Silver Rupee Rooms', 'Quiver (50)']",9,0
+"['Clear 10 Silver Rupee Rooms', 'Quiver (50)']",11,1
 "['Clear 10 Silver Rupee Rooms', 'Requiem of Spirit']",6,0
-"['Clear 10 Silver Rupee Rooms', 'Sarias Song']",6,0
-"['Clear 10 Silver Rupee Rooms', 'Silver Gauntlets']",6,2
+"['Clear 10 Silver Rupee Rooms', 'Sarias Song']",7,1
+"['Clear 10 Silver Rupee Rooms', 'Silver Gauntlets']",8,3
 "['Clear 10 Silver Rupee Rooms', 'Silver Scale']",6,1
-"['Clear 10 Silver Rupee Rooms', 'Spirit Temple Boss Key']",8,0
-"['Clear 10 Silver Rupee Rooms', 'Stone of Agony']",7,1
+"['Clear 10 Silver Rupee Rooms', 'Spirit Temple Boss Key']",9,0
+"['Clear 10 Silver Rupee Rooms', 'Stone of Agony']",8,1
 "['Clear 10 Silver Rupee Rooms', 'Two Fairy Spells']",16,4
-"['Clear 10 Silver Rupee Rooms', 'Water Medallion']",7,1
+"['Clear 10 Silver Rupee Rooms', 'Water Medallion']",8,1
 "['Clear 10 Silver Rupee Rooms', 'Water Temple Boss Key']",8,4
-"['Clear 10 Silver Rupee Rooms', 'Win Bombchu Bowling Prize']",9,1
+"['Clear 10 Silver Rupee Rooms', 'Win Bombchu Bowling Prize']",10,1
 "['Clear 8 Silver Rupee Rooms', 'Defeat Volvagia']",9,0
-"['Clear 8 Silver Rupee Rooms', 'Open All 6 Gold Rupee Chests']",12,4
+"['Clear 8 Silver Rupee Rooms', 'Exactly 30 Deku Sticks']",6,0
+"['Clear 8 Silver Rupee Rooms', 'Map & Compass in Spirit Temple']",6,2
+"['Clear 8 Silver Rupee Rooms', 'Obtain all 5 Small Keys in Forest Temple']",6,3
+"['Clear 8 Silver Rupee Rooms', 'Open All 6 Gold Rupee Chests']",13,4
+"['Clear 8 Silver Rupee Rooms', 'Zora Tunic']",6,1
 "['Cow in House', 'Fire Medallion']",7,2
-"['Cow in House', 'Goron Bracelet']",6,0
-"['Cow in House', 'Two Fairy Spells']",6,1
-"['Defeat 4 Different Iron Knuckles', 'Farores Wind']",8,3
+"['Cow in House', 'Goron Bracelet']",7,0
+"['Cow in House', 'Two Fairy Spells']",7,1
+"['Defeat 4 Different Iron Knuckles', 'Defeat Volvagia']",7,1
+"['Defeat 4 Different Iron Knuckles', 'Exactly 30 Deku Sticks']",6,1
+"['Defeat 4 Different Iron Knuckles', 'Farores Wind']",10,3
 "['Defeat 4 Different Iron Knuckles', 'Fire Temple Boss Key']",9,1
-"['Defeat 4 Different Iron Knuckles', 'Green Gauntlets']",13,1
+"['Defeat 4 Different Iron Knuckles', 'Forest Temple Boss Key']",6,2
+"['Defeat 4 Different Iron Knuckles', 'Green Gauntlets']",15,1
+"['Defeat 4 Different Iron Knuckles', 'Light Arrows']",6,0
+"['Defeat 4 Different Iron Knuckles', 'Map & Compass in Dodongos Cavern']",6,0
+"['Defeat 4 Different Iron Knuckles', 'Map & Compass in Forest Temple']",6,0
+"['Defeat 4 Different Iron Knuckles', 'Obtain all 8 Small Keys in Fire Temple']",7,2
 "['Defeat 4 Different Iron Knuckles', 'Open 3 Gold Rupee Chests']",8,1
+"['Defeat 4 Different Iron Knuckles', 'Sarias Song']",6,2
 "['Defeat Amy (Green Poe)', 'Dins Fire']",6,1
-"['Defeat Amy (Green Poe)', 'Open All 6 Gold Rupee Chests']",9,3
+"['Defeat Amy (Green Poe)', 'Open All 6 Gold Rupee Chests']",10,3
 "['Defeat Barinade', 'Fire Medallion']",6,1
+"['Defeat Barinade', 'Green Gauntlets']",6,1
 "['Defeat Big Octo', 'Map & Compass in Spirit Temple']",6,2
 "['Defeat Bongo-Bongo', 'Dins Fire']",6,2
-"['Defeat Bongo-Bongo', 'Green Gauntlets']",7,3
+"['Defeat Bongo-Bongo', 'Green Gauntlets']",9,3
 "['Defeat Dark Link', 'Dins Fire']",7,1
 "['Defeat Dark Link', 'Green Gauntlets']",7,4
 "['Defeat Dark Link', 'Open the Final Door of Spirit Trial']",7,1
 "['Defeat Dark Link', 'Two Fairy Spells']",6,1
-"['Defeat Meg (Purple Poe)', 'Defeat Twinrova']",7,0
+"['Defeat Meg (Purple Poe)', 'Defeat Twinrova']",8,0
 "['Defeat Meg (Purple Poe)', 'Defeat Volvagia']",6,0
-"['Defeat Meg (Purple Poe)', 'Ganons Castle Boss Key']",8,0
+"['Defeat Meg (Purple Poe)', 'Farores Wind']",6,4
+"['Defeat Meg (Purple Poe)', 'Ganons Castle Boss Key']",9,0
+"['Defeat Meg (Purple Poe)', 'Light Arrows']",6,0
 "['Defeat Meg (Purple Poe)', 'Map & Compass in Bottom of the Well']",7,0
-"['Defeat Meg (Purple Poe)', 'Open All 6 Gold Rupee Chests']",10,0
+"['Defeat Meg (Purple Poe)', 'Megaton Hammer']",6,1
+"['Defeat Meg (Purple Poe)', 'Obtain all 8 Small Keys in Fire Temple']",6,0
+"['Defeat Meg (Purple Poe)', 'Open All 6 Gold Rupee Chests']",13,1
+"['Defeat Meg (Purple Poe)', 'Requiem of Spirit']",6,3
 "['Defeat Meg (purple Poe)', 'Open All 6 Gold Rupee Chests']",7,3
 "['Defeat Morpha', 'Green Gauntlets']",7,0
 "['Defeat Morpha', 'Open All 6 Gold Rupee Chests']",6,1
 "['Defeat Nabooru-Knuckle', 'Goron Bracelet']",6,0
-"['Defeat Nabooru-Knuckle', 'Green Gauntlets']",9,0
-"['Defeat Nabooru-Knuckle', 'Open All 6 Gold Rupee Chests']",9,5
-"['Defeat Queen Gohma', 'Green Gauntlets']",6,1
-"['Defeat Twinrova', 'Defeat Volvagia']",13,6
-"['Defeat Twinrova', 'Dins Fire']",8,1
+"['Defeat Nabooru-Knuckle', 'Green Gauntlets']",11,0
+"['Defeat Nabooru-Knuckle', 'Open All 6 Gold Rupee Chests']",11,6
+"['Defeat Queen Gohma', 'Green Gauntlets']",9,1
+"['Defeat Twinrova', 'Defeat Volvagia']",15,6
+"['Defeat Twinrova', 'Dins Fire']",9,1
 "['Defeat Twinrova', 'Double Defense']",6,0
 "['Defeat Twinrova', 'Double Magic']",7,0
-"['Defeat Twinrova', 'Exactly 20 Deku Sticks']",11,0
-"['Defeat Twinrova', 'Exactly 30 Deku Sticks']",10,2
-"['Defeat Twinrova', 'Farores Wind']",8,2
+"['Defeat Twinrova', 'Exactly 20 Deku Sticks']",13,0
+"['Defeat Twinrova', 'Exactly 30 Deku Sticks']",13,2
+"['Defeat Twinrova', 'Farores Wind']",9,2
 "['Defeat Twinrova', 'Fire Medallion']",6,2
-"['Defeat Twinrova', 'Fire Temple Boss Key']",6,2
-"['Defeat Twinrova', 'Forest Temple Boss Key']",6,1
-"['Defeat Twinrova', 'Goron Bracelet']",13,4
-"['Defeat Twinrova', 'Green Gauntlets']",16,1
-"['Defeat Twinrova', 'Light Arrows']",8,0
+"['Defeat Twinrova', 'Fire Temple Boss Key']",7,2
+"['Defeat Twinrova', 'Forest Temple Boss Key']",8,1
+"['Defeat Twinrova', 'Goron Bracelet']",15,4
+"['Defeat Twinrova', 'Green Gauntlets']",19,1
+"['Defeat Twinrova', 'Light Arrows']",9,0
 "['Defeat Twinrova', 'Map & Compass in Bottom of the Well']",6,1
 "['Defeat Twinrova', 'Map & Compass in Dodongos Cavern']",6,2
 "['Defeat Twinrova', 'Map & Compass in Fire Temple']",6,0
+"['Defeat Twinrova', 'Map & Compass in Forest Temple']",6,0
+"['Defeat Twinrova', 'Megaton Hammer']",6,1
 "['Defeat Twinrova', 'Nayrus Love']",6,1
-"['Defeat Twinrova', 'Obtain all 5 Small Keys in Shadow Temple']",7,1
-"['Defeat Twinrova', 'Open 3 Gold Rupee Chests']",7,2
-"['Defeat Twinrova', 'Open the Final Door of Shadow Trial']",9,0
-"['Defeat Twinrova', 'Open the Final Door of Water Trial']",9,1
+"['Defeat Twinrova', 'Obtain all 5 Small Keys in Shadow Temple']",8,1
+"['Defeat Twinrova', 'Open 3 Gold Rupee Chests']",8,2
+"['Defeat Twinrova', 'Open the Final Door of Shadow Trial']",10,0
+"['Defeat Twinrova', 'Open the Final Door of Water Trial']",10,1
+"['Defeat Twinrova', 'Plant 5 Magic Beans']",6,0
 "['Defeat Twinrova', 'Quiver (40)']",6,0
-"['Defeat Twinrova', 'Shadow Temple Boss Key']",6,1
+"['Defeat Twinrova', 'Shadow Temple Boss Key']",9,1
 "['Defeat Twinrova', 'Silver Scale']",6,0
 "['Defeat Twinrova', 'Two Fairy Spells']",7,2
-"['Defeat Volvagia', 'Dins Fire']",11,2
+"['Defeat Twinrova', 'Zora Tunic']",6,0
+"['Defeat Volvagia', 'Dins Fire']",14,2
+"['Defeat Volvagia', 'Eponas Song']",6,0
 "['Defeat Volvagia', 'Exactly 30 Deku Sticks']",11,1
 "['Defeat Volvagia', 'Ganons Castle Boss Key']",8,1
-"['Defeat Volvagia', 'Goron Bracelet']",7,2
+"['Defeat Volvagia', 'Goron Bracelet']",8,2
 "['Defeat Volvagia', 'Green Gauntlets']",7,2
 "['Defeat Volvagia', 'Lon Lon Ranch HP']",7,2
 "['Defeat Volvagia', 'Map & Compass in Bottom of the Well']",9,5
 "['Defeat Volvagia', 'Map & Compass in Dodongos Cavern']",6,2
-"['Defeat Volvagia', 'Map & Compass in Spirit Temple']",12,3
+"['Defeat Volvagia', 'Map & Compass in Spirit Temple']",13,3
 "['Defeat Volvagia', 'Obtain all 5 Small Keys in Shadow Temple']",7,2
-"['Defeat Volvagia', 'Open 3 Gold Rupee Chests']",11,3
+"['Defeat Volvagia', 'Open 3 Gold Rupee Chests']",12,4
 "['Defeat Volvagia', 'Two Fairy Spells']",7,0
-"['Defeat a Skull Kid', 'Green Gauntlets']",10,1
-"['Defeat a Skull Kid', 'Open All 6 Gold Rupee Chests']",9,0
-"['Defeat a Skull Kid', 'Quiver (50)']",6,0
+"['Defeat a Skull Kid', 'Green Gauntlets']",13,1
+"['Defeat a Skull Kid', 'Light Arrows']",6,4
+"['Defeat a Skull Kid', 'Open All 6 Gold Rupee Chests']",10,1
+"['Defeat a Skull Kid', 'Quiver (50)']",7,1
 "['Defeat a Skull Kid', 'Win Bombchu Bowling Prize']",7,2
-"['Defeat all Lizalfos in Dodongos Cavern', 'Goron Bracelet']",6,0
+"['Defeat all Lizalfos in Dodongos Cavern', 'Goron Bracelet']",7,0
+"['Defeat all Lizalfos in Dodongos Cavern', 'Nayrus Love']",6,2
+"['Defeat all Lizalfos in Dodongos Cavern', 'Open All 6 Gold Rupee Chests']",6,4
 "['Defeat both Flare Dancers', 'Goron Bracelet']",6,1
-"['Defeat both Flare Dancers', 'Obtain all 5 Small Keys in Shadow Temple']",6,5
+"['Defeat both Flare Dancers', 'Nayrus Love']",7,0
+"['Defeat both Flare Dancers', 'Obtain all 5 Small Keys in Shadow Temple']",8,7
 "['Desert Colossus HP', 'Ganons Castle Boss Key']",6,1
-"['Desert Colossus HP', 'Green Gauntlets']",15,3
+"['Desert Colossus HP', 'Green Gauntlets']",16,3
 "['Desert Colossus HP', 'Map & Compass in Dodongos Cavern']",6,1
 "['Desert Colossus HP', 'Open All 6 Gold Rupee Chests']",8,3
+"['Dins Fire', 'Exactly 30 Deku Sticks']",6,1
+"['Dins Fire', 'Fairy Bow']",7,3
 "['Dins Fire', 'Fire Arrows']",8,1
-"['Dins Fire', 'Fire Temple Boss Key']",6,0
-"['Dins Fire', 'Ganons Castle Boss Key']",7,1
+"['Dins Fire', 'Fire Temple Boss Key']",8,0
+"['Dins Fire', 'Forest Temple Boss Key']",6,0
+"['Dins Fire', 'Ganons Castle Boss Key']",8,1
 "['Dins Fire', 'Lens of Truth']",6,0
-"['Dins Fire', 'Light Arrows']",10,3
+"['Dins Fire', 'Light Arrows']",12,3
+"['Dins Fire', 'Map & Compass in Bottom of the Well']",6,2
 "['Dins Fire', 'Map & Compass in Forest Temple']",7,2
+"['Dins Fire', 'Map & Compass in Shadow Temple']",6,3
 "['Dins Fire', 'Open 2 Boss Key Doors']",6,1
-"['Dins Fire', 'Open 3 Gold Rupee Chests']",7,1
-"['Dins Fire', 'Open All 6 Gold Rupee Chests']",18,3
-"['Dins Fire', 'Quiver (40)']",7,1
-"['Dins Fire', 'Rutos Letter']",7,2
-"['Dins Fire', 'Silver Gauntlets']",9,2
-"['Dins Fire', 'Water Medallion']",7,3
+"['Dins Fire', 'Open 3 Gold Rupee Chests']",8,1
+"['Dins Fire', 'Open All 6 Gold Rupee Chests']",20,3
+"['Dins Fire', 'Quiver (40)']",10,4
+"['Dins Fire', 'Rutos Letter']",8,2
+"['Dins Fire', 'Silver Gauntlets']",11,2
+"['Dins Fire', 'Water Medallion']",10,4
+"['Dins Fire', 'Zora Tunic']",6,2
 "['Double Defense', 'Green Gauntlets']",8,3
 "['Double Defense', 'Open All 6 Gold Rupee Chests']",12,1
 "['Double Magic', 'Green Gauntlets']",6,2
 "['Double Magic', 'Open All 6 Gold Rupee Chests']",8,2
 "['Double Magic', 'Quiver (50)']",6,4
-"['Eponas Song', 'Green Gauntlets']",7,2
-"['Exactly 20 Deku Sticks', 'Farores Wind']",6,0
-"['Exactly 20 Deku Sticks', 'Fire Medallion']",7,2
+"['Eponas Song', 'Green Gauntlets']",10,5
+"['Eponas Song', 'Open All 6 Gold Rupee Chests']",6,0
+"['Exactly 20 Deku Sticks', 'Farores Wind']",7,0
+"['Exactly 20 Deku Sticks', 'Fire Medallion']",8,2
 "['Exactly 20 Deku Sticks', 'Goron Bracelet']",9,1
-"['Exactly 20 Deku Sticks', 'Green Gauntlets']",10,1
+"['Exactly 20 Deku Sticks', 'Green Gauntlets']",11,1
 "['Exactly 20 Deku Sticks', 'Open 3 Boss Key Doors']",8,0
 "['Exactly 20 Deku Sticks', 'Open All 6 Gold Rupee Chests']",14,1
 "['Exactly 20 Deku Sticks', 'Quiver (50)']",6,1
+"['Exactly 30 Deku Sticks', 'Farores Wind']",8,3
 "['Exactly 30 Deku Sticks', 'Goron Bracelet']",11,2
-"['Exactly 30 Deku Sticks', 'Green Gauntlets']",18,5
-"['Exactly 30 Deku Sticks', 'Map & Compass in Jabu-Jabu']",7,0
-"['Exactly 30 Deku Sticks', 'Map & Compass in Spirit Temple']",6,3
+"['Exactly 30 Deku Sticks', 'Green Gauntlets']",22,5
+"['Exactly 30 Deku Sticks', 'Map & Compass in Jabu-Jabu']",8,0
+"['Exactly 30 Deku Sticks', 'Map & Compass in Spirit Temple']",7,4
+"['Exactly 30 Deku Sticks', 'Nayrus Love']",6,3
+"['Exactly 30 Deku Sticks', 'Obtain all 5 Small Keys in Forest Temple']",7,2
 "['Exactly 30 Deku Sticks', 'Obtain all 8 Small Keys in Fire Temple']",6,1
 "['Exactly 30 Deku Sticks', 'Open 3 Boss Key Doors']",7,3
-"['Exactly 30 Deku Sticks', 'Open All 6 Gold Rupee Chests']",13,8
+"['Exactly 30 Deku Sticks', 'Open All 6 Gold Rupee Chests']",17,8
+"['Exactly 30 Deku Sticks', 'Open the Final Door of Shadow Trial']",6,0
 "['Exactly 30 Deku Sticks', 'Open the Final Door of Water Trial']",7,0
-"['Exactly 30 Deku Sticks', 'Requiem of Spirit']",6,0
-"['Exactly 30 Deku Sticks', 'Two Fairy Spells']",8,2
-"['Fairy Slingshot', 'Goron Bracelet']",6,1
-"['Fairy Slingshot', 'Open All 6 Gold Rupee Chests']",6,1
+"['Exactly 30 Deku Sticks', 'Requiem of Spirit']",7,0
+"['Exactly 30 Deku Sticks', 'Sarias Song']",6,1
+"['Exactly 30 Deku Sticks', 'Silver Gauntlets']",6,2
+"['Exactly 30 Deku Sticks', 'Two Fairy Spells']",9,3
+"['Fairy Bow', 'Green Gauntlets']",6,2
+"['Fairy Bow', 'Open 3 Gold Rupee Chests']",6,4
+"['Fairy Slingshot', 'Goron Bracelet']",7,1
+"['Fairy Slingshot', 'Open All 6 Gold Rupee Chests']",7,1
 "['Farores Wind', 'Fire Medallion']",6,1
 "['Farores Wind', 'Green Gauntlets']",6,1
 "['Farores Wind', 'Open 3 Gold Rupee Chests']",6,3
-"['Farores Wind', 'Open All 6 Gold Rupee Chests']",6,1
+"['Farores Wind', 'Open All 6 Gold Rupee Chests']",7,1
 "['Farores Wind', 'Quiver (50)']",6,3
-"['Fill all 4 Bottle Slots', 'Green Gauntlets']",7,0
-"['Fill all 4 Bottle Slots', 'Open All 6 Gold Rupee Chests']",6,0
-"['Fill all 4 Bottle Slots', 'Open the Final Door of Spirit Trial']",7,1
-"['Fire Arrows', 'Goron Bracelet']",6,0
-"['Fire Arrows', 'Green Gauntlets']",7,0
+"['Farores Wind', 'Requiem of Spirit']",6,3
+"['Fill all 4 Bottle Slots', 'Green Gauntlets']",8,0
+"['Fill all 4 Bottle Slots', 'Open All 6 Gold Rupee Chests']",7,0
+"['Fill all 4 Bottle Slots', 'Open the Final Door of Spirit Trial']",8,1
+"['Fire Arrows', 'Goron Bracelet']",7,0
+"['Fire Arrows', 'Green Gauntlets']",9,0
 "['Fire Medallion', 'Light Arrows']",6,0
 "['Fire Medallion', 'Map & Compass in Spirit Temple']",13,3
 "['Fire Medallion', 'Quiver (40)']",9,1
 "['Fire Medallion', 'Sarias Song']",6,3
 "['Fire Medallion', 'Two Fairy Spells']",8,1
+"['Fire Temple Boss Key', 'Gerudos Card']",6,2
 "['Fire Temple Boss Key', 'Goron Bracelet']",11,3
-"['Fire Temple Boss Key', 'Green Gauntlets']",19,4
-"['Fire Temple Boss Key', 'Map & Compass in Forest Temple']",7,2
-"['Fire Temple Boss Key', 'Map & Compass in Spirit Temple']",10,0
-"['Fire Temple Boss Key', 'Obtain all 5 Small Keys in Shadow Temple']",6,0
-"['Fire Temple Boss Key', 'Open All 6 Gold Rupee Chests']",10,1
-"['Fire Temple Boss Key', 'Quiver (50)']",8,0
-"['Forest Medallion', 'Free all 9 Gorons in Fire Temple']",6,6
+"['Fire Temple Boss Key', 'Green Gauntlets']",21,4
+"['Fire Temple Boss Key', 'Map & Compass in Forest Temple']",8,3
+"['Fire Temple Boss Key', 'Map & Compass in Spirit Temple']",11,0
+"['Fire Temple Boss Key', 'Obtain all 5 Small Keys in Shadow Temple']",9,1
+"['Fire Temple Boss Key', 'Open All 6 Gold Rupee Chests']",11,2
+"['Fire Temple Boss Key', 'Open the Final Door of Fire Trial']",6,0
+"['Fire Temple Boss Key', 'Open the Final Door of Spirit Trial']",6,3
+"['Fire Temple Boss Key', 'Quiver (50)']",10,0
+"['Forest Medallion', 'Free all 9 Gorons in Fire Temple']",7,6
 "['Forest Medallion', 'Green Gauntlets']",13,2
 "['Forest Medallion', 'Open All 6 Gold Rupee Chests']",7,0
-"['Forest Temple Boss Key', 'Goron Bracelet']",10,1
-"['Forest Temple Boss Key', 'Green Gauntlets']",13,4
-"['Forest Temple Boss Key', 'Open All 6 Gold Rupee Chests']",9,2
-"['Forest Temple Boss Key', 'Open the Final Door of Shadow Trial']",8,1
+"['Forest Temple Boss Key', 'Free all 9 Gorons in Fire Temple']",6,3
+"['Forest Temple Boss Key', 'Goron Bracelet']",11,1
+"['Forest Temple Boss Key', 'Green Gauntlets']",16,4
+"['Forest Temple Boss Key', 'Map & Compass in Bottom of the Well']",7,2
+"['Forest Temple Boss Key', 'Map & Compass in Dodongos Cavern']",6,1
+"['Forest Temple Boss Key', 'Obtain all 5 Small Keys in Shadow Temple']",6,1
+"['Forest Temple Boss Key', 'Open All 6 Gold Rupee Chests']",10,2
+"['Forest Temple Boss Key', 'Open the Final Door of Shadow Trial']",9,1
 "['Forest Temple Boss Key', 'Two Fairy Spells']",8,0
-"['Free all 9 Gorons in Fire Temple', 'Ganons Castle Boss Key']",6,3
-"['Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple']",7,0
+"['Free all 9 Gorons in Fire Temple', 'Ganons Castle Boss Key']",8,4
+"['Free all 9 Gorons in Fire Temple', 'Lens of Truth']",6,2
+"['Free all 9 Gorons in Fire Temple', 'Map & Compass in Spirit Temple']",8,0
 "['Free all 9 Gorons in Fire Temple', 'Open 3 Gold Rupee Chests']",8,1
 "['Free all 9 Gorons in Fire Temple', 'Quiver (40)']",6,3
+"['Free all 9 Gorons in Fire Temple', 'Shadow Temple Boss Key']",8,0
+"['Free all 9 Gorons in Fire Temple', 'Silver Scale']",6,2
 "['Free all 9 Gorons in Fire Temple', 'Spirit Temple Boss Key']",6,0
 "['Frogs HP', 'Green Gauntlets']",6,2
-"['Ganons Castle Boss Key', 'Goron Bracelet']",9,2
-"['Ganons Castle Boss Key', 'Green Gauntlets']",11,2
-"['Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",7,0
+"['Frogs HP', 'Quiver (50)']",6,0
+"['Ganons Castle Boss Key', 'Goron Bracelet']",10,2
+"['Ganons Castle Boss Key', 'Green Gauntlets']",13,2
+"['Ganons Castle Boss Key', 'Map & Compass in Forest Temple']",6,0
+"['Ganons Castle Boss Key', 'Map & Compass in Jabu-Jabu']",6,3
+"['Ganons Castle Boss Key', 'Map & Compass in Spirit Temple']",8,0
+"['Ganons Castle Boss Key', 'Nayrus Love']",6,2
 "['Ganons Castle Boss Key', 'Obtain all 5 Small Keys in Shadow Temple']",9,0
-"['Ganons Castle Boss Key', 'Open All 6 Gold Rupee Chests']",11,0
-"['Ganons Castle Boss Key', 'Two Fairy Spells']",7,3
-"['Gerudos Card', 'Green Gauntlets']",8,2
-"['Giants Knife', 'Open All 6 Gold Rupee Chests']",6,1
-"['Giants Wallet', 'Green Gauntlets']",7,0
+"['Ganons Castle Boss Key', 'Open All 6 Gold Rupee Chests']",13,0
+"['Ganons Castle Boss Key', 'Two Fairy Spells']",8,3
+"['Gerudos Card', 'Green Gauntlets']",10,2
+"['Gerudos Card', 'Open All 6 Gold Rupee Chests']",6,2
+"['Get Bombchu chest in Spirit Temple', 'Open All 6 Gold Rupee Chests']",6,0
+"['Giants Knife', 'Green Gauntlets']",8,0
+"['Giants Knife', 'Open All 6 Gold Rupee Chests']",8,1
+"['Giants Wallet', 'Green Gauntlets']",8,0
+"['Giants Wallet', 'Open All 6 Gold Rupee Chests']",6,1
 "['Giants Wallet', 'Open the Final Door of Water Trial']",6,0
 "['Goron Bracelet', 'Goron Tunic']",7,4
-"['Goron Bracelet', 'Map & Compass in Dodongos Cavern']",6,1
+"['Goron Bracelet', 'Longshot']",6,0
+"['Goron Bracelet', 'Map & Compass in Dodongos Cavern']",7,1
 "['Goron Bracelet', 'Map & Compass in Fire Temple']",6,1
 "['Goron Bracelet', 'Map & Compass in Forest Temple']",10,0
 "['Goron Bracelet', 'Map & Compass in Spirit Temple']",7,0
-"['Goron Bracelet', 'Megaton Hammer']",9,2
-"['Goron Bracelet', 'Obtain all 8 Small Keys in Fire Temple']",6,2
-"['Goron Bracelet', 'Open All 6 Gold Rupee Chests']",19,2
-"['Goron Bracelet', 'Open the Final Door of Fire Trial']",6,1
-"['Goron Bracelet', 'Silver Scale']",8,3
+"['Goron Bracelet', 'Megaton Hammer']",11,2
+"['Goron Bracelet', 'Minuet of Forest']",6,1
+"['Goron Bracelet', 'Mirror Shield']",6,1
+"['Goron Bracelet', 'Obtain all 8 Small Keys in Fire Temple']",7,3
+"['Goron Bracelet', 'Open All 6 Gold Rupee Chests']",21,2
+"['Goron Bracelet', 'Open the Final Door of Fire Trial']",7,1
+"['Goron Bracelet', 'Silver Scale']",9,3
+"['Goron Bracelet', 'Zora Tunic']",6,1
 "['Goron Tunic', 'Green Gauntlets']",14,2
 "['Goron Tunic', 'Open All 6 Gold Rupee Chests']",6,1
 "['Green Gauntlets', 'Ice Arrows']",7,0
-"['Green Gauntlets', 'Ice Cavern HP']",6,0
+"['Green Gauntlets', 'Ice Cavern HP']",7,0
 "['Green Gauntlets', 'Iron Boots']",6,0
-"['Green Gauntlets', 'Lens of Truth']",13,0
-"['Green Gauntlets', 'Light Arrows']",11,1
+"['Green Gauntlets', 'Lens of Truth']",14,0
+"['Green Gauntlets', 'Light Arrows']",13,1
 "['Green Gauntlets', 'Lon Lon Ranch HP']",14,3
 "['Green Gauntlets', 'Longshot']",6,0
 "['Green Gauntlets', 'Map & Compass in Bottom of the Well']",10,3
-"['Green Gauntlets', 'Map & Compass in Dodongos Cavern']",15,3
-"['Green Gauntlets', 'Map & Compass in Fire Temple']",6,0
-"['Green Gauntlets', 'Map & Compass in Forest Temple']",12,1
-"['Green Gauntlets', 'Map & Compass in Shadow Temple']",7,0
-"['Green Gauntlets', 'Map & Compass in Spirit Temple']",9,3
-"['Green Gauntlets', 'Megaton Hammer']",10,2
-"['Green Gauntlets', 'Minuet of Forest']",13,5
-"['Green Gauntlets', 'Mirror Shield']",9,1
+"['Green Gauntlets', 'Map & Compass in Deku Tree']",6,3
+"['Green Gauntlets', 'Map & Compass in Dodongos Cavern']",17,3
+"['Green Gauntlets', 'Map & Compass in Fire Temple']",8,0
+"['Green Gauntlets', 'Map & Compass in Forest Temple']",15,4
+"['Green Gauntlets', 'Map & Compass in Shadow Temple']",8,0
+"['Green Gauntlets', 'Map & Compass in Spirit Temple']",10,3
+"['Green Gauntlets', 'Megaton Hammer']",11,2
+"['Green Gauntlets', 'Minuet of Forest']",17,6
+"['Green Gauntlets', 'Mirror Shield']",12,1
 "['Green Gauntlets', 'Obtain all 5 Small Keys in Forest Temple']",12,3
-"['Green Gauntlets', 'Obtain all 8 Small Keys in Fire Temple']",9,1
+"['Green Gauntlets', 'Obtain all 8 Small Keys in Fire Temple']",14,1
+"['Green Gauntlets', 'Open 2 Boss Key Doors']",6,0
 "['Green Gauntlets', 'Open 3 Boss Key Doors']",6,3
-"['Green Gauntlets', 'Open 3 Gold Rupee Chests']",10,2
-"['Green Gauntlets', 'Open 5 Gold Rupee Chests']",9,2
-"['Green Gauntlets', 'Open All 6 Gold Rupee Chests']",17,9
-"['Green Gauntlets', 'Open the Final Door of Fire Trial']",6,1
+"['Green Gauntlets', 'Open 3 Gold Rupee Chests']",11,2
+"['Green Gauntlets', 'Open 5 Gold Rupee Chests']",11,3
+"['Green Gauntlets', 'Open 50 Rupee chest in Wasteland']",6,1
+"['Green Gauntlets', 'Open All 6 Gold Rupee Chests']",22,10
+"['Green Gauntlets', 'Open the Final Door of Fire Trial']",8,1
 "['Green Gauntlets', 'Open the Final Door of Water Trial']",6,3
-"['Green Gauntlets', 'Requiem of Spirit']",13,2
+"['Green Gauntlets', 'Plant 5 Magic Beans']",8,3
+"['Green Gauntlets', 'Requiem of Spirit']",16,3
 "['Green Gauntlets', 'Stone of Agony']",7,0
-"['Green Gauntlets', 'Water Temple Boss Key']",8,1
-"['Green Gauntlets', 'Win Bombchu Bowling Prize']",6,3
-"['Green Gauntlets', 'Zora Tunic']",14,7
+"['Green Gauntlets', 'Water Medallion']",6,1
+"['Green Gauntlets', 'Water Temple Boss Key']",9,1
+"['Green Gauntlets', 'Win Bombchu Bowling Prize']",7,3
+"['Green Gauntlets', 'Zora Tunic']",20,7
 "['Ice Arrows', 'Obtain all 5 Small Keys in Shadow Temple']",6,1
-"['Ice Arrows', 'Open All 6 Gold Rupee Chests']",12,2
-"['Ice Cavern HP', 'Open All 6 Gold Rupee Chests']",6,1
-"['Keaton Mask', 'Open All 6 Gold Rupee Chests']",6,3
+"['Ice Arrows', 'Open All 6 Gold Rupee Chests']",13,2
+"['Ice Cavern HP', 'Open All 6 Gold Rupee Chests']",7,1
+"['Keaton Mask', 'Open All 6 Gold Rupee Chests']",7,3
 "['Lens of Truth', 'Open All 6 Gold Rupee Chests']",10,1
 "['Lens of Truth', 'Open the Final Door of Water Trial']",6,2
 "['Lens of Truth', 'Win Bombchu Bowling Prize']",6,1
-"['Light Arrows', 'Map & Compass in Bottom of the Well']",7,0
-"['Light Arrows', 'Open All 6 Gold Rupee Chests']",12,2
+"['Light Arrows', 'Map & Compass in Bottom of the Well']",8,0
+"['Light Arrows', 'Open All 6 Gold Rupee Chests']",18,2
 "['Lon Lon Ranch HP', 'Longshot']",7,4
 "['Lon Lon Ranch HP', 'Open All 6 Gold Rupee Chests']",10,2
 "['Lon Lon Ranch HP', 'Two Fairy Spells']",6,2
+"['Longshot', 'Obtain all 8 Small Keys in Fire Temple']",6,0
 "['Longshot', 'Open All 6 Gold Rupee Chests']",8,0
 "['Longshot', 'Quiver (50)']",6,0
 "['Map & Compass in Bottom of the Well', 'Map & Compass in Forest Temple']",7,6
-"['Map & Compass in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",9,3
+"['Map & Compass in Bottom of the Well', 'Open All 6 Gold Rupee Chests']",10,3
 "['Map & Compass in Bottom of the Well', 'Open the Final Door of Shadow Trial']",7,0
 "['Map & Compass in Bottom of the Well', 'Two Fairy Spells']",8,0
 "['Map & Compass in Dodongos Cavern', 'Nayrus Love']",7,4
-"['Map & Compass in Dodongos Cavern', 'Open All 6 Gold Rupee Chests']",6,0
+"['Map & Compass in Dodongos Cavern', 'Open All 6 Gold Rupee Chests']",7,0
+"['Map & Compass in Dodongos Cavern', 'Open the Final Door of Water Trial']",6,0
 "['Map & Compass in Dodongos Cavern', 'Two Fairy Spells']",7,4
 "['Map & Compass in Fire Temple', 'Obtain all 5 Small Keys in Shadow Temple']",7,0
 "['Map & Compass in Fire Temple', 'Two Fairy Spells']",6,0
 "['Map & Compass in Forest Temple', 'Map & Compass in Spirit Temple']",6,1
-"['Map & Compass in Forest Temple', 'Open 3 Gold Rupee Chests']",6,0
-"['Map & Compass in Forest Temple', 'Open All 6 Gold Rupee Chests']",12,3
-"['Map & Compass in Forest Temple', 'Open the Final Door of Water Trial']",9,6
-"['Map & Compass in Forest Temple', 'Two Fairy Spells']",10,4
+"['Map & Compass in Forest Temple', 'Obtain all 5 Small Keys in Shadow Temple']",6,2
+"['Map & Compass in Forest Temple', 'Open 3 Gold Rupee Chests']",7,0
+"['Map & Compass in Forest Temple', 'Open All 6 Gold Rupee Chests']",14,4
+"['Map & Compass in Forest Temple', 'Open the Final Door of Shadow Trial']",6,0
+"['Map & Compass in Forest Temple', 'Open the Final Door of Water Trial']",10,6
+"['Map & Compass in Forest Temple', 'Two Fairy Spells']",11,4
+"['Map & Compass in Forest Temple', 'Win Bombchu Bowling Prize']",6,1
+"['Map & Compass in Jabu-Jabu', 'Open 3 Boss Key Doors']",6,0
 "['Map & Compass in Jabu-Jabu', 'Open All 6 Gold Rupee Chests']",6,1
-"['Map & Compass in Spirit Temple', 'Open 3 Boss Key Doors']",7,4
-"['Map & Compass in Spirit Temple', 'Open 3 Gold Rupee Chests']",7,6
+"['Map & Compass in Jabu-Jabu', 'Open the Final Door of Spirit Trial']",6,3
+"['Map & Compass in Shadow Temple', 'Open All 6 Gold Rupee Chests']",6,2
+"['Map & Compass in Spirit Temple', 'Obtain all 5 Small Keys in Forest Temple']",6,2
+"['Map & Compass in Spirit Temple', 'Open 3 Boss Key Doors']",8,4
+"['Map & Compass in Spirit Temple', 'Open 3 Gold Rupee Chests']",8,6
+"['Map & Compass in Spirit Temple', 'Open the Final Door of Forest Trial']",6,1
 "['Map & Compass in Spirit Temple', 'Open the Final Door of Shadow Trial']",9,4
 "['Map & Compass in Spirit Temple', 'Win Bombchu Bowling Prize']",6,0
-"['Map & Compass in Water Temple', 'Open All 6 Gold Rupee Chests']",6,0
-"['Megaton Hammer', 'Quiver (50)']",8,3
+"['Map & Compass in Water Temple', 'Open All 6 Gold Rupee Chests']",8,0
+"['Megaton Hammer', 'Open the Final Door of Spirit Trial']",6,1
+"['Megaton Hammer', 'Quiver (50)']",10,3
 "['Megaton Hammer', 'Two Fairy Spells']",11,2
-"['Minuet of Forest', 'Open 3 Boss Key Doors']",8,6
-"['Minuet of Forest', 'Open All 6 Gold Rupee Chests']",9,2
+"['Minuet of Forest', 'Nayrus Love']",8,3
+"['Minuet of Forest', 'Open 3 Boss Key Doors']",10,6
+"['Minuet of Forest', 'Open All 6 Gold Rupee Chests']",11,3
 "['Minuet of Forest', 'Open the Final Door of Spirit Trial']",6,2
-"['Minuet of Forest', 'Two Fairy Spells']",6,0
-"['Mirror Shield', 'Open All 6 Gold Rupee Chests']",10,3
-"['Nayrus Love', 'Open All 6 Gold Rupee Chests']",6,1
-"['Nayrus Love', 'Plant 5 Magic Beans']",8,0
+"['Minuet of Forest', 'Two Fairy Spells']",7,0
+"['Mirror Shield', 'Open All 6 Gold Rupee Chests']",12,3
+"['Nayrus Love', 'Obtain all 5 Small Keys in Forest Temple']",7,0
+"['Nayrus Love', 'Obtain all 8 Small Keys in Fire Temple']",6,1
+"['Nayrus Love', 'Open 3 Gold Rupee Chests']",6,1
+"['Nayrus Love', 'Open All 6 Gold Rupee Chests']",9,1
+"['Nayrus Love', 'Open the Final Door of Forest Trial']",6,0
+"['Nayrus Love', 'Plant 5 Magic Beans']",9,0
+"['Nayrus Love', 'Silver Scale']",6,1
+"['Nayrus Love', 'Stone of Agony']",6,0
 "['Nayrus Love', 'Win Bombchu Bowling Prize']",6,0
-"['Obtain all 5 Small Keys in Forest Temple', 'Open All 6 Gold Rupee Chests']",12,3
+"['Obtain all 5 Small Keys in Forest Temple', 'Obtain all 5 Small Keys in Shadow Temple']",6,1
+"['Obtain all 5 Small Keys in Forest Temple', 'Open All 6 Gold Rupee Chests']",14,3
 "['Obtain all 5 Small Keys in Forest Temple', 'Open the Final Door of Water Trial']",6,0
-"['Obtain all 5 Small Keys in Forest Temple', 'Two Fairy Spells']",9,2
-"['Obtain all 5 Small Keys in Shadow Temple', 'Open All 6 Gold Rupee Chests']",19,4
+"['Obtain all 5 Small Keys in Forest Temple', 'Two Fairy Spells']",10,2
+"['Obtain all 5 Small Keys in Shadow Temple', 'Open All 6 Gold Rupee Chests']",20,5
 "['Obtain all 5 Small Keys in Shadow Temple', 'Win Bombchu Bowling Prize']",8,1
-"['Obtain all 8 Small Keys in Fire Temple', 'Open 3 Boss Key Doors']",6,2
+"['Obtain all 8 Small Keys in Fire Temple', 'Open 3 Boss Key Doors']",7,2
 "['Obtain all 8 Small Keys in Fire Temple', 'Open the Final Door of Spirit Trial']",6,0
 "['Obtain all 8 Small Keys in Fire Temple', 'Two Fairy Spells']",11,3
 "['Open 3 Boss Key Doors', 'Silver Scale']",7,9
-"['Open 3 Boss Key Doors', 'Two Fairy Spells']",6,4
+"['Open 3 Boss Key Doors', 'Two Fairy Spells']",7,4
 "['Open 3 Gold Rupee Chests', 'Open the Final Door of Shadow Trial']",6,3
-"['Open 3 Gold Rupee Chests', 'Open the Final Door of Water Trial']",9,1
+"['Open 3 Gold Rupee Chests', 'Open the Final Door of Water Trial']",10,1
 "['Open 3 Gold Rupee Chests', 'Quiver (50)']",8,4
-"['Open 3 Gold Rupee Chests', 'Requiem of Spirit']",6,2
+"['Open 3 Gold Rupee Chests', 'Requiem of Spirit']",7,4
+"['Open 3 Gold Rupee Chests', 'Shadow Temple Boss Key']",7,2
 "['Open 3 Gold Rupee Chests', 'Two Fairy Spells']",10,6
+"['Open 5 Gold Rupee Chests', 'Rutos Letter']",6,0
 "['Open 5 Gold Rupee Chests', 'Two Fairy Spells']",6,6
 "['Open 50 Rupee chest in Wasteland', 'Open All 6 Gold Rupee Chests']",8,0
-"['Open All 6 Gold Rupee Chests', 'Open the Final Door of Forest Trial']",9,1
-"['Open All 6 Gold Rupee Chests', 'Open the Final Door of Spirit Trial']",16,4
-"['Open All 6 Gold Rupee Chests', 'Quiver (40)']",6,0
-"['Open All 6 Gold Rupee Chests', 'Quiver (50)']",20,2
-"['Open All 6 Gold Rupee Chests', 'Requiem of Spirit']",11,2
-"['Open All 6 Gold Rupee Chests', 'Sarias Song']",6,0
-"['Open All 6 Gold Rupee Chests', 'Shadow Temple Boss Key']",6,1
+"['Open All 6 Gold Rupee Chests', 'Open the Final Door of Fire Trial']",6,1
+"['Open All 6 Gold Rupee Chests', 'Open the Final Door of Forest Trial']",10,1
+"['Open All 6 Gold Rupee Chests', 'Open the Final Door of Spirit Trial']",18,4
+"['Open All 6 Gold Rupee Chests', 'Quiver (40)']",7,0
+"['Open All 6 Gold Rupee Chests', 'Quiver (50)']",24,3
+"['Open All 6 Gold Rupee Chests', 'Requiem of Spirit']",13,2
+"['Open All 6 Gold Rupee Chests', 'Sarias Song']",8,1
+"['Open All 6 Gold Rupee Chests', 'Shadow Temple Boss Key']",8,1
 "['Open All 6 Gold Rupee Chests', 'Silver Gauntlets']",16,2
-"['Open All 6 Gold Rupee Chests', 'Silver Scale']",10,6
-"['Open All 6 Gold Rupee Chests', 'Spirit Temple Boss Key']",12,1
+"['Open All 6 Gold Rupee Chests', 'Silver Scale']",11,6
+"['Open All 6 Gold Rupee Chests', 'Spirit Temple Boss Key']",13,1
 "['Open All 6 Gold Rupee Chests', 'Stone of Agony']",9,2
-"['Open All 6 Gold Rupee Chests', 'Water Temple Boss Key']",7,2
-"['Open All 6 Gold Rupee Chests', 'Zora Tunic']",14,3
-"['Open the Final Door of Shadow Trial', 'Zora Tunic']",6,4
-"['Open the Final Door of Spirit Trial', 'Sarias Song']",10,0
+"['Open All 6 Gold Rupee Chests', 'Water Temple Boss Key']",8,2
+"['Open All 6 Gold Rupee Chests', 'Zora Tunic']",17,3
+"['Open the Final Door of Fire Trial', 'Quiver (50)']",6,1
+"['Open the Final Door of Shadow Trial', 'Zora Tunic']",8,4
+"['Open the Final Door of Spirit Trial', 'Sarias Song']",11,0
 "['Open the Final Door of Spirit Trial', 'Silver Scale']",6,2
-"['Open the Final Door of Water Trial', 'Sarias Song']",7,1
-"['Quiver (40)', 'Sarias Song']",7,1
+"['Open the Final Door of Water Trial', 'Sarias Song']",8,2
+"['Open the Final Door of Water Trial', 'Silver Gauntlets']",6,0
+"['Quiver (40)', 'Sarias Song']",8,2
 "['Quiver (40)', 'Two Fairy Spells']",8,3
 "['Quiver (40)', 'Win Bombchu Bowling Prize']",6,3
 "['Quiver (50)', 'Sarias Song']",10,2
+"['Quiver (50)', 'Silver Scale']",6,0
+"['Quiver (50)', 'Win Bombchu Bowling Prize']",6,1
 "['Quiver (50)', 'Zora Tunic']",7,3
-"['Requiem of Spirit', 'Sarias Song']",6,1
-"['Silver Gauntlets', 'Two Fairy Spells']",6,4
+"['Requiem of Spirit', 'Sarias Song']",7,1
+"['Silver Gauntlets', 'Two Fairy Spells']",7,5
 "['Silver Scale', 'Two Fairy Spells']",10,4
-"['Stone of Agony', 'Two Fairy Spells']",6,0
+"['Stone of Agony', 'Two Fairy Spells']",7,0
+"['Two Fairy Spells', 'Win Bombchu Bowling Prize']",6,1
