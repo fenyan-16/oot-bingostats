@@ -91,11 +91,17 @@ WSGI_APPLICATION = 'tourney.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tourney',
-        'USER': 'postgres',
-        'PASSWORD': 'P=Vbg0@mK6sv&A3@',
-        'HOST': '192.168.178.43',
+        # 'NAME': 'tourney',
+        # 'USER': 'postgres',
+        # 'PASSWORD': 'P=Vbg0@mK6sv&A3@',
+        # 'HOST': '192.168.178.43',
+	    'NAME': 'fenyan_bingodb',
+	    'USER': 'fenyan_dbuser',
+	    'PASSWORD': 'A3l7^8sk2',
+	    'HOST': '127.0.0.1',
         'PORT': '5432',
+
+
     }
 }
 
