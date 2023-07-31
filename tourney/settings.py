@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
-import django_heroku
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -33,7 +32,7 @@ SECRET_KEY = '(v&e0$jniyln^=bc+pxg$3(9+x^@fp67=l3^qidfcd@iz$$nl#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tourneyapp.herokuapp.com']
+ALLOWED_HOSTS = ['tourneyapp.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -51,7 +50,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'numpy',
-    'django_countries',
     'pandas',
     'lxml',
 ]
@@ -96,7 +94,7 @@ DATABASES = {
         'NAME': 'tourney',
         'USER': 'postgres',
         'PASSWORD': 'P=Vbg0@mK6sv&A3@',
-        'HOST': '127.0.0.1',
+        'HOST': '192.168.178.43',
         'PORT': '5432',
     }
 }
@@ -140,4 +138,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-django_heroku.settings(locals())
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

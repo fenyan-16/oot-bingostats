@@ -25,6 +25,11 @@ import datetime
 def index(request):
     return render(request, 'index.html')
 
+
+def about(request):
+	return render(request, 'about.html')
+
+
 def tournament_list(request, format):
     if format == 'race':
         tournaments = Tournament.objects.filter(format='1').order_by('-date')

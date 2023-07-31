@@ -7,6 +7,7 @@ urlpatterns = [
     # ex: /tournaments/
 
     path('', views.index, name='index'),
+    path('about', views.about, name='about'),
     path('<format>', views.tournament_list, name='tournament-list'),
     path('test/', views.tournament_test, name='tournament-test'),
     path('new/<format>', views.tournament_new, name='tournament-new'),
