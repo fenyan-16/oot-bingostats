@@ -98,7 +98,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'localpgpw',
-        'HOST': 'localhost',
+        'HOST': 'dpg-cqovq6dds78s73e1o1s0-a',
 	    # 'NAME': 'fenyan_bingodb',
 	    # 'USER': 'fenyan_dbuser',
 	    # 'PASSWORD': 'A3l7^8sk2',
