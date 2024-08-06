@@ -95,7 +95,7 @@ WSGI_APPLICATION = 'tourney.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'bingo_kvx3',
         'USER': 'bingo',
         'PASSWORD': 'rjJq0VkalfRptt9vyPLWL0XAiTdZUxiL',
         'HOST': 'dpg-cqovq6dds78s73e1o1s0-a',
