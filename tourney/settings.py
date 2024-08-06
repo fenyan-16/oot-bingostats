@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(v&e0$jniyln^=bc+pxg$3(9+x^@fp67=l3^qidfcd@iz$$nl#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = ['tourneyapp.herokuapp.com', '127.0.0.1', 'fenyan.helioho.st']
 ALLOWED_HOSTS = ['*']
