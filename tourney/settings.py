@@ -96,8 +96,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'localpgpw',
+        'USER': 'bingo',
+        'PASSWORD': 'rjJq0VkalfRptt9vyPLWL0XAiTdZUxiL',
         'HOST': 'dpg-cqovq6dds78s73e1o1s0-a',
 	    # 'NAME': 'fenyan_bingodb',
 	    # 'USER': 'fenyan_dbuser',
